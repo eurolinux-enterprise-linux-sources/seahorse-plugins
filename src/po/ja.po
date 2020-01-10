@@ -1,0 +1,1169 @@
+# Seahorse ja.po.
+# Copyright (C) 1999-2008 Free Software Foundation, Inc.
+# Anthony Mulcahy <anthony@kcn.ne.jp>, 1999, 2000.
+# Takeshi AIHANA <takeshi.aihana@gmail.com>, 2000-2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: seahorse/seahorse-plugins trunk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-06 23:35+0900\n"
+"PO-Revision-Date: 2008-09-06 23:34+0900\n"
+"Last-Translator: Takeshi AIHANA <takeshi.aihana@gmail.com>\n"
+"Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+# 参考: 
+# PGP に関する訳語表 (http://pgp.iijlab.net/trans/)
+# GPG の README 翻訳 (http://www.hyuki.com/gnu/gnupg-v12-readme.html)
+#: ../agent/seahorse-agent-actions.c:120
+msgid "Passphrase:"
+msgstr "パスフレーズ:"
+
+#: ../agent/seahorse-agent-actions.c:121
+msgid "Please enter a passphrase to use."
+msgstr "使用するパスフレーズを入力して下さい"
+
+#: ../agent/seahorse-agent-cache.c:66
+msgid "Unparseable Key ID"
+msgstr "解析できない鍵の ID"
+
+#: ../agent/seahorse-agent-cache.c:67
+msgid "Unknown/Invalid Key"
+msgstr "不明または不正な鍵です"
+
+#: ../agent/seahorse-agent-cache.c:533
+#, c-format
+msgid "PGP Key: %s"
+msgstr "PGP の鍵: %s"
+
+#: ../agent/seahorse-agent-cache.glade.h:1
+msgid ""
+"<b>Warning</b>: Your system is not configured to cache passphrases in secure "
+"memory."
+msgstr ""
+"<b>警告</b>: お使いのシステムではセキュアなメモリにパスワードをキャッシュする"
+"設定が有効になっていません。"
+
+#: ../agent/seahorse-agent-cache.glade.h:2
+msgid "Cache _Preferences"
+msgstr "キャッシュの設定(_P)"
+
+#: ../agent/seahorse-agent-cache.glade.h:3
+msgid "Cached Encryption Keys"
+msgstr "キャッシュした暗号鍵"
+
+#: ../agent/seahorse-agent-cache.glade.h:4
+msgid "Change passphrase cache settings."
+msgstr "パスワード・キャッシュの設定を変更します"
+
+#: ../agent/seahorse-agent-cache.glade.h:5
+msgid "Clear passphrase cache"
+msgstr "パスフレーズのキャッシュをクリアします"
+
+#: ../agent/seahorse-agent-cache.glade.h:6
+msgid "_Clear Cache"
+msgstr "キャッシュのクリア(_C)"
+
+#: ../agent/seahorse-agent-cache.glade.h:7
+msgid "_Show Window"
+msgstr "ウィンドウの表示(_S)"
+
+#: ../agent/seahorse-agent-main.c:52
+msgid "Do not daemonize seahorse-agent"
+msgstr "seahorse-daemon をデーモン化しないで起動する"
+
+#: ../agent/seahorse-agent-main.c:56
+msgid "Print variables in for a C type shell"
+msgstr "C-シェルの変数を表示する"
+
+#: ../agent/seahorse-agent-main.c:60
+msgid "Display environment variables (the default)"
+msgstr "環境変数を表示する (デフォルト)"
+
+#: ../agent/seahorse-agent-main.c:63
+msgid "Execute other arguments on the command line"
+msgstr "実行する他のコマンドを指定する"
+
+#: ../agent/seahorse-agent-main.c:67
+msgid "Allow GPG agent request from any display"
+msgstr "任意のディスプレイから GPG エージェントの要求を許可する"
+
+#: ../agent/seahorse-agent-main.c:70
+msgid "command..."
+msgstr "コマンド..."
+
+#: ../agent/seahorse-agent-main.c:108
+msgid "couldn't fork process"
+msgstr "子プロセスを生成できませんでした"
+
+#: ../agent/seahorse-agent-main.c:114
+msgid "couldn't create new process group"
+msgstr "新しいプロセスのグループを生成できませんでした"
+
+#: ../agent/seahorse-agent-main.c:240
+msgid "Encryption Key Agent (Seahorse)"
+msgstr "暗号鍵エージェント (Seahorse)"
+
+#: ../agent/seahorse-agent-main.c:246
+msgid "no command specified to execute"
+msgstr "実行するコマンドが指定されていません"
+
+#: ../agent/seahorse-agent-prompt.c:216
+msgid "Authorize Passphrase Access"
+msgstr "認証パスフレーズのアクセス"
+
+#: ../agent/seahorse-agent-prompt.c:252
+msgid "The passphrase is cached in memory."
+msgstr "パスフレーズをメモリの中にキャッシュしました。"
+
+#: ../agent/seahorse-agent-prompt.c:257
+msgid "Always ask me before using a cached passphrase"
+msgstr "キャッシュしたパスフレーズを使用する前に警告する"
+
+#: ../agent/seahorse-agent-prompt.c:274
+msgid "_Authorize"
+msgstr "認証(_A)"
+
+#. Make the uid column
+#: ../agent/seahorse-agent-status.c:145
+msgid "Key Name"
+msgstr "鍵の名前"
+
+#: ../data/seahorse-plugins.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"リモートの PGP 鍵を検索する鍵サーバの URI の並びです。新しいバージョンでは空"
+"白の後にサーバ名を追加して表示することができます。"
+
+#: ../data/seahorse-plugins.schemas.in.h:2
+msgid ""
+"After performing an decrypt or verify operation from the applet, display the "
+"resulting text in a window."
+msgstr ""
+"アプレットから鍵の解読または検証を行ったら、その結果をウィンドウに表示しま"
+"す。"
+
+#: ../data/seahorse-plugins.schemas.in.h:3
+msgid ""
+"After performing an encrypt or signing operation from the applet, display "
+"the resulting text in a window."
+msgstr ""
+"アプレットから暗号化または署名を行ったら、その結果をウィンドウに表示します。"
+
+#: ../data/seahorse-plugins.schemas.in.h:4
+msgid "Display cache reminder in the notification area"
+msgstr "通知エリアにキャッシュのリマインダーを表示する"
+
+#: ../data/seahorse-plugins.schemas.in.h:5
+msgid "Display clipboard after decrypting"
+msgstr "解読したら結果を表示する"
+
+#: ../data/seahorse-plugins.schemas.in.h:6
+msgid "Display clipboard after encrypting"
+msgstr "暗号化したら結果を表示する"
+
+#: ../data/seahorse-plugins.schemas.in.h:7
+msgid "Expire passwords in the cache"
+msgstr "キャッシュしたパスワードの有効期限が切れた"
+
+#: ../data/seahorse-plugins.schemas.in.h:8
+msgid "ID of the default key"
+msgstr "デフォルトの鍵の ID"
+
+#: ../data/seahorse-plugins.schemas.in.h:9
+msgid ""
+"If set to 'gnome' uses gnome-keyring to cache passwords. When set to "
+"'internal' uses internal cache."
+msgstr ""
+"'gnome' にすると、パスワードをキャッシュする際に gnome-keyring を利用しま"
+"す。'internal' にすると、seahorse の内部にキャッシュします。"
+
+#: ../data/seahorse-plugins.schemas.in.h:10
+msgid ""
+"If set to true, then files encrypted with seahorse will be ASCII armor "
+"encoded."
+msgstr ""
+"TRUE にすると、seahorse で暗号化したファイルは ASCII 保護したエンコードになり"
+"ます。"
+
+#: ../data/seahorse-plugins.schemas.in.h:11
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr "TRUE にすると、常にデフォルトの鍵を暗号の受取人一覧に追加されます。"
+
+#: ../data/seahorse-plugins.schemas.in.h:12
+msgid "Last key used to sign a message."
+msgstr "メッセージに署名した際に使用した最後の鍵です。"
+
+#: ../data/seahorse-plugins.schemas.in.h:13
+msgid "PGP Key servers"
+msgstr "PGP の鍵サーバ"
+
+#: ../data/seahorse-plugins.schemas.in.h:14
+msgid "Prompt before using GPG passwords in cache"
+msgstr "キャッシュした GPG パスワードを利用する前に警告する"
+
+#: ../data/seahorse-plugins.schemas.in.h:15
+msgid ""
+"Reflect the contents of the clipboard (whether encrypted, signed, etc...) in "
+"the panel applet icon."
+msgstr ""
+"パネル・アプレットのアイコンにクリップボードの内容を反映します (暗号化したの"
+"か、署名したのか等)。"
+
+#: ../data/seahorse-plugins.schemas.in.h:16
+msgid ""
+"Set to 'true' to enable display of the cache reminder in the notification "
+"area of your panel."
+msgstr ""
+"TRUE にするとパネルの通知エリアの中にキャッシュのリマインダーを表示します。"
+
+#: ../data/seahorse-plugins.schemas.in.h:17
+msgid ""
+"Set to 'true' to have seahorse-agent prompt before giving out passwords it "
+"has cached."
+msgstr ""
+"TRUE にすると、キャッシュしたパスワードを公開する前に seahorse-agent が警告し"
+"ます。"
+
+#: ../data/seahorse-plugins.schemas.in.h:18
+msgid "Show clipboard state in panel"
+msgstr "クリップボードの内容をパネルに表示する"
+
+#: ../data/seahorse-plugins.schemas.in.h:19
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"受取人ウィンドウに表示する項目の並び替え指定します。指定可能な項目: 'name' "
+"と 'id' (各項目の先頭に '-' を付与すると逆順に並べます)"
+
+#: ../data/seahorse-plugins.schemas.in.h:20
+msgid "The ID of the last secret key used to sign a message."
+msgstr "メッセージの署名で最後に使用した秘密鍵の ID です。"
+
+#: ../data/seahorse-plugins.schemas.in.h:21
+msgid "The column to sort the recipients by"
+msgstr "受取人のウィンドウに表示する情報"
+
+#: ../data/seahorse-plugins.schemas.in.h:22
+msgid "The time (in minutes) to cache GPG passwords"
+msgstr "GPG パスワードをキャッシュする時間"
+
+#: ../data/seahorse-plugins.schemas.in.h:23
+msgid ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"seahorse-agent."
+msgstr ""
+"seahorse-agent の中に GPG パスワードをキャッシュしておく時間 (分単位) を指定"
+"します。"
+
+#: ../data/seahorse-plugins.schemas.in.h:24
+msgid ""
+"This option enables the GPG password cache in the seahorse-agent program. "
+"The 'use-agent' setting in gpg.conf affects this setting."
+msgstr ""
+"seahorse-agent プログラムの中に GPG パスワードをキャッシュします。これを有効"
+"にするには gpg.conf ファイルで 'use-agent' を指定して下さい。"
+
+#: ../data/seahorse-plugins.schemas.in.h:25
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr "主に署名などの操作で使用するデフォルトの鍵を指定します。"
+
+#: ../data/seahorse-plugins.schemas.in.h:26
+msgid ""
+"When set, seahorse-agent expires GPG passwords in its cache after a period "
+"of time."
+msgstr ""
+"TRUE にすると、seahorse-agent の中にキャッシュした GPG パスワードの有効期限が"
+"切れたことになります。"
+
+#: ../data/seahorse-plugins.schemas.in.h:27
+msgid "Where to store cached passwords."
+msgstr "キャッシュしたパスワードを格納する場所"
+
+#: ../data/seahorse-plugins.schemas.in.h:28
+msgid "Whether the GPG password cache is enabled"
+msgstr "GPG パスワードのキャッシュを有効にするかどうか"
+
+#: ../data/seahorse-plugins.schemas.in.h:29
+msgid "Whether to always encrypt to default key"
+msgstr "常にデフォルトの鍵を暗号化するかどうか"
+
+#: ../data/seahorse-plugins.schemas.in.h:30
+msgid "Whether to use ASCII Armor"
+msgstr "ASCII 保護を使用するかどうか"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:1
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<b>複数のファイルまたはフォルダを選択しました</b>"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:2
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr ""
+"これらのファイルはリモートサイトにあるので、ファイルを別々に暗号化します。"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:3
+msgid "Encrypt Multiple Files"
+msgstr "複数のファイルの暗号化"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:4
+msgid "Encrypt each file separately"
+msgstr "ファイルを別々に暗号化する"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:5
+msgid "Encrypt packed together in a package"
+msgstr "一つのパッケージにまとめてから暗号化する"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:6
+msgid "Package Name:"
+msgstr "パッケージ名:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:7
+msgid "Packaging:"
+msgstr "暗号化の方法:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:8
+msgid "encrypted-package"
+msgstr "暗号化したパッケージ"
+
+#: ../libseahorse/seahorse-notification.c:573
+#: ../libseahorse/seahorse-notification.c:598
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "鍵のインポートが完了しました"
+msgstr[1] "鍵のインポートが完了しました"
+
+#: ../libseahorse/seahorse-notification.c:577
+#: ../libseahorse/seahorse-notification.c:597
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] " %d個の鍵をインポートしました"
+msgstr[1] " %d個の鍵をインポートしました"
+
+#: ../libseahorse/seahorse-notification.c:579
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "次の鍵のインポートが完了しました: "
+msgstr[1] "次の鍵のインポートが完了しました: "
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:614
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "%2$s にある<b>期限切れ</b>の<i><key id='%1$s'/></i>で署名しました"
+
+#: ../libseahorse/seahorse-notification.c:615
+msgid "Invalid Signature"
+msgstr "おかしな署名です"
+
+#: ../libseahorse/seahorse-notification.c:621
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "%2$s にある<b>期限切れ</b>の<i><key id='%1$s'/></i>で署名しました"
+
+#: ../libseahorse/seahorse-notification.c:622
+msgid "Expired Signature"
+msgstr "期限切れの署名です"
+
+#: ../libseahorse/seahorse-notification.c:628
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "%2$s にある<b>失効した</b><i><key id='%1$s'/>で署名しました"
+
+#: ../libseahorse/seahorse-notification.c:629
+msgid "Revoked Signature"
+msgstr "失効した署名"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:635
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "%2$s にある<i><key id='%1$s'/></i>で署名しました"
+
+#: ../libseahorse/seahorse-notification.c:636
+msgid "Good Signature"
+msgstr "良い署名です"
+
+#: ../libseahorse/seahorse-notification.c:641
+msgid "Signing key not in keyring."
+msgstr "署名用の鍵がキーリングの中にありません"
+
+#: ../libseahorse/seahorse-notification.c:642
+msgid "Unknown Signature"
+msgstr "不明な署名です"
+
+#: ../libseahorse/seahorse-notification.c:646
+msgid "Bad or forged signature. The signed data was modified."
+msgstr ""
+"おかしな署名または偽造された署名です (署名したデータは変更されています)"
+
+#: ../libseahorse/seahorse-notification.c:647
+msgid "Bad Signature"
+msgstr "おかしな署名です"
+
+#: ../libseahorse/seahorse-notification.c:655
+msgid "Couldn't verify signature."
+msgstr "署名を解読できませんでした"
+
+#: ../libseahorse/seahorse-notify.glade.h:1
+msgid "Notification Messages"
+msgstr "通知メッセージ"
+
+#: ../libseahorse/seahorse-passphrase.c:174
+msgid "Passphrase"
+msgstr "パスフレーズ"
+
+#: ../libseahorse/seahorse-passphrase.c:177
+msgid "Password:"
+msgstr "パスワード:"
+
+#: ../libseahorse/seahorse-passphrase.c:241
+msgid "Confirm:"
+msgstr "パスワードの確認:"
+
+#: ../libseahorse/seahorse-passphrase.c:324
+#, c-format
+msgid "Wrong passphrase."
+msgstr "パスフレーズが間違っています"
+
+#: ../libseahorse/seahorse-passphrase.c:328
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "'%s' の新しいパスフレーズを入力して下さい"
+
+#: ../libseahorse/seahorse-passphrase.c:330
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "'%s' のパスフレーズを入力して下さい"
+
+#: ../libseahorse/seahorse-passphrase.c:333
+msgid "Enter new passphrase"
+msgstr "新しいパスフレーズを入力して下さい"
+
+#: ../libseahorse/seahorse-passphrase.c:335
+msgid "Enter passphrase"
+msgstr "パスフレーズを入力して下さい"
+
+#: ../libseahorse/seahorse-prefs.c:100
+msgid "None. Prompt for a key."
+msgstr "なし (毎回、問い合わせる)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:1
+msgid "<b>Default Key</b>"
+msgstr "<b>デフォルトの鍵</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:2
+msgid "<b>Remember PGP Passphrases</b>"
+msgstr "<b>PGP パスフレーズの保存</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:3
+msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+msgstr ""
+"<i>PGP のパスフレーズをキャッシュできるエージェントが起動されていません</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:4
+msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+msgstr ""
+"(<i>この鍵は、他に鍵が何も選択されていない時にメッセージに署名するために使用"
+"します</i>)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:5
+msgid "As_k me before using a cached passphrase"
+msgstr "キャッシュしたパスフレーズを使用する前に警告する(_K)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:6
+msgid "Encryption"
+msgstr "暗号化"
+
+#: ../libseahorse/seahorse-prefs.glade.h:7
+msgid "PGP Passphrases"
+msgstr "PGP パスフレーズ"
+
+#: ../libseahorse/seahorse-prefs.glade.h:8
+msgid "Password and Encryption Settings"
+msgstr "パスワードと暗号鍵の設定"
+
+#: ../libseahorse/seahorse-prefs.glade.h:9
+msgid "Show _icon in status area when passphrases are in memory"
+msgstr "パスフレーズがメモリに格納されていることを表すアイコンを表示する(_I)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:10
+msgid "When _encrypting, always include myself as a recipient"
+msgstr "暗号化する際に、常に自分自身を受取人に含める(_E)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:11
+msgid "_Always remember passphrases whenever logged in"
+msgstr "ログインしたらパスフレーズを保存する(_A)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:12
+msgid "_Default key:"
+msgstr "デフォルトの鍵(_D):"
+
+#: ../libseahorse/seahorse-prefs.glade.h:13
+msgid "_Never remember passphrases"
+msgstr "パスフレーズを保存しない(_N)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:14
+msgid "_Remember passphrases for"
+msgstr "パスフレーズを記憶する時間(_R): "
+
+#: ../libseahorse/seahorse-prefs.glade.h:15
+msgid "minutes"
+msgstr " 分間"
+
+#: ../libseahorse/seahorse-progress.glade.h:1
+msgid "Progress Title"
+msgstr "進行状態のタイトル"
+
+#: ../libseahorse/seahorse-util.c:168
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "復号化できませんでした (おそらく復号鍵をお持ちでないようです)"
+
+#: ../libseahorse/seahorse-util.c:218
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../libseahorse/seahorse-util.c:637
+msgid "Couldn't run file-roller"
+msgstr "'file-roller' を起動できませんでした"
+
+#: ../libseahorse/seahorse-util.c:642
+#: ../plugins/nautilus/seahorse-tool-files.c:872
+msgid "Couldn't package files"
+msgstr "ファイルを書庫に格納できませんでした"
+
+#: ../libseahorse/seahorse-util.c:643
+msgid "The file-roller process did not complete successfully"
+msgstr "'file-roller' の起動に失敗しました"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libseahorse/seahorse-util.c:703
+msgid "All key files"
+msgstr "全ての鍵ファイル"
+
+#: ../libseahorse/seahorse-util.c:710 ../libseahorse/seahorse-util.c:750
+msgid "All files"
+msgstr "全てのファイル"
+
+#: ../libseahorse/seahorse-util.c:743
+msgid "Archive files"
+msgstr "書庫ファイル"
+
+#: ../libseahorse/seahorse-util.c:772
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>同名のファイルが既に存在しています。</b>\n"
+"\n"
+"新しいファイルで置き換えてもよろしいですか？"
+
+#: ../libseahorse/seahorse-util.c:775
+msgid "_Replace"
+msgstr "上書きする(_R)"
+
+#: ../libseahorse/seahorse-widget.c:322
+#, c-format
+msgid "Could not display help: %s"
+msgstr "ヘルプを表示できませんでした: %s"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:1
+msgid "Clipboard Text Encryption"
+msgstr "クリップボードにある文字列の暗号化"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:2
+msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+msgstr "クリップボードの内容を PGP を使って暗号化したり解読したり署名します"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:3
+msgid "Seahorse Applet Factory"
+msgstr "Seahorse アプレットのファクトリ"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:1
+msgid "_About"
+msgstr "情報(_A)"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:2
+msgid "_Help"
+msgstr "ヘルプ(_H)"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:3
+msgid "_Preferences"
+msgstr "設定(_P)"
+
+#: ../plugins/applet/seahorse-applet.c:276
+#: ../plugins/applet/seahorse-applet.c:711
+#, c-format
+msgid "Could not display URL: %s"
+msgstr "次の URL を表示できませんでした: %s"
+
+#: ../plugins/applet/seahorse-applet.c:312
+msgid "seahorse-applet"
+msgstr "Seahorse アプレット"
+
+#: ../plugins/applet/seahorse-applet.c:314
+#: ../plugins/applet/seahorse-applet.c:867
+msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+msgstr ""
+"PGP/GPG を使ってクリップボードの内容を暗号化したり解読したり、検証したりイン"
+"ポートします。"
+
+#: ../plugins/applet/seahorse-applet.c:319
+msgid "translator-credits"
+msgstr ""
+"相花 毅 <takeshi.aihana@gmail.com>\n"
+"Anthony Mulcahy <anthony@kcn.ne.jp>\n"
+"日本GNOMEユーザー会 http://www.gnome.gr.jp"
+
+#: ../plugins/applet/seahorse-applet.c:322
+msgid "Seahorse Project Homepage"
+msgstr "Seahorse プロジェクトのページ"
+
+#. Get the recipient list
+#: ../plugins/applet/seahorse-applet.c:381
+#: ../plugins/epiphany/seahorse-extension.c:257
+#: ../plugins/gedit/seahorse-gedit.c:335
+msgid "Choose Recipient Keys"
+msgstr "受取人の鍵の選択"
+
+#: ../plugins/applet/seahorse-applet.c:400
+msgid "Encrypted Text"
+msgstr "暗号化した文字列"
+
+#: ../plugins/applet/seahorse-applet.c:402
+msgid "Encryption Failed"
+msgstr "暗号化に失敗しました"
+
+#: ../plugins/applet/seahorse-applet.c:403
+msgid "The clipboard could not be encrypted."
+msgstr "クリップボードの内容を暗号化できませんでした。"
+
+#: ../plugins/applet/seahorse-applet.c:440
+#: ../plugins/epiphany/seahorse-extension.c:307
+#: ../plugins/gedit/seahorse-gedit.c:627
+msgid "Choose Key to Sign with"
+msgstr "署名で使う鍵の選択"
+
+#: ../plugins/applet/seahorse-applet.c:460
+msgid "Signed Text"
+msgstr "署名した文字列"
+
+#: ../plugins/applet/seahorse-applet.c:462
+msgid "Signing Failed"
+msgstr "署名に失敗しました"
+
+#: ../plugins/applet/seahorse-applet.c:463
+msgid "The clipboard could not be Signed."
+msgstr "クリップボードの内容に署名できませんでした。"
+
+#: ../plugins/applet/seahorse-applet.c:506
+#: ../plugins/epiphany/seahorse-extension.c:351
+#: ../plugins/nautilus/seahorse-tool.c:443
+msgid "Import Failed"
+msgstr "インポートに失敗しました"
+
+#: ../plugins/applet/seahorse-applet.c:507
+#: ../plugins/epiphany/seahorse-extension.c:352
+#: ../plugins/nautilus/seahorse-tool.c:444
+msgid "Keys were found but not imported."
+msgstr "鍵は見つかりましたがインポートしていません。"
+
+#: ../plugins/applet/seahorse-applet.c:543
+#: ../plugins/epiphany/seahorse-extension.c:390
+msgid "Decrypting Failed"
+msgstr "復号かに失敗しました"
+
+#: ../plugins/applet/seahorse-applet.c:544
+#: ../plugins/epiphany/seahorse-extension.c:391
+msgid "Text may be malformed."
+msgstr "文字列が壊れています。"
+
+#: ../plugins/applet/seahorse-applet.c:600
+msgid "No PGP key or message was found on clipboard"
+msgstr "クリップボードの中に PGP 鍵または文字列がありません"
+
+#: ../plugins/applet/seahorse-applet.c:601
+msgid "No PGP data found."
+msgstr "PGP データが見つかりませんでした。"
+
+#. TRANSLATORS: This means 'The text that was decrypted'
+#: ../plugins/applet/seahorse-applet.c:638
+msgid "Decrypted Text"
+msgstr "復号化した文字列"
+
+#: ../plugins/applet/seahorse-applet.c:779
+msgid "_Encrypt Clipboard"
+msgstr "暗号化する(_E)"
+
+#: ../plugins/applet/seahorse-applet.c:786
+msgid "_Sign Clipboard"
+msgstr "署名する(_S)"
+
+#: ../plugins/applet/seahorse-applet.c:793
+msgid "_Decrypt/Verify Clipboard"
+msgstr "復号/検証する(_D)"
+
+#: ../plugins/applet/seahorse-applet.c:799
+msgid "_Import Keys from Clipboard"
+msgstr "クリップボードから鍵のインポート(_I)"
+
+#: ../plugins/applet/seahorse-applet.c:864
+#: ../plugins/applet/seahorse-applet.c:866
+msgid "Encryption Applet"
+msgstr "暗号化アプレット"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:1
+msgid "<b>Display clipboard contents after:</b>"
+msgstr "<b>次の処理の後にクリップボードの内容を表示する:</b>"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:2
+msgid "Clipboard Encryption Preferences"
+msgstr "クリップボードの内容を暗号化する設定"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:3
+msgid "_Decrypting the clipboard"
+msgstr "クリップボードの内容の復号化(_D)"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:4
+msgid "_Encrypting or signing the clipboard"
+msgstr "クリップボードの内容を暗号化または署名した後(_E)"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:5
+msgid "_Show clipboard state in panel"
+msgstr "クリップボードの状態を表示する(_S)"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:6
+msgid "_Verifying the clipboard"
+msgstr "クリップボードの内容の検証(_V)"
+
+#: ../plugins/epiphany/seahorse-extension.c:640
+msgid "_Encrypt"
+msgstr "暗号化(_E)"
+
+#: ../plugins/epiphany/seahorse-extension.c:647
+msgid "_Sign"
+msgstr "署名(_S)"
+
+#: ../plugins/epiphany/seahorse-extension.c:654
+msgid "_Decrypt/Verify"
+msgstr "復号化または検証(_D)"
+
+#: ../plugins/epiphany/seahorse-extension.c:661
+msgid "_Import Key"
+msgstr "鍵のインポート(_I)"
+
+#: ../plugins/gedit/seahorse-gedit.c:265
+msgid "Couldn't connect to seahorse-daemon"
+msgstr "'seahorse-daemon' に接続できませんでした"
+
+#: ../plugins/gedit/seahorse-gedit.c:357
+msgid "Encrypted text"
+msgstr "文字列の暗号化が完了しました"
+
+#: ../plugins/gedit/seahorse-gedit.c:360
+msgid "Couldn't encrypt text"
+msgstr "文字列を暗号化できませんでした"
+
+#: ../plugins/gedit/seahorse-gedit.c:390
+msgid "Couldn't import keys"
+msgstr "鍵をインポートできませんでした"
+
+#: ../plugins/gedit/seahorse-gedit.c:399
+msgid "Keys found but not imported"
+msgstr "鍵は見つかりましたが、インポートしていません"
+
+#: ../plugins/gedit/seahorse-gedit.c:438
+msgid "Couldn't decrypt text"
+msgstr "文字列を解読できませんでした"
+
+#: ../plugins/gedit/seahorse-gedit.c:475
+msgid "Couldn't verify text"
+msgstr "文字列を検証できませんでした"
+
+#: ../plugins/gedit/seahorse-gedit.c:523
+msgid "No encrypted or signed text is selected."
+msgstr "暗号化または署名された文字列を選択して下さい"
+
+#: ../plugins/gedit/seahorse-gedit.c:553
+msgid "Decrypted text"
+msgstr "文字列の解読が完了しました"
+
+#: ../plugins/gedit/seahorse-gedit.c:560
+msgid "Verified text"
+msgstr "文字列の検証が完了しました"
+
+#: ../plugins/gedit/seahorse-gedit.c:595
+#: ../plugins/nautilus/seahorse-tool.c:469
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] " %d個の鍵をインポートしました"
+msgstr[1] " %d個の鍵をインポートしました"
+
+#: ../plugins/gedit/seahorse-gedit.c:649
+msgid "Signed text"
+msgstr "文字列の署名が完了しました"
+
+#: ../plugins/gedit/seahorse-gedit.c:652
+msgid "Couldn't sign text"
+msgstr "文字列に署名できませんでした"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:133
+msgid "_Encrypt..."
+msgstr "暗号化(_E)..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:134
+msgid "Encrypt the selected text"
+msgstr "選択した文字列を暗号化します"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:135
+msgid "Decr_ypt/Verify"
+msgstr "復号/検証する(_Y)"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:136
+msgid "Decrypt and/or Verify text"
+msgstr "文字列の復号化と検証 (またはどちらか) が完了しました"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:137
+msgid "Sig_n..."
+msgstr "署名(_N)..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:138
+msgid "Sign the selected text"
+msgstr "指定した文字列に署名します"
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:1
+msgid "Enable the seahorse encryption plugin for gedit."
+msgstr "gedit 向けの Seahorse 暗号化プラグインを有効にします。"
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:2
+msgid "Enable the seahorse gedit plugin"
+msgstr "gedit プラグインを有効にする"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:1
+msgid "Text Encryption"
+msgstr "文字列の暗号化"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:2
+msgid "This plugin performs encryption operations on text."
+msgstr "このプラグインはエディタにある文字列を暗号化します。"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:158
+msgid "Encrypt..."
+msgstr "暗号化..."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:159
+msgid "Encrypt (and optionally sign) the selected file"
+msgid_plural "Encrypt the selected files"
+msgstr[0] "指定したファイルを暗号化します"
+msgstr[1] "指定した複数のファイルを暗号化します"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:165
+msgid "Sign"
+msgstr "署名"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:166
+msgid "Sign the selected file"
+msgid_plural "Sign the selected files"
+msgstr[0] "指定したファイルに署名します"
+msgstr[1] "指定した複数のファイルに署名します"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:39
+msgid "For internal use"
+msgstr "個人で使用するのが目的"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:63
+msgid "Encryption Preferences"
+msgstr "暗号化の設定"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:1
+msgid "Configure key servers and other encryption settings"
+msgstr "鍵サーバと暗号化の設定を行います"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:2
+msgid "Encryption and Keyrings"
+msgstr "暗号化とキーリング"
+
+#: ../plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in.h:1
+msgid "Decrypt File"
+msgstr "ファイルの復号化"
+
+#: ../plugins/nautilus/seahorse-pgp-keys.desktop.in.in.h:1
+msgid "Import Key"
+msgstr "鍵のインポート"
+
+#: ../plugins/nautilus/seahorse-pgp-signature.desktop.in.in.h:1
+msgid "Verify Signature"
+msgstr "シグネチャの検証"
+
+#: ../plugins/nautilus/seahorse-tool.c:61
+msgid "Import keys from the file"
+msgstr "ファイルから鍵をインポートする"
+
+#: ../plugins/nautilus/seahorse-tool.c:63
+msgid "Encrypt file"
+msgstr "ファイルを暗号化する"
+
+#: ../plugins/nautilus/seahorse-tool.c:65
+msgid "Sign file with default key"
+msgstr "デフォルトの鍵を使ってファイルに署名する"
+
+#: ../plugins/nautilus/seahorse-tool.c:67
+msgid "Encrypt and sign file with default key"
+msgstr "デフォルトの鍵でファイルの暗号化と署名を行う"
+
+#: ../plugins/nautilus/seahorse-tool.c:69
+msgid "Decrypt encrypted file"
+msgstr "暗号化したファイルを解読する"
+
+#: ../plugins/nautilus/seahorse-tool.c:71
+msgid "Verify signature file"
+msgstr "署名ファイルを検証する"
+
+#: ../plugins/nautilus/seahorse-tool.c:73
+msgid "Read list of URIs on standard in"
+msgstr "標準入力から URI のリストを読み込む"
+
+#: ../plugins/nautilus/seahorse-tool.c:75
+msgid "file..."
+msgstr "ファイル..."
+
+#: ../plugins/nautilus/seahorse-tool.c:169
+msgid "Choose Recipients"
+msgstr "受取人の選択"
+
+#: ../plugins/nautilus/seahorse-tool.c:231
+#: ../plugins/nautilus/seahorse-tool.c:321
+msgid "Couldn't load keys"
+msgstr "鍵を読み込めませんでした"
+
+#: ../plugins/nautilus/seahorse-tool.c:249
+#, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr "'%s' に対する暗号化したファイルを選択して下さい"
+
+#: ../plugins/nautilus/seahorse-tool.c:305
+msgid "Choose Signer"
+msgstr "署名者の選択"
+
+#: ../plugins/nautilus/seahorse-tool.c:340
+#, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr "'%s' に対する署名ファイルを選択して下さい"
+
+#: ../plugins/nautilus/seahorse-tool.c:380
+msgid "Import is complete"
+msgstr "インポートが完了しました"
+
+#: ../plugins/nautilus/seahorse-tool.c:413
+msgid "Importing keys ..."
+msgstr "鍵のインポート中..."
+
+#: ../plugins/nautilus/seahorse-tool.c:467
+#, c-format
+msgid "Imported key"
+msgstr "鍵のインポートが完了しました"
+
+#. File to decrypt to
+#: ../plugins/nautilus/seahorse-tool.c:491
+#, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr "'%s' に対する復号化したファイルを選択して下さい"
+
+#: ../plugins/nautilus/seahorse-tool.c:547
+#, c-format
+msgid "Choose Original File for '%s'"
+msgstr "'%s' のオリジナル・ファイルを選択して下さい"
+
+#.
+#. * TODO: What should happen with multiple files at this point.
+#. * The last thing we want to do is cascade a big pile of error
+#. * dialogs at the user.
+#.
+#: ../plugins/nautilus/seahorse-tool.c:619
+#, c-format
+msgid "No valid signatures found"
+msgstr "妥当な署名が見つかりませんでした"
+
+#: ../plugins/nautilus/seahorse-tool.c:668
+msgid "File Encryption Tool"
+msgstr "ファイルの暗号化ツール"
+
+#: ../plugins/nautilus/seahorse-tool.c:687
+msgid "Encrypting"
+msgstr "暗号化"
+
+#: ../plugins/nautilus/seahorse-tool.c:688
+#, c-format
+msgid "Couldn't encrypt file: %s"
+msgstr "ファイルを暗号化できませんでした: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:696
+msgid "Signing"
+msgstr "署名"
+
+#: ../plugins/nautilus/seahorse-tool.c:697
+#, c-format
+msgid "Couldn't sign file: %s"
+msgstr "ファイルに署名できませんでした: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:702
+msgid "Importing"
+msgstr "インポート"
+
+#: ../plugins/nautilus/seahorse-tool.c:703
+#, c-format
+msgid "Couldn't import keys from file: %s"
+msgstr "ファイルから鍵をインポートできませんでした: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:709
+msgid "Decrypting"
+msgstr "復号化"
+
+#: ../plugins/nautilus/seahorse-tool.c:710
+#, c-format
+msgid "Couldn't decrypt file: %s"
+msgstr "ファイルを復号化できませんでした: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:715
+msgid "Verifying"
+msgstr "検証"
+
+#: ../plugins/nautilus/seahorse-tool.c:716
+#, c-format
+msgid "Couldn't verify file: %s"
+msgstr "ファイルの妥当性を検証できませんでした: %s"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:120
+msgid "Ace (.ace)"
+msgstr "Ace (.ace)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:121
+msgid "Ar (.ar)"
+msgstr "Ar (.ar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:122
+msgid "Arj (.arj)"
+msgstr "Arj (.arj)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:129
+msgid "Ear (.ear)"
+msgstr "Ear (.ear)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:130
+msgid "Self-extracting zip (.exe)"
+msgstr "自己解凍型の書庫 (.exe)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:132
+msgid "Jar (.jar)"
+msgstr "Jar (.jar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:133
+msgid "Lha (.lzh)"
+msgstr "Lha (.lzh)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:135
+msgid "Rar (.rar)"
+msgstr "Rar (.rar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:137
+msgid "Tar uncompressed (.tar)"
+msgstr "未圧縮の Tar (.tar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:138
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "bzip 圧縮済の Tar (.tar.bz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:139
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "bzip2 圧縮済の Tar (.tar.bz2)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:140
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "gzip 圧縮済の Tar (.tar.gz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:141
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "lzop 圧縮済の Tar (.tar.lzo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:142
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "compress 圧縮済の Tar (.tar.Z)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:144
+msgid "War (.war)"
+msgstr "War (.war)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:145
+msgid "Zip (.zip)"
+msgstr "Zip (.zip)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:146
+msgid "Zoo (.zoo)"
+msgstr "Zoo (.zoo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:147
+msgid "7-Zip (.7z)"
+msgstr "7-Zip (.7z)"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:327
+#, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] " %d個のファイルと"
+msgstr[1] " %d個のファイルと"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:332
+#, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] " %d個のフォルダを選択しました"
+msgstr[1] " %d個のフォルダを選択しました"
+
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: ../plugins/nautilus/seahorse-tool-files.c:337
+#, c-format
+msgid "<b>%s%s</b>"
+msgstr "<b>%s%s</b>"
+
+#. should never be called for just one file
+#: ../plugins/nautilus/seahorse-tool-files.c:346
+#, c-format
+msgid "You have selected %d files"
+msgstr " %d個のファイルを選択しました"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:351
+#, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] " %d個のフォルダを選択しました"
+msgstr[1] " %d個のフォルダを選択しました"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:853
+msgid "Preparing..."
+msgstr "準備中..."
+
+#: ../plugins/nautilus/seahorse-tool-files.c:862
+#: ../plugins/nautilus/seahorse-tool-files.c:885
+msgid "Couldn't list files"
+msgstr "ファイルの一覧を生成できませんでした"

@@ -1,0 +1,2897 @@
+# translation of seahorse.HEAD.po to Arabic
+# translation of seahorse.HEAD.ar.po to
+# Arabic translations for PACKAGE package.
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2006.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008.
+# Ahmad Farghal <ahmad.farghal@gmail.com>, 2007, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: seahorse.HEAD\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=seahorse-plugins&component=general\n"
+"POT-Creation-Date: 2009-03-14 19:06+0000\n"
+"PO-Revision-Date: 2009-02-09 14:15+0300\n"
+"Last-Translator: Osama Khalid <osamak.wfm@gmail.com>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: ../agent/seahorse-agent-actions.c:120
+msgid "Passphrase:"
+msgstr "عبارة السر:"
+
+#: ../agent/seahorse-agent-actions.c:121
+msgid "Please enter a passphrase to use."
+msgstr "من فضلك أدخل عبارة سر لتستخدم."
+
+#: ../agent/seahorse-agent-cache.c:66
+msgid "Unparseable Key ID"
+msgstr "هويّة مفتاح لا يمكن تحليلها"
+
+#: ../agent/seahorse-agent-cache.c:67
+msgid "Unknown/Invalid Key"
+msgstr "مفتاح مجهول/غير صالح"
+
+#: ../agent/seahorse-agent-cache.c:533
+#, c-format
+msgid "PGP Key: %s"
+msgstr "مفتاح PGP: %s"
+
+#: ../agent/seahorse-agent-cache.glade.h:1
+msgid ""
+"<b>Warning</b>: Your system is not configured to cache passphrases in secure "
+"memory."
+msgstr "<b>تحذير</b>: لم يُضبط نظامك لخزن عبارات السر في ذاكرة آمنة."
+
+#: ../agent/seahorse-agent-cache.glade.h:2
+msgid "Cache _Preferences"
+msgstr "_تفضيلات الخزْن"
+
+#: ../agent/seahorse-agent-cache.glade.h:3
+msgid "Cached Encryption Keys"
+msgstr "مفاتيح التعمية المختزنة"
+
+#: ../agent/seahorse-agent-cache.glade.h:4
+msgid "Change passphrase cache settings."
+msgstr "غيِّر إعدادات اختزان عبارات السر."
+
+#: ../agent/seahorse-agent-cache.glade.h:5
+msgid "Clear passphrase cache"
+msgstr "امسح عبارات السر المختزنة"
+
+#: ../agent/seahorse-agent-cache.glade.h:6
+msgid "_Clear Cache"
+msgstr "ا_مسح الاختزان"
+
+#: ../agent/seahorse-agent-cache.glade.h:7
+msgid "_Show Window"
+msgstr "أ_ظهر النافذة"
+
+#: ../agent/seahorse-agent-main.c:52
+msgid "Do not daemonize seahorse-agent"
+msgstr "لا تشغِّل seahorse-agent كخادم"
+
+#: ../agent/seahorse-agent-main.c:56
+msgid "Print variables in for a C type shell"
+msgstr "اطبع المتغيرات لصدفة من نوع C"
+
+#: ../agent/seahorse-agent-main.c:60
+msgid "Display environment variables (the default)"
+msgstr "اعرض متغيرات البيئة (المبدئي)"
+
+#: ../agent/seahorse-agent-main.c:63
+msgid "Execute other arguments on the command line"
+msgstr "نفّذ باقي المعاملات في سطر الأوامر"
+
+#: ../agent/seahorse-agent-main.c:67
+msgid "Allow GPG agent request from any display"
+msgstr "اسمح لطلب عميل GPG من أي مِعراض"
+
+#: ../agent/seahorse-agent-main.c:70
+msgid "command..."
+msgstr "الأمر..."
+
+#: ../agent/seahorse-agent-main.c:108
+msgid "couldn't fork process"
+msgstr "تعذّر تشعيب العملية"
+
+#: ../agent/seahorse-agent-main.c:114
+msgid "couldn't create new process group"
+msgstr "تعذّر بدأ مجموعة عملية جديدة"
+
+#: ../agent/seahorse-agent-main.c:240
+msgid "Encryption Key Agent (Seahorse)"
+msgstr "عميل مفاتيح التعمية (حصان البحر)"
+
+#: ../agent/seahorse-agent-main.c:248
+msgid "no command specified to execute"
+msgstr "لم يُحدد أمر لتنفيذه"
+
+#: ../agent/seahorse-agent-prompt.c:216
+msgid "Authorize Passphrase Access"
+msgstr "وثِّق النفاذ لعبارة السر"
+
+#: ../agent/seahorse-agent-prompt.c:252
+msgid "The passphrase is cached in memory."
+msgstr "عبارة السر مختزنة في الذاكرة."
+
+#: ../agent/seahorse-agent-prompt.c:257
+msgid "Always ask me before using a cached passphrase"
+msgstr "اسألني دائما قبل استخدام عبارة سر من الخزْن"
+
+#: ../agent/seahorse-agent-prompt.c:274
+msgid "_Authorize"
+msgstr "_وثِّق"
+
+#. Make the uid column
+#: ../agent/seahorse-agent-status.c:145
+msgid "Key Name"
+msgstr "اسم المفتاح"
+
+#: ../data/seahorse-plugins.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"قائمة بخوادم المفاتيح أو مسارات لمفاتيح PGP البعيدة. في الإصدارة الأخيرة "
+"يُمكن تضمين اسم عرض، بإلحاق مسافة ثم الاسم."
+
+#: ../data/seahorse-plugins.schemas.in.h:2
+msgid ""
+"After performing an decrypt or verify operation from the applet, display the "
+"resulting text in a window."
+msgstr ""
+"بعد إجراء عمليّة استخراج تعمية أو تحقق في البريمج، اعرض النص الناتج في نافذة."
+
+#: ../data/seahorse-plugins.schemas.in.h:3
+msgid ""
+"After performing an encrypt or signing operation from the applet, display "
+"the resulting text in a window."
+msgstr "بعد إجراء عمليّة تعمية أو توقيع في البريمج، اعرض النص الناتج في نافذة."
+
+#: ../data/seahorse-plugins.schemas.in.h:4
+msgid "Display cache reminder in the notification area"
+msgstr "اعرض مذكِّر بالخزْن في مساحة التبليغ"
+
+#: ../data/seahorse-plugins.schemas.in.h:5
+msgid "Display clipboard after decrypting"
+msgstr "اعرض الحافظة بعد استخراج التعمية"
+
+#: ../data/seahorse-plugins.schemas.in.h:6
+msgid "Display clipboard after encrypting"
+msgstr "اعرض الحافظة بعد التعمية"
+
+#: ../data/seahorse-plugins.schemas.in.h:7
+msgid "Expire passwords in the cache"
+msgstr "انهِ صلاحية كلمات السر في الخزْن"
+
+#: ../data/seahorse-plugins.schemas.in.h:8
+msgid "ID of the default key"
+msgstr "هويّة المفتاح المبدئي"
+
+#: ../data/seahorse-plugins.schemas.in.h:9
+msgid ""
+"If set to 'gnome' uses gnome-keyring to cache passwords. When set to "
+"'internal' uses internal cache."
+msgstr "إذا ضُبِط لـ 'gnome' سيستخدم gnome-keyring لخزْن كلمات السر."
+
+#: ../data/seahorse-plugins.schemas.in.h:10
+msgid ""
+"If set to true, then files encrypted with seahorse will be ASCII armor "
+"encoded."
+msgstr ""
+"إذا ضُبِط لصحيح، فستُصبح الملفات المعمّاة بواسطة حصان البحر مرمّزة بأسكي مصفّح."
+
+#: ../data/seahorse-plugins.schemas.in.h:11
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr "إذا ضُبِط لصحيح، سيُضاف المُفتاح المبدئي دائما إلى قائمة مُستلِمي التعمية."
+
+#: ../data/seahorse-plugins.schemas.in.h:12
+msgid "Last key used to sign a message."
+msgstr "آخر مفتاح استُخدِم لتوقيع رسالة."
+
+#: ../data/seahorse-plugins.schemas.in.h:13
+msgid "PGP Key servers"
+msgstr "خادمات مفاتيح PGP"
+
+#: ../data/seahorse-plugins.schemas.in.h:14
+msgid "Prompt before using GPG passwords in cache"
+msgstr "اسأل قبل استخدام كلمات سرّ GPG من الخزْن"
+
+#: ../data/seahorse-plugins.schemas.in.h:15
+msgid ""
+"Reflect the contents of the clipboard (whether encrypted, signed, etc...) in "
+"the panel applet icon."
+msgstr "اعكس محتوى الحافظة (ما إذا كان معمّى، موقّع، الخ...) على أيقونة البريمج."
+
+#: ../data/seahorse-plugins.schemas.in.h:16
+msgid ""
+"Set to 'true' to enable display of the cache reminder in the notification "
+"area of your panel."
+msgstr ""
+"اضبطه لـ 'صحيح'  لتفعيل عرض مُذكِّر الذاكرة المخبّأة في منطقة التبليغ على شريطك."
+
+#: ../data/seahorse-plugins.schemas.in.h:17
+msgid ""
+"Set to 'true' to have seahorse-agent prompt before giving out passwords it "
+"has cached."
+msgstr "اضبطه لـ 'صحيح' ليسألك seahorse-agent قبل إعطاء كلمات السر التي خبّأها."
+
+#: ../data/seahorse-plugins.schemas.in.h:18
+msgid "Show clipboard state in panel"
+msgstr "اعرض حالة الحافظة في الشريط"
+
+#: ../data/seahorse-plugins.schemas.in.h:19
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"حدد العمود الذي سترتب نافذة المستلمين طبقا له، الأعمدة هي 'name' و 'id'. ضع "
+"'-' أمام اسم العمود لترتب تنازليا."
+
+#: ../data/seahorse-plugins.schemas.in.h:20
+msgid "The ID of the last secret key used to sign a message."
+msgstr "هوية آخر مفتاح سري استخدم لتوقيع رسالة."
+
+#: ../data/seahorse-plugins.schemas.in.h:21
+msgid "The column to sort the recipients by"
+msgstr "العمود الذي سيرتب المستلمون طبقا له"
+
+#: ../data/seahorse-plugins.schemas.in.h:22
+msgid "The time (in minutes) to cache GPG passwords"
+msgstr "الوقت (بالثواني) لحفظ كلمات السر في الخزْن"
+
+#: ../data/seahorse-plugins.schemas.in.h:23
+msgid ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"seahorse-agent."
+msgstr "مدة الوقت بالدقائق، لحفظ كلمات السر مؤقتا في seahorse-agent."
+
+#: ../data/seahorse-plugins.schemas.in.h:24
+msgid ""
+"This option enables the GPG password cache in the seahorse-agent program. "
+"The 'use-agent' setting in gpg.conf affects this setting."
+msgstr ""
+"يفعِّل هذا الخيار ذاكرة كلمات سر GPG المؤقتة في برنامج seahorse-agent. مدخلة "
+"'use-agent' في ملف gpg.conf تؤثِّر على هذا الإعداد."
+
+#: ../data/seahorse-plugins.schemas.in.h:25
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr "يحدد هذا المفتاح المبدئي الذي سيستخدم في عملية معيّنة، غالبا التوقيع."
+
+#: ../data/seahorse-plugins.schemas.in.h:26
+msgid ""
+"When set, seahorse-agent expires GPG passwords in its cache after a period "
+"of time."
+msgstr ""
+"عند ضبطه، سيُنهي seahorse-agent صلاحية كلمات سر GPG الموجودة بخزْنه بعد مدة من "
+"الزمن."
+
+#: ../data/seahorse-plugins.schemas.in.h:27
+msgid "Where to store cached passwords."
+msgstr "أين ستحفظ كلمات السر المختزنة."
+
+#: ../data/seahorse-plugins.schemas.in.h:28
+msgid "Whether the GPG password cache is enabled"
+msgstr "ما إذا كانت ذاكرة كلمة سر GPG المخبأة مفعلة أم لا"
+
+#: ../data/seahorse-plugins.schemas.in.h:29
+msgid "Whether to always encrypt to default key"
+msgstr "ما إذا كان سيُعمِّي دائما بالمفتاح المبدئي"
+
+#: ../data/seahorse-plugins.schemas.in.h:30
+msgid "Whether to use ASCII Armor"
+msgstr "فيما إذا سيستخدم أسكي مُحصّن"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:1
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<b>لقد حددت أكثر من ملف أو مجلّد</b>"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:2
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr "لوقوع الملفات بعيدا، سيُعمّى كل ملف على حِدة."
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:3
+msgid "Encrypt Multiple Files"
+msgstr "عمِّ أكثر من ملف"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:4
+msgid "Encrypt each file separately"
+msgstr "عمِّ كل ملف على حِدة"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:5
+msgid "Encrypt packed together in a package"
+msgstr "عمِّ المحزّ مع بعضِه في حِزمة"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:6
+msgid "Package Name:"
+msgstr "اسم الحزمة:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:7
+msgid "Packaging:"
+msgstr "يجري التحزيم:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:8
+msgid "encrypted-package"
+msgstr "حزمة عمياء"
+
+#: ../libseahorse/seahorse-notification.c:573
+#: ../libseahorse/seahorse-notification.c:598
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "لم تستورد مفاتيح"
+msgstr[1] "استورد مفتاح"
+msgstr[2] "استورد مفتاحين"
+msgstr[3] "استوردت مفاتيح"
+msgstr[4] "استوردت مفاتيح"
+msgstr[5] "استوردت مفاتيح"
+
+#: ../libseahorse/seahorse-notification.c:577
+#: ../libseahorse/seahorse-notification.c:597
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "لم تستورد مفاتيح"
+msgstr[1] "استورد مفتاح واحد"
+msgstr[2] "استورد مفتاحين"
+msgstr[3] "استورد %i مفاتيح"
+msgstr[4] "استورد %i مفتاحا"
+msgstr[5] "استورد %i مفتاح"
+
+#: ../libseahorse/seahorse-notification.c:579
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "لم تستورد مفاتيح لـ"
+msgstr[1] "استورد مفتاح واحد لـ"
+msgstr[2] "استورد مفتاحين لـ"
+msgstr[3] "استوردت مفاتيح لـ"
+msgstr[4] "استوردت مفاتيح لـ"
+msgstr[5] "استوردت مفاتيح لـ"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:616
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "وُقّع بواسطة <i><key id='%s'/> <b>انتهت صلاحيته</b></i> في  %s."
+
+#: ../libseahorse/seahorse-notification.c:617
+msgid "Invalid Signature"
+msgstr "توقيع غير صالح"
+
+#: ../libseahorse/seahorse-notification.c:623
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "وُقّع بواسطة <i><key id='%s'/>  في %s <b>انتهت صلاحيته</b>."
+
+#: ../libseahorse/seahorse-notification.c:624
+msgid "Expired Signature"
+msgstr "توقيع منتهي الصلاحية"
+
+#: ../libseahorse/seahorse-notification.c:630
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "وُقّع بواسطة <i><key id='%s'/> <b>سُحِب</b></i> في %s."
+
+#: ../libseahorse/seahorse-notification.c:631
+msgid "Revoked Signature"
+msgstr "توقيع مسحوب"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:637
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "وُقّع بواسطة <i><key id='%s'/> في %s."
+
+#: ../libseahorse/seahorse-notification.c:638
+msgid "Good Signature"
+msgstr "توقيع سليم"
+
+#: ../libseahorse/seahorse-notification.c:643
+msgid "Signing key not in keyring."
+msgstr "مفتاح التوقيع ليس في حلقة المفاتيح."
+
+#: ../libseahorse/seahorse-notification.c:644
+msgid "Unknown Signature"
+msgstr "توقيع مجهول"
+
+#: ../libseahorse/seahorse-notification.c:648
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "توقيع سيء أو مُزوّر. لقد عُدِّلت البيانات المُوقّعة."
+
+#: ../libseahorse/seahorse-notification.c:649
+msgid "Bad Signature"
+msgstr "توقيع سيّء"
+
+#: ../libseahorse/seahorse-notification.c:657
+msgid "Couldn't verify signature."
+msgstr "تعذّر التحقق من التوقيع"
+
+#: ../libseahorse/seahorse-notify.glade.h:1
+msgid "Notification Messages"
+msgstr "رسائل التنبيه"
+
+#: ../libseahorse/seahorse-passphrase.c:200
+msgid "Passphrase"
+msgstr "عبارة السر"
+
+#: ../libseahorse/seahorse-passphrase.c:203
+msgid "Password:"
+msgstr "كلمة السر:"
+
+#: ../libseahorse/seahorse-passphrase.c:266
+msgid "Confirm:"
+msgstr "أكِّد:"
+
+#: ../libseahorse/seahorse-passphrase.c:351
+#, c-format
+msgid "Wrong passphrase."
+msgstr "عبارة السر خاطئة."
+
+#: ../libseahorse/seahorse-passphrase.c:355
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "أدخل عبارة سر جديدة لـ'%s'"
+
+#: ../libseahorse/seahorse-passphrase.c:357
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "أدخل عبارة السر لـ'%s'"
+
+#: ../libseahorse/seahorse-passphrase.c:360
+msgid "Enter new passphrase"
+msgstr "أدخل عبارة سر جديدة"
+
+#: ../libseahorse/seahorse-passphrase.c:362
+msgid "Enter passphrase"
+msgstr "أدخل عبارة السر"
+
+#: ../libseahorse/seahorse-prefs.c:100
+msgid "None. Prompt for a key."
+msgstr "لا. لا تسأل عن مفتاح."
+
+#: ../libseahorse/seahorse-prefs.glade.h:1
+msgid "<b>Default Key</b>"
+msgstr "<b>المفتاح المبدئي</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:2
+msgid "<b>Remember PGP Passphrases</b>"
+msgstr "<b>تذكّر عبارة سر PGP</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:3
+msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+msgstr "<i>لا يوجد عميل لتخزين عبارات سر PGP مدعوم يعمل حاليا.</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:4
+msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+msgstr "<i>يستخدم هذا المفتاح لتوقيع الرسائل إذا لم يُحدد أي مفتاح آخر</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:5
+msgid "As_k me before using a cached passphrase"
+msgstr "ا_سألني قبل استخدام عبارة سر مختزنة"
+
+#: ../libseahorse/seahorse-prefs.glade.h:6
+msgid "Encryption"
+msgstr "التعمية"
+
+#: ../libseahorse/seahorse-prefs.glade.h:7
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:2
+msgid "Encryption and Keyrings"
+msgstr "التعمية وحلقات المفاتيح"
+
+#: ../libseahorse/seahorse-prefs.glade.h:8
+msgid "PGP Passphrases"
+msgstr "عبارة سر PGP"
+
+#: ../libseahorse/seahorse-prefs.glade.h:9
+msgid "Show _icon in status area when passphrases are in memory"
+msgstr "اعرض أي_قونة في منطقة الحالة عندما تكون عبارة السر في الذاكرة"
+
+#: ../libseahorse/seahorse-prefs.glade.h:10
+msgid "When _encrypting, always include myself as a recipient"
+msgstr "عند ال_تعمية، ضمِّني دائما كمُستلم"
+
+#: ../libseahorse/seahorse-prefs.glade.h:11
+msgid "_Always remember passphrases whenever logged in"
+msgstr "_دائما تذكّر عبارات السر متى ولجت"
+
+#: ../libseahorse/seahorse-prefs.glade.h:12
+msgid "_Default key:"
+msgstr "ال_مفتاح المبدئي:"
+
+#: ../libseahorse/seahorse-prefs.glade.h:13
+msgid "_Never remember passphrases"
+msgstr "لا تتذكّر أ_بدا عبارات السر"
+
+#: ../libseahorse/seahorse-prefs.glade.h:14
+msgid "_Remember passphrases for"
+msgstr "_تذكّر عبارات السر لـ"
+
+#: ../libseahorse/seahorse-prefs.glade.h:15
+msgid "minutes"
+msgstr "دقائق"
+
+#: ../libseahorse/seahorse-progress.glade.h:1
+msgid "Progress Title"
+msgstr "عنوان التقدّم"
+
+#: ../libseahorse/seahorse-util.c:173
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "فشل استخراج التعمية. ؤبما لا تملك مفتاح التعمية."
+
+#: ../libseahorse/seahorse-util.c:223
+msgid "%Y-%m-%d"
+msgstr "%OG-%Om-%Od"
+
+#: ../libseahorse/seahorse-util.c:642
+msgid "Couldn't run file-roller"
+msgstr "تعذّر تشغيل مُأرشف الملفات"
+
+#: ../libseahorse/seahorse-util.c:647
+#: ../plugins/nautilus/seahorse-tool-files.c:872
+msgid "Couldn't package files"
+msgstr "تعذّر تحزيم الملفات"
+
+#: ../libseahorse/seahorse-util.c:648
+msgid "The file-roller process did not complete successfully"
+msgstr "لم تُكمل عملية مُأرشف الملفات بنجاح"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libseahorse/seahorse-util.c:708
+msgid "All key files"
+msgstr "كل ملفات المفاتيح"
+
+#: ../libseahorse/seahorse-util.c:715 ../libseahorse/seahorse-util.c:755
+msgid "All files"
+msgstr "كل الملفات"
+
+#: ../libseahorse/seahorse-util.c:748
+msgid "Archive files"
+msgstr "ملفات الأرشيفات"
+
+#: ../libseahorse/seahorse-util.c:777
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>يوجد بالفعل ملف بهذا الاسم.</b>\n"
+"\n"
+"أترغب في استبداله بملف جديد؟"
+
+#: ../libseahorse/seahorse-util.c:780
+msgid "_Replace"
+msgstr "است_بدل"
+
+#: ../libseahorse/seahorse-widget.c:324
+#, c-format
+msgid "Could not display help: %s"
+msgstr "تعذّر عرض المساعدة: %s"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:1
+msgid "Clipboard Text Encryption"
+msgstr "تعمية نص الحافظة"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:2
+msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+msgstr "عمِّ أو استخرج تعمية أو وقِّع الحافظة (باستخدام تعمية من نوع PGP)."
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:3
+msgid "Seahorse Applet Factory"
+msgstr "مصنع بريمج حصان البحر"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:1
+msgid "_About"
+msgstr "_حوْل"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:2
+msgid "_Help"
+msgstr "م_ساعدة"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:3
+msgid "_Preferences"
+msgstr "_تفضيلات"
+
+#: ../plugins/applet/seahorse-applet.c:276
+#: ../plugins/applet/seahorse-applet.c:721
+#, c-format
+msgid "Could not display URL: %s"
+msgstr "تعذّر عرض المسار: %s"
+
+#: ../plugins/applet/seahorse-applet.c:312
+msgid "seahorse-applet"
+msgstr "بريمج-حصان البحر"
+
+#: ../plugins/applet/seahorse-applet.c:314
+#: ../plugins/applet/seahorse-applet.c:874
+msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+msgstr "استخدم PGP/GPG لتعمية/استخراج تعمية/توقيع/تحقق/استيراد الحافظة."
+
+#: ../plugins/applet/seahorse-applet.c:319
+msgid "translator-credits"
+msgstr ""
+"فريق عرب آيز للترجمة http://www.arabeyes.org :\n"
+"أحمد فرغل\t<ahmad.farghal@gmail.com>\n"
+"خالد حسني\t<khaledhosny@eglug.org>\n"
+"صهيب عفيفي\t<sohaibafifi@gmail.com>"
+
+#: ../plugins/applet/seahorse-applet.c:322
+msgid "Seahorse Project Homepage"
+msgstr "الصفحة الرئيسية لمشروع حصان البحر"
+
+#. Get the recipient list
+#: ../plugins/applet/seahorse-applet.c:394
+#: ../plugins/epiphany/seahorse-extension.c:275
+#: ../plugins/gedit/seahorse-gedit.c:338
+msgid "Choose Recipient Keys"
+msgstr "اختر مفاتيح المستلم"
+
+#: ../plugins/applet/seahorse-applet.c:413
+msgid "Encrypted Text"
+msgstr "نص مُعمّى"
+
+#: ../plugins/applet/seahorse-applet.c:415
+msgid "Encryption Failed"
+msgstr "فشلت التعمية"
+
+#: ../plugins/applet/seahorse-applet.c:415
+msgid "The clipboard could not be encrypted."
+msgstr "تعذّر تعمية الحافظة."
+
+#: ../plugins/applet/seahorse-applet.c:453
+#: ../plugins/epiphany/seahorse-extension.c:325
+#: ../plugins/gedit/seahorse-gedit.c:628
+msgid "Choose Key to Sign with"
+msgstr "اختر مفتاحا لتوقِّع به"
+
+#: ../plugins/applet/seahorse-applet.c:473
+msgid "Signed Text"
+msgstr "نص موقَّع"
+
+#: ../plugins/applet/seahorse-applet.c:475
+#: ../plugins/applet/seahorse-applet.c:555
+msgid "Signing Failed"
+msgstr "فشل التوقيع"
+
+#: ../plugins/applet/seahorse-applet.c:475
+#: ../plugins/applet/seahorse-applet.c:555
+msgid "The clipboard could not be Signed."
+msgstr "تعذّر توقيع الحافظة."
+
+#: ../plugins/applet/seahorse-applet.c:517
+#: ../plugins/epiphany/seahorse-extension.c:369
+#: ../plugins/nautilus/seahorse-tool.c:464
+msgid "Import Failed"
+msgstr "فشل الإستيراد"
+
+#: ../plugins/applet/seahorse-applet.c:518
+#: ../plugins/epiphany/seahorse-extension.c:370
+#: ../plugins/nautilus/seahorse-tool.c:465
+msgid "Keys were found but not imported."
+msgstr "تم إيجاد المفاتيح لكن لم يتم استيرادها."
+
+#: ../plugins/applet/seahorse-applet.c:610
+msgid "No PGP key or message was found on clipboard"
+msgstr "لا يوجد مفتاح أو رسالة PGP في الحافظة"
+
+#: ../plugins/applet/seahorse-applet.c:611
+msgid "No PGP data found."
+msgstr "لا توجد بيانات PGP."
+
+#. TRANSLATORS: This means 'The text that was decrypted'
+#: ../plugins/applet/seahorse-applet.c:648
+msgid "Decrypted Text"
+msgstr "استخرج تعمية النص"
+
+#: ../plugins/applet/seahorse-applet.c:789
+msgid "_Encrypt Clipboard"
+msgstr "_عمِّ الحافظة"
+
+#: ../plugins/applet/seahorse-applet.c:796
+msgid "_Sign Clipboard"
+msgstr "_وقِّع الحافظة"
+
+#: ../plugins/applet/seahorse-applet.c:803
+msgid "_Decrypt/Verify Clipboard"
+msgstr "ا_ستخرج تعمية/تحقق من الحافظة"
+
+#: ../plugins/applet/seahorse-applet.c:809
+msgid "_Import Keys from Clipboard"
+msgstr "ا_ستورد المفاتيح من الحافظة"
+
+#: ../plugins/applet/seahorse-applet.c:871
+#: ../plugins/applet/seahorse-applet.c:873
+msgid "Encryption Applet"
+msgstr "بريمج تعمية"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:1
+msgid "<b>Display clipboard contents after:</b>"
+msgstr "<b>اعرض محتويات الحافظة بعد</b>"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:2
+msgid "Clipboard Encryption Preferences"
+msgstr "تفضيلات تعمية الحافظة"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:3
+msgid "_Decrypting the clipboard"
+msgstr "ا_ستخراج تعمية الحافظة"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:4
+msgid "_Encrypting or signing the clipboard"
+msgstr "_تعمية أو توقيع محتويات الحافظة"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:5
+msgid "_Show clipboard state in panel"
+msgstr "أ_ظهر حالة الحافظة في اللوحة"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:6
+msgid "_Verifying the clipboard"
+msgstr "الت_حقق من الحافظة"
+
+#: ../plugins/epiphany/seahorse-extension.c:408
+msgid "Decrypting Failed"
+msgstr "فشل فك التعمية"
+
+#: ../plugins/epiphany/seahorse-extension.c:408
+msgid "Text may be malformed."
+msgstr "قد يكون النص مشوّها"
+
+#: ../plugins/epiphany/seahorse-extension.c:632
+msgid "_Encrypt"
+msgstr "_عمِّ"
+
+#: ../plugins/epiphany/seahorse-extension.c:639
+msgid "_Sign"
+msgstr "_وقِّع"
+
+#: ../plugins/epiphany/seahorse-extension.c:646
+msgid "_Decrypt/Verify"
+msgstr "_فك التعمية/تحقق"
+
+#: ../plugins/epiphany/seahorse-extension.c:653
+msgid "_Import Key"
+msgstr "ا_ستورد المفتاح"
+
+#: ../plugins/gedit/seahorse-gedit.c:268
+msgid "Couldn't connect to seahorse-daemon"
+msgstr "تعذر الاتصال بـ seahorse-daemon"
+
+#: ../plugins/gedit/seahorse-gedit.c:360
+msgid "Encrypted text"
+msgstr "نص مُعمّى"
+
+#: ../plugins/gedit/seahorse-gedit.c:363
+msgid "Couldn't encrypt text"
+msgstr "تعذّر تعمية النص"
+
+#: ../plugins/gedit/seahorse-gedit.c:393
+msgid "Couldn't import keys"
+msgstr "تعذّر استيراد المفاتيح"
+
+#: ../plugins/gedit/seahorse-gedit.c:402
+msgid "Keys found but not imported"
+msgstr "وُجدت المفاتيح لكن لم يتم استيرادها"
+
+#: ../plugins/gedit/seahorse-gedit.c:439
+msgid "Couldn't decrypt text"
+msgstr "تعذّر استخراج تعمية النص"
+
+#: ../plugins/gedit/seahorse-gedit.c:476
+msgid "Couldn't verify text"
+msgstr "تعذّر التحقق من النص"
+
+#: ../plugins/gedit/seahorse-gedit.c:524
+msgid "No encrypted or signed text is selected."
+msgstr "لم يتم انتقاء نص مُعمّى أو موَقَّع."
+
+#: ../plugins/gedit/seahorse-gedit.c:554
+msgid "Decrypted text"
+msgstr "نص مفكوك التعمية"
+
+#: ../plugins/gedit/seahorse-gedit.c:561
+msgid "Verified text"
+msgstr "نص متحقق منه"
+
+#: ../plugins/gedit/seahorse-gedit.c:596
+#: ../plugins/nautilus/seahorse-tool.c:490
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] "لم تستورد أي مفاتيح"
+msgstr[1] "تم استيراد مفتاح واحد"
+msgstr[2] "تم استيراد مفتاحين"
+msgstr[3] "تم استيراد %Id مفاتيح"
+msgstr[4] "تم استيراد %Id مفتاحًا"
+msgstr[5] "تم استيراد %Id مفتاح"
+
+#: ../plugins/gedit/seahorse-gedit.c:650
+msgid "Signed text"
+msgstr "نص مُوقّع"
+
+#: ../plugins/gedit/seahorse-gedit.c:653
+msgid "Couldn't sign text"
+msgstr "تعذّر توقيع النص"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:133
+msgid "_Encrypt..."
+msgstr "_عمِّ..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:134
+msgid "Encrypt the selected text"
+msgstr "عمِّ النص المُنتقى"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:135
+msgid "Decr_ypt/Verify"
+msgstr "_فك التعمية/تحقق"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:136
+msgid "Decrypt and/or Verify text"
+msgstr "فك التعمية و/أو تحقق من النص"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:137
+msgid "Sig_n..."
+msgstr "و_قِّع..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:138
+msgid "Sign the selected text"
+msgstr "وقِّع النص المُنتقى"
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:1
+msgid "Enable the seahorse encryption plugin for gedit."
+msgstr "مكِّن ملحق تعمية حصان البحر في gedit."
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:2
+msgid "Enable the seahorse gedit plugin"
+msgstr "مكِّن ملحق حصان البحر في gedit."
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:1
+msgid "Text Encryption"
+msgstr "تعمية النص"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:2
+msgid "This plugin performs encryption operations on text."
+msgstr "يقوم هذا الملحق بعمليات تعمية على النص."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:158
+msgid "Encrypt..."
+msgstr "عمِّ..."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:159
+msgid "Encrypt (and optionally sign) the selected file"
+msgid_plural "Encrypt the selected files"
+msgstr[0] "عمِّ (أو اختياريا وقِّع) الملف المُحدد"
+msgstr[1] "عمِّ (أو اختياريا وقِّع) الملف المُحدد"
+msgstr[2] "عمِّ الملفين المُحددين"
+msgstr[3] "عمِّ الملفات المُحددة"
+msgstr[4] "عمِّ الملفات المُحددة"
+msgstr[5] "عمِّ الملفات المُحددة"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:165
+msgid "Sign"
+msgstr "وقِّع"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:166
+msgid "Sign the selected file"
+msgid_plural "Sign the selected files"
+msgstr[0] "وقِّع الملف المُنتقى"
+msgstr[1] "وقِّع الملف المُحدد"
+msgstr[2] "وقِّع الملف المُحدد"
+msgstr[3] "وقِّع الملفات المُحددة"
+msgstr[4] "وقِّع الملفات المُحددة"
+msgstr[5] "وقِّع الملفات المُحددة"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:39
+msgid "For internal use"
+msgstr "للاستخدام الداخلي"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:63
+msgid "Encryption Preferences"
+msgstr "تفضيلات التعمية"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:1
+msgid "Configure key servers and other encryption settings"
+msgstr "اضبط خادم المفاتيح وباقي إعدادات التعمية"
+
+#: ../plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in.h:1
+msgid "Decrypt File"
+msgstr "استخرج تعمية الملف"
+
+#: ../plugins/nautilus/seahorse-pgp-keys.desktop.in.in.h:1
+msgid "Import Key"
+msgstr "استورد مفتاح"
+
+#: ../plugins/nautilus/seahorse-pgp-signature.desktop.in.in.h:1
+msgid "Verify Signature"
+msgstr "تحقق من التوقيع"
+
+#: ../plugins/nautilus/seahorse-tool.c:62
+msgid "Import keys from the file"
+msgstr "استورد مفاتيح من الملف"
+
+#: ../plugins/nautilus/seahorse-tool.c:64
+msgid "Encrypt file"
+msgstr "عمِّ الملف"
+
+#: ../plugins/nautilus/seahorse-tool.c:66
+msgid "Sign file with default key"
+msgstr "وقِّع الملف بالمفتاح المبدئي"
+
+#: ../plugins/nautilus/seahorse-tool.c:68
+msgid "Encrypt and sign file with default key"
+msgstr "عمِّ و وقِّع الملف بالمفتاح المبدئي"
+
+#: ../plugins/nautilus/seahorse-tool.c:70
+msgid "Decrypt encrypted file"
+msgstr "استخرج الملف المُعمّى"
+
+#: ../plugins/nautilus/seahorse-tool.c:72
+msgid "Verify signature file"
+msgstr "تحقق من ملف التوقيع"
+
+#: ../plugins/nautilus/seahorse-tool.c:74
+msgid "Read list of URIs on standard in"
+msgstr "اقرأ قائمة المسارات (URI) من الدخْل القياسي"
+
+#: ../plugins/nautilus/seahorse-tool.c:76
+msgid "file..."
+msgstr "ملف..."
+
+#: ../plugins/nautilus/seahorse-tool.c:170
+msgid "Choose Recipients"
+msgstr "اختر المستلمين"
+
+#: ../plugins/nautilus/seahorse-tool.c:232
+#: ../plugins/nautilus/seahorse-tool.c:341
+msgid "Couldn't load keys"
+msgstr "تعذّر تحميل الملفات"
+
+#: ../plugins/nautilus/seahorse-tool.c:250
+#, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr "اختر اسم الملف المُعمّى ل '%s'"
+
+#: ../plugins/nautilus/seahorse-tool.c:323
+msgid "Choose Signer"
+msgstr "اختر مُوقِّع"
+
+#: ../plugins/nautilus/seahorse-tool.c:361
+#, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr "اختر اسم ملف التوقيع لـ '%s'"
+
+#: ../plugins/nautilus/seahorse-tool.c:401
+msgid "Import is complete"
+msgstr "تم التصدير"
+
+#: ../plugins/nautilus/seahorse-tool.c:434
+msgid "Importing keys ..."
+msgstr "يستورد المفاتيح..."
+
+#: ../plugins/nautilus/seahorse-tool.c:488
+#, c-format
+msgid "Imported key"
+msgstr "مفاتيح مُستوردة"
+
+#. File to decrypt to
+#: ../plugins/nautilus/seahorse-tool.c:512
+#, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr "اختر اسم الملف مفكوك التعمية لـ '%s'"
+
+#: ../plugins/nautilus/seahorse-tool.c:568
+#, c-format
+msgid "Choose Original File for '%s'"
+msgstr "اختر الملف الأصلي لـ '%s'"
+
+#.
+#. * TODO: What should happen with multiple files at this point.
+#. * The last thing we want to do is cascade a big pile of error
+#. * dialogs at the user.
+#.
+#: ../plugins/nautilus/seahorse-tool.c:640
+#, c-format
+msgid "No valid signatures found"
+msgstr "ليس ملف توقيع صالح"
+
+#: ../plugins/nautilus/seahorse-tool.c:689
+msgid "File Encryption Tool"
+msgstr "أداة تعمية الملفات"
+
+#: ../plugins/nautilus/seahorse-tool.c:708
+msgid "Encrypting"
+msgstr "يجري التعمية"
+
+#: ../plugins/nautilus/seahorse-tool.c:709
+#, c-format
+msgid "Couldn't encrypt file: %s"
+msgstr "تعذّرت تعمية الملف: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:717
+msgid "Signing"
+msgstr "يجري التّوقيع"
+
+#: ../plugins/nautilus/seahorse-tool.c:718
+#, c-format
+msgid "Couldn't sign file: %s"
+msgstr "تعذّر توقيع لملف: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:723
+msgid "Importing"
+msgstr "يجري الاستيراد"
+
+#: ../plugins/nautilus/seahorse-tool.c:724
+#, c-format
+msgid "Couldn't import keys from file: %s"
+msgstr "تعذّر استيؤاد المفاتيح من الملف: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:730
+msgid "Decrypting"
+msgstr "يجري فك التعمية"
+
+#: ../plugins/nautilus/seahorse-tool.c:731
+#, c-format
+msgid "Couldn't decrypt file: %s"
+msgstr "تعذّر استخراج الملف: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:736
+msgid "Verifying"
+msgstr "يجري التحقق"
+
+#: ../plugins/nautilus/seahorse-tool.c:737
+#, c-format
+msgid "Couldn't verify file: %s"
+msgstr "تعذّر التحقق من الملف: %s"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:120
+msgid "Ace (.ace)"
+msgstr "Ace (.ace)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:121
+msgid "Ar (.ar)"
+msgstr "Ar (.ar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:122
+msgid "Arj (.arj)"
+msgstr "Arj·(.arj)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:129
+msgid "Ear (.ear)"
+msgstr "Ear (.ear)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:130
+msgid "Self-extracting zip (.exe)"
+msgstr "zip ذاتي الإستخراج (.exe)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:132
+msgid "Jar (.jar)"
+msgstr "Jar (.jar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:133
+msgid "Lha (.lzh)"
+msgstr "Lha (.lzh)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:135
+msgid "Rar (.rar)"
+msgstr "Rar (.rar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:137
+msgid "Tar uncompressed (.tar)"
+msgstr "Tar غير مضغوط (.tar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:138
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "Tar مضغوط بـ bzip·(.tar.bz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:139
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "Tar مضغوط بـ bzip2 (.tar.bz2)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:140
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "Tar مضغوط بـ gzip (.tar.gz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:141
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "Tar مضغوط بـ lzop·(.tar.lzo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:142
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "Tar مضغوط بـ compress·(.tar.Z)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:144
+msgid "War (.war)"
+msgstr "War (.war)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:145
+msgid "Zip (.zip)"
+msgstr "Zip (.zip)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:146
+msgid "Zoo (.zoo)"
+msgstr "Zoo·(.zoo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:147
+msgid "7-Zip (.7z)"
+msgstr "7-Zip (.7z)"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:327
+#, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] "لم تحدد أي ملفات"
+msgstr[1] "لقد حددت ملفا واحدا"
+msgstr[2] "لقد حددت ملفين"
+msgstr[3] "لقد حددت %Id ملفات"
+msgstr[4] "لقد حددت %Id ملفًا"
+msgstr[5] "لقد حددت %Id ملف"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:332
+#, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] "ولا مجلدات"
+msgstr[1] "ومجلدا"
+msgstr[2] "ومجلدين"
+msgstr[3] "و %Id مجلدات"
+msgstr[4] "و %Id مجلدًا"
+msgstr[5] "و %Id مجلد"
+
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: ../plugins/nautilus/seahorse-tool-files.c:337
+#, c-format
+msgid "<b>%s%s</b>"
+msgstr "<b>%s%s</b>"
+
+#. should never be called for just one file
+#: ../plugins/nautilus/seahorse-tool-files.c:346
+#, c-format
+msgid "You have selected %d files"
+msgstr "لقد حددت %Id ملفًا"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:351
+#, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] "لم تحدد أي مجلدات"
+msgstr[1] "لقد حددت مجلدًا"
+msgstr[2] "لقد حددت مجلدين"
+msgstr[3] "لقد حددت %Id مجلدات"
+msgstr[4] "لقد حددت %Id مجلدًا"
+msgstr[5] "لقد حددت %Id مجلد"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:853
+msgid "Preparing..."
+msgstr "يحضّر..."
+
+#: ../plugins/nautilus/seahorse-tool-files.c:862
+#: ../plugins/nautilus/seahorse-tool-files.c:885
+msgid "Couldn't list files"
+msgstr "تعذّر سرد الملفات"
+
+#~ msgid "Password and Encryption Settings"
+#~ msgstr "إعدادات كلمة السرِّ والتعمية"
+
+#~ msgid "Do not run seahorse-daemon as a daemon"
+#~ msgstr "لا تشغِّل seahorse-daemon كخادم"
+
+#~ msgid "Encryption Daemon (Seahorse)"
+#~ msgstr "خادم تعمية (حصان البحر)"
+
+#~ msgid "Invalid or unrecognized key type: %s"
+#~ msgstr "نوع مفتاع مجهول أو غير صالح: %s"
+
+#~ msgid "Invalid or unrecognized key: %s"
+#~ msgstr "مفتاع مجهول أو غير صالح: %s"
+
+#~ msgid "Invalid or unrecognized signer: %s"
+#~ msgstr "مُوقِّع مجهول أو غير صالح: %s"
+
+#~ msgid "Key is not valid for signing: %s"
+#~ msgstr "لا يصلح المفتاح للتوقيع: %s"
+
+#~ msgid "Invalid or unrecognized recipient: %s"
+#~ msgstr "مُستلِم مجهول أو غير صالح: %s"
+
+#~ msgid "Key is not a valid recipient for encryption: %s"
+#~ msgstr "ليس المفتاخ مُستلِما صالحا للتعمية: %s"
+
+#~ msgid "No recipients specified"
+#~ msgstr "لم يحدّد أي مُستلِم"
+
+#~ msgid "No signer specified"
+#~ msgstr "لم يحدّد أي مُوقِّع"
+
+#~ msgid "Invalid key type for decryption: %s"
+#~ msgstr "نوع مفتاح غير صالح لاستخراج التعمية: %s"
+
+#~ msgid "Invalid key type for verifying: %s"
+#~ msgstr "نوع مفتاح غير صالح للتحقق: %s"
+
+#~ msgid "Invalid key id: %s"
+#~ msgstr "هويّة مفتاح غير صالحة: %s"
+
+#~ msgid "Couldn't share keys"
+#~ msgstr "تعذّر مشاركة المفاتيح"
+
+#~ msgid "Can't publish discovery information on the network."
+#~ msgstr "تعذّر نشر معلومات الاستكشاف عبر الشبكة."
+
+#~ msgid "%s's encryption keys"
+#~ msgstr "مفاتيح تعمية %s"
+
+#~ msgid "Auto Retrieve Keys"
+#~ msgstr "اجلب المفاتيح آليا"
+
+#~ msgid "Auto Sync Keys"
+#~ msgstr "زامن المفاتيح آليا"
+
+#~ msgid "Controls the visibility of the expires column for the key manager."
+#~ msgstr "يتحكم في ظهور عمود انتهاء الصلاحية في مدير المفاتيح."
+
+#~ msgid "Controls the visibility of the trust column for the key manager."
+#~ msgstr "يتحكم في ظهور عمود الثقة في مدير المفاتيح."
+
+#~ msgid "Controls the visibility of the type column for the key manager."
+#~ msgstr "يتحكم في ظهور عمود النوع في مدير المفاتيح."
+
+#~ msgid "Controls the visibility of the validity column for the key manager."
+#~ msgstr "يتحكم في ظهور عمود الصلاحية في مدير المفاتيح."
+
+#~ msgid "Enable DNS-SD sharing"
+#~ msgstr "فعِّل مُشاركة DNS-SD"
+
+#~ msgid ""
+#~ "Enables DNS-SD (Apple Bonjour) sharing of keys. seahorse-daemon must be "
+#~ "running and must be built with HKP and DNS-SD support."
+#~ msgstr ""
+#~ "فعِّل مُشاركة ‪DNS-SD (Apple Bonjour)‬ للمفاتيح. يجب أن يكون seahorse-daemon "
+#~ "مُشتغلا وأن يكون قد بُنِي بدعم HKP و DNS-SD."
+
+#~ msgid "Last key server search pattern"
+#~ msgstr "آخر نمط بحث في خادم مفاتيح"
+
+#~ msgid "Last key servers used"
+#~ msgstr "آخر خادم مفاتيح استُخدِم"
+
+#~ msgid "Publish keys to this key server."
+#~ msgstr "انشر في خادم المفاتيح هذا."
+
+#~ msgid "Show expires column in key manager"
+#~ msgstr "اعرض عمود انتهاء الصلاحية في مدير المفاتيح"
+
+#~ msgid "Show trust column in key manager"
+#~ msgstr "اعرض عمود الثقة في مدير المفاتيح"
+
+#~ msgid "Show type column in key manager"
+#~ msgstr "اعرض عمود النوع في مدير المفاتيح"
+
+#~ msgid "Show validity column in key manager"
+#~ msgstr "اعرض عمود الصلاحية في مدير المفاتيح"
+
+#~ msgid ""
+#~ "Specify the column to sort the seahorse key manager main window by. "
+#~ "Columns are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. "
+#~ "Put a '-' in front of the column name to sort in descending order."
+#~ msgstr ""
+#~ "حدد العمود الذي سترتب نافذة مدير مفاتيح حصان البحر طبقا له. أسماء الأعمدة "
+#~ "هي 'name'، و 'id'، و 'validity'، و 'expires'، و trust' و 'type'. ضع '-' "
+#~ "أمام اسم العمود لترتب تنازليا."
+
+#~ msgid "The column to sort the seahorse keys by"
+#~ msgstr "العمود الذي سترتب مفاتيح حصان البحر طبقا له"
+
+#~ msgid ""
+#~ "The key server to publish PGP keys to. Or empty to suppress publishing of "
+#~ "PGP keys."
+#~ msgstr ""
+#~ "خادم المفاتيح الذي ستنشر به مفاتيح PGP. أو اجعله خاليا لتثبِّط نشر مفاتيح "
+#~ "PGP."
+
+#~ msgid ""
+#~ "The last key server a search was performed against or empty for all key "
+#~ "servers."
+#~ msgstr "آخر خادم مفاتيح بُحث به أو فارغا لكل خوادم المفاتيح."
+
+#~ msgid "The last search pattern searched for against a key server."
+#~ msgstr "آخر نمط بحث بحث عنه في خادم مفاتيح."
+
+#~ msgid ""
+#~ "Whether or not keys should be automatically retrieved from key servers."
+#~ msgstr ""
+#~ "ما إذا كان من المتعين الحصول آليا على المفاتيح المعدّلة من خادم المفاتيح "
+#~ "المبدئي أم لا."
+
+#~ msgid ""
+#~ "Whether or not modified keys should be automatically synced with the "
+#~ "default key server."
+#~ msgstr ""
+#~ "ما إذا كان من المتعيين مزامنة المفاتيح المعدّلة آليا مع خادم المفاتيح "
+#~ "المبدئي أم لا."
+
+#~ msgid "All Keys"
+#~ msgstr "كل المفاتيح"
+
+#~ msgid "Selected Recipients"
+#~ msgstr "المستلمون المُحددون"
+
+#~ msgid "Search Results"
+#~ msgstr "نتائج البحث"
+
+#~ msgid "Search _for:"
+#~ msgstr "ا_بحث عن:"
+
+#~ msgid "_Sign message as:"
+#~ msgstr "_وقِّع الرسالة كـ:"
+
+#~ msgid "None (Don't Sign)"
+#~ msgstr "لا شيء (لا تُوقِّع)"
+
+#~ msgid "Name"
+#~ msgstr "الاسم"
+
+#~ msgid "Key ID"
+#~ msgstr "هويّة المفتاح"
+
+#~ msgid "Add Password Keyring"
+#~ msgstr "أضِف حلقة كلمات سر"
+
+#~ msgid "New Keyring Name:"
+#~ msgstr "اسم الحلقة الجديدة:"
+
+#~ msgid ""
+#~ "Please choose a name for the new keyring. You will be prompted for an "
+#~ "unlock password."
+#~ msgstr "من فضلك اختر اسما للحلقة الجديدة. ستسأل عن كلمة سر للفتح."
+
+#~ msgid "The host name or address of the server."
+#~ msgstr "اسم المستضيف أو عنوان الخادم."
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "Add Key Server"
+#~ msgstr "أضِف خادم مفاتيح"
+
+#~ msgid "Host:"
+#~ msgstr "المستضيف:"
+
+#~ msgid "Key Server Type:"
+#~ msgstr "نوع خادم المفاتيح:"
+
+#~ msgid "The port to access the server on."
+#~ msgstr "المنفذ الذي يتم الوصول إلى الخادم عبره."
+
+#~ msgid "Search was not specific enough. Server '%s' found too many keys."
+#~ msgstr ""
+#~ "البحث لم يكن محددًا بما فيه الكفاية. وجد الخادم '%s' مفاتيح كثيرة جدًا."
+
+#~ msgid "Couldn't communicate with server '%s': %s"
+#~ msgstr "تعذّر التواصل مع الخادم '%s': %s"
+
+#~ msgid "Searching for keys..."
+#~ msgstr "يبحث عن المفاتيح..."
+
+#~ msgid "Uploading keys..."
+#~ msgstr "يرفع المفاتيح..."
+
+#~ msgid "Retrieving keys..."
+#~ msgstr "يجلب المفاتيح..."
+
+#~ msgid "Searching for keys on: %s"
+#~ msgstr "يبحث عن المفاتيح على: %s"
+
+#~ msgid "Connecting to: %s"
+#~ msgstr "يتصل بـ: %s"
+
+#~ msgid "Couldn't communicate with '%s': %s"
+#~ msgstr "تعذّر التواصل مع '%s': %s"
+
+#~ msgid "Couldn't resolve address: %s"
+#~ msgstr "تعذّر حل العنوان: %s"
+
+#~ msgid "Resolving server address: %s"
+#~ msgstr "يجري حل عنوان الخادم: %s"
+
+#~ msgid "Searching for keys containing '%s'..."
+#~ msgstr "يبحث عن المفاتيح التي تحتوي '%s'..."
+
+#~ msgid "Searching for key id '%s'..."
+#~ msgstr "يبحث عن هويّة المفتاح '%s'..."
+
+#~ msgid "Retrieving remote keys..."
+#~ msgstr "يجلب المفاتيح البعيدة..."
+
+#~ msgid "Sending keys to key server..."
+#~ msgstr "يرسل المفاتيح لخادم المفاتيح..."
+
+#~ msgid "Invalid"
+#~ msgstr "غير صالح"
+
+#~ msgid "Public PGP Key"
+#~ msgstr "مفتاح PGP علني"
+
+#~ msgid "Private PGP Key"
+#~ msgstr "مفتاح PGP سري"
+
+#~ msgid "Unknown"
+#~ msgstr "مجهول"
+
+#~ msgid "ElGamal"
+#~ msgstr "الجمل"
+
+#~ msgid "PGP Key"
+#~ msgstr "مفتاح PGP"
+
+#~ msgid "Loaded %d key"
+#~ msgid_plural "Loaded %d keys"
+#~ msgstr[0] "لم تُحمّل أي مفاتيح"
+#~ msgstr[1] "حُمِّل مفتاح واحد"
+#~ msgstr[2] "حُمِّل مفتاحين"
+#~ msgstr[3] "حُمِّلت %Id مفاتيح"
+#~ msgstr[4] "حُمِّل %Id مفتاحا"
+#~ msgstr[5] "حُمِّل %Id مفتاح"
+
+#~ msgid "Loading Keys..."
+#~ msgstr "يجري تحميل المفاتيح..."
+
+#~ msgid ""
+#~ "Invalid key data (missing UIDs). This may be due to a computer with a "
+#~ "date set in the future or a missing self-signature."
+#~ msgstr ""
+#~ "بيانات غير صالحة (تفتقد UID). قد يكون هذا بسبب حاسوب ضُبط تاريخه إلى تاريخ "
+#~ "مستقبلي أو لفقد التوقيع الذاتي."
+
+#~ msgid "Importing Keys"
+#~ msgstr "يستورد المفاتيح"
+
+#~ msgid "Exporting Keys"
+#~ msgstr "يحمّل المفاتيح"
+
+#~ msgid "Not a valid Key Server address."
+#~ msgstr "ليس عنوانا سليما لخادم مفاتيح."
+
+#~ msgid ""
+#~ "For help contact your system adminstrator or the administrator of the key "
+#~ "server."
+#~ msgstr "اتصل بمدير نظامك أو بمدير خادم المفاتيح لتحصل على مساعدة."
+
+#~ msgid "URL"
+#~ msgstr "مسار"
+
+#~ msgid "Custom"
+#~ msgstr "مخصّص"
+
+#~ msgid "None: Don't publish keys"
+#~ msgstr "لا: لا تنشر المفاتيح"
+
+#~ msgid "<i>Automatically unlocked when user logs in.</i>"
+#~ msgstr "<i>الغ القفل آليا عن ولوج المستخدم.</i>"
+
+#~ msgid "Couldn't get default password keyring"
+#~ msgstr "لا وجود لكلمة سر مبدئية في حلقة المفاتيح"
+
+#~ msgid "Couldn't get list of password keyrings"
+#~ msgstr "تعذّر سرد حلقات كلمات السر"
+
+#~ msgid "Couldn't set default password keyring"
+#~ msgstr "تعذّر تحديد حلقة كلمة السر المبدئية"
+
+#~ msgid "Couldn't remove keyring"
+#~ msgstr "تعذّر حذف حلقة المفاتيح"
+
+#~ msgid "Are you sure you want to permanently delete the '%s' keyring?"
+#~ msgstr "أمتأكدٌ أنّك تريد حذف حلقة المفاتيح '%s' نهائيًّا؟"
+
+#~ msgid "Couldn't add keyring"
+#~ msgstr "تعذّر إضافة حلقة مفاتيح"
+
+#~ msgid "Couldn't change keyring password"
+#~ msgstr "تعذّر تغيير كلمة سر حلقة المفاتيح"
+
+#~ msgid "<b>Default Keyring</b>"
+#~ msgstr "<b>حلقة المفاتيح المبدئيّة</b>"
+
+#~ msgid "<b>Password Keyrings</b>"
+#~ msgstr "<b>حلقات كلمات السر</b>"
+
+#~ msgid "Automatically retrieve keys from _key servers"
+#~ msgstr "ا_جلب المفاتيح آليا من خوادم المفاتيح"
+
+#~ msgid "Automatically synchronize _modified keys with key servers"
+#~ msgstr "_زامن المفاتيح المعدّلة آليا مع خوادم المفاتيح."
+
+#~ msgid "Change Unlock _Password"
+#~ msgstr "غيّر _عبارة سر الفتح"
+
+#~ msgid "Key Servers"
+#~ msgstr "خوادم المفاتيح"
+
+#~ msgid "Key Sharing"
+#~ msgstr "مشاركة المفاتيح"
+
+#~ msgid "Password Keyrings"
+#~ msgstr "_حلقات كلمات السر"
+
+#~ msgid ""
+#~ "Sharing your keys allows other people on your network to use the keys "
+#~ "you've collected. This means they can automatically encrypt things for "
+#~ "you or those you know, without you having to send them your key.\n"
+#~ "\n"
+#~ "<b>Note:</b> Your personal keys will not be compromised."
+#~ msgstr ""
+#~ "تسمح مشاركة مفاتيح للأناس الآخرون على شبكتك باستخدام المفاتيح التي "
+#~ "جمعتها. يعني هذا أن بإمكانهم تعمية الأشياء آليا لك أو لهؤلاء الذين "
+#~ "تعرفهم، بدون أن تحتاج لإرسال مفاتيحك إليهم.\n"
+#~ "\n"
+#~ "<b>ملحوظة:</b>لن يعرض هذا مفاتيحك الشخصية للخطر."
+
+#~ msgid "_Add Keyring"
+#~ msgstr "أ_ضِف حلقة مفاتيح"
+
+#~ msgid "_Find keys via:"
+#~ msgstr "ا_بحث عن المفاتيح بواسطة:"
+
+#~ msgid "_Location for application passwords:"
+#~ msgstr "_مكان كلمات سر التطبيقات:"
+
+#~ msgid "_Publish keys to:"
+#~ msgstr "ا_نشر المفاتيح في:"
+
+#~ msgid "_Remove Keyring"
+#~ msgstr "ا_حذف حلقة المفاتيح"
+
+#~ msgid "_Share my keys with others on my network"
+#~ msgstr "_شارك مفاتيحي مع الآخرين على شبكتي"
+
+#~ msgid "LDAP Key Server"
+#~ msgstr "خادم مفاتيح LDAP"
+
+#~ msgid "HTTP Key Server"
+#~ msgstr "خادم مفاتيح HTTP"
+
+#~ msgid "No keys usable for signing"
+#~ msgstr "لا توجد مفاتيح قابلة للتوقيع"
+
+#~ msgid ""
+#~ "You have no personal PGP keys that can be used to sign a document or "
+#~ "message."
+#~ msgstr "لا توجد مفاتيح PGP شخصية يمكن استخدامها لتوقيع الملف أو الرسالة."
+
+#~ msgid "_Sign message with key:"
+#~ msgstr "_وقّع الرسالة بالمفتاح:"
+
+#~ msgid "Enter your Secure Shell passphrase:"
+#~ msgstr "عبارة سر لمفتاح الصدفة الآمنة :"
+
+#~ msgid "(Unreadable Secure Shell Key)"
+#~ msgstr "(مفتاح صدفة آمنة غير مقروء)"
+
+#~ msgid "Secure Shell Key"
+#~ msgstr "مفتاح صدفة آمنة"
+
+#~ msgid "Private Secure Shell Key"
+#~ msgstr "مفتاح صدفة آمنة سري"
+
+#~ msgid "Public Secure Shell Key"
+#~ msgstr "مفتاح صدفة آمنة علني"
+
+#~ msgid "The SSH command was terminated unexpectedly."
+#~ msgstr "لقد انتهى أمر ssh بشكل غير متوقّع."
+
+#~ msgid "The SSH command failed."
+#~ msgstr "فشل أمر SSH."
+
+#~ msgid "Secure Shell key"
+#~ msgstr "مفتاح صدفة آمنة"
+
+#~ msgid "Secure Shell Passphrase"
+#~ msgstr "عبارة سر صدفة آمنة"
+
+#~ msgid "Old Key Passphrase"
+#~ msgstr "عبارة سر المفتاح القديمة"
+
+#~ msgid "Enter the old passphrase for: %s"
+#~ msgstr "أدخل عبارة السر القديمة لـ: %s "
+
+#~ msgid "New Key Passphrase"
+#~ msgstr "عبارة سر مفتاح جديدة"
+
+#~ msgid "Enter the new passphrase for: %s"
+#~ msgstr "أدخل عبارة السر الجديدة لـ: %s"
+
+#~ msgid "Enter Key Passphrase"
+#~ msgstr "أدخل عبارة سر المفتاح"
+
+#~ msgid "Passphrase for New Secure Shell Key"
+#~ msgstr "عبارة سر لمفتاح الصدفة الآمنة الجديد"
+
+#~ msgid "Enter a passphrase for your new Secure Shell key."
+#~ msgstr "أدخل عبارة سر لمفتاح صدفتك الآمنة الجديد."
+
+#~ msgid "Secure Shell Key Passphrase"
+#~ msgstr "عبارة سر مفتاح صدفة آمنة"
+
+#~ msgid "Enter the passphrase for: %s"
+#~ msgstr "أدخل عبارة سر: %s"
+
+#~ msgid "Save this passphrase in my keyring"
+#~ msgstr "احفظ عبارة السر في حلقة مفاتيحي"
+
+#~ msgid "Importing key: %s"
+#~ msgstr "استيراد المفتاح: %s"
+
+#~ msgid "Importing key. Enter passphrase"
+#~ msgstr "يستورد المفتاح. أدخل عبارة السر"
+
+#~ msgid "Unavailable"
+#~ msgstr "غير متوفّر"
+
+#~ msgid "Unknown Key: %s"
+#~ msgstr "مفتاح مجهول: %s"
+
+#~ msgid "Unknown Key"
+#~ msgstr "مفتاح مجهول"
+
+#~ msgid "Unavailable Key"
+#~ msgstr "مفتاح غير متوفّر"
+
+#~ msgid "Key Data"
+#~ msgstr "بيانات المفتاح"
+
+#~ msgid "Multiple Keys"
+#~ msgstr "مفاتيح متعددة"
+
+#~ msgid "Couldn't set permissions on backup file."
+#~ msgstr "تعذّر ضبط صلاحيات الملف الاحتياطي."
+
+#~ msgid "Never"
+#~ msgstr "أبدًا"
+
+#~ msgid "Marginal"
+#~ msgstr "هامشي"
+
+#~ msgid "Full"
+#~ msgstr "كامل"
+
+#~ msgid "Ultimate"
+#~ msgstr "نهائي"
+
+#~ msgid "Disabled"
+#~ msgstr "معطل"
+
+#~ msgid "Revoked"
+#~ msgstr "مسحوب"
+
+#~ msgid "Could not display the help file"
+#~ msgstr "لا يمكن عرض ملف المساعدة"
+
+#~ msgid "Encryption Key Manager"
+#~ msgstr "مدير مفاتيح التعمية"
+
+#~ msgid "Couldn't add subkey"
+#~ msgstr "تعذّر إضافة مفتاح فرعي"
+
+#~ msgid "Add subkey to %s"
+#~ msgstr "أضِف مفتاحا فرعيا إلى %s"
+
+#~ msgid "DSA (sign only)"
+#~ msgstr "‏DSA (توقيع فقط)"
+
+#~ msgid "ElGamal (encrypt only)"
+#~ msgstr "الجمل (تعمية فقط)"
+
+#~ msgid "RSA (sign only)"
+#~ msgstr "‏RSA (توقيع فقط)"
+
+#~ msgid "RSA (encrypt only)"
+#~ msgstr "‏RSA (تعمية فقط)"
+
+#~ msgid "Expiration Date:"
+#~ msgstr "تاريخ الانتهاء:"
+
+#~ msgid "Generate a new subkey"
+#~ msgstr "ولِّد مفتاح فرعي جديد"
+
+#~ msgid "If key never expires"
+#~ msgstr "إذا كان المفتاح لا ينتهي أبدًا"
+
+#~ msgid "Key _Length:"
+#~ msgstr "_طول المفتاح:"
+
+#~ msgid "Key _Type:"
+#~ msgstr "نوع ال_مفتاح:"
+
+#~ msgid "Length of Key"
+#~ msgstr "طول المفتاح"
+
+#~ msgid "Never E_xpires"
+#~ msgstr "لا ينت_هي أبدا"
+
+#~ msgid "Couldn't add user id"
+#~ msgstr "تعذّر إضافة هويّة المستخدم (id)"
+
+#~ msgid "Add user ID to %s"
+#~ msgstr "أضف هوية المستخدم إلى %s"
+
+#~ msgid "Add User ID"
+#~ msgstr "أضف هوية المستخدم"
+
+#~ msgid "Create the new user ID"
+#~ msgstr "انشيء هوية مستخدم جديدة"
+
+#~ msgid "Full _Name:"
+#~ msgstr "الاسم الكامل:"
+
+#~ msgid "Key Co_mment:"
+#~ msgstr "_تعليق المُفتاح:"
+
+#~ msgid "Must be at least 5 characters long"
+#~ msgstr "يجب أن يكون طوله 5 محارف على الأقل"
+
+#~ msgid "Optional comment describing key"
+#~ msgstr "تعليق اختياري يصف المفتاح"
+
+#~ msgid "Optional email address"
+#~ msgstr "عنوان بريد إلكتروني اختياري"
+
+#~ msgid "_Email Address:"
+#~ msgstr "_عنوان البريد الإلكتروني:"
+
+#~ msgid "Change Passphrase"
+#~ msgstr "غيّر عبارة السر"
+
+#~ msgid "Con_firm Passphrase:"
+#~ msgstr "أ_كد عبارة السر:"
+
+#~ msgid "Confirm new passphrase"
+#~ msgstr "أكِّد عبارة السر الجديدة"
+
+#~ msgid "New _Passphrase:"
+#~ msgstr "_عبارة سر جديدة:"
+
+#~ msgid ""
+#~ "%s is a private key. Make sure you have a backup. Do you still want to "
+#~ "delete it?"
+#~ msgstr "%s مفتاح سري. تأكد من أن لديك نسخة احتياطيّة. أما زلت ترغب في حذفه؟"
+
+#~ msgid "Are you sure you want to permanently delete %s?"
+#~ msgstr "أمتأكد أنك تريد حذف %s نهائيا؟"
+
+#~ msgid "Are you sure you want to permanently delete %d key?"
+#~ msgid_plural "Are you sure you want to permanently delete %d keys?"
+#~ msgstr[0] "أمتأكدٌ أنّك لا تريد حذف أي مفاتيح نهائيّا؟"
+#~ msgstr[1] "أمتأكدٌ أنّك تريد حذف مفتاح واحد نهائيًّا؟"
+#~ msgstr[2] "أمتأكدٌ أنّك تريد حذف مفتاحين نهائيًّا؟"
+#~ msgstr[3] "أمتأكدٌ أنّك تريد حذف %Id مفاتيح نهائيًّا؟"
+#~ msgstr[4] "أمتأكدٌ أنّك تريد حذف %Id مفتاحًا نهائيًّا؟"
+#~ msgstr[5] "أمتأكدٌ أنّك تريد حذف %Id مفتاح نهائيًّا؟"
+
+#~ msgid "Couldn't delete key"
+#~ msgstr "تعذّر حذف المفتاح"
+
+#~ msgid "Are you sure you want to permanently delete subkey %d of %s?"
+#~ msgstr "أمتأكدٌ أنّك تريد حذف المفتاح الفرعي %Id من %s نهائيًا؟"
+
+#~ msgid "Couldn't delete subkey"
+#~ msgstr "تعذّر حذف المفتاح الفرعي"
+
+#~ msgid "Are you sure you want to permanently delete the '%s' user ID?"
+#~ msgstr "أمتأكدٌ أنّك تريد حذف هوية المستخدم '%s' نهائيًّا؟"
+
+#~ msgid "Couldn't delete user id"
+#~ msgstr "تعذّر حذف هويّة المستخدم"
+
+#~ msgid "Manage your passwords and encryption keys"
+#~ msgstr "أدِر كلمات سرّك ومفاتيح تعميتك"
+
+#~ msgid "Passwords and Encryption Keys"
+#~ msgstr "كلمات السرِّ ومفاتيح التعمية"
+
+#~ msgid "Couldn't change expiry date"
+#~ msgstr "تعذّر تغيير تاريخ الانتهاء"
+
+#~ msgid "Expiry for Subkey %d of %s"
+#~ msgstr "الانتهاء للمفتاح الفرعي %Id من %s"
+
+#~ msgid "Expiry for %s"
+#~ msgstr "انتهاء %s"
+
+#~ msgid "C_hange"
+#~ msgstr "_غيِّر"
+
+#~ msgid "Revoke key"
+#~ msgstr "اسحب المفتاح"
+
+#~ msgid "_Never expires"
+#~ msgstr "لا _ينتهي أبدا"
+
+#~ msgid "Used to encrypt email and files"
+#~ msgstr "يُستُخدم لتعمية البريد والملفات"
+
+#~ msgid "Used to access other computers (eg: via a terminal)"
+#~ msgstr "يستخدم للنفاذ لحواسيب أخرى (مثلا: عبر الطرفية)"
+
+#~ msgid "<b>_Select the kind of key you wish to create:</b>"
+#~ msgstr "<b>ا_نتقِ نوع المفتاح الذي ترغب بإنشائه</b>"
+
+#~ msgid "C_ontinue"
+#~ msgstr "_تابِع"
+
+#~ msgid "Create a New Key"
+#~ msgstr "أنشيء مفتاح جديد"
+
+#~ msgid "Web Password"
+#~ msgstr "كلمة سر وِِب"
+
+#~ msgid "Network Password"
+#~ msgstr "كلمة السر شبكة"
+
+#~ msgid "Password"
+#~ msgstr "كلمة السر"
+
+#~ msgid "Access a network share or resource"
+#~ msgstr "انفُذ إلى مشاركة أو مورِد على شبكة"
+
+#~ msgid "Access a website"
+#~ msgstr "انفُذ لموقع وِب"
+
+#~ msgid "Unlocks a PGP key"
+#~ msgstr "يفتح مفتاح PGP"
+
+#~ msgid "Unlocks a Secure Shell key"
+#~ msgstr "يفتح مفتاح صدفة آمنة"
+
+#~ msgid "Saved password or login"
+#~ msgstr "كلمة سر أو ولوج محفوظ"
+
+#~ msgid "Network Credentials"
+#~ msgstr "مُؤهلات الشبكة"
+
+#~ msgid "Couldn't change password."
+#~ msgstr "تعذّر تغيير كلمة السر."
+
+#~ msgid "Couldn't set description."
+#~ msgstr "تعذّر وضع وصف."
+
+#~ msgid "Couldn't set application access."
+#~ msgstr "تعذّر ضبط نفاذ التطبيق."
+
+#~ msgid "<b>Password:</b>"
+#~ msgstr "<b>كلمة السر:</b>"
+
+#~ msgid "<b>Path:</b>"
+#~ msgstr "<b>المسار:</b>"
+
+#~ msgid "<b>Permissions:</b>"
+#~ msgstr "<b>الصلاحيات:</b>"
+
+#~ msgid "<b>Technical Details:</b>"
+#~ msgstr "<b>التفاصيل التقنية:</b>"
+
+#~ msgid "Applications"
+#~ msgstr "التطبيقات"
+
+#~ msgid "Details"
+#~ msgstr "التفاصيل"
+
+#~ msgid "Key"
+#~ msgstr "مفتاح"
+
+#~ msgid "Key Properties"
+#~ msgstr "خصائص المفتاح"
+
+#~ msgid "Login:"
+#~ msgstr "الولوج:"
+
+#~ msgid "Server:"
+#~ msgstr "الخادم:"
+
+#~ msgid "Show pass_word"
+#~ msgstr "أظهر _كلمة السر"
+
+#~ msgid "Type:"
+#~ msgstr "النّوع:"
+
+#~ msgid "Use:"
+#~ msgstr "الاستخدام:"
+
+#~ msgid "_Delete"
+#~ msgstr "_احذف"
+
+#~ msgid "_Description:"
+#~ msgstr "ال_وصف:"
+
+#~ msgid "_Read"
+#~ msgstr "_اقرأ"
+
+#~ msgid "_Write"
+#~ msgstr "ا_كتب"
+
+#~ msgid "Access to the key ring was denied"
+#~ msgstr "مُنِع الوصول لحلقة المفاتيح"
+
+#~ msgid "The gnome-keyring daemon is not running"
+#~ msgstr "رقيب حلقة مفاتيح جنوم غير مشغل"
+
+#~ msgid "The key ring has already been unlocked"
+#~ msgstr "لقد فُتحت حلقة المفتيح مُسبقا"
+
+#~ msgid "No such key ring exists"
+#~ msgstr "ليس ثمّة مفتاح"
+
+#~ msgid "Couldn't communicate with key ring daemon"
+#~ msgstr "تعذر التواصل مع رقيب حلقة المفاتيح"
+
+#~ msgid "The item already exists"
+#~ msgstr "العنصر موجود مسبقا"
+
+#~ msgid "Internal error accessing gnome-keyring"
+#~ msgstr "خطأ داخلي أثناء محاولة الوصول لحلقة مفاتيح جنوم"
+
+#~ msgid "Saving item..."
+#~ msgstr "يجري حفظ العنصر..."
+
+#~ msgid "Retrieving key"
+#~ msgstr "يجري جلب المفتاح"
+
+#~ msgid "Listing passwords"
+#~ msgstr "يجري سرد كلمات السر"
+
+#~ msgid "Couldn't read file"
+#~ msgstr "تعذّرت قراءة الملف"
+
+#~ msgid "Unrecognized key type, or invalid data format"
+#~ msgstr "نوع مفتاح لم يُتعرّف عليه"
+
+#~ msgid "Couldn't retrieve data from key server"
+#~ msgstr "تعذّر الحصول على البيانات من خادم المفاتيح"
+
+#~ msgid "Copied %d key"
+#~ msgid_plural "Copied %d keys"
+#~ msgstr[0] "لم تُنسخ أي مفاتيح"
+#~ msgstr[1] "نُسِخ مفتاح واحد"
+#~ msgstr[2] "نُسِخ مفتاحين"
+#~ msgstr[3] "نُسِخ %Id مفاتيح"
+#~ msgstr[4] "نُسِخ %Id مفتاحًا"
+#~ msgstr[5] "نُسِخ %Id مفتاح"
+
+#~ msgid "Retrieving keys"
+#~ msgstr "يجري الحصول على المفاتيح"
+
+#~ msgid "Couldn't export key"
+#~ msgstr "تعذّر تصدير المفتاح"
+
+#~ msgid "Export public key"
+#~ msgstr "صدر المفتاح العلني"
+
+#~ msgid "Couldn't export key to \"%s\""
+#~ msgstr "تعذّر تصدير المفتاح إلى \"%s\""
+
+#~ msgid "Exporting keys"
+#~ msgstr "يجري تصدير المفاتيح"
+
+#~ msgid "Back up Key Rings to Archive"
+#~ msgstr "احفظ حلقة المفاتيح احتياطيا في محفوظة"
+
+#~ msgid "Contributions:"
+#~ msgstr "مساهمات:"
+
+#~ msgid "seahorse"
+#~ msgstr "حصان البحر"
+
+#~ msgid "Selected %d key"
+#~ msgid_plural "Selected %d keys"
+#~ msgstr[0] "لا مفاتيح محددة"
+#~ msgstr[1] "مفتاح واحد محدد"
+#~ msgstr[2] "مفتاحين محددين"
+#~ msgstr[3] "%Id مفاتيح محددة"
+#~ msgstr[4] "%Id مفتاحا محددا"
+#~ msgstr[5] "%Id مفتاح محدد"
+
+#~ msgid "_Key"
+#~ msgstr "_مفتاح"
+
+#~ msgid "_Edit"
+#~ msgstr "_حرِّر"
+
+#~ msgid "_View"
+#~ msgstr "ا_عرض"
+
+#~ msgid "_Create New Key..."
+#~ msgstr "ان_شئ مفتاحًا جديدًا..."
+
+#~ msgid "Create a new personal key"
+#~ msgstr "انشئ مفتاحًا شخصيًا جديدًا"
+
+#~ msgid "_Import..."
+#~ msgstr "ا_ستورد..."
+
+#~ msgid "Import keys into your key ring from a file"
+#~ msgstr "استورد المفاتيح إلى حلقة مفاتيحك من ملف"
+
+#~ msgid "_Back up Key Rings..."
+#~ msgstr "احفظ حلقات المفاتيح احتيا_طيًا..."
+
+#~ msgid "Back up all keys"
+#~ msgstr "انسخ جميع المفاتيح احتياطيًا"
+
+#~ msgid "Paste _Keys"
+#~ msgstr "الصق الم_فاتيح"
+
+#~ msgid "Import keys from the clipboard"
+#~ msgstr "استورد مفاتيح من الحافظة"
+
+#~ msgid "_Quit"
+#~ msgstr "إ_نهِ"
+
+#~ msgid "Close this program"
+#~ msgstr "أغلق هذا البرنامج"
+
+#~ msgid "Prefere_nces"
+#~ msgstr "تف_ضيلات"
+
+#~ msgid "Change preferences for this program"
+#~ msgstr "غيِّر تفضيلات هذا البرنامج"
+
+#~ msgid "About this program"
+#~ msgstr "حوْل هذا البرنامج"
+
+#~ msgid "_Remote"
+#~ msgstr "_بعيد"
+
+#~ msgid "_Contents"
+#~ msgstr "الم_حتويات"
+
+#~ msgid "Show Seahorse help"
+#~ msgstr "أظهر مساعدة حصان البحر"
+
+#~ msgid "T_ypes"
+#~ msgstr "الأ_نواع"
+
+#~ msgid "Show type column"
+#~ msgstr "أظهر عمود النوع"
+
+#~ msgid "_Expiry"
+#~ msgstr "انتهاء ال_صلاحية"
+
+#~ msgid "Show expiry column"
+#~ msgstr "اظهر عمود انتهاء الصلاحية"
+
+#~ msgid "_Trust"
+#~ msgstr "ال_ثقة"
+
+#~ msgid "Show owner trust column"
+#~ msgstr "اظهر عمود ثقة المالك"
+
+#~ msgid "_Validity"
+#~ msgstr "ال_صلاحية"
+
+#~ msgid "Show validity column"
+#~ msgstr "اظهر عمود الصلاحية"
+
+#~ msgid "P_roperties"
+#~ msgstr "خ_صائص"
+
+#~ msgid "Show key properties"
+#~ msgstr "اظهر خصائص المفتاح"
+
+#~ msgid "E_xport Public Key..."
+#~ msgstr "_صدِّر المفتاح العلني..."
+
+#~ msgid "Export public part of key to a file"
+#~ msgstr "صدِّر الجزء العلني من المفتاح لملف"
+
+#~ msgid "_Copy Public Key"
+#~ msgstr "انس_خ المفتاح العلني"
+
+#~ msgid "Copy public part of selected keys to the clipboard"
+#~ msgstr "انسخ الجزء العلني من المفتاح المُنتقى لملف"
+
+#~ msgid "_Delete Key"
+#~ msgstr "اح_ذف المفتاح"
+
+#~ msgid "Delete selected keys"
+#~ msgstr "احذف المفاتيح المنتقاة"
+
+#~ msgid "_Sign..."
+#~ msgstr "_وقِّع..."
+
+#~ msgid "Sign public key"
+#~ msgstr "وقِّع المفتاح العلني"
+
+#~ msgid "Set Up Computer for _Secure Shell..."
+#~ msgstr "اضبط الحاسوب لاستخدام _صدفة آمنة..."
+
+#~ msgid ""
+#~ "Send public Secure Shell key to another machine, and enable logins using "
+#~ "that key."
+#~ msgstr ""
+#~ "أرسل مفتاح الصدفة الآمنة العلني لجهاز آخر، لتُفعِّل الولوج باستخدام هذا "
+#~ "المفتاح."
+
+#~ msgid "_Find Remote Keys..."
+#~ msgstr "اع_ثر على مفاتيح بعيدة..."
+
+#~ msgid "Search for keys on a key server"
+#~ msgstr "ابحث عن مفاتيح في خادم المفاتيح"
+
+#~ msgid "_Sync and Publish Keys..."
+#~ msgstr "_زامن وانشر المفاتيح..."
+
+#~ msgid "Publish and/or synchronize your keys with those online."
+#~ msgstr "انشر و/أو زامن مفاتيحك مع من على الخط."
+
+#~ msgid "<big><b>First time options:</b></big>"
+#~ msgstr "<big><b>خيارات المرة الأولى:</b></big>"
+
+#~ msgid "Filter:"
+#~ msgstr "مرشِّح:"
+
+#~ msgid "Generate a new key of your own: "
+#~ msgstr "ولِّد مفتاحا جديدا لك:"
+
+#~ msgid "Import existing keys from a file:"
+#~ msgstr "استورد مفاتيح موجودة من ملف:"
+
+#~ msgid "My _Personal Keys"
+#~ msgstr "مفاتيحي ال_شخصية"
+
+#~ msgid "Other _Collected Keys"
+#~ msgstr "مفاتيح _مجمّعة أخرى"
+
+#~ msgid "To get started with encryption you will need keys."
+#~ msgstr "لتبدأ بالتعمية ستحتاج مفاتيح."
+
+#~ msgid "_Import"
+#~ msgstr "إ_ستورد"
+
+#~ msgid "_Passwords"
+#~ msgstr "_كلمات السر"
+
+#~ msgid "_Trusted Keys"
+#~ msgstr "المفاتيح المو_ثوق بها"
+
+#~ msgid "Expired"
+#~ msgstr "منتهي الصلاحية"
+
+#~ msgid "User ID"
+#~ msgstr "هوية المستخدم:"
+
+#~ msgid "Couldn't retrieve key data"
+#~ msgstr "تعذّر الحصول على بيانات المفتاح"
+
+#~ msgid "Couldn't write key to file"
+#~ msgstr "تعذّر كتابة المفتاح للملف"
+
+#~ msgid "Validity"
+#~ msgstr "الصلاحية"
+
+#~ msgid "Trust"
+#~ msgstr "الثقة"
+
+#~ msgid "Type"
+#~ msgstr "النّوع"
+
+#~ msgid "Expiration Date"
+#~ msgstr "تاريخ انتهاء الصلاحية"
+
+#~ msgid "Couldn't change primary user ID"
+#~ msgstr "تعذّر تغيير هويّة المستخدم الأوليّة"
+
+#~ msgid "[Unknown]"
+#~ msgstr "[مجهول]"
+
+#~ msgid "Name/Email"
+#~ msgstr "اسم/بريد إلكتروني"
+
+#~ msgid "Signature ID"
+#~ msgstr "هوية التوقيع"
+
+#~ msgid "Couldn't change primary photo"
+#~ msgstr "تعذّر تغيير الصورة الأوّلية"
+
+#~ msgid "(unknown)"
+#~ msgstr "(مجهول)"
+
+#~ msgid "This key expired on: %s"
+#~ msgstr "انتهت صلاحية هذا المفتاح في: %s"
+
+#~ msgid "Unable to change trust"
+#~ msgstr "تعذّر تغيير الثقة"
+
+#~ msgid "Export Complete Key"
+#~ msgstr "صدِّر المفتاح كاملًا"
+
+#~ msgid "ID"
+#~ msgstr "الهوية"
+
+#~ msgid "Created"
+#~ msgstr "تاريخ الإنشاء"
+
+#~ msgid "Expires"
+#~ msgstr "تاريخ انتهاء الصلاحية"
+
+#~ msgid "Status"
+#~ msgstr "الحالة"
+
+#~ msgid "Strength"
+#~ msgstr "الشدة"
+
+#~ msgid "Good"
+#~ msgstr "جيّد"
+
+#~ msgid "Couldn't import keys into key ring"
+#~ msgstr "تعذّر استيراد المفاتيح إلى حلقة المفاتيح"
+
+#~ msgid "Importing keys from key servers"
+#~ msgstr "يجري استيراد المفاتيح من خادم المفاتيح"
+
+#~ msgid "Couldn't write keys to file: %s"
+#~ msgstr "تعذّر كتابة المفاتيح للملف: %s"
+
+#~ msgid "Save Remote Keys"
+#~ msgstr "احفظ المفاتيح البعيدة"
+
+#~ msgid "No matching keys found"
+#~ msgstr "لم يُعثر على مفاتيح مطابقة"
+
+#~ msgid "_Close"
+#~ msgstr "أ_غلق"
+
+#~ msgid "Close this window"
+#~ msgstr "أغلق هذه النافذة"
+
+#~ msgid "_Expand All"
+#~ msgstr "و_سّع الكل"
+
+#~ msgid "Expand all listings"
+#~ msgstr "وسِّع كل السّرْد"
+
+#~ msgid "_Collapse All"
+#~ msgstr "إ_طوِ الكل"
+
+#~ msgid "Collapse all listings"
+#~ msgstr "إطوِ كل السّرْد"
+
+#~ msgid "Import selected keys to local key ring"
+#~ msgstr "استورد المفاتيح المُنتقاة لحلقة المفاتيح المحليّة"
+
+#~ msgid "Save Key As..."
+#~ msgstr "احفظ المفتاح كـ..."
+
+#~ msgid "Save selected keys as a file"
+#~ msgstr "احفظ المفاتيح المنتقاه كملف"
+
+#~ msgid "_Copy Key"
+#~ msgstr "انس_خ المفتاح"
+
+#~ msgid "Copy selected keys to the clipboard"
+#~ msgstr "انسخ المفاتيح المنتقاه للحافظة"
+
+#~ msgid "Remote Keys"
+#~ msgstr "المفاتيح البعيدة"
+
+#~ msgid "Remote Keys Containing '%s'"
+#~ msgstr "المفاتيح البعيدة التي تحتوي على '%s'"
+
+#~ msgid "Remote Encryption Keys"
+#~ msgstr "مفاتيح التعمية البعيدة"
+
+#~ msgid "<b>Key Servers:</b>"
+#~ msgstr "<b>خوادم المفاتيح:</b>"
+
+#~ msgid "<b>Shared Keys Near Me:</b>"
+#~ msgstr "<b>المفاتيح المُشاركة القريبة منِّي</b>"
+
+#~ msgid "Find Remote Keys"
+#~ msgstr "اعثر على مفاتيح بعيدة"
+
+#~ msgid ""
+#~ "This will find keys for others on the Internet. These keys can then be "
+#~ "imported into your local key ring."
+#~ msgstr ""
+#~ "سيُعثر هذا على مفاتيح الآخرين عبى الإنترنت. يُمكن بعد ذلك استيراد هذه "
+#~ "المفاتيح إلى حلقة مفاتيحك المحليّة."
+
+#~ msgid "Where to search:"
+#~ msgstr "مكان البحث:"
+
+#~ msgid "_Search"
+#~ msgstr "ا_بحث"
+
+#~ msgid "_Search for keys containing: "
+#~ msgstr "ا_بحث عن المفاتيح التي تحتوي: "
+
+#~ msgid "Couldn't publish keys to server: %s"
+#~ msgstr "تعذّر نشر المفاتيح في الخادم: %s"
+
+#~ msgid "Couldn't retrieve keys from server: %s"
+#~ msgstr "تعذّر الحصول على المفاتيح من الخادم: %s"
+
+#~ msgid "<b>%d key is selected for synchronizing</b>"
+#~ msgid_plural "<b>%d keys are selected for synchronizing</b>"
+#~ msgstr[0] "<b>لم تُحدّد مفاتيح للمُزامنة</b>"
+#~ msgstr[1] "<b>حُدِّد مفتاح واحد للمُزامنة</b>"
+#~ msgstr[2] "<b>حُدِّد مفتاحين للمُزامنة</b>"
+#~ msgstr[3] "<b>حُدِّدت %Id مفاتيح للمُزامنة</b>"
+#~ msgstr[4] "<b>حُدِّد %Id مفتاحًا للمُزامنة</b>"
+#~ msgstr[5] "<b>حُدِّد %Id مفتاح للمُزامنة</b>"
+
+#~ msgid "Synchronizing keys"
+#~ msgstr "يجري مزامنة المفاتيح"
+
+#~ msgid "Synchronizing keys..."
+#~ msgstr "يجري مزامنة المفاتيح..."
+
+#~ msgid "<b>X keys are selected for synchronizing</b>"
+#~ msgstr "<b>حُدِّد س من المفاتيح للمُزامنة</b>"
+
+#~ msgid "Sync Keys"
+#~ msgstr "زامِن المفاتيح"
+
+#~ msgid ""
+#~ "This will publish the keys in your key ring so they're available for "
+#~ "others to use. You'll also get any changes others have made since you "
+#~ "received their keys."
+#~ msgstr ""
+#~ "سيُنشر هذا المفاتيح في حلقة مفاتيحك لتتوفّر للآخرين ليستخدموها. أيضا ستحصل "
+#~ "على أي تغييرات قام بها الآخرون منذ تلقيّت مفاتيحهم."
+
+#~ msgid ""
+#~ "This will retrieve any changes others have made since you received their "
+#~ "keys. No key server has been chosen for publishing, so your keys will not "
+#~ "be made available to others."
+#~ msgstr ""
+#~ "سيحصل هذا على أي تغييرات قام با الآخرون منذ تلقّيت مفاتيحهم. لم يُحدد أي "
+#~ "خادم مفاتيح للنشر، لذا لن تتوفّر مفاتيحك للآخرون."
+
+#~ msgid "_Key Servers"
+#~ msgstr "_خوادم المفاتيح"
+
+#~ msgid "_Sync"
+#~ msgstr "_زامِن"
+
+#~ msgid "DSA Elgamal"
+#~ msgstr "خوارزمية الجمل للتوقيع الإلكتروني"
+
+#~ msgid "Couldn't generate PGP key"
+#~ msgstr "تعذّر توليد مفتاح PGP"
+
+#~ msgid "Passphrase for New PGP Key"
+#~ msgstr "عبارة السر لمفتاح PGP الجديد"
+
+#~ msgid "Enter the passphrase for your new key twice."
+#~ msgstr "أدخل عبارة السر لمفتاحك الجديد مرتين."
+
+#~ msgid "Couldn't generate key"
+#~ msgstr "تعذّر توليد المفتاح"
+
+#~ msgid "Generating key"
+#~ msgstr "يجري توليد المفتاح"
+
+#~ msgid "<b>_Advanced key options</b>"
+#~ msgstr "<b>خيارات المفتاح ال_متقدّمة</b>"
+
+#~ msgid "A PGP key allows you to encrypt email or files to other people."
+#~ msgstr "يسمح لك مفتاح PGP بتعمية البريد الإلكتروني أو الملفات للآخرين."
+
+#~ msgid "Algorithms here"
+#~ msgstr "الخوازميات هنا"
+
+#~ msgid "C_reate"
+#~ msgstr "أن_شيء"
+
+#~ msgid "Create a PGP Key"
+#~ msgstr "أنشيء مفتاح PGP جديد"
+
+#~ msgid "E_xpiration Date:"
+#~ msgstr "تاريخ ا_نتهاء الصلاحية"
+
+#~ msgid "Encryption _Type:"
+#~ msgstr "_نوع التعمية:"
+
+#~ msgid "Generate a new key"
+#~ msgstr "ولِّد مفتاحًا جديدًا"
+
+#~ msgid "Key _Strength (bits):"
+#~ msgstr "شدة المفتاح (ثنائيات):"
+
+#~ msgid "Ne_ver Expires"
+#~ msgstr "لا تنتهي صلاحيته أ_بدًا"
+
+#~ msgid "New PGP Key"
+#~ msgstr "مفتاح PGP جديد"
+
+#~ msgid "_Comment:"
+#~ msgstr "_تعليق:"
+
+#~ msgid "<b>Actions</b>"
+#~ msgstr "<b>إجراءات</b>"
+
+#~ msgid "<b>Comment:</b>"
+#~ msgstr "<b>تعليق:</b>"
+
+#~ msgid "<b>Dates</b>"
+#~ msgstr "<b>تواريخ</b>"
+
+#~ msgid "<b>Email:</b>"
+#~ msgstr "<b>البريد الإلكتروني:</b>"
+
+#~ msgid "<b>Fingerprint</b>"
+#~ msgstr "<b>البصمة</b>"
+
+#~ msgid "<b>Key ID:</b>"
+#~ msgstr "<b>هوية المفتاح:</b>"
+
+#~ msgid "<b>Key Names and Signatures</b>"
+#~ msgstr "<b>أسماء وتوقيعات المفاتيح</b>"
+
+#~ msgid "<b>Name:</b>"
+#~ msgstr "<b>الاسم:</b>"
+
+#~ msgid "<b>Photo </b>"
+#~ msgstr "<b>صورة </b>"
+
+#~ msgid "<b>Technical Details</b>"
+#~ msgstr "<b>تفاصيل تقنيّة</b>"
+
+#~ msgid "<b>This key has been revoked</b>"
+#~ msgstr "<b>تم ابطال هذا المفتاح</b>"
+
+#~ msgid "<b>This key has expired</b>"
+#~ msgstr "<b>انتهت صلاحية هذا المفتاح</b>"
+
+#~ msgid "<b>Type:</b>"
+#~ msgstr "<b>النوع:</b>"
+
+#~ msgid "<b>Use:</b>"
+#~ msgstr "<b>الاستخدام:</b>"
+
+#~ msgid "<b>_Subkeys</b>"
+#~ msgstr "<b>مفاتيح _فرعية</b>"
+
+#~ msgid "Add"
+#~ msgstr "أضِف"
+
+#~ msgid "Add a photo to this key"
+#~ msgstr "أضِف صورة لهذا المفتاح"
+
+#~ msgid "Change _Passphrase"
+#~ msgstr "غيِّر _عبارة السر"
+
+#~ msgid "Created:"
+#~ msgstr "تاريخ الإنشاء:"
+
+#~ msgid "Decrypt files and email sent to you."
+#~ msgstr "استخرج تعمية الملفات والبريد الإلكتروني المرسل إليك."
+
+#~ msgid "Delete"
+#~ msgstr "احذف"
+
+#~ msgid "Expire"
+#~ msgstr "انهِ صلاحيّته"
+
+#~ msgid "Expires:"
+#~ msgstr "تنتهي صلاحيته:"
+
+#~ msgid "Export"
+#~ msgstr "صدِّر"
+
+#~ msgid "Go to next photo"
+#~ msgstr "إذهب إلى الصورة التالية"
+
+#~ msgid "Go to previous photo"
+#~ msgstr "إذهب إلى الصورة السابقة"
+
+#~ msgid "Key ID:"
+#~ msgstr "هوية المفتاح:"
+
+#~ msgid "Make this photo the primary photo"
+#~ msgstr "ا_جعل هذه الصورة الصورة الأوليّة"
+
+#~ msgid "Names and Signatures"
+#~ msgstr "أسماء وتوقيعات"
+
+#~ msgid "Override Owner _Trust:"
+#~ msgstr "تخطّى _ثقة المالِك:"
+
+#~ msgid "Owner"
+#~ msgstr "المالك"
+
+#~ msgid "Primary"
+#~ msgstr "أوّلي"
+
+#~ msgid "Remove this photo from this key"
+#~ msgstr "ازل هذه الصورة من هذا المفتاح"
+
+#~ msgid "Revoke"
+#~ msgstr "اسحب"
+
+#~ msgid "Strength:"
+#~ msgstr "الشدة:"
+
+#~ msgid "The owner of the key revoked the key. It can no longer be used."
+#~ msgstr "لقد سُحِب هذا المفتح من قِبَل مالِكه. لم يعد من الممكن استخدامه."
+
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginal\n"
+#~ "Full\n"
+#~ "Ultimate"
+#~ msgstr ""
+#~ "مجهول\n"
+#~ "أبدا\n"
+#~ "هامشي\n"
+#~ "كامل\n"
+#~ "نهائي"
+
+#~ msgid "_Add Name"
+#~ msgstr "أ_ضف اسمًا"
+
+#~ msgid "_Export Complete Key:"
+#~ msgstr "_صدِّر المفتاح كاملًا:"
+
+#~ msgid "<b>Dates:</b>"
+#~ msgstr "<b>التواريخ:</b>"
+
+#~ msgid "<b>Fingerprint:</b>"
+#~ msgstr "<b>البصمة:</b>"
+
+#~ msgid "<b>Indicate Trust:</b>"
+#~ msgstr "<b>بيِّن الثقة:</b>"
+
+#~ msgid "<b>Your trust of this key</b>"
+#~ msgstr "<b>ثقتك في هذا المفتاح</b>"
+
+#~ msgid "<b>_Other Names:</b>"
+#~ msgstr "<b>أسما_ء أخرى:</b>"
+
+#~ msgid "<b>_People who have signed this key:</b>"
+#~ msgstr "<b>الأشخاص الذين وقّعوا هذا المفتاح:</b>"
+
+#~ msgid "Encrypt files and email to the key's owner "
+#~ msgstr "عمِّ ملفات وأرسلها إلى مالك المفتاح"
+
+#~ msgid "I have checked that this key belongs to '%s'"
+#~ msgstr "لقد فحصت كون هذا المفتاح ينتمي إلى '%s' "
+
+#~ msgid "I trust signatures from '%s' on other keys "
+#~ msgstr "أثِق بتوقيع '%s' على مفاتيح الآخرين"
+
+#~ msgid ""
+#~ "If you no longer trust this person's identity, <i>revoke</i> your "
+#~ "signature:"
+#~ msgstr "إذا لم تعد تثق في هويّة هذا الشخص؛ <i>اسحب</i> توقيعك."
+
+#~ msgid "To indicate your trust of this key to others, <i>sign</i> this key:"
+#~ msgstr "لتبيّن تقة في هذا المفتاح للآخرين، <i>وقِّع</i> هذا المفتاح."
+
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginally\n"
+#~ "Fully\n"
+#~ "Ultimately"
+#~ msgstr ""
+#~ "مجهول\n"
+#~ "أبدا\n"
+#~ "هامشي\n"
+#~ "كامل\n"
+#~ "نهائي"
+
+#~ msgid "You _Trust the Owner:"
+#~ msgstr "_تثِق في المالك:"
+
+#~ msgid "Your trust is manually specified on the <i>Details</i> tab."
+#~ msgstr "تحدد ثِقتك يدويا في لِسان <i>التفاصيل</i>."
+
+#~ msgid "_Only display the signatures of people I trust"
+#~ msgstr "لا تظهر _سوى توقيعات من أثق بهم"
+
+#~ msgid "_Revoke Signature"
+#~ msgstr "أب_طل التوقيع"
+
+#~ msgid "_Sign this Key"
+#~ msgstr "_وقِّع هذا المفتاح"
+
+#~ msgid ""
+#~ "<big><b>The photo is too large</b></big>\n"
+#~ "The recommended size for a photo on your key is %d x %d pixels."
+#~ msgstr ""
+#~ "<big><b>الصورة كبيرة جدا</b></big>\n"
+#~ "المقاس المنصوح به لمفتاحك هو %Id × %Id بكسِل"
+
+#~ msgid "_Don't Resize"
+#~ msgstr "_لا تُعِد التحجيم"
+
+#~ msgid "_Resize"
+#~ msgstr "أ_عِد التحجيم"
+
+#~ msgid ""
+#~ "This is not a image file, or an unrecognized kind of image file. Try to "
+#~ "use a JPEG image."
+#~ msgstr ""
+#~ "لليس هذا بملف صورة، أو بنوع معروف من مفات الصور. حاوِل استخدام صورة JPEG."
+
+#~ msgid "All image files"
+#~ msgstr "كل ملفات الصور"
+
+#~ msgid "All JPEG files"
+#~ msgstr "كل ملفات JPEG"
+
+#~ msgid "Choose Photo to Add to Key"
+#~ msgstr "اختر صورة لتُضاف إلى المفتاح"
+
+#~ msgid "Couldn't add photo"
+#~ msgstr "تعذّر إضافة الصورة"
+
+#~ msgid "The file could not be loaded. It may be in an invalid format"
+#~ msgstr "تعذّر تحميل الملف. قد يكون بتنسيق غير صالح"
+
+#~ msgid "Are you sure you want to remove the current photo from your key?"
+#~ msgstr "أواثق من رغبتك في حذف الصورة الحالية من المفتاح؟"
+
+#~ msgid "Couldn't delete photo"
+#~ msgstr "تعذّر حذف الصورة"
+
+#~ msgid "Couldn't revoke subkey"
+#~ msgstr "تعذّر سحب المفتاح الفرعي"
+
+#~ msgid "Revoke Subkey %d of %s"
+#~ msgstr "اسحب المفتاح الفرعي %Id من %s"
+
+#~ msgid "Revoke %s"
+#~ msgstr "اسحب %s"
+
+#~ msgid "No reason"
+#~ msgstr "لا سبب"
+
+#~ msgid "No reason for revoking key"
+#~ msgstr "لا سبب لسحب المفتاح"
+
+#~ msgid "Compromised"
+#~ msgstr "معرّض للمخاطِر"
+
+#~ msgid "Key has been compromised"
+#~ msgstr "لقد تعرّض هذا المفتاح للخطر"
+
+#~ msgid "Superseded"
+#~ msgstr "أُلغِي"
+
+#~ msgid "Key has been superseded"
+#~ msgstr "أُلغِي المفتاح"
+
+#~ msgid "Not Used"
+#~ msgstr "غير مُستخدَم"
+
+#~ msgid "Key is no longer used"
+#~ msgstr "لم يعد هذا المفتاح مًستخدما بعد الآن"
+
+#~ msgid ""
+#~ "You are about to add %s as a revoker for %s. This operation cannot be "
+#~ "undone! Are you sure you want to continue?"
+#~ msgstr ""
+#~ "أنت على وشك إضافة %s كمُبطِل لـ %s. لا يمكن التراجع في هذا! أواثق من رغبتك "
+#~ "في المتابعة؟"
+
+#~ msgid "Couldn't add revoker"
+#~ msgstr "تعذّر إضافة المبطل"
+
+#~ msgid "Optional description of revocation"
+#~ msgstr "وصف إختياري للسحب"
+
+#~ msgid "Re_voke"
+#~ msgstr "أَبْ_طِل"
+
+#~ msgid "Reason for revoking the key"
+#~ msgstr "سبب سحب المفتاح"
+
+#~ msgid "_Reason:"
+#~ msgstr "ال_سبب:"
+
+#~ msgid "Couldn't sign key"
+#~ msgstr "تعذّر توقيع المفتاح"
+
+#~ msgid ""
+#~ "You have no personal PGP keys that can be used to indicate your trust of "
+#~ "this key."
+#~ msgstr "لا تملك مفتاح PGP شخصي يُمكن استخدامه ليبيِّن ثقتك في هذا المفتاح."
+
+#~ msgid "<b>How carefully have you checked this key?</b>"
+#~ msgstr "<b>ما مدى حرصك عند فحص هذا المُفتاح؟</b>"
+
+#~ msgid "<b>How others will see this signature:</b>"
+#~ msgstr "<b>كيف سيرى الآخرون هذا التوقيع:</b>"
+
+#~ msgid "<b>Sign key as:</b>"
+#~ msgstr "<b>وقع المفتاح باسم:</b>"
+
+#~ msgid ""
+#~ "<i>Casually:</i> means you have done a casual verification that the key\n"
+#~ "is owned by the person who claims to own it. For example, you could\n"
+#~ "read the key fingerprint to the owner over the phone. "
+#~ msgstr ""
+#~ "<i>معتاد:</i> يعني أنك قمت بتحقق عادي من أن هذا المفتاح\n"
+#~ "ملك للشخص الذي يدِّعي ملكيته. مثلا، قد تقرأ\n"
+#~ "بصمة المفتاح مع المالك عبر الهاتف."
+
+#~ msgid "<i>Key Name</i>"
+#~ msgstr "<i>اسم المفتاح</i>"
+
+#~ msgid ""
+#~ "<i>Not at all:</i> means you believe the key is owned by the person who \n"
+#~ "claims to own it, but you could not or did not verify this to be a fact."
+#~ msgstr ""
+#~ "<i>بتاتًا:</i> يعني أنك تؤمن بأن المفتاح ملك للشخص الذي يدعي ملكيته \n"
+#~ "لكنك لم تستطع أو لم تتحقق من هذه الحقيقة."
+
+#~ msgid ""
+#~ "<i>Very Carefully:</i> Select this only if you are absolutely sure that "
+#~ "this\n"
+#~ "key is genuine."
+#~ msgstr ""
+#~ "<i>بحرص شديد:</i> اختر هذا إذا كنت واثقا بشكل تام من أن هذا\n"
+#~ "المفتاح أصيل."
+
+#~ msgid "By signing you indicate your trust that this key belongs to:"
+#~ msgstr "بالتوقيع تبيِّن أنك تثق في انتماء هذا المفتاح إلى:"
+
+#~ msgid "I can _revoke this signature at a later date."
+#~ msgstr "يمكنني إ_بطال هذا التوقيع في وقت لاحق."
+
+#~ msgid ""
+#~ "You could use a hard to forge photo identification (such as a passport) \n"
+#~ "to personally check that the name on the key is correct. You should \n"
+#~ "have also used email to check that the email address belongs to the\n"
+#~ "owner."
+#~ msgstr ""
+#~ "يمكنك استخدام هوية صورة يصعب تزويرها (مثل جواز السفر) \n"
+#~ "لتتأكد شخصيا من أن الاسم في المفتاح صحيح. يجب أن تكون\n"
+#~ "قد استخدمت البريد أيضا لتتأكد من أن العناوين تخصّ المالك."
+
+#~ msgid "_Casually"
+#~ msgstr "_معتاد"
+
+#~ msgid "_Not at all"
+#~ msgstr "_بتاتا"
+
+#~ msgid "_Others may not see this signature"
+#~ msgstr "يمكن للآ_خرين رؤية هذا التوقيع"
+
+#~ msgid "_Signer:"
+#~ msgstr "ال_مُوقّع:"
+
+#~ msgid "_Very Carefully"
+#~ msgstr "بحر_ص شديد"
+
+#~ msgid "Couldn't generate Secure Shell key"
+#~ msgstr "تعذّر توليد مفتاح صدفة آمنة"
+
+#~ msgid "Creating Secure Shell Key"
+#~ msgstr "يجري إنشاء مفتاح صدفة آمنة"
+
+#~ msgid ""
+#~ "<i>Use your email address, and any other reminder\n"
+#~ " you need about what this key is for.</i>"
+#~ msgstr ""
+#~ "<i>استعمل عناوين بريدك الإلكتروني، وأي مُذكِّر آخر\n"
+#~ "تحتاجه لتعرف لأي شيء هذا المفتاح.</i>"
+
+#~ msgid ""
+#~ "A Secure Shell (SSH) key lets you connect securely to trusted\n"
+#~ "computers using SSH, without entering a different password \n"
+#~ "for each of them."
+#~ msgstr ""
+#~ "يسمح لك مفتاح الصدفة الآمنة (SSH) بالاتصال بشكل آمن بحواسيب\n"
+#~ "موثوقة باستخدام SSH، بدون إدخال كلمة سر مختلفة\n"
+#~ "لكل واحد منهم."
+
+#~ msgid ""
+#~ "If there is already a computer you want to use this key with, you \n"
+#~ "can set up that computer to recognize your key now. "
+#~ msgstr ""
+#~ "إذا كان هناك بالفعل حاسوب ترغب في استعمال هذا المفتاح معه، يمكنك\n"
+#~ "ضبط ذلك الحاسوب ليتعرّف على مفتاحك الآن."
+
+#~ msgid "New Secure Shell Key"
+#~ msgstr "مفتاح صدفة آمنة جديد"
+
+#~ msgid "_Create and Set Up"
+#~ msgstr "أ_نشيء واضبط"
+
+#~ msgid "_Just Create Key"
+#~ msgstr "أنشيء مفتاح _فقط"
+
+#~ msgid "_Key Description:"
+#~ msgstr "و_صف المفتاح:"
+
+#~ msgid "Couldn't rename key."
+#~ msgstr "تعذّر تغيير اسم المفتاح."
+
+#~ msgid "Couldn't change authorization for key."
+#~ msgstr "تعذّر تغيير سماحية المفتاح."
+
+#~ msgid "Couldn't change passhrase for key."
+#~ msgstr "تعذّر تغيير عبارة سر المفتاح."
+
+#~ msgid "/home/nate/.ssh/blah_rsa"
+#~ msgstr "/home/nate/.ssh/blah_rsa"
+
+#~ msgid "00:00:00:00:00"
+#~ msgstr "00:00:00:00:00"
+
+#~ msgid "<b>Algorithm:</b>"
+#~ msgstr "<b>الخوارزمية:</b>"
+
+#~ msgid "<b>Identifier:</b>"
+#~ msgstr "<b>المميز:</b>"
+
+#~ msgid "<b>Location:</b>"
+#~ msgstr "<b>الموقع:</b>"
+
+#~ msgid "<b>Strength:</b>"
+#~ msgstr "<b>الشدة:</b>"
+
+#~ msgid "<b>Trust</b>"
+#~ msgstr "<b>الثقة</b>"
+
+#~ msgid "<i>This only applies to the '%s'</i> account."
+#~ msgstr "<i> ينطبق هذا فقط على حساب '%s'</i>."
+
+#~ msgid "E_xport Complete Key"
+#~ msgstr "_صدِّر المفتاح كاملًا"
+
+#~ msgid "The owner of this key is _authorized to connect to this computer"
+#~ msgstr "يُ_سمح لمالك هذا المفتاح بالاتصال بهذا الحاسوب"
+
+#~ msgid "Used to connect to other computers."
+#~ msgstr "يُستخدم للاتصال بالحواسيب الأخرى."
+
+#~ msgid "Couldn't configure Secure Shell keys on remote computer."
+#~ msgstr "تعذّر إعداد مفتاح الصدفة الآمنة على الحاسوب البعيد."
+
+#~ msgid "Configuring Secure Shell Keys..."
+#~ msgstr "اضبط مفاتيح الصدفة الآمنة..."
+
+#~ msgid "<i>eg: fileserver.example.com</i>"
+#~ msgstr "<i>مثلا: fileserver.example.com</i>"
+
+#~ msgid "Set Up Computer for SSH Connection"
+#~ msgstr "اضبط الحاسوب لاتصال SSH"
+
+#~ msgid ""
+#~ "To use your Secure Shell key with another computer that\n"
+#~ "uses SSH, you must already have a login account on that \n"
+#~ "computer."
+#~ msgstr ""
+#~ "لتستخدم مفتاح الصدفة الآمنة خاصتك مع حاسوب آخر\n"
+#~ "يستخدم SSH، يجب أن يكون لك بالفعل حساب ولوج على\n"
+#~ "ذاك الحاسوب."
+
+#~ msgid "_Computer Name:"
+#~ msgstr "اسم ال_حاسوب:"
+
+#~ msgid "_Login Name:"
+#~ msgstr "اسم ال_ولوج:"
+
+#~ msgid "_Set Up"
+#~ msgstr "_ركِّب"

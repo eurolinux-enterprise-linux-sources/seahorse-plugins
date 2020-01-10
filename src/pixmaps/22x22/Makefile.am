@@ -1,0 +1,25 @@
+
+icon22dir = $(datadir)/pixmaps/seahorse-plugins/22x22/
+icon22_DATA = seahorse-applet-encrypted.png \
+                seahorse-applet-key.png \
+                seahorse-applet-signed.png \
+                seahorse-applet-text.png \
+                seahorse-applet-unknown.png \
+                seahorse-key.png \
+                seahorse-key-personal.png \
+                seahorse-sign.png \
+                seahorse-sign-ok.png \
+                seahorse-sign-bad.png
+
+iconsrc =       seahorse-applet-encrypted.svg \
+                seahorse-applet-key.svg \
+                seahorse-applet-signed.svg \
+                seahorse-applet-text.svg \
+                seahorse-applet-unknown.svg \
+                seahorse-key.svg \
+                seahorse-key-personal.svg \
+                seahorse-sign.svg \
+                seahorse-sign-ok.svg \
+                seahorse-sign-bad.svg
+             
+EXTRA_DIST = $(iconsrc) $(icon22_DATA)

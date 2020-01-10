@@ -1,0 +1,1173 @@
+# translation of eu.po to Basque
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: eu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-28 15:46+0200\n"
+"PO-Revision-Date: 2008-08-28 16:33+0200\n"
+"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
+"Language-Team: Basque <itzulpena@euskalgnu.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../agent/seahorse-agent-actions.c:120
+msgid "Passphrase:"
+msgstr "Pasaesaldia:"
+
+#: ../agent/seahorse-agent-actions.c:121
+msgid "Please enter a passphrase to use."
+msgstr "Idatzi erabili beharreko pasaesaldia."
+
+#: ../agent/seahorse-agent-cache.c:66
+msgid "Unparseable Key ID"
+msgstr "Gako IDa ezin da analizatu"
+
+#: ../agent/seahorse-agent-cache.c:67
+msgid "Unknown/Invalid Key"
+msgstr "Gakoa ezezaguna edo baliogabea da"
+
+#: ../agent/seahorse-agent-cache.c:533
+#, c-format
+msgid "PGP Key: %s"
+msgstr "PGP gakoa: %s"
+
+#: ../agent/seahorse-agent-cache.glade.h:1
+msgid ""
+"<b>Warning</b>: Your system is not configured to cache passphrases in secure "
+"memory."
+msgstr ""
+"<b>Kontuz</b>: sistema ez dago konfiguratua pasaesaldiak cache memoria "
+"seguruan gordetzeko."
+
+#: ../agent/seahorse-agent-cache.glade.h:2
+msgid "Cache _Preferences"
+msgstr "Cache _hobespenak"
+
+#: ../agent/seahorse-agent-cache.glade.h:3
+msgid "Cached Encryption Keys"
+msgstr "Cache memoriako enkriptatze-gakoak"
+
+#: ../agent/seahorse-agent-cache.glade.h:4
+msgid "Change passphrase cache settings."
+msgstr "Aldatu pasaesaldien cache-ezarpenak."
+
+#: ../agent/seahorse-agent-cache.glade.h:5
+msgid "Clear passphrase cache"
+msgstr "Garbitu pasaesaldien cachea"
+
+#: ../agent/seahorse-agent-cache.glade.h:6
+msgid "_Clear Cache"
+msgstr "_Garbitu cachea"
+
+#: ../agent/seahorse-agent-cache.glade.h:7
+msgid "_Show Window"
+msgstr "_Erakutsi leihoa"
+
+#: ../agent/seahorse-agent-main.c:52
+msgid "Do not daemonize seahorse-agent"
+msgstr "Ez utzi seahorse-agent daemon gisa funtzionatzen"
+
+#: ../agent/seahorse-agent-main.c:56
+msgid "Print variables in for a C type shell"
+msgstr "Erakutsi aldagaiak C motako shell batentzat"
+
+#: ../agent/seahorse-agent-main.c:60
+msgid "Display environment variables (the default)"
+msgstr "Bistaratu inguruneko aldagaiak (lehenetsia)"
+
+#: ../agent/seahorse-agent-main.c:63
+msgid "Execute other arguments on the command line"
+msgstr "Exekutatu beste argumentu batzuk komando-lerroan"
+
+#: ../agent/seahorse-agent-main.c:67
+msgid "Allow GPG agent request from any display"
+msgstr "Utzi GPG agenteari edozein pantailan eskaera egiten"
+
+#: ../agent/seahorse-agent-main.c:70
+msgid "command..."
+msgstr "komandoa..."
+
+#: ../agent/seahorse-agent-main.c:108
+msgid "couldn't fork process"
+msgstr "ezin izan da prozesua sardetu"
+
+#: ../agent/seahorse-agent-main.c:114
+msgid "couldn't create new process group"
+msgstr "ezin izan da prozesu-talde berria sortu"
+
+#: ../agent/seahorse-agent-main.c:240
+msgid "Encryption Key Agent (Seahorse)"
+msgstr "Enkriptatze-gakoen agentea (Seahorse)"
+
+#: ../agent/seahorse-agent-main.c:246
+msgid "no command specified to execute"
+msgstr "ez da exekutatzeko komandorik adierazi"
+
+#: ../agent/seahorse-agent-prompt.c:216
+msgid "Authorize Passphrase Access"
+msgstr "Baimendu pasaesaldia atzitzea"
+
+#: ../agent/seahorse-agent-prompt.c:252
+msgid "The passphrase is cached in memory."
+msgstr "Pasaesaldia cache memorian dago."
+
+#: ../agent/seahorse-agent-prompt.c:257
+msgid "Always ask me before using a cached passphrase"
+msgstr "Galdetu beti cache memoriako pasaesaldia erabili aurretik"
+
+#: ../agent/seahorse-agent-prompt.c:274
+msgid "_Authorize"
+msgstr "_Baimendu"
+
+#. Make the uid column
+#: ../agent/seahorse-agent-status.c:145
+msgid "Key Name"
+msgstr "Gakoaren izena"
+
+#: ../data/seahorse-plugins.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"Urruneko PGP gakoak bilatzeko gako-zerbitzarien URIen zerrenda. Bertsio "
+"berrienetan bistaratze-izena sar daiteke, zuriune bat erantsi eta, ondoren, "
+"izena jarrita."
+
+#: ../data/seahorse-plugins.schemas.in.h:2
+msgid ""
+"After performing an decrypt or verify operation from the applet, display the "
+"resulting text in a window."
+msgstr ""
+"Miniaplikazio batek desenkriptatze- edo egiaztatze-eragiketa bat egitean, "
+"bistaratu testua leiho batean."
+
+#: ../data/seahorse-plugins.schemas.in.h:3
+msgid ""
+"After performing an encrypt or signing operation from the applet, display "
+"the resulting text in a window."
+msgstr ""
+"Miniaplikazio batek enkriptatze- edo egiaztatze-eragiketa bat egitean, "
+"bistaratu testua leiho batean."
+
+#: ../data/seahorse-plugins.schemas.in.h:4
+msgid "Display cache reminder in the notification area"
+msgstr "Bistaratu cache-abisua jakinarazpen-arean"
+
+#: ../data/seahorse-plugins.schemas.in.h:5
+msgid "Display clipboard after decrypting"
+msgstr "Bistaratu arbela desenkriptatu ondoren"
+
+#: ../data/seahorse-plugins.schemas.in.h:6
+msgid "Display clipboard after encrypting"
+msgstr "Bistaratu arbela enkriptatu ondoren"
+
+#: ../data/seahorse-plugins.schemas.in.h:7
+msgid "Expire passwords in the cache"
+msgstr "Iraungi cacheko pasahitzak"
+
+#: ../data/seahorse-plugins.schemas.in.h:8
+msgid "ID of the default key"
+msgstr "Gako lehenetsiaren IDa"
+
+#: ../data/seahorse-plugins.schemas.in.h:9
+msgid ""
+"If set to 'gnome' uses gnome-keyring to cache passwords. When set to "
+"'internal' uses internal cache."
+msgstr ""
+"'gnome' jarriz gero, gnome-ren gako sorta erabiltzen du pasahitzak cachean "
+"gordetzeko.  'Internal' jartzen badu, barneko cachea erabiltzen du."
+
+#: ../data/seahorse-plugins.schemas.in.h:10
+msgid ""
+"If set to true, then files encrypted with seahorse will be ASCII armor "
+"encoded."
+msgstr ""
+"Egia ezartzen bada, ASCII kodeketa blindatua izango dute seahorse-k "
+"enkriptatutako fitxategiek."
+
+#: ../data/seahorse-plugins.schemas.in.h:11
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"Egia ezartzen bada, beti gehituko zaio gako lehenetsia enkriptaketen "
+"hartzaileen zerrendari."
+
+#: ../data/seahorse-plugins.schemas.in.h:12
+msgid "Last key used to sign a message."
+msgstr "Mezu bat sinatzeko erabilitako azken gakoa."
+
+#: ../data/seahorse-plugins.schemas.in.h:13
+msgid "PGP Key servers"
+msgstr "PGP gako-zerbitzariak"
+
+#: ../data/seahorse-plugins.schemas.in.h:14
+msgid "Prompt before using GPG passwords in cache"
+msgstr "Galdetu cacheko GPG pasahitzak erabili aurretik"
+
+#: ../data/seahorse-plugins.schemas.in.h:15
+msgid ""
+"Reflect the contents of the clipboard (whether encrypted, signed, etc...) in "
+"the panel applet icon."
+msgstr ""
+"Islatu arbeleko edukiak (enkriptatua, sinatua eta abar dagoen) "
+"miniaplikazioaren panel-ikonoan."
+
+#: ../data/seahorse-plugins.schemas.in.h:16
+msgid ""
+"Set to 'true' to enable display of the cache reminder in the notification "
+"area of your panel."
+msgstr ""
+"'Egia' ezartzen bada, panelaren jakinarazpen-arean cache-abisua bistaratzea "
+"gaitzen da."
+
+#: ../data/seahorse-plugins.schemas.in.h:17
+msgid ""
+"Set to 'true' to have seahorse-agent prompt before giving out passwords it "
+"has cached."
+msgstr ""
+"'Egia' ezartzen bada, cachean dituen pasahitzak erabili aurretik galdetu "
+"egiten du seahorse-agent-ek."
+
+#: ../data/seahorse-plugins.schemas.in.h:18
+msgid "Show clipboard state in panel"
+msgstr "Erakutsi panelean arbelaren egoera"
+
+#: ../data/seahorse-plugins.schemas.in.h:19
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"Adierazi zein zutaberen arabera ordenatu behar den hartzaileen leihoa. Hauek "
+"dira zutabeak: Izena eta IDa. Jarri '-' zutabe-izenaren aurrean beherantz "
+"ordenatzeko."
+
+#: ../data/seahorse-plugins.schemas.in.h:20
+msgid "The ID of the last secret key used to sign a message."
+msgstr "Mezu bat sinatzeko erabilitako azken gako sekretuaren IDa."
+
+#: ../data/seahorse-plugins.schemas.in.h:21
+msgid "The column to sort the recipients by"
+msgstr "Hartzaileak zutabe horren arabera ordenatzen dira"
+
+#: ../data/seahorse-plugins.schemas.in.h:22
+msgid "The time (in minutes) to cache GPG passwords"
+msgstr "GPG pasahitzek cachean irauten duten denbora (minututan)"
+
+#: ../data/seahorse-plugins.schemas.in.h:23
+msgid ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"seahorse-agent."
+msgstr ""
+"Seahorse-agent-eko GPG pasahitzek cachean zenbat denbora irauten duten "
+"adierazten dut horrek, minututan."
+
+#: ../data/seahorse-plugins.schemas.in.h:24
+msgid ""
+"This option enables the GPG password cache in the seahorse-agent program. "
+"The 'use-agent' setting in gpg.conf affects this setting."
+msgstr ""
+"Aukera honek GPG pasahitzen cachea gaitzen du seahorse-agent programan. gpg."
+"conf-eko 'use-agent' ezarpenak eragina du ezarpen honetan."
+
+#: ../data/seahorse-plugins.schemas.in.h:25
+msgid "This specifies the default key to use for certain operations, mainly signing."
+msgstr ""
+"Eragiketa jakinetan (batez ere sinatzean) erabili beharreko gako lehenetsia "
+"zehazten du honek."
+
+#: ../data/seahorse-plugins.schemas.in.h:26
+msgid ""
+"When set, seahorse-agent expires GPG passwords in its cache after a period "
+"of time."
+msgstr ""
+"Ezarria badago, cacheko GPG pasahitzak iraungitzen ditu seahorse-agent-ek "
+"epe baten buruan."
+
+#: ../data/seahorse-plugins.schemas.in.h:27
+msgid "Where to store cached passwords."
+msgstr "Cacheko pasahitzak biltegiratzeko tokia."
+
+#: ../data/seahorse-plugins.schemas.in.h:28
+msgid "Whether the GPG password cache is enabled"
+msgstr "GPG pasahitzen cachea gaitua dagoen ala ez adierazten du"
+
+#: ../data/seahorse-plugins.schemas.in.h:29
+msgid "Whether to always encrypt to default key"
+msgstr "Beti gako lehenetsiaren arabera enkriptatu behar den ala ez adierazten du"
+
+#: ../data/seahorse-plugins.schemas.in.h:30
+msgid "Whether to use ASCII Armor"
+msgstr "ASCII blindajea erabili behar den ala ez adierazten du"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:1
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<b>Hainbat fitxategi edo karpeta hautatu duzu</b>"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:2
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr ""
+"Fitxategiak elkarrengandik urrun kokatuak daudenez, fitxategi bakoitza bere "
+"aldetik enkriptatuko da."
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:3
+msgid "Encrypt Multiple Files"
+msgstr "Enkriptatu fitxategi bat baino gehiago"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:4
+msgid "Encrypt each file separately"
+msgstr "Enkriptatu fitxategi bakoitza bere aldetik"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:5
+msgid "Encrypt packed together in a package"
+msgstr "Enkriptatu elkarrekin paketatuta"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:6
+msgid "Package Name:"
+msgstr "Pakete-izena:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:7
+msgid "Packaging:"
+msgstr "Paketatzea:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:8
+msgid "encrypted-package"
+msgstr "pakete enkriptatua"
+
+#: ../libseahorse/seahorse-notification.c:573
+#: ../libseahorse/seahorse-notification.c:598
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Gakoa inportatu da"
+msgstr[1] "Gakoak inportatu dira"
+
+#: ../libseahorse/seahorse-notification.c:577
+#: ../libseahorse/seahorse-notification.c:597
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "Gako %i inportatu da"
+msgstr[1] "%i gako inportatu dira"
+
+#: ../libseahorse/seahorse-notification.c:579
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "Gako bat inportatu da honetarako:"
+msgstr[1] "Gakoak inportatu dira honetarako:"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:614
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "<i><key id='%s'/></i>(e)k sinatua, %s(e)an <i><b>iraungia</b></i>."
+
+#: ../libseahorse/seahorse-notification.c:615
+msgid "Invalid Signature"
+msgstr "Sinadura baliogabea"
+
+#: ../libseahorse/seahorse-notification.c:621
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "<i><key id='%s'/></i>(e)k %s(e)an sinatua; <b>iraungia</b>."
+
+#: ../libseahorse/seahorse-notification.c:622
+msgid "Expired Signature"
+msgstr "Sinadura iraungia"
+
+#: ../libseahorse/seahorse-notification.c:628
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "<i><key id='%s'/></i>(e)k sinatua, %s(e)an <i><b>errebokatua</b></i>."
+
+#: ../libseahorse/seahorse-notification.c:629
+msgid "Revoked Signature"
+msgstr "Sinadura errebokatua"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:635
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "<i><key id='%s'/></i>(e)k %s(e)an sinatua."
+
+#: ../libseahorse/seahorse-notification.c:636
+msgid "Good Signature"
+msgstr "Sinadura zuzena"
+
+#: ../libseahorse/seahorse-notification.c:641
+msgid "Signing key not in keyring."
+msgstr "Sinatzeko gakoa ez dago gako sortan."
+
+#: ../libseahorse/seahorse-notification.c:642
+msgid "Unknown Signature"
+msgstr "Sinadura ezezaguna"
+
+#: ../libseahorse/seahorse-notification.c:646
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "Sinadura okerra edo faltsutua. Sinatutako datuak aldatu egin dira."
+
+#: ../libseahorse/seahorse-notification.c:647
+msgid "Bad Signature"
+msgstr "Sinadura okerra"
+
+#: ../libseahorse/seahorse-notification.c:655
+msgid "Couldn't verify signature."
+msgstr "Ezin izan da sinadura egiaztatu."
+
+#: ../libseahorse/seahorse-notify.glade.h:1
+msgid "Notification Messages"
+msgstr "Jakinarazpen-mezuak"
+
+#: ../libseahorse/seahorse-passphrase.c:174
+msgid "Passphrase"
+msgstr "Pasaesaldia"
+
+#: ../libseahorse/seahorse-passphrase.c:177
+msgid "Password:"
+msgstr "Pasahitza:"
+
+#: ../libseahorse/seahorse-passphrase.c:241
+msgid "Confirm:"
+msgstr "Berretsi:"
+
+#: ../libseahorse/seahorse-passphrase.c:324
+#, c-format
+msgid "Wrong passphrase."
+msgstr "Pasaesaldi okerra."
+
+#: ../libseahorse/seahorse-passphrase.c:328
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Idatzi '%s'(r)en pasaesaldi berria"
+
+#: ../libseahorse/seahorse-passphrase.c:330
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "Idatzi '%s'(r)en pasaesaldia"
+
+#: ../libseahorse/seahorse-passphrase.c:333
+msgid "Enter new passphrase"
+msgstr "Idatzi pasaesaldi berria"
+
+#: ../libseahorse/seahorse-passphrase.c:335
+msgid "Enter passphrase"
+msgstr "Idatzi pasaesaldia"
+
+#: ../libseahorse/seahorse-prefs.c:100
+msgid "None. Prompt for a key."
+msgstr "Bat ere ez. Eskatu gakoa."
+
+#: ../libseahorse/seahorse-prefs.glade.h:1
+msgid "<b>Default Key</b>"
+msgstr "<b>Gako lehenetsia</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:2
+msgid "<b>Remember PGP Passphrases</b>"
+msgstr "<b>Gogoratu PGP pasaesaldiak</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:3
+msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+msgstr "<i>PGP pasahitzak cachean gordetzeko onartutako agentea ez dago martxan.</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:4
+msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+msgstr ""
+"<i>Gako hori erabiltzen da mezuak sinatzeko, beste gakorik aukeratu ez bada</"
+"i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:5
+msgid "As_k me before using a cached passphrase"
+msgstr "_Galdetu niri cache memoriako pasaesaldia erabili aurretik"
+
+#: ../libseahorse/seahorse-prefs.glade.h:6
+msgid "Encryption"
+msgstr "Enkriptatzea"
+
+#: ../libseahorse/seahorse-prefs.glade.h:7
+msgid "PGP Passphrases"
+msgstr "PGP pasaesaldia"
+
+#: ../libseahorse/seahorse-prefs.glade.h:8
+msgid "Password and Encryption Settings"
+msgstr "Pasahitz- eta enkriptatze-ezarpenak"
+
+#: ../libseahorse/seahorse-prefs.glade.h:9
+msgid "Show _icon in status area when passphrases are in memory"
+msgstr "Erakutsi _ikonoa egoeraren arean pasahitzak memorian daudenean"
+
+#: ../libseahorse/seahorse-prefs.glade.h:10
+msgid "When _encrypting, always include myself as a recipient"
+msgstr "_Enkriptatzean, sartu beti nire burua hartzaile gisa"
+
+#: ../libseahorse/seahorse-prefs.glade.h:11
+msgid "_Always remember passphrases whenever logged in"
+msgstr "_Beti gogoratu pasaesaldiak saioak iraun bitartean"
+
+#: ../libseahorse/seahorse-prefs.glade.h:12
+msgid "_Default key:"
+msgstr "_Gako lehenetsia:"
+
+#: ../libseahorse/seahorse-prefs.glade.h:13
+msgid "_Never remember passphrases"
+msgstr "_Inoiz ere ez gogoratu pasaesaldiak"
+
+#: ../libseahorse/seahorse-prefs.glade.h:14
+msgid "_Remember passphrases for"
+msgstr "_Gogoratu pasaesaldiak "
+
+#: ../libseahorse/seahorse-prefs.glade.h:15
+msgid "minutes"
+msgstr "minutuz"
+
+#: ../libseahorse/seahorse-progress.glade.h:1
+msgid "Progress Title"
+msgstr "Progresioaren izenburua"
+
+#: ../libseahorse/seahorse-util.c:168
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "Huts egin du desenkriptatzean. Segur aski desenkriptatzeko gakoa falta duzu."
+
+#: ../libseahorse/seahorse-util.c:218
+msgid "%Y-%m-%d"
+msgstr "%3$d-%2$m-%1$Y"
+
+#: ../libseahorse/seahorse-util.c:637
+msgid "Couldn't run file-roller"
+msgstr "Ezin izan da file-roller exekutatu"
+
+#: ../libseahorse/seahorse-util.c:642
+#: ../plugins/nautilus/seahorse-tool-files.c:872
+msgid "Couldn't package files"
+msgstr "Ezin izan dira fitxategiak paketatu"
+
+#: ../libseahorse/seahorse-util.c:643
+msgid "The file-roller process did not complete successfully"
+msgstr "File-roller prozesua ez da behar bezala osatu"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libseahorse/seahorse-util.c:703
+msgid "All key files"
+msgstr "Gako-fitxategi guztiak"
+
+#: ../libseahorse/seahorse-util.c:710 ../libseahorse/seahorse-util.c:750
+msgid "All files"
+msgstr "Fitxategi guztiak"
+
+#: ../libseahorse/seahorse-util.c:743
+msgid "Archive files"
+msgstr "Artxibo-fitxategiak"
+
+#: ../libseahorse/seahorse-util.c:772
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>Badago lehendik izen hori duen fitxategi bat.</b>\n"
+"\n"
+"Fitxategi berriarekin ordeztu nahi duzu?"
+
+#: ../libseahorse/seahorse-util.c:775
+msgid "_Replace"
+msgstr "_Ordeztu"
+
+#: ../libseahorse/seahorse-widget.c:322
+#, c-format
+msgid "Could not display help: %s"
+msgstr "Ezin izan da laguntza erakutsi: %s"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:1
+msgid "Clipboard Text Encryption"
+msgstr "Arbeleko testua enkriptatzea"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:2
+msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+msgstr ""
+"Enkriptatu, desenkriptatu edo sinatu arbela (PGP motako enkriptaketa "
+"erabiltzen du)."
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:3
+msgid "Seahorse Applet Factory"
+msgstr "Miniaplikazioen Seahorse fabrika"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:1
+msgid "_About"
+msgstr "Honi _buruz"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:2
+msgid "_Help"
+msgstr "_Laguntza"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:3
+msgid "_Preferences"
+msgstr "_Hobespenak"
+
+#: ../plugins/applet/seahorse-applet.c:276
+#: ../plugins/applet/seahorse-applet.c:711
+#, c-format
+msgid "Could not display URL: %s"
+msgstr "Ezin izan da URLa bistaratu: %s"
+
+#: ../plugins/applet/seahorse-applet.c:312
+msgid "seahorse-applet"
+msgstr "Seahorse miniaplikazioa"
+
+#: ../plugins/applet/seahorse-applet.c:314
+#: ../plugins/applet/seahorse-applet.c:867
+msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+msgstr ""
+"Erabili PGP/GPG arbela enkriptatzeko/desenkriptatzeko/sinatzeko/egiaztatzeko/"
+"inportatzeko."
+
+#: ../plugins/applet/seahorse-applet.c:319
+msgid "translator-credits"
+msgstr "Hizkuntza Politikarako Sailburuordetza <hizkpol@ej-gv.es>"
+
+#: ../plugins/applet/seahorse-applet.c:322
+msgid "Seahorse Project Homepage"
+msgstr "Seahorse proiektuaren etxeko orria"
+
+#. Get the recipient list
+#: ../plugins/applet/seahorse-applet.c:381
+#: ../plugins/epiphany/seahorse-extension.c:257
+#: ../plugins/gedit/seahorse-gedit.c:335
+msgid "Choose Recipient Keys"
+msgstr "Aukeratu hartzaileen gakoak"
+
+#: ../plugins/applet/seahorse-applet.c:400
+msgid "Encrypted Text"
+msgstr "Testu enkriptatua"
+
+#: ../plugins/applet/seahorse-applet.c:402
+msgid "Encryption Failed"
+msgstr "Huts egin du enkriptatzean"
+
+#: ../plugins/applet/seahorse-applet.c:403
+msgid "The clipboard could not be encrypted."
+msgstr "Ezin izan da arbela enkriptatu."
+
+#: ../plugins/applet/seahorse-applet.c:440
+#: ../plugins/epiphany/seahorse-extension.c:307
+#: ../plugins/gedit/seahorse-gedit.c:627
+msgid "Choose Key to Sign with"
+msgstr "Aukeratu sinatzeko gakoa"
+
+#: ../plugins/applet/seahorse-applet.c:460
+msgid "Signed Text"
+msgstr "Testu sinatua"
+
+#: ../plugins/applet/seahorse-applet.c:462
+msgid "Signing Failed"
+msgstr "Huts egin du sinatzean"
+
+#: ../plugins/applet/seahorse-applet.c:463
+msgid "The clipboard could not be Signed."
+msgstr "Ezin izan da arbela sinatu."
+
+#: ../plugins/applet/seahorse-applet.c:506
+#: ../plugins/epiphany/seahorse-extension.c:351
+#: ../plugins/nautilus/seahorse-tool.c:443
+msgid "Import Failed"
+msgstr "Huts egin du inportatzean"
+
+#: ../plugins/applet/seahorse-applet.c:507
+#: ../plugins/epiphany/seahorse-extension.c:352
+#: ../plugins/nautilus/seahorse-tool.c:444
+msgid "Keys were found but not imported."
+msgstr "Gakoak aurkitu dira, baina ez dira inportatu."
+
+#: ../plugins/applet/seahorse-applet.c:543
+#: ../plugins/epiphany/seahorse-extension.c:390
+msgid "Decrypting Failed"
+msgstr "Huts egin du desenkriptatzean"
+
+#: ../plugins/applet/seahorse-applet.c:544
+#: ../plugins/epiphany/seahorse-extension.c:391
+msgid "Text may be malformed."
+msgstr "Litekeena da testua gaizki eratua egotea."
+
+#: ../plugins/applet/seahorse-applet.c:600
+msgid "No PGP key or message was found on clipboard"
+msgstr "Arbelean ez da aurkitu PGP gakorik edo mezurik"
+
+#: ../plugins/applet/seahorse-applet.c:601
+msgid "No PGP data found."
+msgstr "Ez da PGP daturik aurkitu."
+
+#. TRANSLATORS: This means 'The text that was decrypted'
+#: ../plugins/applet/seahorse-applet.c:638
+msgid "Decrypted Text"
+msgstr "Testu desenkriptatua"
+
+#: ../plugins/applet/seahorse-applet.c:779
+msgid "_Encrypt Clipboard"
+msgstr "_Enkriptatu arbela"
+
+#: ../plugins/applet/seahorse-applet.c:786
+msgid "_Sign Clipboard"
+msgstr "_Sinatu arbela"
+
+#: ../plugins/applet/seahorse-applet.c:793
+msgid "_Decrypt/Verify Clipboard"
+msgstr "_Desenkriptatu/Egiaztatu arbela"
+
+#: ../plugins/applet/seahorse-applet.c:799
+msgid "_Import Keys from Clipboard"
+msgstr "_Inportatu arbeleko gakoak"
+
+#: ../plugins/applet/seahorse-applet.c:864
+#: ../plugins/applet/seahorse-applet.c:866
+msgid "Encryption Applet"
+msgstr "Enkriptatzeko miniaplikazioa"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:1
+msgid "<b>Display clipboard contents after:</b>"
+msgstr "<b>Bistaratu arbelaren edukia honen ondoren:</b>"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:2
+msgid "Clipboard Encryption Preferences"
+msgstr "Arbela enkriptatzeko hobespenak"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:3
+msgid "_Decrypting the clipboard"
+msgstr "Arbela _desenkriptatzea"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:4
+msgid "_Encrypting or signing the clipboard"
+msgstr "_Arbela enkriptatzea edo sinatzea"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:5
+msgid "_Show clipboard state in panel"
+msgstr "_Erakutsi panelean arbelaren egoera"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:6
+msgid "_Verifying the clipboard"
+msgstr "Arbela _egiaztatzea"
+
+#: ../plugins/epiphany/seahorse-extension.c:640
+msgid "_Encrypt"
+msgstr "_Enkriptatu"
+
+#: ../plugins/epiphany/seahorse-extension.c:647
+msgid "_Sign"
+msgstr "_Sinatu"
+
+#: ../plugins/epiphany/seahorse-extension.c:654
+msgid "_Decrypt/Verify"
+msgstr "_Desenkriptatu/Egiaztatu"
+
+#: ../plugins/epiphany/seahorse-extension.c:661
+msgid "_Import Key"
+msgstr "_Inportatu gakoa"
+
+#: ../plugins/gedit/seahorse-gedit.c:265
+msgid "Couldn't connect to seahorse-daemon"
+msgstr "Ezin izan da Seahorse daemon-arekin konektatu"
+
+#: ../plugins/gedit/seahorse-gedit.c:357
+msgid "Encrypted text"
+msgstr "Testu enkriptatua"
+
+#: ../plugins/gedit/seahorse-gedit.c:360
+msgid "Couldn't encrypt text"
+msgstr "Ezin izan da testua enkriptatu"
+
+#: ../plugins/gedit/seahorse-gedit.c:390
+msgid "Couldn't import keys"
+msgstr "Ezin izan dira gakoak inportatu"
+
+#: ../plugins/gedit/seahorse-gedit.c:399
+msgid "Keys found but not imported"
+msgstr "Gakoak aurkitu dira, baina ez dira inportatu"
+
+#: ../plugins/gedit/seahorse-gedit.c:438
+msgid "Couldn't decrypt text"
+msgstr "Ezin izan da testua desenkriptatu"
+
+#: ../plugins/gedit/seahorse-gedit.c:475
+msgid "Couldn't verify text"
+msgstr "Ezin izan da testua egiaztatu"
+
+#: ../plugins/gedit/seahorse-gedit.c:523
+msgid "No encrypted or signed text is selected."
+msgstr "Ez da testu enkriptaturik edo sinaturik hautatu."
+
+#: ../plugins/gedit/seahorse-gedit.c:553
+msgid "Decrypted text"
+msgstr "Testu desenkriptatua"
+
+#: ../plugins/gedit/seahorse-gedit.c:560
+msgid "Verified text"
+msgstr "Testu egiaztatua"
+
+#: ../plugins/gedit/seahorse-gedit.c:595
+#: ../plugins/nautilus/seahorse-tool.c:469
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] "Gako %d inportatu da"
+msgstr[1] "%d gako inportatu dira"
+
+#: ../plugins/gedit/seahorse-gedit.c:649
+msgid "Signed text"
+msgstr "Testu sinatua"
+
+#: ../plugins/gedit/seahorse-gedit.c:652
+msgid "Couldn't sign text"
+msgstr "Ezin izan da testua sinatu"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:133
+msgid "_Encrypt..."
+msgstr "_Enkriptatu..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:134
+msgid "Encrypt the selected text"
+msgstr "Enkriptatu hautatutako testua"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:135
+msgid "Decr_ypt/Verify"
+msgstr "_Desenkriptatu/Egiaztatu"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:136
+msgid "Decrypt and/or Verify text"
+msgstr "Desenkriptatu eta/edo egiaztatu testua"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:137
+msgid "Sig_n..."
+msgstr "_Sinatu..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:138
+msgid "Sign the selected text"
+msgstr "Sinatu hautatutako testua"
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:1
+msgid "Enable the seahorse encryption plugin for gedit."
+msgstr "Gaitu gedit-entzako Seahorse-ren enkriptatzeko plugina."
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:2
+msgid "Enable the seahorse gedit plugin"
+msgstr "Gaitu gedit-entzako Seahorse-ren plugina"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:1
+msgid "Text Encryption"
+msgstr "Testu-enkriptaketa"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:2
+msgid "This plugin performs encryption operations on text."
+msgstr "Plugin honek testuak enkriptatzen ditu."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:158
+msgid "Encrypt..."
+msgstr "Enkriptatu..."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:159
+msgid "Encrypt (and optionally sign) the selected file"
+msgid_plural "Encrypt the selected files"
+msgstr[0] "Enkriptatu (eta, aukeran, sinatu) hautatutako fitxategia"
+msgstr[1] "Enkriptatu hautatutako fitxategiak"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:165
+msgid "Sign"
+msgstr "Sinatu"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:166
+msgid "Sign the selected file"
+msgid_plural "Sign the selected files"
+msgstr[0] "Sinatu hautatutako fitxategia"
+msgstr[1] "Sinatu hautatutako fitxategiak"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:39
+msgid "For internal use"
+msgstr "Barne-erabilerarako"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:63
+msgid "Encryption Preferences"
+msgstr "Enkriptatze-hobespenak"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:1
+msgid "Configure key servers and other encryption settings"
+msgstr "Konfiguratu gako-zerbitzariak eta beste enkriptatze-ezarpenak"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:2
+msgid "Encryption and Keyrings"
+msgstr "Enkriptatzea eta gako sortak"
+
+#: ../plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in.h:1
+msgid "Decrypt File"
+msgstr "Desenkriptatu fitxategia"
+
+#: ../plugins/nautilus/seahorse-pgp-keys.desktop.in.in.h:1
+msgid "Import Key"
+msgstr "Inportatu gakoa"
+
+#: ../plugins/nautilus/seahorse-pgp-signature.desktop.in.in.h:1
+msgid "Verify Signature"
+msgstr "Egiaztatu sinadura"
+
+#: ../plugins/nautilus/seahorse-tool.c:61
+msgid "Import keys from the file"
+msgstr "Inportatu gakoak fitxategitik"
+
+#: ../plugins/nautilus/seahorse-tool.c:63
+msgid "Encrypt file"
+msgstr "Enkriptatu fitxategia"
+
+#: ../plugins/nautilus/seahorse-tool.c:65
+msgid "Sign file with default key"
+msgstr "Sinatu fitxategia gako lehenetsiarekin"
+
+#: ../plugins/nautilus/seahorse-tool.c:67
+msgid "Encrypt and sign file with default key"
+msgstr "Enkriptatu eta sinatu fitxategia gako lehenetsiarekin"
+
+#: ../plugins/nautilus/seahorse-tool.c:69
+msgid "Decrypt encrypted file"
+msgstr "Desenkriptatu fitxategi enkriptatua"
+
+#: ../plugins/nautilus/seahorse-tool.c:71
+msgid "Verify signature file"
+msgstr "Egiaztatu sinadura-fitxategia"
+
+#: ../plugins/nautilus/seahorse-tool.c:73
+msgid "Read list of URIs on standard in"
+msgstr "Irakurri sarrera estandarreko URIen zerrenda"
+
+#: ../plugins/nautilus/seahorse-tool.c:75
+msgid "file..."
+msgstr "fitxategia..."
+
+#: ../plugins/nautilus/seahorse-tool.c:169
+msgid "Choose Recipients"
+msgstr "Aukeratu hartzaileak"
+
+#: ../plugins/nautilus/seahorse-tool.c:231
+#: ../plugins/nautilus/seahorse-tool.c:321
+msgid "Couldn't load keys"
+msgstr "Ezin izan dira gakoak kargatu"
+
+#: ../plugins/nautilus/seahorse-tool.c:249
+#, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr "Aukeratu fitxategi enkriptatuaren izena '%s'(r)entzat"
+
+#: ../plugins/nautilus/seahorse-tool.c:305
+msgid "Choose Signer"
+msgstr "Aukeratu sinatzailea"
+
+#: ../plugins/nautilus/seahorse-tool.c:340
+#, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr "Aukeratu fitxategi sinatuaren izena '%s'(r)entzat"
+
+#: ../plugins/nautilus/seahorse-tool.c:380
+msgid "Import is complete"
+msgstr "Inportatzea osatu da"
+
+#: ../plugins/nautilus/seahorse-tool.c:413
+msgid "Importing keys ..."
+msgstr "Gakoak inportatzen..."
+
+#: ../plugins/nautilus/seahorse-tool.c:467
+#, c-format
+msgid "Imported key"
+msgstr "Gako inportatua"
+
+#. File to decrypt to
+#: ../plugins/nautilus/seahorse-tool.c:491
+#, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr "Aukeratu fitxategi desenkriptatuaren izena '%s'(r)entzat"
+
+#: ../plugins/nautilus/seahorse-tool.c:547
+#, c-format
+msgid "Choose Original File for '%s'"
+msgstr "Aukeratu jatorrizko fitxategia '%s'(r)entzat"
+
+#.
+#. * TODO: What should happen with multiple files at this point.
+#. * The last thing we want to do is cascade a big pile of error
+#. * dialogs at the user.
+#.
+#: ../plugins/nautilus/seahorse-tool.c:619
+#, c-format
+msgid "No valid signatures found"
+msgstr "Ez da baliozko sinadurarik aurkitu"
+
+#: ../plugins/nautilus/seahorse-tool.c:668
+msgid "File Encryption Tool"
+msgstr "Fitxategiak enkriptatzeko tresna"
+
+#: ../plugins/nautilus/seahorse-tool.c:687
+msgid "Encrypting"
+msgstr "Enkriptatzea"
+
+#: ../plugins/nautilus/seahorse-tool.c:688
+#, c-format
+msgid "Couldn't encrypt file: %s"
+msgstr "Ezin izan da fitxategia enkriptatu: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:696
+msgid "Signing"
+msgstr "Sinatzea"
+
+#: ../plugins/nautilus/seahorse-tool.c:697
+#, c-format
+msgid "Couldn't sign file: %s"
+msgstr "Ezin izan da fitxategia sinatu: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:702
+msgid "Importing"
+msgstr "Inportatzea"
+
+#: ../plugins/nautilus/seahorse-tool.c:703
+#, c-format
+msgid "Couldn't import keys from file: %s"
+msgstr "Ezin izan dira gakoak inportatu fitxategitik: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:709
+msgid "Decrypting"
+msgstr "Desenkriptatzea"
+
+#: ../plugins/nautilus/seahorse-tool.c:710
+#, c-format
+msgid "Couldn't decrypt file: %s"
+msgstr "Ezin izan da fitxategia desenkriptatu: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:715
+msgid "Verifying"
+msgstr "Egiaztatzea"
+
+#: ../plugins/nautilus/seahorse-tool.c:716
+#, c-format
+msgid "Couldn't verify file: %s"
+msgstr "Ezin izan da fitxategia egiaztatu: %s"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:120
+msgid "Ace (.ace)"
+msgstr "Ace (.ace)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:121
+msgid "Ar (.ar)"
+msgstr "Ar (.ar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:122
+msgid "Arj (.arj)"
+msgstr "Arj (.arj)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:129
+msgid "Ear (.ear)"
+msgstr "Ear (.ear)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:130
+msgid "Self-extracting zip (.exe)"
+msgstr "Zip autoerauzlea (.exe)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:132
+msgid "Jar (.jar)"
+msgstr "Jar (.jar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:133
+msgid "Lha (.lzh)"
+msgstr "Lha (.lzh)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:135
+msgid "Rar (.rar)"
+msgstr "Rar (.rar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:137
+msgid "Tar uncompressed (.tar)"
+msgstr "Tar konprimitu gabea (.tar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:138
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "Tar bzip-ekin konprimitua (.tar.bz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:139
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "Tar bzip2-rekin konprimitua (.tar.bz2)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:140
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "Tar gzip-ekin konprimitua (.tar.gz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:141
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "Tar lzop-ekin konprimitua (.tar.lzo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:142
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "Tar compress-ekin konprimitua (.tar.Z)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:144
+msgid "War (.war)"
+msgstr "War (.war)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:145
+msgid "Zip (.zip)"
+msgstr "Zip (.zip)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:146
+msgid "Zoo (.zoo)"
+msgstr "Zoo (.zoo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:147
+msgid "7-Zip (.7z)"
+msgstr "7-Zip (.7z)"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:327
+#, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] "Fitxategi %d "
+msgstr[1] "%d fitxategi "
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:332
+#, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] "eta karpeta %d hautatu dituzu"
+msgstr[1] "eta %d karpeta hautatu dituzu"
+
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: ../plugins/nautilus/seahorse-tool-files.c:337
+#, c-format
+msgid "<b>%s%s</b>"
+msgstr "<b>%s%s</b>"
+
+#. should never be called for just one file
+#: ../plugins/nautilus/seahorse-tool-files.c:346
+#, c-format
+msgid "You have selected %d files"
+msgstr "%d fitxategi hautatu dituzu"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:351
+#, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] "Fitxategi %d hautatu duzu"
+msgstr[1] "%d karpeta hautatu dituzu"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:853
+msgid "Preparing..."
+msgstr "Prestatzen..."
+
+#: ../plugins/nautilus/seahorse-tool-files.c:862
+#: ../plugins/nautilus/seahorse-tool-files.c:885
+msgid "Couldn't list files"
+msgstr "Ezin izan da fitxategien zerrenda egin"
+

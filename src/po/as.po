@@ -1,0 +1,1224 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Amitakhya Phukan <aphukan@fedoraproject.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: as\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
+"cgi?product=seahorse-plugins&component=general\n"
+"POT-Creation-Date: 2009-02-21 21:45+0000\n"
+"PO-Revision-Date: 2009-03-16 09:42+0530\n"
+"Last-Translator: Amitakhya Phukan <aphukan@fedoraproject.org>\n"
+"Language-Team: Assamese <fedora-trans-as@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: ../agent/seahorse-agent-actions.c:120
+msgid "Passphrase:"
+msgstr "পৰিচয়-পংক্তি:"
+
+#: ../agent/seahorse-agent-actions.c:121
+msgid "Please enter a passphrase to use."
+msgstr "অনুগ্ৰহ কৰি ব্যবহাৰযোগ্য পৰিচয়-পংক্তি লিখক ।"
+
+#: ../agent/seahorse-agent-cache.c:66
+msgid "Unparseable Key ID"
+msgstr "পাৰ্স কৰাৰ অযোগ্য চাবি ID"
+
+#: ../agent/seahorse-agent-cache.c:67
+msgid "Unknown/Invalid Key"
+msgstr "অজ্ঞাত/অবৈধ-কি"
+
+#: ../agent/seahorse-agent-cache.c:533
+#, c-format
+msgid "PGP Key: %s"
+msgstr "PGP-কি: %s"
+
+#: ../agent/seahorse-agent-cache.glade.h:1
+msgid ""
+"<b>Warning</b>: Your system is not configured to cache passphrases in secure "
+"memory."
+msgstr ""
+"<b>সতৰ্কবাৰ্তা</b>: আপনাৰ সিস্টেমটি, নিৰাপদ মেমৰিৰ মধ্যি পৰিচয়-পংক্তি ক্যাশে "
+"কৰাৰ "
+"উদ্দেশ্যি কনফিগাৰ কৰা হয়নি ।"
+
+#: ../agent/seahorse-agent-cache.glade.h:2
+msgid "Cache _Preferences"
+msgstr "ক্যাশে সংক্ৰান্ত পছন্দ (_P)"
+
+#: ../agent/seahorse-agent-cache.glade.h:3
+msgid "Cached Encryption Keys"
+msgstr "ক্যাশে কৰা এনক্ৰিপশন-কি"
+
+#: ../agent/seahorse-agent-cache.glade.h:4
+msgid "Change passphrase cache settings."
+msgstr "পৰিচয়-পংক্তি ক্যাশেৰ বৈশিষ্ট্য পৰিবৰ্তন কৰক ।"
+
+#: ../agent/seahorse-agent-cache.glade.h:5
+msgid "Clear passphrase cache"
+msgstr "পৰিচয়-পংক্তি ক্যাশে পৰিষ্কাৰ কৰক"
+
+#: ../agent/seahorse-agent-cache.glade.h:6
+msgid "_Clear Cache"
+msgstr "ক্যাশে পৰিষ্কাৰ কৰক (_C)"
+
+#: ../agent/seahorse-agent-cache.glade.h:7
+msgid "_Show Window"
+msgstr "উইন্ডো প্ৰদৰ্শন কৰা হ'ব (_S)"
+
+#: ../agent/seahorse-agent-main.c:52
+msgid "Do not daemonize seahorse-agent"
+msgstr "seahorse-agent ডেমন কৰা ন'হ'ব"
+
+#: ../agent/seahorse-agent-main.c:56
+msgid "Print variables in for a C type shell"
+msgstr "C প্ৰকৃতিৰ শেল-এ মান প্ৰিন্ট কৰক"
+
+#: ../agent/seahorse-agent-main.c:60
+msgid "Display environment variables (the default)"
+msgstr "(অবিকল্পিত) পৰিবেশ মান প্ৰদৰ্শন কৰা হ'ব ।"
+
+#: ../agent/seahorse-agent-main.c:63
+msgid "Execute other arguments on the command line"
+msgstr "কমান্ড-লাইনে অন্যান্য আৰ্গুমেন্ট সঞ্চালন কৰা হ'ব"
+
+#: ../agent/seahorse-agent-main.c:67
+msgid "Allow GPG agent request from any display"
+msgstr "যি কোনো প্ৰদৰ্শনৰ পৰা GPG এজেন্টেৰ অনুৰোধ অনুমোদিত হ'ব"
+
+#: ../agent/seahorse-agent-main.c:70
+#
+msgid "command..."
+msgstr "<b>আদেশ</b>"
+
+#: ../agent/seahorse-agent-main.c:108
+#
+msgid "couldn't fork process"
+msgstr "প্ৰসেস fork (ফৰ্ক) কৰা সম্ভব হয়নি"
+
+#: ../agent/seahorse-agent-main.c:114
+msgid "couldn't create new process group"
+msgstr "নতুন প্ৰসেস সংকলন নিৰ্মাণ কৰতে ব্যৰ্থ"
+
+#: ../agent/seahorse-agent-main.c:240
+msgid "Encryption Key Agent (Seahorse)"
+msgstr "এনক্ৰিপশন-কি এজেন্ট (Seahorse)"
+
+#: ../agent/seahorse-agent-main.c:246
+msgid "no command specified to execute"
+msgstr "সঞ্চালনেৰ জন্য কমান্ড নিৰ্ধাৰিত হয়নি"
+
+#: ../agent/seahorse-agent-prompt.c:216
+msgid "Authorize Passphrase Access"
+msgstr "পৰিচয়-পংক্তি দ্বাৰা ব্যবহাৰাধিকাৰ অনুমোদন কৰক"
+
+#: ../agent/seahorse-agent-prompt.c:252
+msgid "The passphrase is cached in memory."
+msgstr "মেমৰিৰ মধ্যি পৰিচয়-পংক্তি ক্যাশে কৰা হয়েছে ।"
+
+#: ../agent/seahorse-agent-prompt.c:257
+msgid "Always ask me before using a cached passphrase"
+msgstr "ক্যাশে কৰা পৰিচয়-পংক্তি ব্যবহাৰেৰ পূৰ্বে অনুমতি নেওয়া হ'ব"
+
+#: ../agent/seahorse-agent-prompt.c:274
+msgid "_Authorize"
+msgstr "অনুমোদন কৰা হ'ব (_A)"
+
+#. Make the uid column
+#: ../agent/seahorse-agent-status.c:145
+msgid "Key Name"
+msgstr "চাবি ৰ নাম"
+
+#: ../data/seahorse-plugins.schemas.in.h:1
+#
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"দূৰবৰ্তী কি খোঁজাৰ জন্য কি সাৰ্ভাৰ-এৰ URI-এৰ তালিকা । পৰবৰ্তী সংস্কৰণে একটি "
+"নাম যোগ "
+"কৰা সম্ভব হতে পাৰে একটি ফাঁকা স্থানেৰ পৰে নাম যোগ কৰি ।"
+
+#: ../data/seahorse-plugins.schemas.in.h:2
+msgid ""
+"After performing an decrypt or verify operation from the applet, display the "
+"resulting text in a window."
+msgstr ""
+"অ্যাপ্লেট সহযোগে ডিক্ৰিপ্ট অথবা যাচাই কৰাৰ পৰে প্ৰাপ্ত ফলাফল একটি উইন্ডোৰ "
+"মধ্যি "
+"প্ৰদৰ্শন কৰা হ'ব ।"
+
+#: ../data/seahorse-plugins.schemas.in.h:3
+msgid ""
+"After performing an encrypt or signing operation from the applet, display "
+"the resulting text in a window."
+msgstr ""
+"অ্যাপ্লেট সহযোগে এনক্ৰিপ্ট অথবা স্বাক্ষৰ কৰাৰ পৰে প্ৰাপ্ত ফলাফল একটি উইন্ডোৰ "
+"মধ্যি "
+"প্ৰদৰ্শন কৰা হ'ব ।"
+
+#: ../data/seahorse-plugins.schemas.in.h:4
+msgid "Display cache reminder in the notification area"
+msgstr "সূচনাপ্ৰদানেৰ স্থানে ক্যাশে সংক্ৰান্ত সতৰ্কবাৰ্তা প্ৰদৰ্শন কৰা হ'ব"
+
+#: ../data/seahorse-plugins.schemas.in.h:5
+msgid "Display clipboard after decrypting"
+msgstr "ডিক্ৰিপশনেৰ পৰে ক্লিপবোৰ্ডেৰ বিষয়বস্তু প্ৰদৰ্শন কৰা হ'ব"
+
+#: ../data/seahorse-plugins.schemas.in.h:6
+msgid "Display clipboard after encrypting"
+msgstr "এনক্ৰিপশনেৰ পৰে ক্লিপবোৰ্ডেৰ বিষয়বস্তু প্ৰদৰ্শন কৰা হ'ব"
+
+#: ../data/seahorse-plugins.schemas.in.h:7
+msgid "Expire passwords in the cache"
+msgstr "ক্যাশেৰ মধ্যি উপস্থিত পাসওয়াৰ্ডেৰ মেয়াদ পূৰ্ণ ধাৰ্য কৰা হ'ব"
+
+#: ../data/seahorse-plugins.schemas.in.h:8
+msgid "ID of the default key"
+msgstr "অবিকল্পিত চাবিৰ ID"
+
+#: ../data/seahorse-plugins.schemas.in.h:9
+msgid ""
+"If set to 'gnome' uses gnome-keyring to cache passwords. When set to "
+"'internal' uses internal cache."
+msgstr ""
+"'gnome' ধাৰ্য কৰা হলে পাসওয়াৰ্ড ক্যাশে কৰাৰ জন্য gnome-keyring ব্যবহাৰ কৰা "
+"হ'ব । "
+"'internal' ধাৰ্য কৰা হলে অভ্যন্তৰীণ ক্যাশে ব্যবহাৰ কৰা হ'ব ।"
+
+#: ../data/seahorse-plugins.schemas.in.h:10
+#
+msgid ""
+"If set to true, then files encrypted with seahorse will be ASCII armor "
+"encoded."
+msgstr ""
+"মান সত্য (true) হলে, seahorse দ্বাৰা এনক্ৰিপ্ট কৰা ফাইল ASCII আৰ্মাৰ এনকোডেড "
+"হ'ব ।"
+
+#: ../data/seahorse-plugins.schemas.in.h:11
+#
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"মান সত্য (true) হলে অবিকল্পিত কি সবসময় এনক্ৰিপশন প্ৰাপকদেৰ তালিকায় যুক্ত হ'ব "
+"।"
+
+#: ../data/seahorse-plugins.schemas.in.h:12
+msgid "Last key used to sign a message."
+msgstr "বাৰ্তা স্বাক্ষৰ কৰাৰ উদ্দেশ্যি সৰ্বশেষ ব্যবহৃত কি ।"
+
+#: ../data/seahorse-plugins.schemas.in.h:13
+msgid "PGP Key servers"
+msgstr "PGP-কি সাৰ্ভাৰ"
+
+#: ../data/seahorse-plugins.schemas.in.h:14
+msgid "Prompt before using GPG passwords in cache"
+msgstr ""
+"ক্যাশেতে অবস্থিত GPG পাসওয়াৰ্ড ব্যবহাৰেৰ পূৰ্বে সতৰ্কবাৰ্তা প্ৰদৰ্শিত হ'ব"
+
+#: ../data/seahorse-plugins.schemas.in.h:15
+msgid ""
+"Reflect the contents of the clipboard (whether encrypted, signed, etc...) in "
+"the panel applet icon."
+msgstr ""
+"প্যানেল অ্যাপ্লেটেৰ প্ৰতীকেৰ মধ্যি ক্লিপ-বোৰ্ডেৰ সামগ্ৰী (এনক্ৰিপ্ট, "
+"স্বাক্ষৰিত "
+"প্ৰভৃতি...) প্ৰদৰ্শন কৰা হ'ব ।"
+
+#: ../data/seahorse-plugins.schemas.in.h:16
+msgid ""
+"Set to 'true' to enable display of the cache reminder in the notification "
+"area of your panel."
+msgstr ""
+"প্যানেলেৰ সূচনাপ্ৰদানেৰ স্থানে ক্যাশে সংক্ৰান্ত সতৰ্কবাৰ্তাৰ প্ৰদৰ্শন সক্ৰিয় "
+"কৰাৰ জন্য "
+"মান 'true' (সত্য) নিৰ্ধাৰণ কৰক ।"
+
+#: ../data/seahorse-plugins.schemas.in.h:17
+msgid ""
+"Set to 'true' to have seahorse-agent prompt before giving out passwords it "
+"has cached."
+msgstr ""
+"seahorse-agent দ্বাৰা ক্যাশে কৰা পাসওয়াৰ্ড প্ৰকাশ কৰাৰ পূৰ্বে বাৰ্তা "
+"প্ৰদৰ্শনেৰ জন্য "
+"মান 'true' (সত্য) নিৰ্ধাৰণ কৰক ।"
+
+#: ../data/seahorse-plugins.schemas.in.h:18
+msgid "Show clipboard state in panel"
+msgstr "প্যানেলে ক্লিপ-বোৰ্ডেৰ অবস্থা প্ৰদৰ্শন কৰা হ'ব"
+
+#: ../data/seahorse-plugins.schemas.in.h:19
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"প্ৰাপক তালিকাৰ উইন্ডোৰ ক্ৰমবিন্যাস কৰতে ব্যবহাৰযোগ্য কলাম নিৰ্ধাৰণ কৰক । "
+"কলামেৰ নাম "
+"হল: 'name' ও 'id' । বড়ৰ পৰা ছোট অনুক্ৰমে সুবিন্যাস্ত কৰাৰ জন্য কলামেৰ নামেৰ "
+"পূৰ্বে "
+"'-' লিখক ।"
+
+#: ../data/seahorse-plugins.schemas.in.h:20
+#
+msgid "The ID of the last secret key used to sign a message."
+msgstr "শেষবাৰ যি গোপন কি দিয়ে এই বাৰ্তা স্বাক্ষৰ কৰা হয়েছে তাৰ ID ।"
+
+#: ../data/seahorse-plugins.schemas.in.h:21
+msgid "The column to sort the recipients by"
+msgstr "প্ৰাপক তালিকাৰ ক্ৰমবিন্যাস নিৰ্ধাৰণেৰ জন্য ব্যবহৃত কলাম"
+
+#: ../data/seahorse-plugins.schemas.in.h:22
+msgid "The time (in minutes) to cache GPG passwords"
+msgstr "GPG পাসওয়াৰ্ড ক্যাশে কৰাৰ জন্য নিৰ্ধাৰিত সময় (মিনিট অনুসাৰে)"
+
+#: ../data/seahorse-plugins.schemas.in.h:23
+msgid ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"seahorse-agent."
+msgstr ""
+"seahorse-agent-ৰ মধ্যি GPG পাসওয়াৰ্ড ক্যাশে কৰি সংৰক্ষণেৰ সময়কাল, মিনিট "
+"হিসাৰে "
+"গণ্য ।"
+
+#: ../data/seahorse-plugins.schemas.in.h:24
+msgid ""
+"This option enables the GPG password cache in the seahorse-agent program. "
+"The 'use-agent' setting in gpg.conf affects this setting."
+msgstr ""
+"এই বিকল্পেৰ সাহায্যি seahorse-agent প্ৰোগ্ৰামেৰ মধ্যি GPG পাসওয়াৰ্ড ক্যাশে "
+"সক্ৰিয় "
+"কৰা হ'ব । gpg.conf ফাইলেৰ মধ্যি 'use-agent' বৈশিষ্ট্যিৰ সাহায্যি এই মান "
+"নিৰ্ধাৰিত "
+"হয় ।"
+
+#: ../data/seahorse-plugins.schemas.in.h:25
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr ""
+"সুনিৰ্দিষ্ট কৰ্ম, মূলত স্বাক্ষৰ কৰাৰ জন্য ব্যবহাৰযোগ্য অবিকল্পিত-কি এৰ "
+"দ্বাৰা নিৰ্ধাৰিত হ'ব ।"
+
+#: ../data/seahorse-plugins.schemas.in.h:26
+msgid ""
+"When set, seahorse-agent expires GPG passwords in its cache after a period "
+"of time."
+msgstr ""
+"নিৰ্ধাৰিত হলে, সুনিৰ্দিষ্ট সময়েৰ পৰে seahorse-agent দ্বাৰা ক্যাশেৰ পৰা GPG "
+"পাসওয়াৰ্ডেৰ মেয়াদ পূৰ্ণ ধাৰ্য কৰা হ'ব ।"
+
+#: ../data/seahorse-plugins.schemas.in.h:27
+msgid "Where to store cached passwords."
+msgstr "ক্যাশে কৰা পাসওয়াৰ্ড সংৰক্ষণেৰ স্থান ।"
+
+#: ../data/seahorse-plugins.schemas.in.h:28
+msgid "Whether the GPG password cache is enabled"
+msgstr "GPG পাসওয়াৰ্ড ক্যাশে ব্যবস্থা সক্ৰিয় কৰা হ'ব কি না"
+
+#: ../data/seahorse-plugins.schemas.in.h:29
+msgid "Whether to always encrypt to default key"
+msgstr "অবিকল্পিত-কি দ্বাৰা সৰ্বদা এনক্ৰিপ্ট কৰা হ'ব কি না"
+
+#: ../data/seahorse-plugins.schemas.in.h:30
+msgid "Whether to use ASCII Armor"
+msgstr "ASCII Armor ব্যবহাৰ কৰা হ'ব কি না"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:1
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<b>একাধিক ফাইল ও ফোল্ডাৰ নিৰ্বাচন কৰা হয়েছে</b>"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:2
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr ""
+"দূৰবৰ্তী অবস্থানে ফাইলগুলি থাকাৰ কাৰণে, প্ৰতিটি ফাইল পৃথকৰূপে এনক্ৰিপ্ট কৰা "
+"হ'ব ।"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:3
+msgid "Encrypt Multiple Files"
+msgstr "একাধিক ফাইল এনক্ৰিপ্ট কৰক"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:4
+msgid "Encrypt each file separately"
+msgstr "প্ৰতিটি ফাইল পৃথকৰূপে এনক্ৰিপ্ট কৰক"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:5
+msgid "Encrypt packed together in a package"
+msgstr "একটি সংকলন ৰূপে এনক্ৰিপ্ট কৰক"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:6
+msgid "Package Name:"
+msgstr "প্যাকেজেৰ নাম:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:7
+msgid "Packaging:"
+msgstr "প্যাকেজ প্ৰণালী:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:8
+msgid "encrypted-package"
+msgstr "এনক্ৰিপশনসহ-প্যাকেজ"
+
+#: ../libseahorse/seahorse-notification.c:573
+#: ../libseahorse/seahorse-notification.c:598
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "কি ইম্পোৰ্ট কৰা হয়েছে"
+msgstr[1] "কি ইম্পোৰ্ট কৰা হয়েছে"
+
+#: ../libseahorse/seahorse-notification.c:577
+#: ../libseahorse/seahorse-notification.c:597
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "%i-টি কি ইম্পোৰ্ট কৰা হয়েছে"
+msgstr[1] "%i-টি কি ইম্পোৰ্ট কৰা হয়েছে"
+
+#: ../libseahorse/seahorse-notification.c:579
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "চিহ্নিত বস্তুৰ জন্য কি ইম্পোৰ্ট কৰা হয়েছে"
+msgstr[1] "চিহ্নিত বস্তুৰ জন্য কি ইম্পোৰ্ট কৰা হয়েছে"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:614
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr ""
+"<i><key id='%s'/> দ্বাৰা স্বাক্ষৰিত । এটি <b>মেয়াদ পূৰ্ণ হয়েছে</b></i> %s-এ ।"
+
+#: ../libseahorse/seahorse-notification.c:615
+msgid "Invalid Signature"
+msgstr "অবৈধ স্বাক্ষৰ"
+
+#: ../libseahorse/seahorse-notification.c:621
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr ""
+"<i><key id='%s'/></i> দ্বাৰা স্বাক্ষৰিত । %s-এ এটিৰ <b>মেয়াদ পূৰ্ণ হয়েছে</b> "
+"।"
+
+#: ../libseahorse/seahorse-notification.c:622
+msgid "Expired Signature"
+msgstr "মেয়াদ উত্তীৰ্ণ স্বাক্ষৰ"
+
+#: ../libseahorse/seahorse-notification.c:628
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr ""
+"যিটি দিয়ে স্বাক্ষৰ কৰা হয়েছে <i><key id='%s'/> <b>বাতিল কৰাৰ তাৰিখ</b></i> "
+"%s ।"
+
+#: ../libseahorse/seahorse-notification.c:629
+#
+msgid "Revoked Signature"
+msgstr "বাতিল কৰা স্বাক্ষৰ"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:635
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "<i><key id='%s'/></i> দ্বাৰা %s-এ স্বাক্ষৰ কৰা হয়েছে ।"
+
+#: ../libseahorse/seahorse-notification.c:636
+#
+msgid "Good Signature"
+msgstr "বৈধ স্বাক্ষৰ"
+
+#: ../libseahorse/seahorse-notification.c:641
+#
+msgid "Signing key not in keyring."
+msgstr "স্বাক্ষৰে ব্যবহৃত কি কি ৰিং এ অনুপস্থিত ।"
+
+#: ../libseahorse/seahorse-notification.c:642
+msgid "Unknown Signature"
+msgstr "অজ্ঞাত স্বাক্ষৰ"
+
+#: ../libseahorse/seahorse-notification.c:646
+#
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "অবৈধ বা জাল স্বাক্ষৰ । স্বাক্ষৰ কৰা তথ্যিৰ পৰিবৰ্তন ঘটেছে ।"
+
+#: ../libseahorse/seahorse-notification.c:647
+#
+msgid "Bad Signature"
+msgstr "অবৈধ স্বাক্ষৰ"
+
+#: ../libseahorse/seahorse-notification.c:655
+msgid "Couldn't verify signature."
+msgstr "স্বাক্ষৰ যাচাই কৰা সম্ভব হয়নি ।"
+
+#: ../libseahorse/seahorse-notify.glade.h:1
+msgid "Notification Messages"
+msgstr "সূচনামূলক বাৰ্তা"
+
+#: ../libseahorse/seahorse-passphrase.c:200
+msgid "Passphrase"
+msgstr "পৰিচিত-পংক্তি"
+
+#: ../libseahorse/seahorse-passphrase.c:203
+#
+msgid "Password:"
+msgstr "পাসওয়াৰ্ড:"
+
+#: ../libseahorse/seahorse-passphrase.c:266
+msgid "Confirm:"
+msgstr "নিশ্চায়ণ:"
+
+#: ../libseahorse/seahorse-passphrase.c:351
+#, c-format
+msgid "Wrong passphrase."
+msgstr "ভুল পৰিচিতি-পংক্তি ।"
+
+#: ../libseahorse/seahorse-passphrase.c:355
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "'%s'-ৰ জন্য নতুন পৰিচিতি-পংক্তি লিখক"
+
+#: ../libseahorse/seahorse-passphrase.c:357
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "'%s'-ৰ পৰিচিতি-পংক্তি লিখক"
+
+#: ../libseahorse/seahorse-passphrase.c:360
+msgid "Enter new passphrase"
+msgstr "নতুন পৰিচিতি-পংক্তি লিখক"
+
+#: ../libseahorse/seahorse-passphrase.c:362
+msgid "Enter passphrase"
+msgstr "পৰিচিতি-পংক্তি লিখক"
+
+#: ../libseahorse/seahorse-prefs.c:100
+msgid "None. Prompt for a key."
+msgstr "শূণ্য. কি চিহ্নিত কৰাৰ অনুৰোধ কৰা হ'ব ।"
+
+#: ../libseahorse/seahorse-prefs.glade.h:1
+msgid "<b>Default Key</b>"
+msgstr "<b>অবিকল্পিত কি</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:2
+msgid "<b>Remember PGP Passphrases</b>"
+msgstr "<b>PGP পৰিচিতি-পংক্তি মেন ৰাখা হ'ব</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:3
+msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+msgstr ""
+"<i>একটি সমৰ্থিত PGP পৰিচয়-পংক্তি ক্যাশে কৰতে ব্যবহৃথ এজেন্ট চলছে না ।</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:4
+msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+msgstr "<i>অন্য কোনো কি নিৰ্বাচিত না হলে, এই কি দ্বাৰা স্বাক্ষৰ কৰা হ'ব</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:5
+msgid "As_k me before using a cached passphrase"
+msgstr "ক্যাশে কৰা পৰিচয়-পংক্তি ব্যবহাৰেৰ পূৰ্বে অনুমতি নেওয়া হ'ব (_k)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:6
+msgid "Encryption"
+msgstr "এনক্ৰিপশন প্ৰক্ৰিয়া"
+
+#: ../libseahorse/seahorse-prefs.glade.h:7
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:2
+msgid "Encryption and Keyrings"
+msgstr "এনক্ৰিপশন ও চাবি ৰিং"
+
+#: ../libseahorse/seahorse-prefs.glade.h:8
+msgid "PGP Passphrases"
+msgstr "PGP পৰিচিত-পংক্তি"
+
+#: ../libseahorse/seahorse-prefs.glade.h:9
+msgid "Show _icon in status area when passphrases are in memory"
+msgstr ""
+"মেমৰিৰ মধ্যি পৰিচয়-পংক্তি উপস্থিত থাকলে অবস্থাসূচক স্থানে প্ৰতীক প্ৰদৰ্শন "
+"কৰা হ'ব (_i)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:10
+msgid "When _encrypting, always include myself as a recipient"
+msgstr ""
+"এনক্ৰিপ্ট কৰাৰ সময়, সৰ্বদা আমাকে প্ৰাপক তালিকায় অন্তৰ্ভুক্ত কৰা হ'ব (_e)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:11
+msgid "_Always remember passphrases whenever logged in"
+msgstr "লগ-ইন কৰা হলে, সৰ্বদা পৰিচয়-পংক্তি স্মৰণে ৰাখা হ'ব (_A)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:12
+msgid "_Default key:"
+msgstr "অবিকল্পিত-কি: (_D)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:13
+msgid "_Never remember passphrases"
+msgstr "পৰিচিতি-পংক্তি কখনো মনে ৰাখা ন'হ'ব (_N)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:14
+msgid "_Remember passphrases for"
+msgstr "চিহ্নিত সময়কাল অবধি পৰিচয়-পংক্তি স্মৰণে ৰাখা হ'ব (_R)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:15
+msgid "minutes"
+msgstr "মিনিট"
+
+#: ../libseahorse/seahorse-progress.glade.h:1
+msgid "Progress Title"
+msgstr "প্ৰগতিসূচক শিৰোনাম"
+
+#: ../libseahorse/seahorse-util.c:173
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "ডিক্ৰিপশন কৰতে ব্যৰ্থ । সম্ভবত ডিক্ৰিপশন-কি উপস্থিত নেই ।"
+
+#: ../libseahorse/seahorse-util.c:223
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../libseahorse/seahorse-util.c:642
+msgid "Couldn't run file-roller"
+msgstr "file-roller সঞ্চালন কৰতে ব্যৰ্থ"
+
+#: ../libseahorse/seahorse-util.c:647
+#: ../plugins/nautilus/seahorse-tool-files.c:872
+msgid "Couldn't package files"
+msgstr "ফাইল প্যাকেজ কৰতে ব্যৰ্থ"
+
+#: ../libseahorse/seahorse-util.c:648
+msgid "The file-roller process did not complete successfully"
+msgstr "file-roller-ৰ কৰ্ম সাফল্যিৰ সাথে সমাপ্ত হয়নি"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libseahorse/seahorse-util.c:708
+msgid "All key files"
+msgstr "সৰ্বধৰনেৰ চাবি ৰ ফাইল"
+
+#: ../libseahorse/seahorse-util.c:715 ../libseahorse/seahorse-util.c:755
+#
+msgid "All files"
+msgstr "সৰ্বধৰনৰ নথিপত্ৰ"
+
+#: ../libseahorse/seahorse-util.c:748
+msgid "Archive files"
+msgstr "আৰ্কাইভ ফাইল"
+
+#: ../libseahorse/seahorse-util.c:777
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>এই নামেৰ একটি ফাইল বৰ্তমানে উপস্থিত ৰয়েছে ।</b>\n"
+"\n"
+"এই ফাইলটিৰ পৰিবৰ্তে নতুন ফাইলটি স্থাপন কৰা হ'ব কি?"
+
+#: ../libseahorse/seahorse-util.c:780
+#
+msgid "_Replace"
+msgstr "প্ৰতিস্থাপন (_R)"
+
+#: ../libseahorse/seahorse-widget.c:322
+#, c-format
+msgid "Could not display help: %s"
+msgstr "সহায়িকা প্ৰদৰ্শন কৰা গেল না: %s"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:1
+msgid "Clipboard Text Encryption"
+msgstr "ক্লিপ-বোৰ্ড টেক্সট এনক্ৰিপশন"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:2
+msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+msgstr ""
+"ক্লিপ-বোৰ্ড এনক্ৰিপ্ট, ডিক্ৰিপ্ট অথবা স্বাক্ষৰ কৰক (PGP প্ৰকৃতিৰ এনক্ৰিপশন "
+"ব্যবহাৰ কৰা "
+"হয়) ।"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:3
+msgid "Seahorse Applet Factory"
+msgstr "Seahorse অ্যাপ্লেট ফ্যাক্টৰি"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:1
+#
+msgid "_About"
+msgstr "বিষয়ে (_A)"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:2
+#
+msgid "_Help"
+msgstr "সাহায্য (_H)"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:3
+#
+msgid "_Preferences"
+msgstr "পছন্দ (_P)"
+
+#: ../plugins/applet/seahorse-applet.c:276
+#: ../plugins/applet/seahorse-applet.c:721
+#, c-format
+msgid "Could not display URL: %s"
+msgstr "URL প্ৰদৰ্শন কৰতে ব্যৰ্থ: %s"
+
+#: ../plugins/applet/seahorse-applet.c:312
+msgid "seahorse-applet"
+msgstr "seahorse-applet"
+
+#: ../plugins/applet/seahorse-applet.c:314
+#: ../plugins/applet/seahorse-applet.c:874
+msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+msgstr ""
+"ক্লিপবোৰ্ডেৰ তথ্য এনক্ৰিপ্ট/ডিক্ৰিপ্ট/স্বাক্ষৰ/যাচাই/ইম্পোৰ্ট কৰাৰ জন্য "
+"PGP/GPG ব্যবহাৰ "
+"কৰা হ'ব ।"
+
+#: ../plugins/applet/seahorse-applet.c:319
+#
+msgid "translator-credits"
+msgstr "অমিতাক্ষ ফুকন (aphukan@fedoraproject.org)"
+
+#: ../plugins/applet/seahorse-applet.c:322
+msgid "Seahorse Project Homepage"
+msgstr "Seahorse প্ৰজেক্টেৰ হোম-পেজ"
+
+#. Get the recipient list
+#: ../plugins/applet/seahorse-applet.c:394
+#: ../plugins/epiphany/seahorse-extension.c:275
+#: ../plugins/gedit/seahorse-gedit.c:340
+msgid "Choose Recipient Keys"
+msgstr "প্ৰাপক-কি নিৰ্বাচন কৰক"
+
+#: ../plugins/applet/seahorse-applet.c:413
+msgid "Encrypted Text"
+msgstr "এনক্ৰিপ্ট কৰা টেক্সট"
+
+#: ../plugins/applet/seahorse-applet.c:415
+msgid "Encryption Failed"
+msgstr "এনক্ৰিপশন বিফল"
+
+#: ../plugins/applet/seahorse-applet.c:415
+msgid "The clipboard could not be encrypted."
+msgstr "ক্লিপ-বোৰ্ডেৰ তথ্য এনক্ৰিপ্ট কৰা যায়নি ।"
+
+#: ../plugins/applet/seahorse-applet.c:453
+#: ../plugins/epiphany/seahorse-extension.c:325
+#: ../plugins/gedit/seahorse-gedit.c:630
+msgid "Choose Key to Sign with"
+msgstr "স্বাক্ষৰ কৰাৰ জন্য কি নিৰ্বাচন কৰক"
+
+#: ../plugins/applet/seahorse-applet.c:473
+msgid "Signed Text"
+msgstr "স্বাক্ষৰিত টেক্সট"
+
+#: ../plugins/applet/seahorse-applet.c:475
+#: ../plugins/applet/seahorse-applet.c:555
+msgid "Signing Failed"
+msgstr "স্বাক্ষৰ কৰতে ব্যৰ্থ"
+
+#: ../plugins/applet/seahorse-applet.c:475
+#: ../plugins/applet/seahorse-applet.c:555
+msgid "The clipboard could not be Signed."
+msgstr "ক্লিপ-বোৰ্ডেৰ তথ্য স্বাক্ষৰ কৰতে ব্যৰ্থ ।"
+
+#: ../plugins/applet/seahorse-applet.c:517
+#
+#: ../plugins/epiphany/seahorse-extension.c:369
+#: ../plugins/nautilus/seahorse-tool.c:464
+msgid "Import Failed"
+msgstr "ইম্পোৰ্ট কৰতে ব্যৰ্থ"
+
+#: ../plugins/applet/seahorse-applet.c:518
+#: ../plugins/epiphany/seahorse-extension.c:370
+#: ../plugins/nautilus/seahorse-tool.c:465
+msgid "Keys were found but not imported."
+msgstr "কি পাওয়া গেলেও ইম্পোৰ্ট কৰতে ব্যৰ্থ ।"
+
+#: ../plugins/applet/seahorse-applet.c:610
+msgid "No PGP key or message was found on clipboard"
+msgstr "ক্লিপ-বোৰ্ডেৰ মধ্যি PGP-কি অথবা বাৰ্তা পাওয়া যায়নি"
+
+#: ../plugins/applet/seahorse-applet.c:611
+msgid "No PGP data found."
+msgstr "কোনো PGP তথ্য পাওয়া যায়নি ।"
+
+#. TRANSLATORS: This means 'The text that was decrypted'
+#: ../plugins/applet/seahorse-applet.c:648
+msgid "Decrypted Text"
+msgstr "ডিক্ৰিপ্ট কৰা টেক্সট"
+
+#: ../plugins/applet/seahorse-applet.c:789
+msgid "_Encrypt Clipboard"
+msgstr "ক্লিপ-বোৰ্ডেৰ তথ্য এনক্ৰিপ্ট কৰক (_E)"
+
+#: ../plugins/applet/seahorse-applet.c:796
+msgid "_Sign Clipboard"
+msgstr "ক্লিপ-বোৰ্ডেৰ তথ্য স্বাক্ষৰ কৰক (_S)"
+
+#: ../plugins/applet/seahorse-applet.c:803
+msgid "_Decrypt/Verify Clipboard"
+msgstr "ক্লিপ-বোৰ্ডেৰ তথ্য ডিক্ৰিপ্ট/যাচাই কৰক (_D)"
+
+#: ../plugins/applet/seahorse-applet.c:809
+msgid "_Import Keys from Clipboard"
+msgstr "ক্লিপ-বোৰ্ডৰ পৰা কি ইম্পোৰ্ট কৰক (_I)"
+
+#: ../plugins/applet/seahorse-applet.c:871
+#: ../plugins/applet/seahorse-applet.c:873
+msgid "Encryption Applet"
+msgstr "এনক্ৰিপশনেৰ অ্যাপ্লেট"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:1
+msgid "<b>Display clipboard contents after:</b>"
+msgstr "<b>ক্লিপ-বোৰ্ডে উপস্থিত সামগ্ৰী প্ৰদৰ্শনে বিলম্ব:</b>"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:2
+msgid "Clipboard Encryption Preferences"
+msgstr "ক্লিপ-বোৰ্ডেৰ এনক্ৰিপশন সংক্ৰান্ত পছন্দ"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:3
+msgid "_Decrypting the clipboard"
+msgstr "ক্লিপ-বোৰ্ডেৰ তথ্য ডিক্ৰিপ্ট কৰাৰ প্ৰণালী (_D)"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:4
+msgid "_Encrypting or signing the clipboard"
+msgstr "ক্লিপ-বোৰ্ডেৰ তথ্য এনক্ৰিপ্ট অথবা স্বাক্ষৰ কৰাৰ প্ৰণালী (_E)"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:5
+msgid "_Show clipboard state in panel"
+msgstr "প্যানেলেৰ মধ্যি ক্লিপ-বোৰ্ডেৰ অবস্থা প্ৰদৰ্শন কৰা হ'ব (_S)"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:6
+msgid "_Verifying the clipboard"
+msgstr "ক্লিপ-বোৰ্ডেৰ তথ্য যাচাইয়েৰ প্ৰণালী (_V)"
+
+#: ../plugins/epiphany/seahorse-extension.c:408
+msgid "Decrypting Failed"
+msgstr "ডিক্ৰিপ্ট কৰতে ব্যৰ্থ"
+
+#: ../plugins/epiphany/seahorse-extension.c:408
+msgid "Text may be malformed."
+msgstr "টেক্সট ক্ষতিগ্ৰস্ত হতে ব্যৰ্থ ।"
+
+#: ../plugins/epiphany/seahorse-extension.c:632
+msgid "_Encrypt"
+msgstr "এনক্ৰিপ্ট কৰক (_E)"
+
+#: ../plugins/epiphany/seahorse-extension.c:639
+msgid "_Sign"
+msgstr "স্বাক্ষৰ কৰক (_S)"
+
+#: ../plugins/epiphany/seahorse-extension.c:646
+msgid "_Decrypt/Verify"
+msgstr "ডিক্ৰিপ্ট/যাচাই কৰক (_D)"
+
+#: ../plugins/epiphany/seahorse-extension.c:653
+msgid "_Import Key"
+msgstr "কি ইম্পোৰ্ট কৰক (_I)"
+
+#: ../plugins/gedit/seahorse-gedit.c:270
+msgid "Couldn't connect to seahorse-daemon"
+msgstr "seahorse-daemon-ৰ সাথে সংযোগ স্থাপন কৰতে ব্যৰ্থ"
+
+#: ../plugins/gedit/seahorse-gedit.c:362
+msgid "Encrypted text"
+msgstr "এনক্ৰিপ্ট কৰা টেক্সট"
+
+#: ../plugins/gedit/seahorse-gedit.c:365
+msgid "Couldn't encrypt text"
+msgstr "টেক্সট এনক্ৰিপ্ট কৰতে ব্যৰ্থ"
+
+#: ../plugins/gedit/seahorse-gedit.c:395
+msgid "Couldn't import keys"
+msgstr "কি ইম্পোৰ্ট কৰতে ব্যৰ্থ"
+
+#: ../plugins/gedit/seahorse-gedit.c:404
+msgid "Keys found but not imported"
+msgstr "কি পাওয়া গেলেও ইম্পোৰ্ট কৰা যায়নি"
+
+#: ../plugins/gedit/seahorse-gedit.c:441
+msgid "Couldn't decrypt text"
+msgstr "টেক্সট ডিক্ৰিপ্ট কৰতে ব্যৰ্থ"
+
+#: ../plugins/gedit/seahorse-gedit.c:478
+msgid "Couldn't verify text"
+msgstr "টেক্সট যাচাই কৰতে ব্যৰ্থ"
+
+#: ../plugins/gedit/seahorse-gedit.c:526
+msgid "No encrypted or signed text is selected."
+msgstr "এনক্ৰিপ্ট অথবা স্বাক্ষৰ কৰা কোনো টেক্সট নিৰ্বাচিত হয়নি ।"
+
+#: ../plugins/gedit/seahorse-gedit.c:556
+msgid "Decrypted text"
+msgstr "ডিক্ৰিপ্ট কৰা টেক্সট"
+
+#: ../plugins/gedit/seahorse-gedit.c:563
+msgid "Verified text"
+msgstr "যাচাই কৰা টেক্সট"
+
+#: ../plugins/gedit/seahorse-gedit.c:598
+#: ../plugins/nautilus/seahorse-tool.c:490
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] "%d-টি কি ইম্পোৰ্ট কৰা হয়েছে"
+msgstr[1] "%d-টি কি ইম্পোৰ্ট কৰা হয়েছে"
+
+#: ../plugins/gedit/seahorse-gedit.c:652
+msgid "Signed text"
+msgstr "স্বাক্ষৰিত টেক্সট"
+
+#: ../plugins/gedit/seahorse-gedit.c:655
+msgid "Couldn't sign text"
+msgstr "টেক্সট স্বাক্ষৰ কৰতে ব্যৰ্থ"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:133
+msgid "_Encrypt..."
+msgstr "এনক্ৰিপ্ট কৰক...(_E)"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:134
+msgid "Encrypt the selected text"
+msgstr "নিৰ্বাচিত টেক্সট এনক্ৰিপ্ট কৰতে ব্যৰ্থ"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:135
+msgid "Decr_ypt/Verify"
+msgstr "ডিক্ৰিপ্ট/যাচাই কৰক (_y)"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:136
+msgid "Decrypt and/or Verify text"
+msgstr "টেক্সট ডিক্ৰিপ্ট এবং/অথবা যাচাই কৰক"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:137
+msgid "Sig_n..."
+msgstr "স্বাক্ষৰ কৰক...(_n)"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:138
+msgid "Sign the selected text"
+msgstr "নিৰ্বাচিত টেক্সট স্বাক্ষৰ কৰক"
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:1
+msgid "Enable the seahorse encryption plugin for gedit."
+msgstr "gedit-ৰ জন্য উপলব্ধ seahorse এনক্ৰিপশন প্লাগ-ইন সক্ৰিয় কৰক ।"
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:2
+msgid "Enable the seahorse gedit plugin"
+msgstr "gedit-ৰ seahorse প্লাগ-ইন সক্ৰিয় কৰক"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:1
+msgid "Text Encryption"
+msgstr "টেক্সট এনক্ৰিপশন"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:2
+msgid "This plugin performs encryption operations on text."
+msgstr "এই প্লাগ-ইনেৰ সাহায্যি টেক্সট এনক্ৰিপশন সংক্ৰান্ত কাজ কৰা যাবে ।"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:158
+msgid "Encrypt..."
+msgstr "এনক্ৰিপ্ট কৰক..."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:159
+msgid "Encrypt (and optionally sign) the selected file"
+msgid_plural "Encrypt the selected files"
+msgstr[0] "নিৰ্বাচিত ফাইল এনক্ৰিপ্ট (ও প্ৰয়োজনে স্বাক্ষৰ) কৰক"
+msgstr[1] "নিৰ্বাচিত ফাইলগুলি এনক্ৰিপ্ট (ও প্ৰয়োজনে স্বাক্ষৰ) কৰক"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:165
+#
+msgid "Sign"
+msgstr "স্বাক্ষৰ কৰক"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:166
+msgid "Sign the selected file"
+msgid_plural "Sign the selected files"
+msgstr[0] "নিৰ্বাচিত ফাইল স্বাক্ষৰ কৰক"
+msgstr[1] "নিৰ্বাচিত ফাইলগুলি স্বাক্ষৰ কৰক"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:39
+msgid "For internal use"
+msgstr "শুধুমাত্ৰ অভ্যন্তৰীণ ব্যবহাৰেৰ জন্য চিহ্নিত"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:63
+msgid "Encryption Preferences"
+msgstr "এনক্ৰিপশন সংক্ৰান্ত পছন্দ"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:1
+msgid "Configure key servers and other encryption settings"
+msgstr "কি সাৰ্ভাৰ ও এনক্ৰিপশন সংক্ৰান্ত অনান্য বৈশিষ্ট্য কনফিগাৰ কৰক"
+
+#: ../plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in.h:1
+msgid "Decrypt File"
+msgstr "ফাই ডিক্ৰিপ্ট কৰক"
+
+#: ../plugins/nautilus/seahorse-pgp-keys.desktop.in.in.h:1
+msgid "Import Key"
+msgstr "কি ইম্পোৰ্ট কৰক"
+
+#: ../plugins/nautilus/seahorse-pgp-signature.desktop.in.in.h:1
+msgid "Verify Signature"
+msgstr "স্বাক্ষৰ পৰীক্ষণ"
+
+#: ../plugins/nautilus/seahorse-tool.c:62
+msgid "Import keys from the file"
+msgstr "ফাইলৰ পৰা কি ইম্পোৰ্ট কৰক"
+
+#: ../plugins/nautilus/seahorse-tool.c:64
+msgid "Encrypt file"
+msgstr "ফাইল এনক্ৰিপ্ট কৰক"
+
+#: ../plugins/nautilus/seahorse-tool.c:66
+msgid "Sign file with default key"
+msgstr "অবিকল্পিত কি সহযোগে ফাইল স্বাক্ষৰ কৰক"
+
+#: ../plugins/nautilus/seahorse-tool.c:68
+msgid "Encrypt and sign file with default key"
+msgstr "অবিকল্পিত কি সহযোগে ফাইল এনক্ৰিপ্ট ও স্বাক্ষৰ কৰক"
+
+#: ../plugins/nautilus/seahorse-tool.c:70
+msgid "Decrypt encrypted file"
+msgstr "এনক্ৰিপ্ট কৰা ফাইল ডিক্ৰিপ্ট কৰক"
+
+#: ../plugins/nautilus/seahorse-tool.c:72
+msgid "Verify signature file"
+msgstr "স্বাক্ষৰেৰ ফাইল যাচাই কৰক"
+
+#: ../plugins/nautilus/seahorse-tool.c:74
+msgid "Read list of URIs on standard in"
+msgstr "স্ট্যান্ডাৰ্ড ইনপুটেৰ মধ্যি URI-ৰ তালিকা পড়ুন"
+
+#: ../plugins/nautilus/seahorse-tool.c:76
+#
+msgid "file..."
+msgstr "ফাইল: [1]"
+
+#: ../plugins/nautilus/seahorse-tool.c:170
+msgid "Choose Recipients"
+msgstr "প্ৰাপক নিৰ্বাচন কৰক"
+
+#: ../plugins/nautilus/seahorse-tool.c:232
+#: ../plugins/nautilus/seahorse-tool.c:341
+msgid "Couldn't load keys"
+msgstr "কি লোড কৰতে বিফল"
+
+#: ../plugins/nautilus/seahorse-tool.c:250
+#, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr "'%s'-ৰ জন্য এনক্ৰিপ্ট কৰা ফাইলেৰ নাম নিৰ্বাচন কৰক"
+
+#: ../plugins/nautilus/seahorse-tool.c:323
+msgid "Choose Signer"
+msgstr "স্বাক্ষৰকাৰী নিৰ্বাচন কৰক"
+
+#: ../plugins/nautilus/seahorse-tool.c:361
+#, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr "'%s'-ৰ ক্ষেত্ৰে স্বাক্ষৰ ফাইলেৰ নাম নিৰ্বাচন কৰক"
+
+#: ../plugins/nautilus/seahorse-tool.c:401
+msgid "Import is complete"
+msgstr "ইম্পোৰ্ট কৰ্ম সমাপ্ত হয়নি"
+
+#: ../plugins/nautilus/seahorse-tool.c:434
+msgid "Importing keys ..."
+msgstr "কি ইম্পোৰ্ট কৰা হচ্ছে ..."
+
+#: ../plugins/nautilus/seahorse-tool.c:488
+#, c-format
+msgid "Imported key"
+msgstr "ইম্পোৰ্ট কৰা কি"
+
+#. File to decrypt to
+#: ../plugins/nautilus/seahorse-tool.c:512
+#, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr "'%s'-ৰ জন্য ডিক্ৰিপ্ট কৰা ফাইলেৰ নাম নিৰ্বাচন কৰক"
+
+#: ../plugins/nautilus/seahorse-tool.c:568
+#, c-format
+msgid "Choose Original File for '%s'"
+msgstr "'%s'-ৰ ক্ষেত্ৰে মূল ফাইলেৰ নাম নিৰ্বাচন কৰক"
+
+#.
+#. * TODO: What should happen with multiple files at this point.
+#. * The last thing we want to do is cascade a big pile of error
+#. * dialogs at the user.
+#.
+#: ../plugins/nautilus/seahorse-tool.c:640
+#, c-format
+msgid "No valid signatures found"
+msgstr "বৈধ স্বাক্ষৰ সনাক্ত কৰা যায়নি"
+
+#: ../plugins/nautilus/seahorse-tool.c:689
+msgid "File Encryption Tool"
+msgstr "ফাইল এনক্ৰিপশনেৰ সামগ্ৰী"
+
+#: ../plugins/nautilus/seahorse-tool.c:708
+msgid "Encrypting"
+msgstr "এনক্ৰিপশন প্ৰক্ৰিয়া"
+
+#: ../plugins/nautilus/seahorse-tool.c:709
+#, c-format
+msgid "Couldn't encrypt file: %s"
+msgstr "ফাইল এনক্ৰিপ্ট কৰতে ব্যৰ্থ: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:717
+#
+msgid "Signing"
+msgstr "স্বাক্ষৰ কৰা হচ্ছে"
+
+#: ../plugins/nautilus/seahorse-tool.c:718
+#, c-format
+msgid "Couldn't sign file: %s"
+msgstr "ফাইল স্বাক্ষৰ কৰতে ব্যৰ্থ: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:723
+#
+msgid "Importing"
+msgstr "ইম্পোৰ্ট কৰা হচ্ছে"
+
+#: ../plugins/nautilus/seahorse-tool.c:724
+#, c-format
+msgid "Couldn't import keys from file: %s"
+msgstr "চিহ্নিত ফাইলৰ পৰা এনক্ৰিপ্ট কৰতে ব্যৰ্থ: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:730
+msgid "Decrypting"
+msgstr "ডিক্ৰিপ্ট কৰা হচ্ছে"
+
+#: ../plugins/nautilus/seahorse-tool.c:731
+#, c-format
+msgid "Couldn't decrypt file: %s"
+msgstr "ফাইল ডিক্ৰিপ্ট কৰা যায়নি: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:736
+msgid "Verifying"
+msgstr "যাচাই কৰা হচ্ছে"
+
+#: ../plugins/nautilus/seahorse-tool.c:737
+#, c-format
+msgid "Couldn't verify file: %s"
+msgstr "ফাইল যাচাই কৰা যায়নি: %s"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:120
+msgid "Ace (.ace)"
+msgstr "Ace (.ace)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:121
+msgid "Ar (.ar)"
+msgstr "Ar (.ar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:122
+msgid "Arj (.arj)"
+msgstr "Arj (.arj)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:129
+msgid "Ear (.ear)"
+msgstr "Ear (.ear)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:130
+msgid "Self-extracting zip (.exe)"
+msgstr "Self-extracting zip (.exe)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:132
+msgid "Jar (.jar)"
+msgstr "Jar (.jar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:133
+msgid "Lha (.lzh)"
+msgstr "Lha (.lzh)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:135
+msgid "Rar (.rar)"
+msgstr "Rar (.rar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:137
+#
+msgid "Tar uncompressed (.tar)"
+msgstr "কম্প্ৰেশনবিহীন Tar (.tar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:138
+#
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "bzip দ্বাৰা কম্প্ৰেস কৰা tar (.tar.bz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:139
+#
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "bzip2 দ্বাৰা কম্প্ৰেস কৰা tar (.tar.bz2)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:140
+#
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "gzip দ্বাৰা কম্প্ৰেস কৰা tar (.tar.gz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:141
+#
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "lzop দ্বাৰা কম্প্ৰেস কৰা tar (.tar.lzo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:142
+#
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "compress দ্বাৰা কম্প্ৰেস কৰা tar (.tar.Z)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:144
+msgid "War (.war)"
+msgstr "War (.war)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:145
+msgid "Zip (.zip)"
+msgstr "Zip (.zip)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:146
+msgid "Zoo (.zoo)"
+msgstr "Zoo (.zoo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:147
+msgid "7-Zip (.7z)"
+msgstr "7-Zip (.7z)"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:327
+#, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] "%d-টি ফাইল "
+msgstr[1] "%d-টি ফাইল "
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:332
+#, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] "ও %d-টি ফোল্ডাৰ নিৰ্বাচন কৰা হয়েছে"
+msgstr[1] "ও %d-টি ফোল্ডাৰ নিৰ্বাচন কৰা হয়েছে"
+
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: ../plugins/nautilus/seahorse-tool-files.c:337
+#, c-format
+msgid "<b>%s%s</b>"
+msgstr "%1$s: %2$s"
+
+#. should never be called for just one file
+#: ../plugins/nautilus/seahorse-tool-files.c:346
+#, c-format
+msgid "You have selected %d files"
+msgstr "%d-টি ফাইল নিৰ্বাচন কৰা হয়েছে"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:351
+#, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] "%d-টি ফোল্ডাৰ নিৰ্বাচন কৰা হয়েছে"
+msgstr[1] "%d-টি ফোল্ডাৰ নিৰ্বাচন কৰা হয়েছে"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:853
+#
+msgid "Preparing..."
+msgstr "প্ৰস্তুত কৰা হচ্ছে..."
+
+#: ../plugins/nautilus/seahorse-tool-files.c:862
+#: ../plugins/nautilus/seahorse-tool-files.c:885
+msgid "Couldn't list files"
+msgstr "ফাইলেৰ তালিকা তৈৰি কৰা যায়নি"
+

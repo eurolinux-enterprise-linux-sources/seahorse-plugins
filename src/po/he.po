@@ -1,0 +1,1848 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Yair Hershkovitz <yairhr@gmail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-06 18:34+0000\n"
+"PO-Revision-Date: 2007-02-16 17:56+0000\n"
+"Last-Translator: Yair Hershkoviz <yairhr@gmail.com>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../agent/seahorse-agent-actions.c:120
+msgid "Passphrase:"
+msgstr ""
+
+#: ../agent/seahorse-agent-actions.c:121
+msgid "Please enter a passphrase to use."
+msgstr ""
+
+#: ../agent/seahorse-agent-cache.c:66
+msgid "Unparseable Key ID"
+msgstr ""
+
+#: ../agent/seahorse-agent-cache.c:67
+msgid "Unknown/Invalid Key"
+msgstr ""
+
+#: ../agent/seahorse-agent-cache.c:533
+#, c-format
+msgid "PGP Key: %s"
+msgstr "מפתח PGP: %s"
+
+#: ../agent/seahorse-agent-cache.glade.h:1
+msgid ""
+"<b>Warning</b>: Your system is not configured to cache passphrases in secure "
+"memory."
+msgstr ""
+
+#: ../agent/seahorse-agent-cache.glade.h:2
+msgid "Cache _Preferences"
+msgstr "ה_עדפות מטמון:"
+
+#: ../agent/seahorse-agent-cache.glade.h:3
+msgid "Cached Encryption Keys"
+msgstr ""
+
+#: ../agent/seahorse-agent-cache.glade.h:4
+msgid "Change passphrase cache settings."
+msgstr ""
+
+#: ../agent/seahorse-agent-cache.glade.h:5
+msgid "Clear passphrase cache"
+msgstr ""
+
+#: ../agent/seahorse-agent-cache.glade.h:6
+msgid "_Clear Cache"
+msgstr "_נקה את המטמון"
+
+#: ../agent/seahorse-agent-cache.glade.h:7
+msgid "_Show Window"
+msgstr "הצג _חלון"
+
+#: ../agent/seahorse-agent-main.c:52
+msgid "Do not daemonize seahorse-agent"
+msgstr "Do not daemonize seahorse-agent"
+
+#: ../agent/seahorse-agent-main.c:56
+msgid "Print variables in for a C type shell"
+msgstr "Print variables in for a C type shell"
+
+#: ../agent/seahorse-agent-main.c:60
+msgid "Display environment variables (the default)"
+msgstr "Display environment variables (the default)"
+
+#: ../agent/seahorse-agent-main.c:63
+msgid "Execute other arguments on the command line"
+msgstr "Execute other arguments on the command line"
+
+#: ../agent/seahorse-agent-main.c:67
+msgid "Allow GPG agent request from any display"
+msgstr "Allow GPG agent request from any display"
+
+#: ../agent/seahorse-agent-main.c:70
+msgid "command..."
+msgstr "command..."
+
+#: ../agent/seahorse-agent-main.c:108
+msgid "couldn't fork process"
+msgstr "couldn't fork process"
+
+#: ../agent/seahorse-agent-main.c:114
+msgid "couldn't create new process group"
+msgstr "couldn't create new process group"
+
+#: ../agent/seahorse-agent-main.c:240
+msgid "Encryption Key Agent (Seahorse)"
+msgstr "מנהל מפתחות הצפנה (Seahorse)"
+
+#: ../agent/seahorse-agent-main.c:246
+msgid "no command specified to execute"
+msgstr "no command specified to execute"
+
+#: ../agent/seahorse-agent-prompt.c:216
+msgid "Authorize Passphrase Access"
+msgstr ""
+
+#: ../agent/seahorse-agent-prompt.c:252
+msgid "The passphrase is cached in memory."
+msgstr ""
+
+#: ../agent/seahorse-agent-prompt.c:257
+msgid "Always ask me before using a cached passphrase"
+msgstr ""
+
+#: ../agent/seahorse-agent-prompt.c:274
+msgid "_Authorize"
+msgstr "_אשר"
+
+#. Make the uid column
+#: ../agent/seahorse-agent-status.c:145
+msgid "Key Name"
+msgstr "שם מפתח"
+
+#: ../data/seahorse.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+
+#: ../data/seahorse.schemas.in.h:2
+msgid ""
+"After performing an decrypt or verify operation from the applet, display the "
+"resulting text in a window."
+msgstr ""
+"After performing an decrypt or verify operation from the applet, display the "
+"resulting text in a window."
+
+#: ../data/seahorse.schemas.in.h:3
+msgid ""
+"After performing an encrypt or signing operation from the applet, display "
+"the resulting text in a window."
+msgstr ""
+"After performing an encrypt or signing operation from the applet, display "
+"the resulting text in a window."
+
+#: ../data/seahorse.schemas.in.h:4
+msgid "Display cache reminder in the notification area"
+msgstr "Display cache reminder in the notification area"
+
+#: ../data/seahorse.schemas.in.h:5
+msgid "Display clipboard after decrypting"
+msgstr "Display clipboard after decrypting"
+
+#: ../data/seahorse.schemas.in.h:6
+msgid "Display clipboard after encrypting"
+msgstr "Display clipboard after encrypting"
+
+#: ../data/seahorse.schemas.in.h:7
+msgid "Expire passwords in the cache"
+msgstr "Expire passwords in the cache"
+
+#: ../data/seahorse.schemas.in.h:8
+msgid "ID of the default key"
+msgstr "ID of the default key"
+
+#: ../data/seahorse.schemas.in.h:9
+msgid ""
+"If set to 'gnome' uses gnome-keyring to cache passwords. When set to "
+"'internal' uses internal cache."
+msgstr ""
+"If set to 'gnome' uses gnome-keyring to cache passwords. When set to "
+"'internal' uses internal cache."
+
+#: ../data/seahorse.schemas.in.h:10
+msgid ""
+"If set to true, then files encrypted with seahorse will be ASCII armor "
+"encoded."
+msgstr ""
+"If set to true, then files encrypted with seahorse will be ASCII armor "
+"encoded."
+
+#: ../data/seahorse.schemas.in.h:11
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+
+#: ../data/seahorse.schemas.in.h:12
+msgid "Last key used to sign a message."
+msgstr "Last key used to sign a message."
+
+#: ../data/seahorse.schemas.in.h:13
+msgid "PGP Key servers"
+msgstr "PGP Key servers"
+
+#: ../data/seahorse.schemas.in.h:14
+msgid "Prompt before using GPG passwords in cache"
+msgstr "Prompt before using GPG passwords in cache"
+
+#: ../data/seahorse.schemas.in.h:15
+msgid ""
+"Reflect the contents of the clipboard (whether encrypted, signed, etc...) in "
+"the panel applet icon."
+msgstr ""
+"Reflect the contents of the clipboard (whether encrypted, signed, etc...) in "
+"the panel applet icon."
+
+#: ../data/seahorse.schemas.in.h:16
+msgid ""
+"Set to 'true' to enable display of the cache reminder in the notification "
+"area of your panel."
+msgstr ""
+"Set to 'true' to enable display of the cache reminder in the notification "
+"area of your panel."
+
+#: ../data/seahorse.schemas.in.h:17
+msgid ""
+"Set to 'true' to have seahorse-agent prompt before giving out passwords it "
+"has cached."
+msgstr ""
+"Set to 'true' to have seahorse-agent prompt before giving out passwords it "
+"has cached."
+
+#: ../data/seahorse.schemas.in.h:18
+msgid "Show clipboard state in panel"
+msgstr "Show clipboard state in panel"
+
+#: ../data/seahorse.schemas.in.h:19
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+
+#: ../data/seahorse.schemas.in.h:20
+msgid "The ID of the last secret key used to sign a message."
+msgstr "The ID of the last secret key used to sign a message."
+
+#: ../data/seahorse.schemas.in.h:21
+msgid "The column to sort the recipients by"
+msgstr "The column to sort the recipients by"
+
+#: ../data/seahorse.schemas.in.h:22
+msgid "The time (in minutes) to cache GPG passwords"
+msgstr "The time (in minutes) to cache GPG passwords"
+
+#: ../data/seahorse.schemas.in.h:23
+msgid ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"seahorse-agent."
+msgstr ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"seahorse-agent."
+
+#: ../data/seahorse.schemas.in.h:24
+msgid ""
+"This option enables the GPG password cache in the seahorse-agent program. "
+"The 'use-agent' setting in gpg.conf affects this setting."
+msgstr ""
+"This option enables the GPG password cache in the seahorse-agent program. "
+"The 'use-agent' setting in gpg.conf affects this setting."
+
+#: ../data/seahorse.schemas.in.h:25
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr ""
+"This specifies the default key to use for certain operations, mainly signing."
+
+#: ../data/seahorse.schemas.in.h:26
+msgid ""
+"When set, seahorse-agent expires GPG passwords in its cache after a period "
+"of time."
+msgstr ""
+"When set, seahorse-agent expires GPG passwords in its cache after a period "
+"of time."
+
+#: ../data/seahorse.schemas.in.h:27
+msgid "Where to store cached passwords."
+msgstr "Where to store cached passwords."
+
+#: ../data/seahorse.schemas.in.h:28
+msgid "Whether the GPG password cache is enabled"
+msgstr "Whether the GPG password cache is enabled"
+
+#: ../data/seahorse.schemas.in.h:29
+msgid "Whether to always encrypt to default key"
+msgstr "Whether to always encrypt to default key"
+
+#: ../data/seahorse.schemas.in.h:30
+msgid "Whether to use ASCII Armor"
+msgstr "Whether to use ASCII Armor"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:1
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<b>בחרת קבצים או תיקיות מרובות</b>"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:2
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr ""
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:3
+msgid "Encrypt Multiple Files"
+msgstr "הצפן קבצים מרובים"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:4
+msgid "Encrypt each file separately"
+msgstr "הצפן כל קובץ בנפרד"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:5
+msgid "Encrypt packed together in a package"
+msgstr "הצפן ביחד לתוך חבילה"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:6
+msgid "Package Name:"
+msgstr "שם חבילה:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:7
+msgid "Packaging:"
+msgstr ""
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:8
+msgid "encrypted-package"
+msgstr "חבילה-מוצפנת"
+
+#: ../libseahorse/seahorse-notification.c:573
+#: ../libseahorse/seahorse-notification.c:598
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../libseahorse/seahorse-notification.c:577
+#: ../libseahorse/seahorse-notification.c:597
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../libseahorse/seahorse-notification.c:579
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:614
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:615
+msgid "Invalid Signature"
+msgstr "חתימה לא תקינה"
+
+#: ../libseahorse/seahorse-notification.c:621
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:622
+msgid "Expired Signature"
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:628
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:629
+msgid "Revoked Signature"
+msgstr ""
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:635
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:636
+msgid "Good Signature"
+msgstr "חתימה טובה"
+
+#: ../libseahorse/seahorse-notification.c:641
+msgid "Signing key not in keyring."
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:642
+msgid "Unknown Signature"
+msgstr "חתימה לא ידועה"
+
+#: ../libseahorse/seahorse-notification.c:646
+msgid "Bad or forged signature. The signed data was modified."
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:647
+msgid "Bad Signature"
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:655
+msgid "Couldn't verify signature."
+msgstr ""
+
+#: ../libseahorse/seahorse-notify.glade.h:1
+msgid "Notification Messages"
+msgstr "הודעות התרעה"
+
+#: ../libseahorse/seahorse-passphrase.c:174
+msgid "Passphrase"
+msgstr ""
+
+#: ../libseahorse/seahorse-passphrase.c:177
+msgid "Password:"
+msgstr "סיסמה:"
+
+#: ../libseahorse/seahorse-passphrase.c:241
+msgid "Confirm:"
+msgstr "אישור:"
+
+#: ../libseahorse/seahorse-passphrase.c:324
+#, c-format
+msgid "Wrong passphrase."
+msgstr ""
+
+#: ../libseahorse/seahorse-passphrase.c:328
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr ""
+
+#: ../libseahorse/seahorse-passphrase.c:330
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr ""
+
+#: ../libseahorse/seahorse-passphrase.c:333
+msgid "Enter new passphrase"
+msgstr ""
+
+#: ../libseahorse/seahorse-passphrase.c:335
+msgid "Enter passphrase"
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.c:100
+msgid "None. Prompt for a key."
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.glade.h:1
+msgid "<b>Default Key</b>"
+msgstr "<b>מפתח ברירת מחדל</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:2
+msgid "<b>Remember PGP Passphrases</b>"
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.glade.h:3
+msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.glade.h:4
+msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.glade.h:5
+msgid "As_k me before using a cached passphrase"
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.glade.h:6
+msgid "Encryption"
+msgstr "הצפנה"
+
+#: ../libseahorse/seahorse-prefs.glade.h:7
+msgid "PGP Passphrases"
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.glade.h:8
+msgid "Password and Encryption Settings"
+msgstr "הגדרות סיסמה והצפנה"
+
+#: ../libseahorse/seahorse-prefs.glade.h:9
+msgid "Show _icon in status area when passphrases are in memory"
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.glade.h:10
+msgid "When _encrypting, always include myself as a recipient"
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.glade.h:11
+msgid "_Always remember passphrases whenever logged in"
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.glade.h:12
+msgid "_Default key:"
+msgstr "מפתח _ברירת מחדל:"
+
+#: ../libseahorse/seahorse-prefs.glade.h:13
+msgid "_Never remember passphrases"
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.glade.h:14
+msgid "_Remember passphrases for"
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.glade.h:15
+msgid "minutes"
+msgstr "דקות"
+
+#: ../libseahorse/seahorse-progress.glade.h:1
+msgid "Progress Title"
+msgstr "כותרת התקדמות"
+
+#: ../libseahorse/seahorse-util.c:168
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "הפענוח נכשל. כנראה שאין לך את המפתח הפענוח."
+
+#: ../libseahorse/seahorse-util.c:218
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../libseahorse/seahorse-util.c:637
+msgid "Couldn't run file-roller"
+msgstr "לא ניתן להריץ את file-roller"
+
+#: ../libseahorse/seahorse-util.c:642
+#: ../plugins/nautilus/seahorse-tool-files.c:872
+msgid "Couldn't package files"
+msgstr ""
+
+#: ../libseahorse/seahorse-util.c:643
+msgid "The file-roller process did not complete successfully"
+msgstr ""
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libseahorse/seahorse-util.c:703
+msgid "All key files"
+msgstr "כל קבצי המפתחות"
+
+#: ../libseahorse/seahorse-util.c:710 ../libseahorse/seahorse-util.c:750
+msgid "All files"
+msgstr "כל הקבצים"
+
+#: ../libseahorse/seahorse-util.c:743
+msgid "Archive files"
+msgstr "קבצי ארכיון"
+
+#: ../libseahorse/seahorse-util.c:772
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+
+#: ../libseahorse/seahorse-util.c:775
+msgid "_Replace"
+msgstr "_החלף"
+
+#: ../libseahorse/seahorse-widget.c:326
+#, c-format
+msgid "Could not display help: %s"
+msgstr "לא ניתן להציג עזרה: %s"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:1
+msgid "Clipboard Text Encryption"
+msgstr ""
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:2
+msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+msgstr ""
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:3
+msgid "Seahorse Applet Factory"
+msgstr "Seahorse Applet Factory"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:1
+msgid "_About"
+msgstr "_אודות"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:2
+msgid "_Help"
+msgstr "_עזרה"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:3
+msgid "_Preferences"
+msgstr "_העדפות"
+
+#: ../plugins/applet/seahorse-applet.c:276
+#: ../plugins/applet/seahorse-applet.c:711
+#, fuzzy, c-format
+msgid "Could not display URL: %s"
+msgstr "לא ניתן להציג עזרה: %s"
+
+#: ../plugins/applet/seahorse-applet.c:312
+msgid "seahorse-applet"
+msgstr "יישומון Seahorse"
+
+#: ../plugins/applet/seahorse-applet.c:314
+#: ../plugins/applet/seahorse-applet.c:867
+msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:319
+msgid "translator-credits"
+msgstr ""
+"יאיר הרשקוביץ <yairhr@gmail.com>\n"
+"\n"
+"פרוייקט תרגום GNOME לעברית\n"
+"‏http://gnome-il.berlios.de"
+
+#: ../plugins/applet/seahorse-applet.c:322
+msgid "Seahorse Project Homepage"
+msgstr "דף הבית של פרוייקט Seahorse"
+
+#. Get the recipient list
+#: ../plugins/applet/seahorse-applet.c:381
+#: ../plugins/epiphany/seahorse-extension.c:257
+#: ../plugins/gedit/seahorse-gedit.c:335
+msgid "Choose Recipient Keys"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:400
+msgid "Encrypted Text"
+msgstr "טקסט מוצפן"
+
+#: ../plugins/applet/seahorse-applet.c:402
+msgid "Encryption Failed"
+msgstr "הצפנה נכשלה"
+
+#: ../plugins/applet/seahorse-applet.c:403
+msgid "The clipboard could not be encrypted."
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:440
+#: ../plugins/epiphany/seahorse-extension.c:307
+#: ../plugins/gedit/seahorse-gedit.c:627
+msgid "Choose Key to Sign with"
+msgstr "בחר מפתח לשימוש בחתימה"
+
+#: ../plugins/applet/seahorse-applet.c:460
+msgid "Signed Text"
+msgstr "טקסט חתום"
+
+#: ../plugins/applet/seahorse-applet.c:462
+msgid "Signing Failed"
+msgstr "חתימה נכשלה"
+
+#: ../plugins/applet/seahorse-applet.c:463
+msgid "The clipboard could not be Signed."
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:506
+#: ../plugins/epiphany/seahorse-extension.c:351
+#: ../plugins/nautilus/seahorse-tool.c:443
+msgid "Import Failed"
+msgstr "יבוא נכשל"
+
+#: ../plugins/applet/seahorse-applet.c:507
+#: ../plugins/epiphany/seahorse-extension.c:352
+#: ../plugins/nautilus/seahorse-tool.c:444
+msgid "Keys were found but not imported."
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:543
+#: ../plugins/epiphany/seahorse-extension.c:390
+msgid "Decrypting Failed"
+msgstr "הפענוח נכשל"
+
+#: ../plugins/applet/seahorse-applet.c:544
+#: ../plugins/epiphany/seahorse-extension.c:391
+msgid "Text may be malformed."
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:600
+msgid "No PGP key or message was found on clipboard"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:601
+msgid "No PGP data found."
+msgstr "לא נמצא מידע PGP."
+
+#. TRANSLATORS: This means 'The text that was decrypted'
+#: ../plugins/applet/seahorse-applet.c:638
+msgid "Decrypted Text"
+msgstr "טקסט מפוענח"
+
+#: ../plugins/applet/seahorse-applet.c:779
+msgid "_Encrypt Clipboard"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:786
+msgid "_Sign Clipboard"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:793
+msgid "_Decrypt/Verify Clipboard"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:799
+msgid "_Import Keys from Clipboard"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:864
+#: ../plugins/applet/seahorse-applet.c:866
+msgid "Encryption Applet"
+msgstr "יישומון הצפנה"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:1
+msgid "<b>Display clipboard contents after:</b>"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:2
+msgid "Clipboard Encryption Preferences"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:3
+msgid "_Decrypting the clipboard"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:4
+msgid "_Encrypting or signing the clipboard"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:5
+msgid "_Show clipboard state in panel"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:6
+msgid "_Verifying the clipboard"
+msgstr ""
+
+#: ../plugins/epiphany/seahorse-extension.c:640
+msgid "_Encrypt"
+msgstr "ה_צפן"
+
+#: ../plugins/epiphany/seahorse-extension.c:647
+msgid "_Sign"
+msgstr "_חתום"
+
+#: ../plugins/epiphany/seahorse-extension.c:654
+msgid "_Decrypt/Verify"
+msgstr ""
+
+#: ../plugins/epiphany/seahorse-extension.c:661
+msgid "_Import Key"
+msgstr "_יבא מפתח"
+
+#: ../plugins/gedit/seahorse-gedit.c:265
+msgid "Couldn't connect to seahorse-daemon"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:357
+msgid "Encrypted text"
+msgstr "טקסט מוצפן"
+
+#: ../plugins/gedit/seahorse-gedit.c:360
+msgid "Couldn't encrypt text"
+msgstr "לא ניתן להצפין את הטקסט"
+
+#: ../plugins/gedit/seahorse-gedit.c:390
+msgid "Couldn't import keys"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:399
+msgid "Keys found but not imported"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:438
+msgid "Couldn't decrypt text"
+msgstr "לא ניתן לפענח את הטקסט"
+
+#: ../plugins/gedit/seahorse-gedit.c:475
+msgid "Couldn't verify text"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:523
+msgid "No encrypted or signed text is selected."
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:553
+msgid "Decrypted text"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:560
+msgid "Verified text"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:595
+#: ../plugins/nautilus/seahorse-tool.c:469
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../plugins/gedit/seahorse-gedit.c:649
+msgid "Signed text"
+msgstr "טקסט חתום"
+
+#: ../plugins/gedit/seahorse-gedit.c:652
+msgid "Couldn't sign text"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:133
+msgid "_Encrypt..."
+msgstr "_הצפן..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:134
+msgid "Encrypt the selected text"
+msgstr "הצפן את הטקסט הנבחר"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:135
+msgid "Decr_ypt/Verify"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:136
+msgid "Decrypt and/or Verify text"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:137
+msgid "Sig_n..."
+msgstr "_חתום..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:138
+msgid "Sign the selected text"
+msgstr "חתום על הטקסט הנבחר"
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:1
+msgid "Enable the seahorse encryption plugin for gedit."
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:2
+msgid "Enable the seahorse gedit plugin"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:1
+msgid "Text Encryption"
+msgstr "הצפנת טקסט"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:2
+msgid "This plugin performs encryption operations on text."
+msgstr ""
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:158
+msgid "Encrypt..."
+msgstr "הצפן..."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:159
+msgid "Encrypt (and optionally sign) the selected file"
+msgid_plural "Encrypt the selected files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:165
+msgid "Sign"
+msgstr "חתום"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:166
+msgid "Sign the selected file"
+msgid_plural "Sign the selected files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:39
+msgid "For internal use"
+msgstr "לשימוש פנימי"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:63
+msgid "Encryption Preferences"
+msgstr "העדפות הצפנה"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:1
+msgid "Configure key servers and other encryption settings"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:2
+msgid "Encryption and Keyrings"
+msgstr "הצפנה וקבוצות מפתחות"
+
+#: ../plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in.h:1
+msgid "Decrypt File"
+msgstr "פענח קובץ"
+
+#: ../plugins/nautilus/seahorse-pgp-keys.desktop.in.in.h:1
+msgid "Import Key"
+msgstr "יבא נפתח"
+
+#: ../plugins/nautilus/seahorse-pgp-signature.desktop.in.in.h:1
+msgid "Verify Signature"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-tool.c:61
+msgid "Import keys from the file"
+msgstr "יבא מפתחות מהקובץ"
+
+#: ../plugins/nautilus/seahorse-tool.c:63
+msgid "Encrypt file"
+msgstr "הצפן קובץ"
+
+#: ../plugins/nautilus/seahorse-tool.c:65
+msgid "Sign file with default key"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-tool.c:67
+msgid "Encrypt and sign file with default key"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-tool.c:69
+msgid "Decrypt encrypted file"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-tool.c:71
+msgid "Verify signature file"
+msgstr "פענח קובץ מוצפן"
+
+#: ../plugins/nautilus/seahorse-tool.c:73
+msgid "Read list of URIs on standard in"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-tool.c:75
+msgid "file..."
+msgstr "קובץ..."
+
+#: ../plugins/nautilus/seahorse-tool.c:169
+msgid "Choose Recipients"
+msgstr "בחר נמענים"
+
+#: ../plugins/nautilus/seahorse-tool.c:231
+#: ../plugins/nautilus/seahorse-tool.c:321
+msgid "Couldn't load keys"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-tool.c:249
+#, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-tool.c:305
+msgid "Choose Signer"
+msgstr "בחר חותם"
+
+#: ../plugins/nautilus/seahorse-tool.c:340
+#, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-tool.c:380
+msgid "Import is complete"
+msgstr "הייבוא הסתיים"
+
+#: ../plugins/nautilus/seahorse-tool.c:413
+msgid "Importing keys ..."
+msgstr "מייבא מפתחות ..."
+
+#: ../plugins/nautilus/seahorse-tool.c:467
+#, c-format
+msgid "Imported key"
+msgstr "מפתח מיובא"
+
+#. File to decrypt to
+#: ../plugins/nautilus/seahorse-tool.c:491
+#, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-tool.c:547
+#, c-format
+msgid "Choose Original File for '%s'"
+msgstr ""
+
+#.
+#. * TODO: What should happen with multiple files at this point.
+#. * The last thing we want to do is cascade a big pile of error
+#. * dialogs at the user.
+#.
+#: ../plugins/nautilus/seahorse-tool.c:619
+#, c-format
+msgid "No valid signatures found"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-tool.c:668
+msgid "File Encryption Tool"
+msgstr "כלי הצפנת קבצים"
+
+#: ../plugins/nautilus/seahorse-tool.c:687
+msgid "Encrypting"
+msgstr "מצפין"
+
+#: ../plugins/nautilus/seahorse-tool.c:688
+#, c-format
+msgid "Couldn't encrypt file: %s"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-tool.c:696
+msgid "Signing"
+msgstr "חותם"
+
+#: ../plugins/nautilus/seahorse-tool.c:697
+#, c-format
+msgid "Couldn't sign file: %s"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-tool.c:702
+msgid "Importing"
+msgstr "מייבא"
+
+#: ../plugins/nautilus/seahorse-tool.c:703
+#, c-format
+msgid "Couldn't import keys from file: %s"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-tool.c:709
+msgid "Decrypting"
+msgstr "מפענח"
+
+#: ../plugins/nautilus/seahorse-tool.c:710
+#, c-format
+msgid "Couldn't decrypt file: %s"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-tool.c:715
+msgid "Verifying"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-tool.c:716
+#, c-format
+msgid "Couldn't verify file: %s"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-tool-files.c:120
+msgid "Ace (.ace)"
+msgstr "Ace (.ace)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:121
+msgid "Ar (.ar)"
+msgstr "Ar (.ar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:122
+msgid "Arj (.arj)"
+msgstr "Arj (.arj)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:129
+msgid "Ear (.ear)"
+msgstr "Ear (.ear)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:130
+msgid "Self-extracting zip (.exe)"
+msgstr "‏zip נפתח מעצמו (‎.exe)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:132
+msgid "Jar (.jar)"
+msgstr "Jar (.jar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:133
+msgid "Lha (.lzh)"
+msgstr "Lha (.lzh)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:135
+msgid "Rar (.rar)"
+msgstr "Rar (.rar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:137
+msgid "Tar uncompressed (.tar)"
+msgstr "‏Tar מכווץ (‎.tar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:138
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "‏Tar מכווץ עם  bzip ‏(‎.tar.bz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:139
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "‏Tar מכווץ עם  bzip2 ‏(‎.tar.bz2)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:140
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "‏Tar מכווץ עם  gzip ‏(‎.tar.gz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:141
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "‏Tar מכווץ עם  lzo ‏(‎.tar.lzo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:142
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "‏Tar מכווץ עם  כיווץ ‏(‎.tar.Z)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:144
+msgid "War (.war)"
+msgstr "War (.war)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:145
+msgid "Zip (.zip)"
+msgstr "Zip (.zip)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:146
+msgid "Zoo (.zoo)"
+msgstr "Zoo (.zoo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:147
+msgid "7-Zip (.7z)"
+msgstr "7-Zip (.7z)"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:327
+#, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] "בחרת קובץ אחד"
+msgstr[1] "בחרת %d קבצים"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:332
+#, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] ""
+"תיקייה אחת"
+msgstr[1] ""
+"ו-%d תיקיות"
+
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: ../plugins/nautilus/seahorse-tool-files.c:337
+#, c-format
+msgid "<b>%s%s</b>"
+msgstr "<b>%s%s</b>"
+
+#. should never be called for just one file
+#: ../plugins/nautilus/seahorse-tool-files.c:346
+#, c-format
+msgid "You have selected %d files"
+msgstr "בחרת %d קבצים"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:351
+#, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] "בחרת תיקייה אחת"
+msgstr[1] "בחרת %d תיקיות"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:853
+msgid "Preparing..."
+msgstr "מכין..."
+
+#: ../plugins/nautilus/seahorse-tool-files.c:862
+#: ../plugins/nautilus/seahorse-tool-files.c:885
+msgid "Couldn't list files"
+msgstr ""
+
+#~ msgid "Do not run seahorse-daemon as a daemon"
+#~ msgstr "Do not run seahorse-daemon as a daemon"
+
+#~ msgid "Invalid or unrecognized key type: %s"
+#~ msgstr "סוג מפתח לא תקין או לא מוכר: %s"
+
+#~ msgid "Invalid or unrecognized key: %s"
+#~ msgstr "מפתח לא תקין או לא מוכר: %s"
+
+#~ msgid "Invalid or unrecognized signer: %s"
+#~ msgstr "חותם לא תקין או לא מוכר: %s"
+
+#, fuzzy
+#~ msgid "Auto Retrieve Keys"
+#~ msgstr "Auto Sync Keys"
+
+#~ msgid "Auto Sync Keys"
+#~ msgstr "Auto Sync Keys"
+
+#~ msgid "Controls the visibility of the expires column for the key manager."
+#~ msgstr "Controls the visibility of the expires column for the key manager."
+
+#~ msgid "Controls the visibility of the trust column for the key manager."
+#~ msgstr "Controls the visibility of the trust column for the key manager."
+
+#~ msgid "Controls the visibility of the type column for the key manager."
+#~ msgstr "Controls the visibility of the type column for the key manager."
+
+#~ msgid "Controls the visibility of the validity column for the key manager."
+#~ msgstr "Controls the visibility of the validity column for the key manager."
+
+#~ msgid "Enable DNS-SD sharing"
+#~ msgstr "Enable DNS-SD sharing"
+
+#~ msgid ""
+#~ "Enables DNS-SD (Apple Bonjour) sharing of keys. seahorse-daemon must be "
+#~ "running and must be built with HKP and DNS-SD support."
+#~ msgstr ""
+#~ "Enables DNS-SD (Apple Bonjour) sharing of keys. seahorse-daemon must be "
+#~ "running and must be built with HKP and DNS-SD support."
+
+#~ msgid "Last key server search pattern"
+#~ msgstr "Last key server search pattern"
+
+#~ msgid "Last key servers used"
+#~ msgstr "Last key servers used"
+
+#~ msgid "Publish keys to this key server."
+#~ msgstr "Publish keys to this key server."
+
+#~ msgid "Show expires column in key manager"
+#~ msgstr "Show expires column in key manager"
+
+#~ msgid "Show trust column in key manager"
+#~ msgstr "Show trust column in key manager"
+
+#~ msgid "Show type column in key manager"
+#~ msgstr "Show type column in key manager"
+
+#~ msgid "Show validity column in key manager"
+#~ msgstr "Show validity column in key manager"
+
+#~ msgid ""
+#~ "Specify the column to sort the seahorse key manager main window by. "
+#~ "Columns are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. "
+#~ "Put a '-' in front of the column name to sort in descending order."
+#~ msgstr ""
+#~ "Specify the column to sort the seahorse key manager main window by. "
+#~ "Columns are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. "
+#~ "Put a '-' in front of the column name to sort in descending order."
+
+#~ msgid "The column to sort the seahorse keys by"
+#~ msgstr "The column to sort the seahorse keys by"
+
+#~ msgid ""
+#~ "The key server to publish PGP keys to. Or empty to suppress publishing of "
+#~ "PGP keys."
+#~ msgstr ""
+#~ "The key server to publish PGP keys to. Or empty to suppress publishing of "
+#~ "PGP keys."
+
+#~ msgid ""
+#~ "The last key server a search was performed against or empty for all key "
+#~ "servers."
+#~ msgstr ""
+#~ "The last key server a search was performed against or empty for all key "
+#~ "servers."
+
+#~ msgid "The last search pattern searched for against a key server."
+#~ msgstr "The last search pattern searched for against a key server."
+
+#, fuzzy
+#~ msgid ""
+#~ "Whether or not keys should be automatically retrieved from key servers."
+#~ msgstr ""
+#~ "Whether or not modified keys should be automatically synced with the "
+#~ "default key server."
+
+#~ msgid ""
+#~ "Whether or not modified keys should be automatically synced with the "
+#~ "default key server."
+#~ msgstr ""
+#~ "Whether or not modified keys should be automatically synced with the "
+#~ "default key server."
+
+#~ msgid "All Keys"
+#~ msgstr "כל הפתחות"
+
+#~ msgid "Search Results"
+#~ msgstr "תוצאות חיפוש"
+
+#~ msgid "Search _for:"
+#~ msgstr "חפש _עבור:"
+
+#~ msgid "_Sign message as:"
+#~ msgstr "_חתום על ההודעה כ:"
+
+#~ msgid "None (Don't Sign)"
+#~ msgstr "ללא (אל תחתום)"
+
+#~ msgid "Name"
+#~ msgstr "שם"
+
+#~ msgid "Key ID"
+#~ msgstr "זיהוי מפתח"
+
+#~ msgid "New Keyring Name:"
+#~ msgstr "שם קבוצת המפתחות החדשה:"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "Add Key Server"
+#~ msgstr "הוסף שרת מפתח"
+
+#~ msgid "Host:"
+#~ msgstr "מארח:"
+
+#~ msgid "Key Server Type:"
+#~ msgstr "סוג שרת מפתח:"
+
+#~ msgid "Searching for keys..."
+#~ msgstr "מחפש מפתחות..."
+
+#~ msgid "Uploading keys..."
+#~ msgstr "מעל מפתחות..."
+
+#~ msgid "Retrieving keys..."
+#~ msgstr "מאחזר מפתחות..."
+
+#~ msgid "Searching for keys on: %s"
+#~ msgstr "מחפש מפתחות ב: %s"
+
+#~ msgid "Connecting to: %s"
+#~ msgstr "מתחבר אל: %s"
+
+#~ msgid "Invalid"
+#~ msgstr "לא תקין"
+
+#~ msgid "Public PGP Key"
+#~ msgstr "מפתח PGP ציבורי"
+
+#~ msgid "Private PGP Key"
+#~ msgstr "מפתח PGP פרטי"
+
+#~ msgid "Unknown"
+#~ msgstr "לא ידוע"
+
+#~ msgid "ElGamal"
+#~ msgstr "אל-גמל"
+
+#~ msgid "PGP Key"
+#~ msgstr "מפתח PGP"
+
+#~ msgid "Loaded %d key"
+#~ msgid_plural "Loaded %d keys"
+#~ msgstr[0] "מפתח אחד נטען"
+#~ msgstr[1] "%d מפתחות נטענו"
+
+#~ msgid "Loading Keys..."
+#~ msgstr "טוען מפתחות..."
+
+#~ msgid "Importing Keys"
+#~ msgstr "מייבא מפתחות"
+
+#~ msgid "Exporting Keys"
+#~ msgstr "מייצא מפתחות"
+
+#~ msgid "URL"
+#~ msgstr "כתובת"
+
+#~ msgid "Custom"
+#~ msgstr "מותאם אישית"
+
+#, fuzzy
+#~ msgid "<b>Default Keyring</b>"
+#~ msgstr "<b>תאריכים:</b>"
+
+#~ msgid "Key Servers"
+#~ msgstr "שרתי מפתח"
+
+#~ msgid "Key Sharing"
+#~ msgstr "שיתוף מפתחות"
+
+#, fuzzy
+#~ msgid "Password Keyrings"
+#~ msgstr "_סיסמאות"
+
+#~ msgid "_Add Keyring"
+#~ msgstr "_הוסף קבוצת מפתחות"
+
+#, fuzzy
+#~ msgid "_Publish keys to:"
+#~ msgstr "Publish keys to this key server."
+
+#, fuzzy
+#~ msgid "_Remove Keyring"
+#~ msgstr "מפתחות מרוחקים"
+
+#~ msgid "LDAP Key Server"
+#~ msgstr "שרת מפתחות LDAP"
+
+#~ msgid "HTTP Key Server"
+#~ msgstr "שרת מפתחות HTTP"
+
+#~ msgid "The SSH command failed."
+#~ msgstr "פקודת ה-SSH נכשלה."
+
+#~ msgid "Importing key: %s"
+#~ msgstr "מייבא מפתח: %s"
+
+#~ msgid "Unavailable"
+#~ msgstr "לא זמין"
+
+#~ msgid "Unknown Key: %s"
+#~ msgstr "מפתח לא ידוע: %s"
+
+#~ msgid "Unknown Key"
+#~ msgstr "מפתח לא ידוע"
+
+#~ msgid "Unavailable Key"
+#~ msgstr "מפתח לא זמין"
+
+#~ msgid "Key Data"
+#~ msgstr "מידע מפתח"
+
+#~ msgid "Never"
+#~ msgstr "לעולם לא"
+
+#~ msgid "Full"
+#~ msgstr "מלא"
+
+#~ msgid "Disabled"
+#~ msgstr "כבוי"
+
+#~ msgid "Encryption Key Manager"
+#~ msgstr "מנהל מפתח הצפנה"
+
+#~ msgid "DSA (sign only)"
+#~ msgstr "‏DSA (חתימה בלבד)"
+
+#~ msgid "ElGamal (encrypt only)"
+#~ msgstr "אל-גמל (הצפנה בלבד)"
+
+#~ msgid "RSA (sign only)"
+#~ msgstr "‏RSA (חתימה בלבד)"
+
+#~ msgid "RSA (encrypt only)"
+#~ msgstr "‏RSA (הצפנה בלבד)"
+
+#~ msgid "Expiration Date:"
+#~ msgstr "תאריך תפוגה:"
+
+#~ msgid "Key _Length:"
+#~ msgstr "_אורך מפתח:"
+
+#~ msgid "Key _Type:"
+#~ msgstr "_סוג מפתח:"
+
+#~ msgid "Length of Key"
+#~ msgstr "אורך המפתח"
+
+#~ msgid "Add User ID"
+#~ msgstr "הוסף זיהוי משתמש"
+
+#~ msgid "Full _Name:"
+#~ msgstr "שם _מלא:"
+
+#~ msgid "Key Co_mment:"
+#~ msgstr "הע_רת מפתח:"
+
+#~ msgid "Optional email address"
+#~ msgstr "כתובת דוא\"ל אפשרית"
+
+#~ msgid "_Email Address:"
+#~ msgstr "כתובת דוא\"ל:"
+
+#~ msgid "C_hange"
+#~ msgstr "_שנה"
+
+#~ msgid "_Never expires"
+#~ msgstr "_לעולם לא פג"
+
+#~ msgid "C_ontinue"
+#~ msgstr "ה_משך"
+
+#~ msgid "Create a New Key"
+#~ msgstr "צור מפתח חדש"
+
+#~ msgid "Web Password"
+#~ msgstr "סיסמת Web"
+
+#~ msgid "Password"
+#~ msgstr "סיסמה"
+
+#~ msgid "<b>Password:</b>"
+#~ msgstr "<b>סיסמה:</b>"
+
+#~ msgid "<b>Path:</b>"
+#~ msgstr "<b>נתיב:</b>"
+
+#~ msgid "<b>Permissions:</b>"
+#~ msgstr "<b>הרשאות:</b>"
+
+#~ msgid "<b>Technical Details:</b>"
+#~ msgstr "<b>פרטים טכניים:</b>"
+
+#~ msgid "Applications"
+#~ msgstr "יישומים"
+
+#~ msgid "Details"
+#~ msgstr "פרטים"
+
+#~ msgid "Key"
+#~ msgstr "מפתח"
+
+#~ msgid "Key Properties"
+#~ msgstr "מאפייני מפתח"
+
+#~ msgid "Server:"
+#~ msgstr "שרת:"
+
+#~ msgid "Show pass_word"
+#~ msgstr "הצג _סיסמה"
+
+#~ msgid "Type:"
+#~ msgstr "סוג:"
+
+#~ msgid "_Delete"
+#~ msgstr "מ_חק"
+
+#~ msgid "_Description:"
+#~ msgstr "_תיאור:"
+
+#~ msgid "_Read"
+#~ msgstr "_קרא"
+
+#~ msgid "_Write"
+#~ msgstr "_כתוב"
+
+#~ msgid "Saving item..."
+#~ msgstr "שומר פריט..."
+
+#~ msgid "Contributions:"
+#~ msgstr "תורמים:"
+
+#~ msgid "seahorse"
+#~ msgstr "seahorse"
+
+#~ msgid "_Key"
+#~ msgstr "_מפתח"
+
+#~ msgid "_Edit"
+#~ msgstr "_עריכה"
+
+#~ msgid "_View"
+#~ msgstr "_תצוגה"
+
+#~ msgid "_Create New Key..."
+#~ msgstr "_צור מפתח חדש..."
+
+#~ msgid "Create a new personal key"
+#~ msgstr "צור מפתח ציבורי חדש"
+
+#~ msgid "_Import..."
+#~ msgstr "_ייבא"
+
+#~ msgid "_Quit"
+#~ msgstr "_יציאה"
+
+#~ msgid "Close this program"
+#~ msgstr "סגור את תוכנית זאת"
+
+#~ msgid "Prefere_nces"
+#~ msgstr "ה_עדפות"
+
+#~ msgid "About this program"
+#~ msgstr "אודות תוכנית זאת"
+
+#~ msgid "_Remote"
+#~ msgstr "_מרוחק"
+
+#~ msgid "_Contents"
+#~ msgstr "_תכנים"
+
+#~ msgid "Show Seahorse help"
+#~ msgstr "הצג עזרה עבור Seahorse"
+
+#~ msgid "T_ypes"
+#~ msgstr "_סוגים"
+
+#~ msgid "_Expiry"
+#~ msgstr "_תפוגה"
+
+#~ msgid "P_roperties"
+#~ msgstr "מ_אפיינים"
+
+#~ msgid "Show key properties"
+#~ msgstr "הצג מאפייני מפתח"
+
+#~ msgid "_Delete Key"
+#~ msgstr "_מחק מפתח"
+
+#~ msgid "_Sign..."
+#~ msgstr "_חתום..."
+
+#~ msgid "_Find Remote Keys..."
+#~ msgstr "_חפש מפתחות מרוחקים..."
+
+#~ msgid "Filter:"
+#~ msgstr "מסנן:"
+
+#~ msgid "My _Personal Keys"
+#~ msgstr "ה_מפתחות האישיים שלי"
+
+#~ msgid "Other _Collected Keys"
+#~ msgstr "מפתחות _אחרים"
+
+#~ msgid "_Import"
+#~ msgstr "_יבא"
+
+#~ msgid "_Passwords"
+#~ msgstr "_סיסמאות"
+
+#~ msgid "Expired"
+#~ msgstr "פג תוקף"
+
+#~ msgid "User ID"
+#~ msgstr "זיהוי משתמש"
+
+#~ msgid "Type"
+#~ msgstr "סוג"
+
+#~ msgid "Expiration Date"
+#~ msgstr "תאריך תפוגה"
+
+#~ msgid "[Unknown]"
+#~ msgstr "[לא ידוע]"
+
+#~ msgid "Name/Email"
+#~ msgstr "שם/דוא\"ל"
+
+#~ msgid "Signature ID"
+#~ msgstr "זיהוי חתימה"
+
+#~ msgid "(unknown)"
+#~ msgstr "(לא ידוע)"
+
+#~ msgid "ID"
+#~ msgstr "זיהוי"
+
+#~ msgid "Created"
+#~ msgstr "נוצר"
+
+#~ msgid "Strength"
+#~ msgstr "חוזק"
+
+#~ msgid "Save Remote Keys"
+#~ msgstr "שמור מפתחות מרוחקים"
+
+#~ msgid "_Close"
+#~ msgstr "_סגור"
+
+#~ msgid "Close this window"
+#~ msgstr "סגור את חלון זה"
+
+#~ msgid "Save Key As..."
+#~ msgstr "שמור מפתח בשם..."
+
+#~ msgid "_Copy Key"
+#~ msgstr "ה_עתק מפתח"
+
+#~ msgid "Remote Keys"
+#~ msgstr "מפתחות מרוחקים"
+
+#~ msgid "<b>Key Servers:</b>"
+#~ msgstr "<b>שרתי מפתח:</b>"
+
+#~ msgid "Find Remote Keys"
+#~ msgstr "חפש מפתחות מרוחקים"
+
+#~ msgid "Where to search:"
+#~ msgstr "איפה לחפש:"
+
+#~ msgid "_Search"
+#~ msgstr "_חפש:"
+
+#~ msgid "Synchronizing keys"
+#~ msgstr "מסנכרן מפתחות"
+
+#~ msgid "Synchronizing keys..."
+#~ msgstr "מסנכרן מפתחות..."
+
+#~ msgid "_Key Servers"
+#~ msgstr "_שרתי מפתח"
+
+#~ msgid "_Sync"
+#~ msgstr "_סנכרן"
+
+#~ msgid "DSA Elgamal"
+#~ msgstr "‏DSA אל-גמל"
+
+#~ msgid "Generating key"
+#~ msgstr "יוצר מפתח"
+
+#~ msgid "<b>_Advanced key options</b>"
+#~ msgstr "<b>_אפשרויות מפתח מתקדמות</b>"
+
+#~ msgid "C_reate"
+#~ msgstr "_צור"
+
+#~ msgid "Create a PGP Key"
+#~ msgstr "צור מפתח PGP"
+
+#~ msgid "E_xpiration Date:"
+#~ msgstr "תאריך _תפוגה:"
+
+#~ msgid "Encryption _Type:"
+#~ msgstr "_סוג הצפנה:"
+
+#~ msgid "Key _Strength (bits):"
+#~ msgstr "_חוזק מפתח (סיביות):"
+
+#~ msgid "New PGP Key"
+#~ msgstr "מפתח PGP חדש"
+
+#~ msgid "_Comment:"
+#~ msgstr "_הערה:"
+
+#~ msgid "<b>Actions</b>"
+#~ msgstr "<b>פעולות</b>"
+
+#~ msgid "<b>Comment:</b>"
+#~ msgstr "<b>הערה:</b>"
+
+#~ msgid "<b>Dates</b>"
+#~ msgstr "<b>תאריכים</b>"
+
+#~ msgid "<b>Email:</b>"
+#~ msgstr "<b>דוא\"ל:</b>"
+
+#~ msgid "<b>Fingerprint</b>"
+#~ msgstr "<b>טביעת אצבע:</b>"
+
+#~ msgid "<b>Key ID:</b>"
+#~ msgstr "<b>זיהוי מפתח:</b>"
+
+#~ msgid "<b>Name:</b>"
+#~ msgstr "<b>שם:</b>"
+
+#~ msgid "<b>Photo </b>"
+#~ msgstr "<b>תמונה </b>"
+
+#~ msgid "<b>Technical Details</b>"
+#~ msgstr "<b>פרטים טכניים</b>"
+
+#~ msgid "<b>This key has expired</b>"
+#~ msgstr "<b>פג תוקף מפתח זה</b>"
+
+#~ msgid "<b>Type:</b>"
+#~ msgstr "<b>סוג:</b>"
+
+#~ msgid "Add"
+#~ msgstr "הוסף"
+
+#~ msgid "Created:"
+#~ msgstr "נוצר:"
+
+#~ msgid "Delete"
+#~ msgstr "מחק"
+
+#~ msgid "Export"
+#~ msgstr "יצא"
+
+#~ msgid "Key ID:"
+#~ msgstr "זיהוי מפתח:"
+
+#~ msgid "Owner"
+#~ msgstr "בעלים"
+
+#~ msgid "Primary"
+#~ msgstr "ראשי"
+
+#~ msgid "Strength:"
+#~ msgstr "חוזק:"
+
+#~ msgid "_Add Name"
+#~ msgstr "הוסף _שם"
+
+#~ msgid "<b>Dates:</b>"
+#~ msgstr "<b>תאריכים:</b>"
+
+#~ msgid "<b>Fingerprint:</b>"
+#~ msgstr "<b>טביעת אצבע:</b>"
+
+#~ msgid "<b>_Other Names:</b>"
+#~ msgstr "<b>_שמות אחרים:</b>"
+
+#~ msgid "_Sign this Key"
+#~ msgstr "_חתום על מפתח זה"
+
+#~ msgid "All image files"
+#~ msgstr "כל קבצי תמונה"
+
+#~ msgid "All JPEG files"
+#~ msgstr "כל קבצי JPEG"
+
+#~ msgid "No reason"
+#~ msgstr "אין סיבה"
+
+#~ msgid "Not Used"
+#~ msgstr "לא בשימוש"
+
+#~ msgid "_Reason:"
+#~ msgstr "_סיבה:"
+
+#~ msgid "<i>Key Name</i>"
+#~ msgstr "<i>שם מפתח</i>"
+
+#~ msgid "_Signer:"
+#~ msgstr "_חותם:"
+
+#~ msgid "_Key Description:"
+#~ msgstr "_תיאור מפתח"
+
+#~ msgid "/home/nate/.ssh/blah_rsa"
+#~ msgstr "/home/nate/.ssh/blah_rsa"
+
+#~ msgid "00:00:00:00:00"
+#~ msgstr "00:00:00:00:00"
+
+#~ msgid "<b>Algorithm:</b>"
+#~ msgstr "<b>אלגוריתם:</b>"
+
+#~ msgid "<b>Location:</b>"
+#~ msgstr "<b>מיקום:</b>"
+
+#~ msgid "<b>Strength:</b>"
+#~ msgstr "<b>חוזק:</b>"
+
+#~ msgid "_Computer Name:"
+#~ msgstr "שם _מחשב:"
+
+#~ msgid "_Login Name:"
+#~ msgstr "_שם התחברות:"
+
+#~ msgid ""
+#~ "Display variables instead of editing conf files (gpg.conf, SSH agent "
+#~ "socket)"
+#~ msgstr ""
+#~ "Display variables instead of editing conf files (gpg.conf, SSH agent "
+#~ "socket)"
+
+#~ msgid "couldn't drop privileges properly"
+#~ msgstr "couldn't drop privileges properly"
+
+#~ msgid ""
+#~ "When set seahorse-agent will try to automatically load the users SSH keys "
+#~ "when needed. This is equivalent to using the ssh-add utility."
+#~ msgstr ""
+#~ "When set seahorse-agent will try to automatically load the users SSH keys "
+#~ "when needed. This is equivalent to using the ssh-add utility."
+
+#~ msgid "Whether to automatically load SSH keys on demand."
+#~ msgstr "Whether to automatically load SSH keys on demand."

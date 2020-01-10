@@ -1,0 +1,1197 @@
+# French translation of seahorse-plugins.
+# Copyright (C) 2000-2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the seahorse package.
+#
+# Gaël Quéri <gqueri@mail.dotcom.fr>, 2000.
+# Stéphane Blondin <stephane.blondin@caramail.com>, 2003.
+# Christophe Merlet <redfox@redfoxcenter.org>. 2003-2006.
+# David Soulayrol <david.soulayrol.2000@anciens.enib.fr>, 2005.
+# Jonathan Ernst <jonathan@ernstfamily.ch>, 2006-2007.
+# Claude Paroz <claude@2xlibre.net>, 2007-2008.
+# Stéphane Raimbault <stephane.raimbault@gmail.com>, 2007-2008.
+# Robert-André Mauchin <zebob.m@pengzone.org>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: seahorse HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-23 10:45+0200\n"
+"PO-Revision-Date: 2008-08-23 10:47+0200\n"
+"Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
+"Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+
+#: ../agent/seahorse-agent-actions.c:120
+msgid "Passphrase:"
+msgstr "Phrase de passe :"
+
+#: ../agent/seahorse-agent-actions.c:121
+msgid "Please enter a passphrase to use."
+msgstr "Saisissez la phrase de passe à utiliser."
+
+#: ../agent/seahorse-agent-cache.c:66
+msgid "Unparseable Key ID"
+msgstr "Identifiant de clé non lisible"
+
+#: ../agent/seahorse-agent-cache.c:67
+msgid "Unknown/Invalid Key"
+msgstr "Clé inconnue/invalide"
+
+#: ../agent/seahorse-agent-cache.c:533
+#, c-format
+msgid "PGP Key: %s"
+msgstr "Clé PGP : %s"
+
+#: ../agent/seahorse-agent-cache.glade.h:1
+msgid ""
+"<b>Warning</b>: Your system is not configured to cache passphrases in secure "
+"memory."
+msgstr ""
+"<b>Avertissement</b> : votre système n'est pas configuré pour cacher de "
+"manière sécurisée les phrases de passe en mémoire."
+
+#: ../agent/seahorse-agent-cache.glade.h:2
+msgid "Cache _Preferences"
+msgstr "_Préférences de cache"
+
+#: ../agent/seahorse-agent-cache.glade.h:3
+msgid "Cached Encryption Keys"
+msgstr "Clés de chiffrement en mémoire"
+
+#: ../agent/seahorse-agent-cache.glade.h:4
+msgid "Change passphrase cache settings."
+msgstr "Modifier les paramètres du cache de phrases de passe"
+
+#: ../agent/seahorse-agent-cache.glade.h:5
+msgid "Clear passphrase cache"
+msgstr "Nettoyer le cache de phrases de passe"
+
+#: ../agent/seahorse-agent-cache.glade.h:6
+msgid "_Clear Cache"
+msgstr "_Nettoyer le cache"
+
+#: ../agent/seahorse-agent-cache.glade.h:7
+msgid "_Show Window"
+msgstr "_Afficher la fenêtre"
+
+#: ../agent/seahorse-agent-main.c:52
+msgid "Do not daemonize seahorse-agent"
+msgstr "Ne pas faire de seahorse-agent un démon"
+
+#: ../agent/seahorse-agent-main.c:56
+msgid "Print variables in for a C type shell"
+msgstr "Affiche les variables pour un shell type C"
+
+#: ../agent/seahorse-agent-main.c:60
+msgid "Display environment variables (the default)"
+msgstr "Affiche les variables d'environnement (comportement par défaut)"
+
+#: ../agent/seahorse-agent-main.c:63
+msgid "Execute other arguments on the command line"
+msgstr "Exécute d'autres arguments sur la ligne de commande"
+
+#: ../agent/seahorse-agent-main.c:67
+msgid "Allow GPG agent request from any display"
+msgstr "Autorise l'agent GPG à interroger n'importe quel affichage"
+
+#: ../agent/seahorse-agent-main.c:70
+msgid "command..."
+msgstr "commande..."
+
+#: ../agent/seahorse-agent-main.c:108
+msgid "couldn't fork process"
+msgstr "impossible de créer le processus"
+
+#: ../agent/seahorse-agent-main.c:114
+msgid "couldn't create new process group"
+msgstr "impossible de créer un nouveau groupe de processus"
+
+#: ../agent/seahorse-agent-main.c:240
+msgid "Encryption Key Agent (Seahorse)"
+msgstr "Agent de clés de chiffrement (Seahorse)"
+
+#: ../agent/seahorse-agent-main.c:246
+msgid "no command specified to execute"
+msgstr "aucune commande à exécuter"
+
+#: ../agent/seahorse-agent-prompt.c:216
+msgid "Authorize Passphrase Access"
+msgstr "Autoriser l'accès à la phrase de passe"
+
+#: ../agent/seahorse-agent-prompt.c:252
+msgid "The passphrase is cached in memory."
+msgstr "La phrase de passe est présente en mémoire cache."
+
+#: ../agent/seahorse-agent-prompt.c:257
+msgid "Always ask me before using a cached passphrase"
+msgstr "Toujours demander avant d'utiliser une phrase de passe en cache"
+
+#: ../agent/seahorse-agent-prompt.c:274
+msgid "_Authorize"
+msgstr "_Autoriser"
+
+#. Make the uid column
+#: ../agent/seahorse-agent-status.c:145
+msgid "Key Name"
+msgstr "Nom de clé"
+
+#: ../data/seahorse-plugins.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"Une liste d'URI de serveurs de clés pour chercher les clés PGP distantes. "
+"Dans les versions récentes, un nom d'affichage peut être inclus en ajoutant "
+"un espace puis le nom."
+
+#: ../data/seahorse-plugins.schemas.in.h:2
+msgid ""
+"After performing an decrypt or verify operation from the applet, display the "
+"resulting text in a window."
+msgstr ""
+"Après une opération de déchiffrement ou de vérification à partir de "
+"l'applet, affiche le texte résultant dans une fenêtre."
+
+#: ../data/seahorse-plugins.schemas.in.h:3
+msgid ""
+"After performing an encrypt or signing operation from the applet, display "
+"the resulting text in a window."
+msgstr ""
+"Après une opération de chiffrement ou de signature à partir de l'applet, "
+"affiche le texte résultant dans une fenêtre."
+
+#: ../data/seahorse-plugins.schemas.in.h:4
+msgid "Display cache reminder in the notification area"
+msgstr "Affiche le rappel du cache dans la zone de notification"
+
+#: ../data/seahorse-plugins.schemas.in.h:5
+msgid "Display clipboard after decrypting"
+msgstr "Affiche le presse-papiers après le déchiffrement"
+
+#: ../data/seahorse-plugins.schemas.in.h:6
+msgid "Display clipboard after encrypting"
+msgstr "Affiche le presse-papiers après le chiffrement"
+
+#: ../data/seahorse-plugins.schemas.in.h:7
+msgid "Expire passwords in the cache"
+msgstr "Retire les mots de passe de la mémoire cache"
+
+#: ../data/seahorse-plugins.schemas.in.h:8
+msgid "ID of the default key"
+msgstr "Identifiant de la clé par défaut"
+
+#: ../data/seahorse-plugins.schemas.in.h:9
+msgid ""
+"If set to 'gnome' uses gnome-keyring to cache passwords. When set to "
+"'internal' uses internal cache."
+msgstr ""
+"Avec la valeur « gnome », utilise gnome-keyring pour mettre les mots de passe "
+"en cache. Avec la valeur « internal », utilise le cache interne."
+
+#: ../data/seahorse-plugins.schemas.in.h:10
+msgid ""
+"If set to true, then files encrypted with seahorse will be ASCII armor "
+"encoded."
+msgstr ""
+"Si défini à vrai, les fichiers chiffrés avec seahorse seront chiffrés en "
+"armure ASCII."
+
+#: ../data/seahorse-plugins.schemas.in.h:11
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"Si défini à vrai, la clé par défaut sera toujours ajoutée à la liste des "
+"destinataires de chiffrement"
+
+#: ../data/seahorse-plugins.schemas.in.h:12
+msgid "Last key used to sign a message."
+msgstr "Dernière clé utilisée pour signer un message."
+
+#: ../data/seahorse-plugins.schemas.in.h:13
+msgid "PGP Key servers"
+msgstr "Serveurs de clés PGP"
+
+#: ../data/seahorse-plugins.schemas.in.h:14
+msgid "Prompt before using GPG passwords in cache"
+msgstr "Demander avant d'utiliser les mots de passe GPG en cache"
+
+#: ../data/seahorse-plugins.schemas.in.h:15
+msgid ""
+"Reflect the contents of the clipboard (whether encrypted, signed, etc...) in "
+"the panel applet icon."
+msgstr ""
+"Reflète le contenu du presse-papiers (soit chiffré, signé, etc.) dans "
+"l'icône de l'applet de tableau de bord."
+
+#: ../data/seahorse-plugins.schemas.in.h:16
+msgid ""
+"Set to 'true' to enable display of the cache reminder in the notification "
+"area of your panel."
+msgstr ""
+"Positionner à « true » pour activer l'affichage du rappel de cache dans la "
+"zone de notification du tableau de bord."
+
+#: ../data/seahorse-plugins.schemas.in.h:17
+msgid ""
+"Set to 'true' to have seahorse-agent prompt before giving out passwords it "
+"has cached."
+msgstr ""
+"Positionner à « true » pour faire en sorte que l'agent seahorse demande avant "
+"d'utiliser les mots de passe qu'il possède en cache."
+
+#: ../data/seahorse-plugins.schemas.in.h:18
+msgid "Show clipboard state in panel"
+msgstr "Affiche l'état du presse-papiers dans le tableau de bord"
+
+#: ../data/seahorse-plugins.schemas.in.h:19
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"Spécifie la colonne utilisée pour trier la fenêtre de destinataires. Les "
+"colonnes sont « nom » et « id ». Mettre un « - » devant le nom de la colonne "
+"pour trier dans l'ordre descendant."
+
+#: ../data/seahorse-plugins.schemas.in.h:20
+msgid "The ID of the last secret key used to sign a message."
+msgstr ""
+"L'identifiant de la dernière clé secrète utilisée pour signer un message."
+
+#: ../data/seahorse-plugins.schemas.in.h:21
+msgid "The column to sort the recipients by"
+msgstr "La colonne utilisée pour trier les destinataires"
+
+#: ../data/seahorse-plugins.schemas.in.h:22
+msgid "The time (in minutes) to cache GPG passwords"
+msgstr "La durée (en minutes) de validité du cache des mots de passe GPG"
+
+#: ../data/seahorse-plugins.schemas.in.h:23
+msgid ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"seahorse-agent."
+msgstr ""
+"Il s'agit de la durée de conservation, spécifiée en minutes, des mots de "
+"passe GPG en mémoire cache de l'agent seahorse."
+
+#: ../data/seahorse-plugins.schemas.in.h:24
+msgid ""
+"This option enables the GPG password cache in the seahorse-agent program. "
+"The 'use-agent' setting in gpg.conf affects this setting."
+msgstr ""
+"Cette option active le cache de mots de passe GPG dans l' agent seahorse. Le "
+"réglage « use-agent » dans gpg.conf contrôle ce paramètre."
+
+#: ../data/seahorse-plugins.schemas.in.h:25
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr ""
+"Spécifie la clé par défaut à utiliser pour certaines opérations, en "
+"particulier la signature."
+
+# Voir #404386
+#: ../data/seahorse-plugins.schemas.in.h:26
+msgid ""
+"When set, seahorse-agent expires GPG passwords in its cache after a period "
+"of time."
+msgstr ""
+"Si activé, seahorse-agent retire les mots de passe GPG de son cache après "
+"une période de temps."
+
+#: ../data/seahorse-plugins.schemas.in.h:27
+msgid "Where to store cached passwords."
+msgstr "L'endroit de stockage des mots de passe mis en cache."
+
+#: ../data/seahorse-plugins.schemas.in.h:28
+msgid "Whether the GPG password cache is enabled"
+msgstr "Indique si la mémoire cache de mots de passe GPG est activée"
+
+#: ../data/seahorse-plugins.schemas.in.h:29
+msgid "Whether to always encrypt to default key"
+msgstr "Indique s'il faut toujours chiffrer avec la clé par défaut"
+
+#: ../data/seahorse-plugins.schemas.in.h:30
+msgid "Whether to use ASCII Armor"
+msgstr "Indique s'il faut utiliser une armure ASCII"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:1
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<b>Vous avez sélectionné plusieurs fichiers ou dossiers</b>"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:2
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr ""
+"Comme les fichiers sont distants, chaque fichier sera chiffré séparément."
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:3
+msgid "Encrypt Multiple Files"
+msgstr "Chiffrer plusieurs fichiers"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:4
+msgid "Encrypt each file separately"
+msgstr "Chiffrer chaque fichier séparément"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:5
+msgid "Encrypt packed together in a package"
+msgstr "Chiffrer le tout en un paquet"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:6
+msgid "Package Name:"
+msgstr "Nom du paquet :"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:7
+msgid "Packaging:"
+msgstr "Paquet :"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:8
+msgid "encrypted-package"
+msgstr "paquet-chiffré"
+
+#: ../libseahorse/seahorse-notification.c:573
+#: ../libseahorse/seahorse-notification.c:598
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Clé importée"
+msgstr[1] "Clés importées"
+
+#: ../libseahorse/seahorse-notification.c:577
+#: ../libseahorse/seahorse-notification.c:597
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "%d clé importée"
+msgstr[1] "%d clés importées"
+
+#: ../libseahorse/seahorse-notification.c:579
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "Une clé importée pour"
+msgstr[1] "Clés importées pour"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:614
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "Signé par <i><key id='%s'/> <b>ayant expiré</b></i> le %s."
+
+#: ../libseahorse/seahorse-notification.c:615
+msgid "Invalid Signature"
+msgstr "Signature non valide"
+
+#: ../libseahorse/seahorse-notification.c:621
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "Signé par <i><key id='%s'/></i> le %s <b>Expirée</b>."
+
+#: ../libseahorse/seahorse-notification.c:622
+msgid "Expired Signature"
+msgstr "Signature expirée"
+
+#: ../libseahorse/seahorse-notification.c:628
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "Signé par <i><key id='%s'/> <b>Révoquée</b></i> le %s."
+
+# src/dialogs/seahorse-signatures.glade2.h:
+#: ../libseahorse/seahorse-notification.c:629
+msgid "Revoked Signature"
+msgstr "Signature révoquée"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:635
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "Signé par <i><key id='%s'/></i> le %s."
+
+#: ../libseahorse/seahorse-notification.c:636
+msgid "Good Signature"
+msgstr "Signature valide"
+
+#: ../libseahorse/seahorse-notification.c:641
+msgid "Signing key not in keyring."
+msgstr "Clé de signature non présente dans le trousseau."
+
+# src/dialogs/seahorse-signatures.glade2.h:
+#: ../libseahorse/seahorse-notification.c:642
+msgid "Unknown Signature"
+msgstr "Signature inconnue"
+
+#: ../libseahorse/seahorse-notification.c:646
+msgid "Bad or forged signature. The signed data was modified."
+msgstr ""
+"Signature mauvaise ou contrefaite. Les données signées ont été modifiées."
+
+#: ../libseahorse/seahorse-notification.c:647
+msgid "Bad Signature"
+msgstr "Signature non valide"
+
+#: ../libseahorse/seahorse-notification.c:655
+msgid "Couldn't verify signature."
+msgstr "Impossible de vérifier la signature."
+
+#: ../libseahorse/seahorse-notify.glade.h:1
+msgid "Notification Messages"
+msgstr "Messages de notification"
+
+#: ../libseahorse/seahorse-passphrase.c:174
+msgid "Passphrase"
+msgstr "Phrase de passe"
+
+#: ../libseahorse/seahorse-passphrase.c:177
+msgid "Password:"
+msgstr "Mot de passe :"
+
+#: ../libseahorse/seahorse-passphrase.c:241
+msgid "Confirm:"
+msgstr "Confirmation :"
+
+#: ../libseahorse/seahorse-passphrase.c:324
+#, c-format
+msgid "Wrong passphrase."
+msgstr "Phrase de passe incorrecte."
+
+#: ../libseahorse/seahorse-passphrase.c:328
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Saisissez la nouvelle phrase de passe pour « %s »"
+
+#: ../libseahorse/seahorse-passphrase.c:330
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "Saisissez la phrase de passe pour « %s »"
+
+#: ../libseahorse/seahorse-passphrase.c:333
+msgid "Enter new passphrase"
+msgstr "Saisissez la nouvelle phrase de passe"
+
+#: ../libseahorse/seahorse-passphrase.c:335
+msgid "Enter passphrase"
+msgstr "Saisissez la phrase de passe"
+
+#: ../libseahorse/seahorse-prefs.c:100
+msgid "None. Prompt for a key."
+msgstr "Aucune. Demander une clé."
+
+#: ../libseahorse/seahorse-prefs.glade.h:1
+msgid "<b>Default Key</b>"
+msgstr "<b>Clé par défaut</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:2
+msgid "<b>Remember PGP Passphrases</b>"
+msgstr "<b>Se souvenir des phrases de passe PGP</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:3
+msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+msgstr ""
+"<i>Aucun agent de cache de phrases de passe PGP pris en charge n'est en "
+"cours d'exécution.</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:4
+msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+msgstr ""
+"<i>Cette clé est utilisée pour signer les messages lorsqu'aucune autre clé "
+"n'est choisie.</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:5
+msgid "As_k me before using a cached passphrase"
+msgstr "Dem_ander avant d'utiliser une phrase de passe en mémoire cache"
+
+#: ../libseahorse/seahorse-prefs.glade.h:6
+msgid "Encryption"
+msgstr "Chiffrement"
+
+#: ../libseahorse/seahorse-prefs.glade.h:7
+msgid "PGP Passphrases"
+msgstr "Phrases de passe PGP"
+
+#: ../libseahorse/seahorse-prefs.glade.h:8
+msgid "Password and Encryption Settings"
+msgstr "Paramètres des mots de passe et des clés de chiffrement"
+
+#: ../libseahorse/seahorse-prefs.glade.h:9
+msgid "Show _icon in status area when passphrases are in memory"
+msgstr ""
+"Afficher une _icône dans la zone de notification lorsque des phrases de "
+"passe sont mémorisées"
+
+#: ../libseahorse/seahorse-prefs.glade.h:10
+msgid "When _encrypting, always include myself as a recipient"
+msgstr "Toujours m'inclure comme destinataire lors du _chiffrement"
+
+#: ../libseahorse/seahorse-prefs.glade.h:11
+msgid "_Always remember passphrases whenever logged in"
+msgstr "_Toujours se souvenir des phrases de passe lorsque je suis connecté"
+
+#: ../libseahorse/seahorse-prefs.glade.h:12
+msgid "_Default key:"
+msgstr "Clé par _défaut :"
+
+#: ../libseahorse/seahorse-prefs.glade.h:13
+msgid "_Never remember passphrases"
+msgstr "Ne _jamais se souvenir des phrases de passe"
+
+#: ../libseahorse/seahorse-prefs.glade.h:14
+msgid "_Remember passphrases for"
+msgstr "Se _souvenir des phrases de passe pendant"
+
+#: ../libseahorse/seahorse-prefs.glade.h:15
+msgid "minutes"
+msgstr "minutes"
+
+#: ../libseahorse/seahorse-progress.glade.h:1
+msgid "Progress Title"
+msgstr "Titre de la progression"
+
+#: ../libseahorse/seahorse-util.c:168
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr ""
+"Le déchiffrement a échoué. Vous ne disposez probablement pas de la clé de "
+"déchiffrement."
+
+#: ../libseahorse/seahorse-util.c:218
+msgid "%Y-%m-%d"
+msgstr "%d/%m/%Y"
+
+#: ../libseahorse/seahorse-util.c:637
+msgid "Couldn't run file-roller"
+msgstr "Impossible de lancer file-roller"
+
+#: ../libseahorse/seahorse-util.c:642
+#: ../plugins/nautilus/seahorse-tool-files.c:872
+msgid "Couldn't package files"
+msgstr "Impossible de placer les fichiers dans une archive"
+
+#: ../libseahorse/seahorse-util.c:643
+msgid "The file-roller process did not complete successfully"
+msgstr "Le processus file-roller ne s'est pas achevé avec succès."
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libseahorse/seahorse-util.c:703
+msgid "All key files"
+msgstr "Tous les fichiers de clé"
+
+#: ../libseahorse/seahorse-util.c:710 ../libseahorse/seahorse-util.c:750
+msgid "All files"
+msgstr "Tous les fichiers"
+
+#: ../libseahorse/seahorse-util.c:743
+msgid "Archive files"
+msgstr "Fichiers d'archive"
+
+#: ../libseahorse/seahorse-util.c:772
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>Un fichier portant ce nom existe déjà.</b>\n"
+"\n"
+"Voulez-vous le remplacer par un nouveau fichier ?"
+
+#: ../libseahorse/seahorse-util.c:775
+msgid "_Replace"
+msgstr "_Remplacer"
+
+#: ../libseahorse/seahorse-widget.c:322
+#, c-format
+msgid "Could not display help: %s"
+msgstr "Impossible d'afficher l'aide : %s"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:1
+msgid "Clipboard Text Encryption"
+msgstr "Chiffrement de texte du presse-papiers"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:2
+msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+msgstr ""
+"Chiffre, déchiffre ou signe le presse-papiers (chiffrement de type PGP)."
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:3
+msgid "Seahorse Applet Factory"
+msgstr "Fabrique d'applet Seahorse"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:1
+msgid "_About"
+msgstr "À _propos"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:2
+msgid "_Help"
+msgstr "Aid_e"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:3
+msgid "_Preferences"
+msgstr "Préfére_nces"
+
+#: ../plugins/applet/seahorse-applet.c:276
+#: ../plugins/applet/seahorse-applet.c:711
+#, c-format
+msgid "Could not display URL: %s"
+msgstr "Impossible d'afficher l'URL : %s"
+
+#: ../plugins/applet/seahorse-applet.c:312
+msgid "seahorse-applet"
+msgstr "seahorse-applet"
+
+#: ../plugins/applet/seahorse-applet.c:314
+#: ../plugins/applet/seahorse-applet.c:867
+msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+msgstr ""
+"Utiliser PGP/GPG pour chiffrer/déchiffrer/signer/vérifier/importer le presse-"
+"papiers."
+
+#: ../plugins/applet/seahorse-applet.c:319
+msgid "translator-credits"
+msgstr ""
+"Gaël Quéri <gqueri@mail.dotcom.fr>\n"
+"Stéphane Blondin <stephane.blondin@caramail.com>\n"
+"Christophe Merlet <redfox@redfoxcenter.org>\n"
+"David Soulayrol <david.soulayrol.2000@anciens.enib.fr>\n"
+"Jonathan Ernst <jonathan@ernstfamily.ch>\n"
+"Claude Paroz <claude@2xlibre.net>\n"
+"Stéphane Raimbault <stephane.raimbault@gmail.com>"
+
+#: ../plugins/applet/seahorse-applet.c:322
+msgid "Seahorse Project Homepage"
+msgstr "Page d'accueil du projet Seahorse"
+
+#. Get the recipient list
+#: ../plugins/applet/seahorse-applet.c:381
+#: ../plugins/epiphany/seahorse-extension.c:257
+#: ../plugins/gedit/seahorse-gedit.c:335
+msgid "Choose Recipient Keys"
+msgstr "Choisir les clés des destinataires"
+
+#: ../plugins/applet/seahorse-applet.c:400
+msgid "Encrypted Text"
+msgstr "Texte chiffré"
+
+#: ../plugins/applet/seahorse-applet.c:402
+msgid "Encryption Failed"
+msgstr "Échec de chiffrement"
+
+#: ../plugins/applet/seahorse-applet.c:403
+msgid "The clipboard could not be encrypted."
+msgstr "Le presse-papiers n'a pas pu être chiffré."
+
+#: ../plugins/applet/seahorse-applet.c:440
+#: ../plugins/epiphany/seahorse-extension.c:307
+#: ../plugins/gedit/seahorse-gedit.c:627
+msgid "Choose Key to Sign with"
+msgstr "Choisir la clé de signature"
+
+#: ../plugins/applet/seahorse-applet.c:460
+msgid "Signed Text"
+msgstr "Texte signé"
+
+#: ../plugins/applet/seahorse-applet.c:462
+msgid "Signing Failed"
+msgstr "Échec de la signature"
+
+#: ../plugins/applet/seahorse-applet.c:463
+msgid "The clipboard could not be Signed."
+msgstr "Le presse-papiers n'a pas pu être signé."
+
+#: ../plugins/applet/seahorse-applet.c:506
+#: ../plugins/epiphany/seahorse-extension.c:351
+#: ../plugins/nautilus/seahorse-tool.c:443
+msgid "Import Failed"
+msgstr "Échec de l'importation"
+
+#: ../plugins/applet/seahorse-applet.c:507
+#: ../plugins/epiphany/seahorse-extension.c:352
+#: ../plugins/nautilus/seahorse-tool.c:444
+msgid "Keys were found but not imported."
+msgstr "Des clés ont été trouvées, mais pas importées."
+
+#: ../plugins/applet/seahorse-applet.c:543
+#: ../plugins/epiphany/seahorse-extension.c:390
+msgid "Decrypting Failed"
+msgstr "Échec de déchiffrement"
+
+#: ../plugins/applet/seahorse-applet.c:544
+#: ../plugins/epiphany/seahorse-extension.c:391
+msgid "Text may be malformed."
+msgstr "Le texte n'est peut-être pas conforme."
+
+#: ../plugins/applet/seahorse-applet.c:600
+msgid "No PGP key or message was found on clipboard"
+msgstr "Aucune clé PGP ou aucun message n'a été trouvé dans le presse-papiers"
+
+#: ../plugins/applet/seahorse-applet.c:601
+msgid "No PGP data found."
+msgstr "Aucune donnée PGP trouvée."
+
+#. TRANSLATORS: This means 'The text that was decrypted'
+#: ../plugins/applet/seahorse-applet.c:638
+msgid "Decrypted Text"
+msgstr "Texte déchiffré"
+
+#: ../plugins/applet/seahorse-applet.c:779
+msgid "_Encrypt Clipboard"
+msgstr "_Chiffrer le presse-papiers"
+
+#: ../plugins/applet/seahorse-applet.c:786
+msgid "_Sign Clipboard"
+msgstr "_Signer le presse-papiers"
+
+#: ../plugins/applet/seahorse-applet.c:793
+msgid "_Decrypt/Verify Clipboard"
+msgstr "_Déchiffrer/Vérifier le presse-papiers"
+
+#: ../plugins/applet/seahorse-applet.c:799
+msgid "_Import Keys from Clipboard"
+msgstr "_Importer des clés depuis le presse-papiers"
+
+#: ../plugins/applet/seahorse-applet.c:864
+#: ../plugins/applet/seahorse-applet.c:866
+msgid "Encryption Applet"
+msgstr "Applet de chiffrement"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:1
+msgid "<b>Display clipboard contents after:</b>"
+msgstr "<b>Afficher le contenu du presse-papiers après :</b>"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:2
+msgid "Clipboard Encryption Preferences"
+msgstr "Préférences de chiffrement du presse-papiers"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:3
+msgid "_Decrypting the clipboard"
+msgstr "_Déchiffrement du presse-papiers"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:4
+msgid "_Encrypting or signing the clipboard"
+msgstr "_Chiffrement ou signature du presse-papiers"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:5
+msgid "_Show clipboard state in panel"
+msgstr "_Affiche l'état du presse-papiers dans le tableau de bord"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:6
+msgid "_Verifying the clipboard"
+msgstr "_Vérification du presse-papiers"
+
+#: ../plugins/epiphany/seahorse-extension.c:640
+msgid "_Encrypt"
+msgstr "_Chiffrer"
+
+#: ../plugins/epiphany/seahorse-extension.c:647
+msgid "_Sign"
+msgstr "_Signer"
+
+#: ../plugins/epiphany/seahorse-extension.c:654
+msgid "_Decrypt/Verify"
+msgstr "_Déchiffrer/Vérifier"
+
+#: ../plugins/epiphany/seahorse-extension.c:661
+msgid "_Import Key"
+msgstr "_Importer une clé"
+
+#: ../plugins/gedit/seahorse-gedit.c:265
+msgid "Couldn't connect to seahorse-daemon"
+msgstr "Impossible de se connecter au démon seahorse"
+
+#: ../plugins/gedit/seahorse-gedit.c:357
+msgid "Encrypted text"
+msgstr "Texte chiffré"
+
+#: ../plugins/gedit/seahorse-gedit.c:360
+msgid "Couldn't encrypt text"
+msgstr "Impossible de chiffrer le texte"
+
+#: ../plugins/gedit/seahorse-gedit.c:390
+msgid "Couldn't import keys"
+msgstr "Impossible d'importer les clés"
+
+#: ../plugins/gedit/seahorse-gedit.c:399
+msgid "Keys found but not imported"
+msgstr "Clés trouvées mais non importées"
+
+#: ../plugins/gedit/seahorse-gedit.c:438
+msgid "Couldn't decrypt text"
+msgstr "Impossible de déchiffrer le texte"
+
+#: ../plugins/gedit/seahorse-gedit.c:475
+msgid "Couldn't verify text"
+msgstr "Impossible de vérifier le texte"
+
+#: ../plugins/gedit/seahorse-gedit.c:523
+msgid "No encrypted or signed text is selected."
+msgstr "Aucun texte chiffré ou signé sélectionné."
+
+#: ../plugins/gedit/seahorse-gedit.c:553
+msgid "Decrypted text"
+msgstr "Texte déchiffré"
+
+#: ../plugins/gedit/seahorse-gedit.c:560
+msgid "Verified text"
+msgstr "Texte vérifié"
+
+#: ../plugins/gedit/seahorse-gedit.c:595
+#: ../plugins/nautilus/seahorse-tool.c:469
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] "%d clé importée"
+msgstr[1] "%d clés importées"
+
+#: ../plugins/gedit/seahorse-gedit.c:649
+msgid "Signed text"
+msgstr "Texte signé"
+
+#: ../plugins/gedit/seahorse-gedit.c:652
+msgid "Couldn't sign text"
+msgstr "Impossible de signer le texte"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:133
+msgid "_Encrypt..."
+msgstr "_Chiffrer..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:134
+msgid "Encrypt the selected text"
+msgstr "Chiffre le texte sélectionné"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:135
+msgid "Decr_ypt/Verify"
+msgstr "_Déchiffrer/vérifier"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:136
+msgid "Decrypt and/or Verify text"
+msgstr "Déchiffre et/ou vérifie le texte"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:137
+msgid "Sig_n..."
+msgstr "Si_gner..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:138
+msgid "Sign the selected text"
+msgstr "Signe le texte sélectionné"
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:1
+msgid "Enable the seahorse encryption plugin for gedit."
+msgstr "Active le greffon de chiffrement seahorse pour gedit."
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:2
+msgid "Enable the seahorse gedit plugin"
+msgstr "Active le greffon seahorse pour gedit"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:1
+msgid "Text Encryption"
+msgstr "Chiffrement de texte"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:2
+msgid "This plugin performs encryption operations on text."
+msgstr "Ce greffon effectue des opérations de chiffrement sur du texte."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:158
+msgid "Encrypt..."
+msgstr "Chiffrer..."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:159
+msgid "Encrypt (and optionally sign) the selected file"
+msgid_plural "Encrypt the selected files"
+msgstr[0] "Chiffrer (et éventuellement signer) le fichier sélectionné"
+msgstr[1] "Chiffrer les fichiers sélectionnés"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:165
+msgid "Sign"
+msgstr "Signer"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:166
+msgid "Sign the selected file"
+msgid_plural "Sign the selected files"
+msgstr[0] "Signer le fichier sélectionné"
+msgstr[1] "Signer les fichiers sélectionnés"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:39
+msgid "For internal use"
+msgstr "Pour usage interne"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:63
+msgid "Encryption Preferences"
+msgstr "Préférences de chiffrement"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:1
+msgid "Configure key servers and other encryption settings"
+msgstr "Configurer les serveurs de clés et autres paramètres de chiffrement"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:2
+msgid "Encryption and Keyrings"
+msgstr "Chiffrement et trousseaux"
+
+#: ../plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in.h:1
+msgid "Decrypt File"
+msgstr "Déchiffrer le fichier"
+
+#: ../plugins/nautilus/seahorse-pgp-keys.desktop.in.in.h:1
+msgid "Import Key"
+msgstr "Importer une clé"
+
+#: ../plugins/nautilus/seahorse-pgp-signature.desktop.in.in.h:1
+msgid "Verify Signature"
+msgstr "Vérifier la signature"
+
+#: ../plugins/nautilus/seahorse-tool.c:61
+msgid "Import keys from the file"
+msgstr "Importer des clés depuis le fichier"
+
+#: ../plugins/nautilus/seahorse-tool.c:63
+msgid "Encrypt file"
+msgstr "Chiffrer le fichier"
+
+#: ../plugins/nautilus/seahorse-tool.c:65
+msgid "Sign file with default key"
+msgstr "Signer le fichier avec la clé par défaut"
+
+#: ../plugins/nautilus/seahorse-tool.c:67
+msgid "Encrypt and sign file with default key"
+msgstr "Chiffrer et signer le fichier avec la clé par défaut"
+
+#: ../plugins/nautilus/seahorse-tool.c:69
+msgid "Decrypt encrypted file"
+msgstr "Déchiffrer le fichier chiffré"
+
+#: ../plugins/nautilus/seahorse-tool.c:71
+msgid "Verify signature file"
+msgstr "Vérifier le fichier de signature"
+
+#: ../plugins/nautilus/seahorse-tool.c:73
+msgid "Read list of URIs on standard in"
+msgstr "Lit une liste d'URI sur l'entrée standard"
+
+#: ../plugins/nautilus/seahorse-tool.c:75
+msgid "file..."
+msgstr "fichier..."
+
+#: ../plugins/nautilus/seahorse-tool.c:169
+msgid "Choose Recipients"
+msgstr "Choisir les destinataires"
+
+#: ../plugins/nautilus/seahorse-tool.c:231
+#: ../plugins/nautilus/seahorse-tool.c:321
+msgid "Couldn't load keys"
+msgstr "Impossible de charger des clés"
+
+#: ../plugins/nautilus/seahorse-tool.c:249
+#, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr "Choisissez le nom du fichier chiffré pour « %s »"
+
+#: ../plugins/nautilus/seahorse-tool.c:305
+msgid "Choose Signer"
+msgstr "Choisissez le signataire"
+
+#: ../plugins/nautilus/seahorse-tool.c:340
+#, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr "Choisissez un nom de fichier de signature pour « %s »"
+
+#: ../plugins/nautilus/seahorse-tool.c:380
+msgid "Import is complete"
+msgstr "L'importation est terminée"
+
+#: ../plugins/nautilus/seahorse-tool.c:413
+msgid "Importing keys ..."
+msgstr "Importation des clés..."
+
+#: ../plugins/nautilus/seahorse-tool.c:467
+#, c-format
+msgid "Imported key"
+msgstr "Clé importée"
+
+#. File to decrypt to
+#: ../plugins/nautilus/seahorse-tool.c:491
+#, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr "Choisissez un nom de fichier déchiffré pour « %s »"
+
+#: ../plugins/nautilus/seahorse-tool.c:547
+#, c-format
+msgid "Choose Original File for '%s'"
+msgstr "Choisissez un fichier original pour « %s »"
+
+#.
+#. * TODO: What should happen with multiple files at this point.
+#. * The last thing we want to do is cascade a big pile of error
+#. * dialogs at the user.
+#.
+#: ../plugins/nautilus/seahorse-tool.c:619
+#, c-format
+msgid "No valid signatures found"
+msgstr "Aucune signature valide disponible"
+
+#: ../plugins/nautilus/seahorse-tool.c:668
+msgid "File Encryption Tool"
+msgstr "Outil de chiffrement de fichier"
+
+#: ../plugins/nautilus/seahorse-tool.c:687
+msgid "Encrypting"
+msgstr "Chiffrement"
+
+#: ../plugins/nautilus/seahorse-tool.c:688
+#, c-format
+msgid "Couldn't encrypt file: %s"
+msgstr "Impossible de chiffrer le fichier : %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:696
+msgid "Signing"
+msgstr "Signature"
+
+#: ../plugins/nautilus/seahorse-tool.c:697
+#, c-format
+msgid "Couldn't sign file: %s"
+msgstr "Impossible de signer le fichier : %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:702
+msgid "Importing"
+msgstr "Importation"
+
+#: ../plugins/nautilus/seahorse-tool.c:703
+#, c-format
+msgid "Couldn't import keys from file: %s"
+msgstr "Impossible d'importer les clés à partir du fichier : %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:709
+msgid "Decrypting"
+msgstr "Déchiffrement"
+
+#: ../plugins/nautilus/seahorse-tool.c:710
+#, c-format
+msgid "Couldn't decrypt file: %s"
+msgstr "Impossible de déchiffrer le fichier : %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:715
+msgid "Verifying"
+msgstr "Vérification"
+
+#: ../plugins/nautilus/seahorse-tool.c:716
+#, c-format
+msgid "Couldn't verify file: %s"
+msgstr "Impossible de vérifier le fichier : %s"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:120
+msgid "Ace (.ace)"
+msgstr "Ace (.ace)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:121
+msgid "Ar (.ar)"
+msgstr "Ar (.ar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:122
+msgid "Arj (.arj)"
+msgstr "Arj (.arj)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:129
+msgid "Ear (.ear)"
+msgstr "Ear (.ear)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:130
+msgid "Self-extracting zip (.exe)"
+msgstr "Zip auto-extractible (.exe)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:132
+msgid "Jar (.jar)"
+msgstr "Jar (.jar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:133
+msgid "Lha (.lzh)"
+msgstr "Lha (.lzh)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:135
+msgid "Rar (.rar)"
+msgstr "Rar (.rar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:137
+msgid "Tar uncompressed (.tar)"
+msgstr "Tar non compressé (.tar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:138
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "Tar compressé avec bzip (.tar.bz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:139
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "Tar compressé avec bzip2 (.tar.bz2)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:140
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "Tar compressé avec gzip (.tar.gz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:141
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "Tar compressé avec lzop (.tar.lzo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:142
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "Tar compressé avec compress (.tar.Z)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:144
+msgid "War (.war)"
+msgstr "War (.war)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:145
+msgid "Zip (.zip)"
+msgstr "Zip (.zip)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:146
+msgid "Zoo (.zoo)"
+msgstr "Zoo (.zoo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:147
+msgid "7-Zip (.7z)"
+msgstr "7-Zip (.7z)"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:327
+#, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] "Vous avez sélectionné %d fichier "
+msgstr[1] "Vous avez sélectionné %d fichiers "
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:332
+#, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] "et %d dossier"
+msgstr[1] "et %d dossiers"
+
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: ../plugins/nautilus/seahorse-tool-files.c:337
+#, c-format
+msgid "<b>%s%s</b>"
+msgstr "<b>%s%s</b>"
+
+#. should never be called for just one file
+#: ../plugins/nautilus/seahorse-tool-files.c:346
+#, c-format
+msgid "You have selected %d files"
+msgstr "Vous avez sélectionné %d fichiers"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:351
+#, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] "Vous avez sélectionné %d dossier"
+msgstr[1] "Vous avez sélectionné %d dossiers"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:853
+msgid "Preparing..."
+msgstr "Préparation..."
+
+#: ../plugins/nautilus/seahorse-tool-files.c:862
+#: ../plugins/nautilus/seahorse-tool-files.c:885
+msgid "Couldn't list files"
+msgstr "Impossible de lister les fichiers"
+

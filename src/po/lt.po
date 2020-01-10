@@ -1,0 +1,2921 @@
+# translation of seahorse.HEAD.lt.po to Lithuanian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the seahorse package.
+#
+# Mantas Kriaučiūnas <mantas@akl.lt>, 2007.
+# Eglė Kriaučiūnienė <egle@akl.lt>, 2007.
+# Gintautas Miliauskas <gintas@akl.lt>, 2007.
+# Vytautas Liuolia <vytautas.liuolia@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: seahorse HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-13 01:45+0300\n"
+"PO-Revision-Date: 2008-09-13 01:45+0300\n"
+"Last-Translator: Vytautas Liuolia <vytautas.liuolia@gmail.com>\n"
+"Language-Team: Lithuanian <gnome-lt@lists.akl.lt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Lithuanian\n"
+"X-Poedit-Country: LITHUANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../agent/seahorse-agent-actions.c:120
+msgid "Passphrase:"
+msgstr "Slaptafrazė:"
+
+#: ../agent/seahorse-agent-actions.c:121
+msgid "Please enter a passphrase to use."
+msgstr "Įveskite norimą slaptafrazę."
+
+#: ../agent/seahorse-agent-cache.c:66
+msgid "Unparseable Key ID"
+msgstr "Netaisyklingas rakto ID"
+
+#: ../agent/seahorse-agent-cache.c:67
+msgid "Unknown/Invalid Key"
+msgstr "Nežinomas/Netinkamas raktas"
+
+#: ../agent/seahorse-agent-cache.c:533
+#, c-format
+msgid "PGP Key: %s"
+msgstr "PGP raktas %s"
+
+#: ../agent/seahorse-agent-cache.glade.h:1
+msgid ""
+"<b>Warning</b>: Your system is not configured to cache passphrases in secure "
+"memory."
+msgstr ""
+"<b>Įspėjame</b>: Jūsų sistemoje nėra įjungta galimybė įsiminti slaptafrazes "
+"saugioje atmintyje."
+
+#: ../agent/seahorse-agent-cache.glade.h:2
+msgid "Cache _Preferences"
+msgstr "Įsiminimo _nustatymai "
+
+#: ../agent/seahorse-agent-cache.glade.h:3
+msgid "Cached Encryption Keys"
+msgstr "Įsiminti šifravimo raktai"
+
+#: ../agent/seahorse-agent-cache.glade.h:4
+msgid "Change passphrase cache settings."
+msgstr "Keisti slaptafrazės įsiminimo nustatymus."
+
+#: ../agent/seahorse-agent-cache.glade.h:5
+msgid "Clear passphrase cache"
+msgstr "Panaikinti slaptafrazės įsiminimą"
+
+#: ../agent/seahorse-agent-cache.glade.h:6
+msgid "_Clear Cache"
+msgstr "_Panaikinti įsiminimus"
+
+#: ../agent/seahorse-agent-cache.glade.h:7
+msgid "_Show Window"
+msgstr "_Rodyti langą"
+
+#: ../agent/seahorse-agent-main.c:52
+msgid "Do not daemonize seahorse-agent"
+msgstr "Neleisti seahorse-agent kaip tarnybos"
+
+#: ../agent/seahorse-agent-main.c:56
+msgid "Print variables in for a C type shell"
+msgstr "Spausdinti kintamuosius C kevalui"
+
+#: ../agent/seahorse-agent-main.c:60
+msgid "Display environment variables (the default)"
+msgstr "Rodyti aplinkos kintamuosius (numatytoji veiksena)"
+
+#: ../agent/seahorse-agent-main.c:63
+msgid "Execute other arguments on the command line"
+msgstr "Vykdyti kitus argumentus iš komandų eilutės"
+
+#: ../agent/seahorse-agent-main.c:67
+msgid "Allow GPG agent request from any display"
+msgstr "Leisti GPG agento užklausas iš bet kurio ekrano"
+
+#: ../agent/seahorse-agent-main.c:70
+msgid "command..."
+msgstr "komanda..."
+
+#: ../agent/seahorse-agent-main.c:108
+msgid "couldn't fork process"
+msgstr "nepavyko atšakoti proceso"
+
+#: ../agent/seahorse-agent-main.c:114
+msgid "couldn't create new process group"
+msgstr "nepavyko sukurti naujos proceso grupės"
+
+#: ../agent/seahorse-agent-main.c:240
+msgid "Encryption Key Agent (Seahorse)"
+msgstr "Šifravimo rakto agentas (Seahorse)"
+
+#: ../agent/seahorse-agent-main.c:246
+msgid "no command specified to execute"
+msgstr "jokia komanda nenurodyta paleidimui"
+
+#: ../agent/seahorse-agent-prompt.c:216
+msgid "Authorize Passphrase Access"
+msgstr "Leisti prieiti prie slaptafrazės"
+
+#: ../agent/seahorse-agent-prompt.c:252
+msgid "The passphrase is cached in memory."
+msgstr "Slaptafrazė įsiminta kompiuterio atmintyje."
+
+#: ../agent/seahorse-agent-prompt.c:257
+msgid "Always ask me before using a cached passphrase"
+msgstr "Visada paklausti prieš naudojant įsimintą slaptafrazę"
+
+#: ../agent/seahorse-agent-prompt.c:274
+msgid "_Authorize"
+msgstr "_Leisti"
+
+#. Make the uid column
+#: ../agent/seahorse-agent-status.c:145
+msgid "Key Name"
+msgstr "Rakto vardas"
+
+#: ../data/seahorse-plugins.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"Raktų serverių adresų (URI) sąrašas, PGP raktų paieškai internete. Vėlesnėse "
+"versijose rodomas vardas gali būti įtrauktas, padedant tarpą ir tada vardą."
+
+#: ../data/seahorse-plugins.schemas.in.h:2
+msgid ""
+"After performing an decrypt or verify operation from the applet, display the "
+"resulting text in a window."
+msgstr ""
+"Atlikus iššifravimo arba patikrinimo operaciją iš įtaiso, rodyti tekstą "
+"lange."
+
+#: ../data/seahorse-plugins.schemas.in.h:3
+msgid ""
+"After performing an encrypt or signing operation from the applet, display "
+"the resulting text in a window."
+msgstr ""
+"Atlikus užšifravimo arba pasirašymo operaciją iš įtaiso, rodyti tekstą lange."
+
+#: ../data/seahorse-plugins.schemas.in.h:4
+msgid "Display cache reminder in the notification area"
+msgstr "Rodyti priminimą apie įsimintus raktus pranešimų skydelyje"
+
+#: ../data/seahorse-plugins.schemas.in.h:5
+msgid "Display clipboard after decrypting"
+msgstr "Rodyti iškarpinės turinį po iššifravimo"
+
+#: ../data/seahorse-plugins.schemas.in.h:6
+msgid "Display clipboard after encrypting"
+msgstr "Rodyti iškarpinės turinį po užšifravimo"
+
+#: ../data/seahorse-plugins.schemas.in.h:7
+msgid "Expire passwords in the cache"
+msgstr "Užmiršti slaptažodžius"
+
+#: ../data/seahorse-plugins.schemas.in.h:8
+msgid "ID of the default key"
+msgstr "Numatyto rakto ID"
+
+#: ../data/seahorse-plugins.schemas.in.h:9
+msgid ""
+"If set to 'gnome' uses gnome-keyring to cache passwords. When set to "
+"'internal' uses internal cache."
+msgstr ""
+"Jei nurodyta „gnome“ - tuomet slaptažodžių įsiminimui bus naudojama „gnome-"
+"keyring“ programa. Jei nurodyta „internal“ - įsiminimui naudos vidinę "
+"paprogramę."
+
+#: ../data/seahorse-plugins.schemas.in.h:10
+msgid ""
+"If set to true, then files encrypted with seahorse will be ASCII armor "
+"encoded."
+msgstr ""
+"Jei „tiesa“, failai užšifruoti su seahorse bus koduoti ASCII apvalkale."
+
+#: ../data/seahorse-plugins.schemas.in.h:11
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"Jei nustatyta (teigiama reikšmė) - tuomet numatytasis raktas visada bus "
+"įdėtas į šifravimo gavėjų (raktų, kurie galės iššifruoti) sąrašą."
+
+#: ../data/seahorse-plugins.schemas.in.h:12
+msgid "Last key used to sign a message."
+msgstr "Paskutinis raktas, naudotas žinutės pasirašymui."
+
+#: ../data/seahorse-plugins.schemas.in.h:13
+msgid "PGP Key servers"
+msgstr "PGP raktų serveriai"
+
+#: ../data/seahorse-plugins.schemas.in.h:14
+msgid "Prompt before using GPG passwords in cache"
+msgstr "Paklausti prieš naudojant įsimintus GPG slaptažodžius"
+
+#: ../data/seahorse-plugins.schemas.in.h:15
+msgid ""
+"Reflect the contents of the clipboard (whether encrypted, signed, etc...) in "
+"the panel applet icon."
+msgstr ""
+"Atvaizduoja iškarpinės turinį (ar buvo pasirašyta, užšifruota ir pan.)"
+"skydelio įtaiso piktogramoje."
+
+#: ../data/seahorse-plugins.schemas.in.h:16
+msgid ""
+"Set to 'true' to enable display of the cache reminder in the notification "
+"area of your panel."
+msgstr ""
+"Nustatykite „tiesa“, jei norite įjungti priminimus apie įsimintus "
+"slaptažodžius skydelio perspėjimų srityje."
+
+#: ../data/seahorse-plugins.schemas.in.h:17
+msgid ""
+"Set to 'true' to have seahorse-agent prompt before giving out passwords it "
+"has cached."
+msgstr ""
+"Nustatykite „tiesa“, jei norite, kad seahorse-agent paklaustų prieš "
+"pateikdamas slaptažodžius, kurie buvo įsiminti."
+
+#: ../data/seahorse-plugins.schemas.in.h:18
+msgid "Show clipboard state in panel"
+msgstr "Rodyti iškarpinės būseną skydelyje"
+
+#: ../data/seahorse-plugins.schemas.in.h:19
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"Nurodykite stulpelį, pagal kurį rikiuoti gavėjų langą. Stulpeliai šie: "
+"„name“ ir „id“. Įrašykite „-“ prieš stulpelio vardą, jei norite rikiuoti "
+"mažėjančia tvarka."
+
+#: ../data/seahorse-plugins.schemas.in.h:20
+msgid "The ID of the last secret key used to sign a message."
+msgstr ""
+"Paskutinio slapto rakto, naudoto pasirašant žinutę, identifikatorius (ID)."
+
+#: ../data/seahorse-plugins.schemas.in.h:21
+msgid "The column to sort the recipients by"
+msgstr "Stulpelis, pagal kurį rikiuoti gavėjus"
+
+#: ../data/seahorse-plugins.schemas.in.h:22
+msgid "The time (in minutes) to cache GPG passwords"
+msgstr "Laikas (minutėmis) įsiminti GPG slaptažodžius"
+
+#: ../data/seahorse-plugins.schemas.in.h:23
+msgid ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"seahorse-agent."
+msgstr "seahorse-agent GPG slaptažodžių įsiminimo trukmė minutėmis."
+
+#: ../data/seahorse-plugins.schemas.in.h:24
+msgid ""
+"This option enables the GPG password cache in the seahorse-agent program. "
+"The 'use-agent' setting in gpg.conf affects this setting."
+msgstr ""
+"Ši parinktis įjungia GPG slaptažodžių įsiminimą seahorse-agent programoje. "
+"Šios parinkties naudojimą tap pat lemia „use-agent“ nustatymas gpg.conf "
+"faile."
+
+#: ../data/seahorse-plugins.schemas.in.h:25
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr ""
+"Čia nurodomas standartinis raktas, naudojamas kai kuriems veiksmams, "
+"pagrinde pasirašymui."
+
+#: ../data/seahorse-plugins.schemas.in.h:26
+msgid ""
+"When set, seahorse-agent expires GPG passwords in its cache after a period "
+"of time."
+msgstr ""
+"Nustačius, seahorse-agent užmirš įsimintus GPG slaptažodžius praėjus "
+"pasirinktam laiko tarpui."
+
+#: ../data/seahorse-plugins.schemas.in.h:27
+msgid "Where to store cached passwords."
+msgstr "Kur laikyti įsimintus slaptažodžius."
+
+#: ../data/seahorse-plugins.schemas.in.h:28
+msgid "Whether the GPG password cache is enabled"
+msgstr "Ar GPG slaptažodžio įsiminimas įjungtas "
+
+#: ../data/seahorse-plugins.schemas.in.h:29
+msgid "Whether to always encrypt to default key"
+msgstr "Ar visada šifruojant naudoti ir numatytąjį raktą"
+
+#: ../data/seahorse-plugins.schemas.in.h:30
+msgid "Whether to use ASCII Armor"
+msgstr "Ar naudoti ASCII apvalkalą"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:1
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<b>Jūs pasirinkote keletą failų ar aplankų</b>"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:2
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr ""
+"Kadangi failai yra ne jūsų kompiuteryje, kiekvienas iš jų bus užšifruotas "
+"atskirai."
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:3
+msgid "Encrypt Multiple Files"
+msgstr "Užšifruoti keletą failų"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:4
+msgid "Encrypt each file separately"
+msgstr "Šifruoti kiekvieną failą atskirai"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:5
+msgid "Encrypt packed together in a package"
+msgstr "Užšifruoti supakuotus į vieną paketą"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:6
+msgid "Package Name:"
+msgstr "Paketo failo vardas:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:7
+msgid "Packaging:"
+msgstr "Pakavimas:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:8
+msgid "encrypted-package"
+msgstr "užšifruotas-paketas"
+
+#: ../libseahorse/seahorse-notification.c:573
+#: ../libseahorse/seahorse-notification.c:598
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Raktas importuotas"
+msgstr[1] "Raktai importuoti"
+msgstr[2] "Raktų importuota"
+
+#: ../libseahorse/seahorse-notification.c:577
+#: ../libseahorse/seahorse-notification.c:597
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "Importuotas %i raktas"
+msgstr[1] "Importuoti %i raktai"
+msgstr[2] "Importuota %i raktų"
+
+#: ../libseahorse/seahorse-notification.c:579
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "Importuotas raktas"
+msgstr[1] "Importuoti raktai"
+msgstr[2] "Importuota raktų"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:614
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "Pasirašė <i><key id='%s'/>, <b>galiojimas baigėsi:</b></i> %s."
+
+#: ../libseahorse/seahorse-notification.c:615
+msgid "Invalid Signature"
+msgstr "Netinkamas parašas"
+
+#: ../libseahorse/seahorse-notification.c:621
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr ""
+"Pasirašė <i><key id='%s'/></i>, pasirašymo data: %s, <b>baigėsi galiojimas</"
+"b>."
+
+#: ../libseahorse/seahorse-notification.c:622
+msgid "Expired Signature"
+msgstr "Nebegaliojantis parašas"
+
+#: ../libseahorse/seahorse-notification.c:628
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "Pasirašė <i><key id='%s'/>, <b>paskelbta negaliojančiu:</b></i> %s."
+
+#: ../libseahorse/seahorse-notification.c:629
+msgid "Revoked Signature"
+msgstr "Parašas paskelbtas negaliojančiu"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:635
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "Pasirašė <i><key id='%s'/></i>, pasirašymo data: %s."
+
+#: ../libseahorse/seahorse-notification.c:636
+msgid "Good Signature"
+msgstr "Parašas geras"
+
+#: ../libseahorse/seahorse-notification.c:641
+msgid "Signing key not in keyring."
+msgstr "Pasirašymo rakto nėra raktinėje."
+
+#: ../libseahorse/seahorse-notification.c:642
+msgid "Unknown Signature"
+msgstr "Nežinomas parašas"
+
+#: ../libseahorse/seahorse-notification.c:646
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "Blogas arba padirbtas parašas. Pasirašymo data buvo pakeista."
+
+#: ../libseahorse/seahorse-notification.c:647
+msgid "Bad Signature"
+msgstr "Blogas parašas"
+
+#: ../libseahorse/seahorse-notification.c:655
+msgid "Couldn't verify signature."
+msgstr "Parašo nepavyko patikrinti."
+
+#: ../libseahorse/seahorse-notify.glade.h:1
+msgid "Notification Messages"
+msgstr "Informaciniai pranešimai"
+
+#: ../libseahorse/seahorse-passphrase.c:174
+msgid "Passphrase"
+msgstr "Slaptafrazė"
+
+#: ../libseahorse/seahorse-passphrase.c:177
+msgid "Password:"
+msgstr "Slaptažodis:"
+
+#: ../libseahorse/seahorse-passphrase.c:241
+msgid "Confirm:"
+msgstr "Patvirtink:"
+
+#: ../libseahorse/seahorse-passphrase.c:324
+#, c-format
+msgid "Wrong passphrase."
+msgstr "Neteisinga slaptafrazė."
+
+#: ../libseahorse/seahorse-passphrase.c:328
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Įveskite naują slaptafrazę raktui „%s“"
+
+#: ../libseahorse/seahorse-passphrase.c:330
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "Įveskite slaptafrazę raktui „%s“"
+
+#: ../libseahorse/seahorse-passphrase.c:333
+msgid "Enter new passphrase"
+msgstr "Įveskite naują slaptafrazę"
+
+#: ../libseahorse/seahorse-passphrase.c:335
+msgid "Enter passphrase"
+msgstr "Įveskite slaptafrazę"
+
+#: ../libseahorse/seahorse-prefs.c:100
+msgid "None. Prompt for a key."
+msgstr "Joks. Paklausti kiekvieną kartą."
+
+#: ../libseahorse/seahorse-prefs.glade.h:1
+msgid "<b>Default Key</b>"
+msgstr "<b>Numatytasis raktas</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:2
+msgid "<b>Remember PGP Passphrases</b>"
+msgstr "<b>Įsiminti PGP slaptafrazes</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:3
+msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+msgstr "<i>Nepaleistas tinkamas PGP slaptafrazių įsiminimo agentas.</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:4
+msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+msgstr ""
+"<i>Šis raktas bus naudojamas žinučių (laiškų) pasirašymui, jei nebus "
+"pasirinktas kitas raktas</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:5
+msgid "As_k me before using a cached passphrase"
+msgstr "_Paklausti prieš naudojant įsimintą slaptafrazę"
+
+#: ../libseahorse/seahorse-prefs.glade.h:6
+msgid "Encryption"
+msgstr "Šifravimas"
+
+#: ../libseahorse/seahorse-prefs.glade.h:7
+msgid "PGP Passphrases"
+msgstr "PGP Slaptafrazės"
+
+#: ../libseahorse/seahorse-prefs.glade.h:8
+msgid "Password and Encryption Settings"
+msgstr "Slaptažodžių bei šifravimo nustatymai"
+
+#: ../libseahorse/seahorse-prefs.glade.h:9
+msgid "Show _icon in status area when passphrases are in memory"
+msgstr "_Rodyti piktogramą būsenos juostoje, kai slaptafrazės yra atmintyje"
+
+#: ../libseahorse/seahorse-prefs.glade.h:10
+msgid "When _encrypting, always include myself as a recipient"
+msgstr ""
+"Šifruojant visada pridėti mane prie gavėjų, kurie galės tai iššifruoti, "
+"sąrašo"
+
+#: ../libseahorse/seahorse-prefs.glade.h:11
+msgid "_Always remember passphrases whenever logged in"
+msgstr "Įsiminti slaptafrazes _visą laiką, kai esu prisijungęs"
+
+#: ../libseahorse/seahorse-prefs.glade.h:12
+msgid "_Default key:"
+msgstr "_Numatytasis raktas:"
+
+#: ../libseahorse/seahorse-prefs.glade.h:13
+msgid "_Never remember passphrases"
+msgstr "_Niekada neįsiminti slaptafrazių"
+
+#: ../libseahorse/seahorse-prefs.glade.h:14
+msgid "_Remember passphrases for"
+msgstr "Slaptafrazes įsi_minti"
+
+#: ../libseahorse/seahorse-prefs.glade.h:15
+msgid "minutes"
+msgstr "min."
+
+#: ../libseahorse/seahorse-progress.glade.h:1
+msgid "Progress Title"
+msgstr "Eigos antraštė"
+
+#: ../libseahorse/seahorse-util.c:168
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "Iššifravimas nepavyko. Greičiausiai neturite iššifravimo rakto."
+
+#: ../libseahorse/seahorse-util.c:218
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../libseahorse/seahorse-util.c:637
+msgid "Couldn't run file-roller"
+msgstr "Nepavyko paleisti file-roller"
+
+#: ../libseahorse/seahorse-util.c:642
+#: ../plugins/nautilus/seahorse-tool-files.c:872
+msgid "Couldn't package files"
+msgstr "Nepavyko supakuoti failų"
+
+#: ../libseahorse/seahorse-util.c:643
+msgid "The file-roller process did not complete successfully"
+msgstr "Programa file-roller nesėkmingai baigė darbą"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libseahorse/seahorse-util.c:703
+msgid "All key files"
+msgstr "Visi raktų failai"
+
+#: ../libseahorse/seahorse-util.c:710 ../libseahorse/seahorse-util.c:750
+msgid "All files"
+msgstr "Visi failai"
+
+#: ../libseahorse/seahorse-util.c:743
+msgid "Archive files"
+msgstr "Archyvo failai"
+
+#: ../libseahorse/seahorse-util.c:772
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>Failas su tokiu vardu jau yra.</b>\n"
+"\n"
+"Ar norite jį pakeisti nauju failu?"
+
+#: ../libseahorse/seahorse-util.c:775
+msgid "_Replace"
+msgstr "_Pakeisti"
+
+#: ../libseahorse/seahorse-widget.c:322
+#, c-format
+msgid "Could not display help: %s"
+msgstr "Nepavyko įkelti žinyno: %s"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:1
+msgid "Clipboard Text Encryption"
+msgstr "Iškarpinės teksto šifravimas"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:2
+msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+msgstr ""
+"Užšifruoti, iššifruoti ar pasirašyti iškarpinės turinį (naudojant PGP tipo "
+"šifravimą)."
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:3
+msgid "Seahorse Applet Factory"
+msgstr "Seahorse įtaisų gamykla"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:1
+msgid "_About"
+msgstr "_Apie"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:2
+msgid "_Help"
+msgstr "_Pagalba"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:3
+msgid "_Preferences"
+msgstr "_Nustatymai"
+
+#: ../plugins/applet/seahorse-applet.c:278
+#: ../plugins/applet/seahorse-applet.c:713
+#, c-format
+msgid "Could not display URL: %s"
+msgstr "Nepavyko parodyti URL: %s"
+
+#: ../plugins/applet/seahorse-applet.c:314
+msgid "seahorse-applet"
+msgstr "seahorse-applet"
+
+#: ../plugins/applet/seahorse-applet.c:316
+#: ../plugins/applet/seahorse-applet.c:869
+msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+msgstr ""
+"Naudoti PGP/GPG iškarpinės turinio šifravimui/iššifravimui/pasirašymui/"
+"tikrinimui/importavimui."
+
+#: ../plugins/applet/seahorse-applet.c:321
+msgid "translator-credits"
+msgstr ""
+"Mantas Kriaučiūnas <mantas@akl.lt>\n"
+"Eglė Girinaitė <egle@akl.lt>\n"
+"Vytautas Liuolia <vytautas.liuolia@gmail.com>"
+
+#: ../plugins/applet/seahorse-applet.c:324
+msgid "Seahorse Project Homepage"
+msgstr "Seahorse projekto tinklalapis"
+
+#. Get the recipient list
+#: ../plugins/applet/seahorse-applet.c:383
+#: ../plugins/epiphany/seahorse-extension.c:257
+#: ../plugins/gedit/seahorse-gedit.c:335
+msgid "Choose Recipient Keys"
+msgstr "Pasirinkti gavėjo raktus"
+
+#: ../plugins/applet/seahorse-applet.c:402
+msgid "Encrypted Text"
+msgstr "Užšifruotas tekstas"
+
+#: ../plugins/applet/seahorse-applet.c:404
+msgid "Encryption Failed"
+msgstr "Nepavyko užšifruoti"
+
+#: ../plugins/applet/seahorse-applet.c:405
+msgid "The clipboard could not be encrypted."
+msgstr "Iškarpinės turinio neina užšifruotas."
+
+#: ../plugins/applet/seahorse-applet.c:442
+#: ../plugins/epiphany/seahorse-extension.c:307
+#: ../plugins/gedit/seahorse-gedit.c:627
+msgid "Choose Key to Sign with"
+msgstr "Išsirinkite raktą, su kuriuo pasirašinėsite"
+
+#: ../plugins/applet/seahorse-applet.c:462
+msgid "Signed Text"
+msgstr "Pasirašytas tekstas"
+
+#: ../plugins/applet/seahorse-applet.c:464
+msgid "Signing Failed"
+msgstr "Nepavyko pasirašyti"
+
+#: ../plugins/applet/seahorse-applet.c:465
+msgid "The clipboard could not be Signed."
+msgstr "Iškarpinės turinio neina pasirašyti."
+
+#: ../plugins/applet/seahorse-applet.c:508
+#: ../plugins/epiphany/seahorse-extension.c:351
+#: ../plugins/nautilus/seahorse-tool.c:443
+msgid "Import Failed"
+msgstr "Nepavyko importuoti"
+
+#: ../plugins/applet/seahorse-applet.c:509
+#: ../plugins/epiphany/seahorse-extension.c:352
+#: ../plugins/nautilus/seahorse-tool.c:444
+msgid "Keys were found but not imported."
+msgstr "Raktai surasti, bet nebuvo importuoti. "
+
+#: ../plugins/applet/seahorse-applet.c:545
+#: ../plugins/epiphany/seahorse-extension.c:390
+msgid "Decrypting Failed"
+msgstr "Nepavyko iššifruoti"
+
+#: ../plugins/applet/seahorse-applet.c:546
+#: ../plugins/epiphany/seahorse-extension.c:391
+msgid "Text may be malformed."
+msgstr "Tekstas gali būti sugadintas arba netaisyklingas."
+
+#: ../plugins/applet/seahorse-applet.c:602
+msgid "No PGP key or message was found on clipboard"
+msgstr "Iškarpinėje nebuvo rasta jokio PGP rakto ar žinutės"
+
+#: ../plugins/applet/seahorse-applet.c:603
+msgid "No PGP data found."
+msgstr "Nerasta PGP informacijos."
+
+#. TRANSLATORS: This means 'The text that was decrypted'
+#: ../plugins/applet/seahorse-applet.c:640
+msgid "Decrypted Text"
+msgstr "Iššifruotas tekstas"
+
+#: ../plugins/applet/seahorse-applet.c:781
+msgid "_Encrypt Clipboard"
+msgstr "_Užšifruoti iškarpinės turinį"
+
+#: ../plugins/applet/seahorse-applet.c:788
+msgid "_Sign Clipboard"
+msgstr "_Pasirašyti iškarpinės turinį"
+
+#: ../plugins/applet/seahorse-applet.c:795
+msgid "_Decrypt/Verify Clipboard"
+msgstr "_Iššifruoti/patikrinti iškarpinės turinį "
+
+#: ../plugins/applet/seahorse-applet.c:801
+msgid "_Import Keys from Clipboard"
+msgstr "I_mportuoti raktus iš iškarpinės"
+
+#: ../plugins/applet/seahorse-applet.c:866
+#: ../plugins/applet/seahorse-applet.c:868
+msgid "Encryption Applet"
+msgstr "Šifravimo įtaisas"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:1
+msgid "<b>Display clipboard contents after:</b>"
+msgstr "<b>Rodyti iškarpinės turinį po:</b>"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:2
+msgid "Clipboard Encryption Preferences"
+msgstr "Iškarpinės šifravimo nustatymai"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:3
+msgid "_Decrypting the clipboard"
+msgstr "_Iššifruojamas iškarpinės turinys"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:4
+msgid "_Encrypting or signing the clipboard"
+msgstr "_Šifruojamas ar pasirašomas iškarpinės turinys"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:5
+msgid "_Show clipboard state in panel"
+msgstr "_Rodyti iškarpinės būseną skydelyje"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:6
+msgid "_Verifying the clipboard"
+msgstr "_Tikrinamas iškarpinės turinys"
+
+#: ../plugins/epiphany/seahorse-extension.c:640
+msgid "_Encrypt"
+msgstr "_Užšifruoti"
+
+#: ../plugins/epiphany/seahorse-extension.c:647
+msgid "_Sign"
+msgstr "_Pasirašyti"
+
+#: ../plugins/epiphany/seahorse-extension.c:654
+msgid "_Decrypt/Verify"
+msgstr "_Iššifruoti/Patikrinti"
+
+#: ../plugins/epiphany/seahorse-extension.c:661
+msgid "_Import Key"
+msgstr "_Importuoti raktą"
+
+#: ../plugins/gedit/seahorse-gedit.c:265
+msgid "Couldn't connect to seahorse-daemon"
+msgstr "Nepavyko prisijungti prie seahorse-demono."
+
+#: ../plugins/gedit/seahorse-gedit.c:357
+msgid "Encrypted text"
+msgstr "Užšifruotas tekstas"
+
+#: ../plugins/gedit/seahorse-gedit.c:360
+msgid "Couldn't encrypt text"
+msgstr "Nepavyko užšifruoti teksto"
+
+#: ../plugins/gedit/seahorse-gedit.c:390
+msgid "Couldn't import keys"
+msgstr "Nepavyko importuoti raktų"
+
+#: ../plugins/gedit/seahorse-gedit.c:399
+msgid "Keys found but not imported"
+msgstr "Raktai rasti, bet ne importuoti"
+
+#: ../plugins/gedit/seahorse-gedit.c:438
+msgid "Couldn't decrypt text"
+msgstr "Nepavyko iššifruoti teksto"
+
+#: ../plugins/gedit/seahorse-gedit.c:475
+msgid "Couldn't verify text"
+msgstr "Nepavyko patikrinti teksto"
+
+#: ../plugins/gedit/seahorse-gedit.c:523
+msgid "No encrypted or signed text is selected."
+msgstr "Nėra pažymėta užšifruoto ar pasirašyto teksto."
+
+#: ../plugins/gedit/seahorse-gedit.c:553
+msgid "Decrypted text"
+msgstr "Iššifruotas tekstas"
+
+#: ../plugins/gedit/seahorse-gedit.c:560
+msgid "Verified text"
+msgstr "Patikrintas tekstas"
+
+#: ../plugins/gedit/seahorse-gedit.c:595
+#: ../plugins/nautilus/seahorse-tool.c:469
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] "Importuotas %d raktas"
+msgstr[1] "Importuoti %d raktai"
+msgstr[2] "Importuota %d raktų"
+
+#: ../plugins/gedit/seahorse-gedit.c:649
+msgid "Signed text"
+msgstr "Pasirašytas tekstas"
+
+#: ../plugins/gedit/seahorse-gedit.c:652
+msgid "Couldn't sign text"
+msgstr "Nepavyko pasirašyti teksto"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:133
+msgid "_Encrypt..."
+msgstr "_Užšifruoti..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:134
+msgid "Encrypt the selected text"
+msgstr "Užšifruoti pažymėtą tekstą"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:135
+msgid "Decr_ypt/Verify"
+msgstr "Išši_fruoti/Patikrinti"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:136
+msgid "Decrypt and/or Verify text"
+msgstr "Iššifruoti ir/arba patikrinti tekstą"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:137
+msgid "Sig_n..."
+msgstr "_Pasirašyti..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:138
+msgid "Sign the selected text"
+msgstr "Pasirašyti pažymėtą tekstą"
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:1
+msgid "Enable the seahorse encryption plugin for gedit."
+msgstr "Įjungti seahorse šifravimo priedą gedit tekstų redagavimo programoje."
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:2
+msgid "Enable the seahorse gedit plugin"
+msgstr "Įjungti seahorse priedą gedit programoje."
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:1
+msgid "Text Encryption"
+msgstr "Teksto šifravimas"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:2
+msgid "This plugin performs encryption operations on text."
+msgstr "Šis priedas šifruoja tekstą."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:158
+msgid "Encrypt..."
+msgstr "Užšifruoti..."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:159
+msgid "Encrypt (and optionally sign) the selected file"
+msgid_plural "Encrypt the selected files"
+msgstr[0] "Užšifruoti (ir, esant norui, pasirašyti) pasirinktą failą"
+msgstr[1] "Užšifruoti pasirinktus failus"
+msgstr[2] "Užšifruoti pasirinktus failus"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:165
+msgid "Sign"
+msgstr "Pasirašyti"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:166
+msgid "Sign the selected file"
+msgid_plural "Sign the selected files"
+msgstr[0] "Užšifruoti pasirinktą failą"
+msgstr[1] "Užšifruoti pasirinktus failus"
+msgstr[2] "Užšifruoti pasirinktus failus"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:39
+msgid "For internal use"
+msgstr "Vidiniam naudojimui"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:63
+msgid "Encryption Preferences"
+msgstr "Šifravimo nustatymai"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:1
+msgid "Configure key servers and other encryption settings"
+msgstr "Konfigūruoti raktų serverius ir kitus šifravimo nustatymus"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:2
+msgid "Encryption and Keyrings"
+msgstr "Šifravimas ir raktinės"
+
+#: ../plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in.h:1
+msgid "Decrypt File"
+msgstr "Iššifruoti failą"
+
+#: ../plugins/nautilus/seahorse-pgp-keys.desktop.in.in.h:1
+msgid "Import Key"
+msgstr "Importuoti raktą"
+
+#: ../plugins/nautilus/seahorse-pgp-signature.desktop.in.in.h:1
+msgid "Verify Signature"
+msgstr "Patikrinti parašą "
+
+#: ../plugins/nautilus/seahorse-tool.c:61
+msgid "Import keys from the file"
+msgstr "Importuoti raktus iš failo"
+
+#: ../plugins/nautilus/seahorse-tool.c:63
+msgid "Encrypt file"
+msgstr "Užšifruoti failą"
+
+#: ../plugins/nautilus/seahorse-tool.c:65
+msgid "Sign file with default key"
+msgstr "Pasirašyti failą su numatytuoju raktu"
+
+#: ../plugins/nautilus/seahorse-tool.c:67
+msgid "Encrypt and sign file with default key"
+msgstr "Užšifruoti ir pasirašyti failą su numatytuoju raktu"
+
+#: ../plugins/nautilus/seahorse-tool.c:69
+msgid "Decrypt encrypted file"
+msgstr "Iššifruoti užšifruotą failą"
+
+#: ../plugins/nautilus/seahorse-tool.c:71
+msgid "Verify signature file"
+msgstr "Patikrinti pagal parašo failą"
+
+#: ../plugins/nautilus/seahorse-tool.c:73
+msgid "Read list of URIs on standard in"
+msgstr "Skaityti failų (URI) sąrašą iš standartinės įvesties"
+
+#: ../plugins/nautilus/seahorse-tool.c:75
+msgid "file..."
+msgstr "failas..."
+
+#: ../plugins/nautilus/seahorse-tool.c:169
+msgid "Choose Recipients"
+msgstr "Pasirinkite gavėjus, kuriems skirta ši informacija"
+
+#: ../plugins/nautilus/seahorse-tool.c:231
+#: ../plugins/nautilus/seahorse-tool.c:321
+msgid "Couldn't load keys"
+msgstr "Nepavyko įkelti raktų"
+
+#: ../plugins/nautilus/seahorse-tool.c:249
+#, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr "Nurodykite vardą užšifruojam failui '%s'"
+
+#: ../plugins/nautilus/seahorse-tool.c:305
+msgid "Choose Signer"
+msgstr "Pasirinkite asmenį bei raktą, kuriuo pasirašysite"
+
+#: ../plugins/nautilus/seahorse-tool.c:340
+#, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr "Nurodykite vardą el. parašo failui: '%s'"
+
+#: ../plugins/nautilus/seahorse-tool.c:380
+msgid "Import is complete"
+msgstr "Importavimas baigtas"
+
+#: ../plugins/nautilus/seahorse-tool.c:413
+msgid "Importing keys ..."
+msgstr "Importuojami raktai..."
+
+#: ../plugins/nautilus/seahorse-tool.c:467
+#, c-format
+msgid "Imported key"
+msgstr "Importuotas raktas"
+
+#. File to decrypt to
+#: ../plugins/nautilus/seahorse-tool.c:491
+#, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr "Nurodykite vardą iššifruotam failui '%s'"
+
+#: ../plugins/nautilus/seahorse-tool.c:547
+#, c-format
+msgid "Choose Original File for '%s'"
+msgstr "Pasirinkite failą, kurį tikrinsite su el. parašu iš failo '%s'"
+
+#.
+#. * TODO: What should happen with multiple files at this point.
+#. * The last thing we want to do is cascade a big pile of error
+#. * dialogs at the user.
+#.
+#: ../plugins/nautilus/seahorse-tool.c:619
+#, c-format
+msgid "No valid signatures found"
+msgstr "Nerasta galiojančių parašų"
+
+#: ../plugins/nautilus/seahorse-tool.c:668
+msgid "File Encryption Tool"
+msgstr "Failų šifravimo įrankis"
+
+#: ../plugins/nautilus/seahorse-tool.c:687
+msgid "Encrypting"
+msgstr "Šifruojama"
+
+#: ../plugins/nautilus/seahorse-tool.c:688
+#, c-format
+msgid "Couldn't encrypt file: %s"
+msgstr "Nepavyko užšifruoti failo: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:696
+msgid "Signing"
+msgstr "Pasirašoma"
+
+#: ../plugins/nautilus/seahorse-tool.c:697
+#, c-format
+msgid "Couldn't sign file: %s"
+msgstr "Nepavyko pasirašyti failo: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:702
+msgid "Importing"
+msgstr "Importuojama"
+
+#: ../plugins/nautilus/seahorse-tool.c:703
+#, c-format
+msgid "Couldn't import keys from file: %s"
+msgstr "Nepavyko importuoti raktų iš failo: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:709
+msgid "Decrypting"
+msgstr "Iššifruojama"
+
+#: ../plugins/nautilus/seahorse-tool.c:710
+#, c-format
+msgid "Couldn't decrypt file: %s"
+msgstr "Nepavyko iššifruoti failo: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:715
+msgid "Verifying"
+msgstr "Tikrinama"
+
+#: ../plugins/nautilus/seahorse-tool.c:716
+#, c-format
+msgid "Couldn't verify file: %s"
+msgstr "Nepavyko patikrinti failo: %s"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:120
+msgid "Ace (.ace)"
+msgstr "Ace (.ace)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:121
+msgid "Ar (.ar)"
+msgstr "Ar (.ar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:122
+msgid "Arj (.arj)"
+msgstr "Arj (.arj)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:129
+msgid "Ear (.ear)"
+msgstr "Ear (.ear)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:130
+msgid "Self-extracting zip (.exe)"
+msgstr "Išsispaudžiantis zip (.exe)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:132
+msgid "Jar (.jar)"
+msgstr "Jar (.jar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:133
+msgid "Lha (.lzh)"
+msgstr "Lha (.lzh)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:135
+msgid "Rar (.rar)"
+msgstr "Rar (.rar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:137
+msgid "Tar uncompressed (.tar)"
+msgstr "Tar (nearchyvuotas) (.tar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:138
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "Tar (archyvuotas su bzip) (.tar.bz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:139
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "Tar (archyvuotas su bzip2) (.tar.bz2)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:140
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "Tar (archyvuotas su gzip) (.tar.gz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:141
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "Tar (archyvuotas su lzop) (.tar.lzo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:142
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "Tar (archyvuotas su compress) (.tar.Z)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:144
+msgid "War (.war)"
+msgstr "War (.war)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:145
+msgid "Zip (.zip)"
+msgstr "Zip (.zip)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:146
+msgid "Zoo (.zoo)"
+msgstr "Zoo (.zoo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:147
+msgid "7-Zip (.7z)"
+msgstr "7-Zip (.7z)"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:327
+#, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] "Jūs pasirinkote %d failą "
+msgstr[1] "Jūs pasirinkote %d failus "
+msgstr[2] "Jūs pasirinkote %d failų "
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:332
+#, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] "ir %d aplanką"
+msgstr[1] "ir %d aplankus"
+msgstr[2] "ir %d aplankų"
+
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: ../plugins/nautilus/seahorse-tool-files.c:337
+#, c-format
+msgid "<b>%s%s</b>"
+msgstr "<b>%s%s</b>"
+
+#. should never be called for just one file
+#: ../plugins/nautilus/seahorse-tool-files.c:346
+#, c-format
+msgid "You have selected %d files"
+msgstr "Jūs pasirinkote %d failus"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:351
+#, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] "Jūs pasirinkote %d aplanką"
+msgstr[1] "Jūs pasirinkote %d aplankus"
+msgstr[2] "Jūs pasirinkote %d aplankų"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:853
+msgid "Preparing..."
+msgstr "Ruošiama..."
+
+#: ../plugins/nautilus/seahorse-tool-files.c:862
+#: ../plugins/nautilus/seahorse-tool-files.c:885
+msgid "Couldn't list files"
+msgstr "Nepavyko sudaryti failų sąrašo"
+
+#~ msgid "Do not run seahorse-daemon as a daemon"
+#~ msgstr "Nevykdyti seahorse-daemon kaip demono"
+
+#~ msgid "Encryption Daemon (Seahorse)"
+#~ msgstr "Šifravimo demonas (Seahorse)"
+
+#~ msgid "Invalid or unrecognized key type: %s"
+#~ msgstr "Netinkamas arba neatpažintas rakto tipas: %s"
+
+#~ msgid "Invalid or unrecognized key: %s"
+#~ msgstr "Netinkamas arba neatpažintas raktas: %s"
+
+#~ msgid "Invalid or unrecognized signer: %s"
+#~ msgstr "Netinkamas arba neatpažintas pasirašantysis: %s"
+
+#~ msgid "Key is not valid for signing: %s"
+#~ msgstr "Raktas nėra tinkamas pasirašymui: %s"
+
+#~ msgid "Invalid or unrecognized recipient: %s"
+#~ msgstr "Netinkamas arba neatpažintas gavėjas: %s"
+
+#~ msgid "Key is not a valid recipient for encryption: %s"
+#~ msgstr "Raktas nėra tinkamas gavėjas šifravimui: %s"
+
+#~ msgid "No recipients specified"
+#~ msgstr "Nenurodytas joks gavėjas"
+
+#~ msgid "No signer specified"
+#~ msgstr "Pasirašantysis nenurodyas"
+
+#~ msgid "Invalid key type for decryption: %s"
+#~ msgstr "Netinkamas rakto tipas iššifravimui: %s"
+
+#~ msgid "Invalid key type for verifying: %s"
+#~ msgstr "Netinkamas rakti tipas tikrinimui: %s"
+
+#~ msgid "Invalid key id: %s"
+#~ msgstr "Netinkamas rakto id: %s"
+
+#~ msgid "Couldn't share keys"
+#~ msgstr "Nepavyko paviešinti raktų"
+
+#~ msgid "Can't publish discovery information on the network."
+#~ msgstr "Nepavyko paskelbti viešinimo informacijos tinkle."
+
+#~ msgid "%s's encryption keys"
+#~ msgstr "Asmens „%s“ šifravimo raktai"
+
+#~ msgid "Auto Retrieve Keys"
+#~ msgstr "Automatiškai parsiųsti raktus"
+
+#~ msgid "Auto Sync Keys"
+#~ msgstr "Automatiškai sinchronizuoti raktus"
+
+#~ msgid "Controls the visibility of the expires column for the key manager."
+#~ msgstr "Keičia stulpelio „Galioja iki“ rodymą raktų tvarkymo programoje."
+
+#~ msgid "Controls the visibility of the trust column for the key manager."
+#~ msgstr "Keičia stulpelio „Pasitikėjimas“ rodymą raktų tvarkymo programoje."
+
+#~ msgid "Controls the visibility of the type column for the key manager."
+#~ msgstr "Keičia stulpelio „Tipas“ rodymą raktų tvarkymo programoje."
+
+#~ msgid "Controls the visibility of the validity column for the key manager."
+#~ msgstr "Keičia stulpelio „Galiojimas“ rodymą raktų tvarkymo programoje."
+
+#~ msgid "Enable DNS-SD sharing"
+#~ msgstr "Įjungti viešinimą DNS-SD protokolu"
+
+#~ msgid ""
+#~ "Enables DNS-SD (Apple Bonjour) sharing of keys. seahorse-daemon must be "
+#~ "running and must be built with HKP and DNS-SD support."
+#~ msgstr ""
+#~ "Įjungia raktų viešinimą DNS-SD (Apple Bonjour) protokolu: seahorse-daemon "
+#~ "turi būti paleistas bei turi būti sukompiliuotas su HKP bei DNS-SD "
+#~ "palaikymu."
+
+#~ msgid "Last key server search pattern"
+#~ msgstr "Paskutinis raktų serveriuose vykdytos paieškos šablonas"
+
+#~ msgid "Last key servers used"
+#~ msgstr "Paskutiniai naudoti raktų serveriai"
+
+#~ msgid "Publish keys to this key server."
+#~ msgstr "Nusiųsti raktus į šį raktų serverį."
+
+#~ msgid "Show expires column in key manager"
+#~ msgstr "Rodyti stulpelį „galioja iki“ raktų tvarkymo programoje"
+
+#~ msgid "Show trust column in key manager"
+#~ msgstr "Rodyti stulpelį „Pasitikėjimas“ raktų tvarkymo programoje"
+
+#~ msgid "Show type column in key manager"
+#~ msgstr "Rodyti stulpelį „tipas“ raktų tvarkymo programoje"
+
+#~ msgid "Show validity column in key manager"
+#~ msgstr "Rodyti stulpelį „galiojimas“ raktų tvarkymo programoje"
+
+#~ msgid ""
+#~ "Specify the column to sort the seahorse key manager main window by. "
+#~ "Columns are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. "
+#~ "Put a '-' in front of the column name to sort in descending order."
+#~ msgstr ""
+#~ "Nurodykite stulpelį, pagal kurį rikiuoti gavėjų langą. Stulpeliai šie: "
+#~ "„name“, „id“, „validity“, „expires“, „trust“ ir „type“. Įrašykite „-“ "
+#~ "prieš stulpelio vardą, jei norite rikiuoti mažėjančia tvarka."
+
+#~ msgid "The column to sort the seahorse keys by"
+#~ msgstr "Stulpelis, pagal kurį rikiuoti seahorse raktus"
+
+#~ msgid ""
+#~ "The key server to publish PGP keys to. Or empty to suppress publishing of "
+#~ "PGP keys."
+#~ msgstr ""
+#~ "Raktų serveris, naudojamas PGP raktų nusiuntimui arba tuščia, jei norite "
+#~ "uždrausti PGP raktų publikavimą."
+
+#~ msgid ""
+#~ "The last key server a search was performed against or empty for all key "
+#~ "servers."
+#~ msgstr ""
+#~ "Paskutinis raktų serveris, kuriam vykdyta užklausa, arba tuščia visiems "
+#~ "serveriams."
+
+#~ msgid "The last search pattern searched for against a key server."
+#~ msgstr ""
+#~ "Paskutinis paieškos šablonas, pagal kurį buvo ieškota raktų serveriuose."
+
+#~ msgid ""
+#~ "Whether or not keys should be automatically retrieved from key servers."
+#~ msgstr "Ar raktai turėtų būti automatiškai parsiunčiami iš raktų serverių."
+
+#~ msgid ""
+#~ "Whether or not modified keys should be automatically synced with the "
+#~ "default key server."
+#~ msgstr ""
+#~ "Ar pakeisti raktai turėtų būti automatiškai susinchronizuojami su "
+#~ "standartiniu raktų serveriu."
+
+#~ msgid "All Keys"
+#~ msgstr "Visi raktai"
+
+#~ msgid "Selected Recipients"
+#~ msgstr "Pasirinkti gavėjai"
+
+#~ msgid "Search Results"
+#~ msgstr "Paieškos rezultatai"
+
+#~ msgid "Search _for:"
+#~ msgstr "_Ieškoti:"
+
+#~ msgid "_Sign message as:"
+#~ msgstr "_Pasirašyti informacinę žinutę kaip:"
+
+#~ msgid "None (Don't Sign)"
+#~ msgstr "Nepasirašyti"
+
+#~ msgid "Name"
+#~ msgstr "Vardas"
+
+#~ msgid "Key ID"
+#~ msgstr "Rakto ID"
+
+#~ msgid "Add Password Keyring"
+#~ msgstr "Pridėti slaptažodžių raktinę"
+
+#~ msgid "New Keyring Name:"
+#~ msgstr "Naujos raktinės vardas:"
+
+#~ msgid ""
+#~ "Please choose a name for the new keyring. You will be prompted for an "
+#~ "unlock password."
+#~ msgstr ""
+#~ "Prašome pasirinkti naujosios raktinės vardą. Jūsų bus paprašyta įvesti "
+#~ "atrakinimo slaptažodį."
+
+#~ msgid "The host name or address of the server."
+#~ msgstr "Serverio kompiuterio vardas arba adresas."
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "Add Key Server"
+#~ msgstr "Pridėti raktų serverį"
+
+#~ msgid "Host:"
+#~ msgstr "Serverio adresas:"
+
+#~ msgid "Key Server Type:"
+#~ msgstr "Raktų serverio tipas:"
+
+#~ msgid "The port to access the server on."
+#~ msgstr "Prievadas, kuriuo serveris yra pasiekiamas."
+
+#~ msgid "Search was not specific enough. Server '%s' found too many keys."
+#~ msgstr "Paieška buvo labai nekonkreti. Serveris '%s' rado per daug raktų."
+
+#~ msgid "Couldn't communicate with server '%s': %s"
+#~ msgstr "Nepavyko susisiekti su serveriu '%s': %s"
+
+#~ msgid "Searching for keys..."
+#~ msgstr "Ieškoma raktų..."
+
+#~ msgid "Uploading keys..."
+#~ msgstr "Nusiunčiami raktai..."
+
+#~ msgid "Retrieving keys..."
+#~ msgstr "Gaunami raktai..."
+
+#~ msgid "Searching for keys on: %s"
+#~ msgstr "Ieškoma raktų %s serveryje"
+
+#~ msgid "Connecting to: %s"
+#~ msgstr "Jungiamasi prie: %s"
+
+#~ msgid "Couldn't communicate with '%s': %s"
+#~ msgstr "Nepavyko susisiekti su '%s': %s"
+
+#~ msgid "Couldn't resolve address: %s"
+#~ msgstr "Nepavyko rasti adreso: %s"
+
+#~ msgid "Resolving server address: %s"
+#~ msgstr "Ieškoma serverio adreso: %s"
+
+#~ msgid "Searching for keys containing '%s'..."
+#~ msgstr "Ieškoma raktų, turinčių „%s“"
+
+#~ msgid "Searching for key id '%s'..."
+#~ msgstr "Ieškoma pagal rakto id „%s“"
+
+#~ msgid "Retrieving remote keys..."
+#~ msgstr "Atsiunčiami raktai iš tinklo..."
+
+#~ msgid "Sending keys to key server..."
+#~ msgstr "Raktai siunčiami į serverį..."
+
+#~ msgid "Invalid"
+#~ msgstr "Netinkamas"
+
+#~ msgid "Public PGP Key"
+#~ msgstr "Viešas PGP raktas"
+
+#~ msgid "Private PGP Key"
+#~ msgstr "Privatus PGP raktas"
+
+#~ msgid "Unknown"
+#~ msgstr "Nežinau"
+
+#~ msgid "ElGamal"
+#~ msgstr "ElGamal"
+
+#~ msgid "PGP Key"
+#~ msgstr "PGP raktas"
+
+#~ msgid "Loaded %d key"
+#~ msgid_plural "Loaded %d keys"
+#~ msgstr[0] "Įkeltas %d raktas"
+#~ msgstr[1] "Įkelti %d raktai"
+#~ msgstr[2] "Įkelta %d raktų"
+
+#~ msgid "Loading Keys..."
+#~ msgstr "Įkeliami raktai..."
+
+#~ msgid ""
+#~ "Invalid key data (missing UIDs). This may be due to a computer with a "
+#~ "date set in the future or a missing self-signature."
+#~ msgstr ""
+#~ "Netinkami rakto duomenys (trūksta UID). To priežastis gali būti "
+#~ "kompiuteris, kuriame data nustatyta ateityje, arba trūkstamas auto-"
+#~ "parašas."
+
+#~ msgid "Importing Keys"
+#~ msgstr "Importuojami raktai"
+
+#~ msgid "Exporting Keys"
+#~ msgstr "Eksportuojami raktai"
+
+#~ msgid "Not a valid Key Server address."
+#~ msgstr "Netinkamas raktų serverio adresas. "
+
+#~ msgid ""
+#~ "For help contact your system adminstrator or the administrator of the key "
+#~ "server."
+#~ msgstr ""
+#~ "Pagalbos prašykite savo sistemos administratoriaus arba raktų serverio "
+#~ "administratoriaus."
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Custom"
+#~ msgstr "Kitoks"
+
+#~ msgid "None: Don't publish keys"
+#~ msgstr "Nesiųsti raktų niekur"
+
+#~ msgid "<i>Automatically unlocked when user logs in.</i>"
+#~ msgstr "<i>Automatiškai atrakinamas vartotojui prisijungus.</i>"
+
+#~ msgid "Couldn't get default password keyring"
+#~ msgstr "Nepavyko įkelti numatytosios slaptažodžių raktinės"
+
+#~ msgid "Couldn't get list of password keyrings"
+#~ msgstr "Nepavyko įkelti slaptažodžių raktinių sąrašo"
+
+#~ msgid "Couldn't set default password keyring"
+#~ msgstr "Nepavyko nustatyti numatytosios slaptažodžių raktinės"
+
+#~ msgid "Couldn't remove keyring"
+#~ msgstr "Nepavyko pašalinti rakto"
+
+#~ msgid "Are you sure you want to permanently delete the '%s' keyring?"
+#~ msgstr "Ar tikrai norite negrįžtamai ištrinti raktinę „%s“?"
+
+#~ msgid "Couldn't add keyring"
+#~ msgstr "Nepavyko pridėti raktinės"
+
+#~ msgid "Couldn't change keyring password"
+#~ msgstr "Nepavyko pakeisti raktinės slaptažodžio"
+
+#~ msgid "<b>Default Keyring</b>"
+#~ msgstr "<b>Numatytoji raktinė</b>"
+
+#~ msgid "<b>Password Keyrings</b>"
+#~ msgstr "<b>Slaptažodžių raktinės</b>"
+
+#~ msgid "Automatically retrieve keys from _key servers"
+#~ msgstr "Automatiškai parsiųsti raktus iš _raktų serverių"
+
+#~ msgid "Automatically synchronize _modified keys with key servers"
+#~ msgstr "Automatiškai sinchronizuoti pa_keistus raktus su raktų serveriais"
+
+#~ msgid "Change Unlock _Password"
+#~ msgstr "Pakeisti atrakinimo _slaptažodį"
+
+#~ msgid "Key Servers"
+#~ msgstr "Raktų serveriai"
+
+#~ msgid "Key Sharing"
+#~ msgstr "Raktų viešinimas"
+
+#~ msgid "Password Keyrings"
+#~ msgstr "Slaptažodžių raktinės"
+
+#~ msgid ""
+#~ "Sharing your keys allows other people on your network to use the keys "
+#~ "you've collected. This means they can automatically encrypt things for "
+#~ "you or those you know, without you having to send them your key.\n"
+#~ "\n"
+#~ "<b>Note:</b> Your personal keys will not be compromised."
+#~ msgstr ""
+#~ "Jei įjungsite raktų viešinimą - žmonės iš jūsų vietinio tinklo galės "
+#~ "iškart naudotis jūsų sukauptais raktais. Jie galės šifruoti jums ir jūsų "
+#~ "pažįstamiems skirtą informaciją (jums nereikės siuntinėti savo raktų "
+#~ "vietinio tinklo nariams).\n"
+#~ "\n"
+#~ "<b>Pastaba:</b> Jūsų asmeniniai (privatūs) raktai liks saugūs."
+
+#~ msgid "_Add Keyring"
+#~ msgstr "Pridėti _raktinę"
+
+#~ msgid "_Find keys via:"
+#~ msgstr "_Ieškoti raktų serveriuose:"
+
+#~ msgid "_Location for application passwords:"
+#~ msgstr "Programų slaptažodžių _vieta"
+
+#~ msgid "_Publish keys to:"
+#~ msgstr "Nu_siųsti raktus į:"
+
+#~ msgid "_Remove Keyring"
+#~ msgstr "_Pašalinti raktinę"
+
+#~ msgid "_Share my keys with others on my network"
+#~ msgstr "_Viešinti sukauptus raktus vietiniame tinkle"
+
+#~ msgid "LDAP Key Server"
+#~ msgstr "LDAP Raktų serveris"
+
+#~ msgid "HTTP Key Server"
+#~ msgstr "HTTP Raktų serveris"
+
+#~ msgid "No keys usable for signing"
+#~ msgstr "Nėra pasirašymui tinkamų raktų"
+
+#~ msgid ""
+#~ "You have no personal PGP keys that can be used to sign a document or "
+#~ "message."
+#~ msgstr ""
+#~ "Jūs neturite asmeninių PGP raktų, kuriais galima pasirašyti dokumentą ar "
+#~ "žinutę.  "
+
+#~ msgid "_Sign message with key:"
+#~ msgstr "_Pasirašyti žinutę su raktu:"
+
+#~ msgid "Enter your Secure Shell passphrase:"
+#~ msgstr "Saugaus prisijungimo (SSH) slaptafrazė:"
+
+#~ msgid "(Unreadable Secure Shell Key)"
+#~ msgstr "(Nenuskaitomas saugaus prisijungimo (SSH) raktas)"
+
+#~ msgid "Secure Shell Key"
+#~ msgstr "Saugaus prisijungimo (SSH) raktas"
+
+#~ msgid "Private Secure Shell Key"
+#~ msgstr "Privatus saugaus prisijungimo (SSH) raktas"
+
+#~ msgid "Public Secure Shell Key"
+#~ msgstr "Viešas saugaus prisijungimo (SSH) raktas"
+
+#~ msgid "The SSH command was terminated unexpectedly."
+#~ msgstr "SSH komanda (programa) netikėtai baigė darbą."
+
+#~ msgid "The SSH command failed."
+#~ msgstr "SSH komanda nepavyko."
+
+#~ msgid "Secure Shell key"
+#~ msgstr "Saugaus prisijungimo (SSH) raktas"
+
+#~ msgid "Secure Shell Passphrase"
+#~ msgstr "Saugaus prisijungimo (SSH) slaptafrazė"
+
+#~ msgid "Old Key Passphrase"
+#~ msgstr "Sena rakto slaptafrazė"
+
+#~ msgid "Enter the old passphrase for: %s"
+#~ msgstr "Įveskite seną „%s“ rakto slaptafrazę:"
+
+#~ msgid "New Key Passphrase"
+#~ msgstr "Nauja rakto slaptafrazė"
+
+#~ msgid "Enter the new passphrase for: %s"
+#~ msgstr "Įveskite naują „%s“ rakto slaptafrazę:"
+
+#~ msgid "Enter Key Passphrase"
+#~ msgstr "Įveskite rakto slaptafrazę"
+
+#~ msgid "Passphrase for New Secure Shell Key"
+#~ msgstr "Slaptafrazė naujam saugaus prisijungimo raktui"
+
+#~ msgid "Enter a passphrase for your new Secure Shell key."
+#~ msgstr "Įveskite slaptafrazę naujam saugaus prisijungimo raktui."
+
+#~ msgid "Secure Shell Key Passphrase"
+#~ msgstr "Saugaus prisijungimo (SSH) rakto slaptafrazė"
+
+#~ msgid "Enter the passphrase for: %s"
+#~ msgstr "Įveskite „%s“ rakto slaptafrazę."
+
+#~ msgid "Save this passphrase in my keyring"
+#~ msgstr "Išsaugoti šią slaptafrazę mano raktinėje"
+
+#~ msgid "Importing key: %s"
+#~ msgstr "Importuojamas raktas: %s"
+
+#~ msgid "Importing key. Enter passphrase"
+#~ msgstr "Importuojamas raktas. Įveskite slaptafrazę"
+
+#~ msgid "Unavailable"
+#~ msgstr "Negalimas"
+
+#~ msgid "Unknown Key: %s"
+#~ msgstr "Nežinomas raktas: %s"
+
+#~ msgid "Unknown Key"
+#~ msgstr "Nežinomas raktas"
+
+#~ msgid "Unavailable Key"
+#~ msgstr "Nepasiekiamas raktas"
+
+#~ msgid "Key Data"
+#~ msgstr "Rakto informacija"
+
+#~ msgid "Multiple Keys"
+#~ msgstr "Keli raktai"
+
+#~ msgid "Couldn't set permissions on backup file."
+#~ msgstr "Nepavyko nustatyti atsarginio failo teisių (leidimų)."
+
+#~ msgid "Never"
+#~ msgstr "Niekada"
+
+#~ msgid "Marginal"
+#~ msgstr "Dalinis"
+
+#~ msgid "Full"
+#~ msgstr "Pilnas"
+
+#~ msgid "Ultimate"
+#~ msgstr "Visiškas"
+
+#~ msgid "Disabled"
+#~ msgstr "Išjungtas"
+
+#~ msgid "Revoked"
+#~ msgstr "Paskelbtas negaliojančiu"
+
+#~ msgid "Could not display the help file"
+#~ msgstr "Nepavyko parodyti žinyno failo"
+
+#~ msgid "Encryption Key Manager"
+#~ msgstr "Šifravimo raktų tvarkymas"
+
+#~ msgid "Couldn't add subkey"
+#~ msgstr "Nepavyko pridėti antrinio rakto"
+
+#~ msgid "Add subkey to %s"
+#~ msgstr "Pridėti antrinį raktą prie „%s“"
+
+#~ msgid "DSA (sign only)"
+#~ msgstr "DSA (tik pasirašymui)"
+
+#~ msgid "ElGamal (encrypt only)"
+#~ msgstr "ElGamal (tik šifravimui)"
+
+#~ msgid "RSA (sign only)"
+#~ msgstr "RSA (tik pasirašymui)"
+
+#~ msgid "RSA (encrypt only)"
+#~ msgstr "RSA (tik šifravimui)"
+
+#~ msgid "Expiration Date:"
+#~ msgstr "Galioja iki:"
+
+#~ msgid "Generate a new subkey"
+#~ msgstr "Sukurti naują antrinį raktą"
+
+#~ msgid "If key never expires"
+#~ msgstr "Jei rakto galiojimas niekada nesibaigia"
+
+#~ msgid "Key _Length:"
+#~ msgstr "Rakto _ilgis:"
+
+#~ msgid "Key _Type:"
+#~ msgstr "Rakto _tipas:"
+
+#~ msgid "Length of Key"
+#~ msgstr "Rakto ilgis"
+
+#~ msgid "Never E_xpires"
+#~ msgstr "Niekada _nesibaigia"
+
+#~ msgid "Couldn't add user id"
+#~ msgstr "Nepavyko pridėti vartotojo id"
+
+#~ msgid "Add user ID to %s"
+#~ msgstr "Įdėti naudotojo ID į %s"
+
+#~ msgid "Add User ID"
+#~ msgstr "Įdėti naudotojo ID"
+
+#~ msgid "Create the new user ID"
+#~ msgstr "Sukurti naują naudotojo ID"
+
+#~ msgid "Full _Name:"
+#~ msgstr "_Vardas ir pavardė:"
+
+#~ msgid "Key Co_mment:"
+#~ msgstr "Rakto _komentaras:"
+
+#~ msgid "Must be at least 5 characters long"
+#~ msgstr "Turi būti bent 5 simbolių ilgio"
+
+#~ msgid "Optional comment describing key"
+#~ msgstr "Komentaras, aprašantis raktą (neprivalomas)"
+
+#~ msgid "Optional email address"
+#~ msgstr "El. pašto adresas (neprivalomas)"
+
+#~ msgid "_Email Address:"
+#~ msgstr "_El. pašto adresas:"
+
+#~ msgid "Change Passphrase"
+#~ msgstr "Pakeisti slaptafrazę"
+
+#~ msgid "Con_firm Passphrase:"
+#~ msgstr "_Patvirtinkite slaptafrazę:"
+
+#~ msgid "Confirm new passphrase"
+#~ msgstr "Patvirtinkite naują slaptafrazę"
+
+#~ msgid "New _Passphrase:"
+#~ msgstr "Nauja slaptafrazė"
+
+#~ msgid ""
+#~ "%s is a private key. Make sure you have a backup. Do you still want to "
+#~ "delete it?"
+#~ msgstr ""
+#~ "%s yra privatus raktas. Įsitikinkite, kad turite jo atsarginę kopiją. Ar "
+#~ "vis dar norite jį ištrinti?"
+
+#~ msgid "Are you sure you want to permanently delete %s?"
+#~ msgstr "Ar tikrai norite negrįžtamai ištrinti %s?"
+
+#~ msgid "Are you sure you want to permanently delete %d key?"
+#~ msgid_plural "Are you sure you want to permanently delete %d keys?"
+#~ msgstr[0] "Ar tikrai norite negrįžtamai ištrinti %d raktą?"
+#~ msgstr[1] "Ar tikrai norite negrįžtamai ištrinti %d raktus?"
+#~ msgstr[2] "Ar tikrai norite negrįžtamai ištrinti %d raktų?"
+
+#~ msgid "Couldn't delete key"
+#~ msgstr "Nepavyko ištrinti rakto"
+
+#~ msgid "Are you sure you want to permanently delete subkey %d of %s?"
+#~ msgstr ""
+#~ "Ar tikrai norite negrįžtamai ištrinti antrinį raktą %d, priklausantį %s ?"
+
+#~ msgid "Couldn't delete subkey"
+#~ msgstr "Nepavyko ištrinti antrinio rakto"
+
+#~ msgid "Are you sure you want to permanently delete the '%s' user ID?"
+#~ msgstr "Ar tikrai norite negrįžtamai ištrinti '%s' naudotojo ID?"
+
+#~ msgid "Couldn't delete user id"
+#~ msgstr "Nepavyko ištrinti naudotojo id"
+
+#~ msgid "Manage your passwords and encryption keys"
+#~ msgstr "Tvarkyti jūsų slaptažodžius ir šifravimo raktus"
+
+#~ msgid "Passwords and Encryption Keys"
+#~ msgstr "Slaptažodžiai ir el. raktai"
+
+#~ msgid "Couldn't change expiry date"
+#~ msgstr "Nepavyko pakeisti galiojimo pabaigos datos"
+
+#~ msgid "Expiry for Subkey %d of %s"
+#~ msgstr "Antrinio rakto %d, priklausančio %s, galiojimas"
+
+#~ msgid "Expiry for %s"
+#~ msgstr "Rakto „%s“ galiojimas"
+
+#~ msgid "C_hange"
+#~ msgstr "_Keisti"
+
+#~ msgid "Revoke key"
+#~ msgstr "Raktą paskelbti negaliojančiu"
+
+#~ msgid "_Never expires"
+#~ msgstr "_Niekada nenustoja galioti"
+
+#~ msgid "Used to encrypt email and files"
+#~ msgstr "Naudojamas laiškų bei failų šifravimui ir pasirašymui"
+
+#~ msgid "Used to access other computers (eg: via a terminal)"
+#~ msgstr "Naudojamas prisijungti prie kitų kompiuterių (pvz.: per terminalą)"
+
+#~ msgid "<b>_Select the kind of key you wish to create:</b>"
+#~ msgstr "<b>_Pasirinkite kokios rūšies raktą norite sukurti:</b>"
+
+#~ msgid "C_ontinue"
+#~ msgstr "_Tęsti"
+
+#~ msgid "Create a New Key"
+#~ msgstr "Sukurti naują raktą"
+
+#~ msgid "Web Password"
+#~ msgstr "Žiniatinklio slaptažodis"
+
+#~ msgid "Network Password"
+#~ msgstr "Tinklo slaptažodis"
+
+#~ msgid "Password"
+#~ msgstr "Slaptažodis"
+
+#~ msgid "Access a network share or resource"
+#~ msgstr "Pasiekti tinkle paviešintą aplanką ar resursą"
+
+#~ msgid "Access a website"
+#~ msgstr "Pasiekti interneto svetainę"
+
+#~ msgid "Unlocks a PGP key"
+#~ msgstr "Atrakina PGP raktą"
+
+#~ msgid "Unlocks a Secure Shell key"
+#~ msgstr "Atrakina saugaus prisijungimo (SSH) raktą"
+
+#~ msgid "Saved password or login"
+#~ msgstr "Išsaugotas slaptažodis ar prisijungimo vardas"
+
+#~ msgid "Network Credentials"
+#~ msgstr "Tinklo prisijungimo duomenys"
+
+#~ msgid "Couldn't change password."
+#~ msgstr "Nepavyko pakeisti slaptažodžio."
+
+#~ msgid "Couldn't set description."
+#~ msgstr "Nepavyko pakeisti aprašymo."
+
+#~ msgid "Couldn't set application access."
+#~ msgstr "Nepavyko pakeisti programos priėjimo teisių."
+
+#~ msgid "<b>Password:</b>"
+#~ msgstr "<b>Slaptažodis:</b>"
+
+#~ msgid "<b>Path:</b>"
+#~ msgstr "<b>Kelias:</b>"
+
+#~ msgid "<b>Permissions:</b>"
+#~ msgstr "<b>Leidimai:</b>"
+
+#~ msgid "<b>Technical Details:</b>"
+#~ msgstr "<b>Techninės detalės:</b>"
+
+#~ msgid "Applications"
+#~ msgstr "Programos"
+
+#~ msgid "Details"
+#~ msgstr "Detalės"
+
+#~ msgid "Key"
+#~ msgstr "Raktas"
+
+#~ msgid "Key Properties"
+#~ msgstr "Rakto savybės"
+
+#~ msgid "Login:"
+#~ msgstr "Prisijungimo vardas:"
+
+#~ msgid "Server:"
+#~ msgstr "Serveris:"
+
+#~ msgid "Show pass_word"
+#~ msgstr "Rodyti _slaptažodį"
+
+#~ msgid "Type:"
+#~ msgstr "Tipas:"
+
+#~ msgid "Use:"
+#~ msgstr "Naudoti:"
+
+#~ msgid "_Delete"
+#~ msgstr "Iš_trinti"
+
+#~ msgid "_Description:"
+#~ msgstr "Pa_aiškinimas:"
+
+#~ msgid "_Read"
+#~ msgstr "_Skaityti"
+
+#~ msgid "_Write"
+#~ msgstr "_Rašyti"
+
+#~ msgid "Access to the key ring was denied"
+#~ msgstr "Priėjimas prie raktinės uždraustas"
+
+#~ msgid "The gnome-keyring daemon is not running"
+#~ msgstr "gnome-keyring demonas neveikia"
+
+#~ msgid "The key ring has already been unlocked"
+#~ msgstr "Raktinė jau atrakinta"
+
+#~ msgid "No such key ring exists"
+#~ msgstr "Tokia raktinė neegzistuoja"
+
+#~ msgid "Couldn't communicate with key ring daemon"
+#~ msgstr "Nepavyko susisiekti su raktinės demonu"
+
+#~ msgid "The item already exists"
+#~ msgstr "Elementas jau egzistuoja"
+
+#~ msgid "Internal error accessing gnome-keyring"
+#~ msgstr "Vidinė klaida, bandant susisiekti su gnome-keyring"
+
+#~ msgid "Saving item..."
+#~ msgstr "Saugomas elementas..."
+
+#~ msgid "Retrieving key"
+#~ msgstr "Gaunamas raktas"
+
+#~ msgid "Listing passwords"
+#~ msgstr "Pateikiami slaptažodžiai"
+
+#~ msgid "Couldn't read file"
+#~ msgstr "Nepavyko perskaityti failo"
+
+#~ msgid "Unrecognized key type, or invalid data format"
+#~ msgstr "Neatpažįstamas rakto tipas, ar netinkamas duomenų formatas"
+
+#~ msgid "Couldn't retrieve data from key server"
+#~ msgstr "Nepavyko gauti informacijos iš raktų serverio"
+
+#~ msgid "Copied %d key"
+#~ msgid_plural "Copied %d keys"
+#~ msgstr[0] "Nukopijuota %d raktas"
+#~ msgstr[1] "Nukopijuoti %d raktai"
+#~ msgstr[2] "Nukopijuota %d raktų"
+
+#~ msgid "Retrieving keys"
+#~ msgstr "Gaunami raktai"
+
+#~ msgid "Couldn't export key"
+#~ msgstr "Nepavyko eksportuoti rakto"
+
+#~ msgid "Export public key"
+#~ msgstr "Eksportuoti viešą raktą"
+
+#~ msgid "Couldn't export key to \"%s\""
+#~ msgstr "Nepavyko eksportuoti rakto į „%s“"
+
+#~ msgid "Exporting keys"
+#~ msgstr "Eksportuojami raktai"
+
+#~ msgid "Back up Key Rings to Archive"
+#~ msgstr "Kopijuoti raktines į archyvą"
+
+#~ msgid "Contributions:"
+#~ msgstr "Padėkos:"
+
+#~ msgid "seahorse"
+#~ msgstr "seahorse"
+
+#~ msgid "Selected %d key"
+#~ msgid_plural "Selected %d keys"
+#~ msgstr[0] "Pasirinktas %d raktas"
+#~ msgstr[1] "Pasirinkti %d raktai"
+#~ msgstr[2] "Pasirinkta %d raktų"
+
+#~ msgid "_Key"
+#~ msgstr "_Raktas"
+
+#~ msgid "_Edit"
+#~ msgstr "_Keisti"
+
+#~ msgid "_View"
+#~ msgstr "R_odyti"
+
+#~ msgid "_Create New Key..."
+#~ msgstr "_Sukurti naują raktą..."
+
+#~ msgid "Create a new personal key"
+#~ msgstr "Sukurti naują asmeninį raktą"
+
+#~ msgid "_Import..."
+#~ msgstr "I_mportuoti..."
+
+#~ msgid "Import keys into your key ring from a file"
+#~ msgstr "Importuoti raktus iš failo į jūsų raktinę"
+
+#~ msgid "_Back up Key Rings..."
+#~ msgstr "Padaryti raktinių atsargines _kopijas..."
+
+#~ msgid "Back up all keys"
+#~ msgstr "Padaryti visų raktų atsargines kopijas"
+
+#~ msgid "Paste _Keys"
+#~ msgstr "Įdėti _raktus"
+
+#~ msgid "Import keys from the clipboard"
+#~ msgstr "Importuoti raktus iš iškarpinės"
+
+#~ msgid "_Quit"
+#~ msgstr "_Išeiti"
+
+#~ msgid "Close this program"
+#~ msgstr "Užverti šią programą"
+
+#~ msgid "Prefere_nces"
+#~ msgstr "_Nustatymai"
+
+#~ msgid "Change preferences for this program"
+#~ msgstr "Keisti šios programos nustatymus"
+
+#~ msgid "About this program"
+#~ msgstr "Apie šią programą"
+
+#~ msgid "_Remote"
+#~ msgstr "_Darbas tinkle"
+
+#~ msgid "_Contents"
+#~ msgstr "_Turinys"
+
+#~ msgid "Show Seahorse help"
+#~ msgstr "Rodyti Seahorse pagalbą"
+
+#~ msgid "T_ypes"
+#~ msgstr "_Tipas"
+
+#~ msgid "Show type column"
+#~ msgstr "Rodyti stulpelį „Tipas“"
+
+#~ msgid "_Expiry"
+#~ msgstr "Galiojimo _laikas"
+
+#~ msgid "Show expiry column"
+#~ msgstr "Rodyti stulpelį „Galioja iki“"
+
+#~ msgid "_Trust"
+#~ msgstr "_Pasitikėjimas"
+
+#~ msgid "Show owner trust column"
+#~ msgstr "Rodyti stulpelį „Pasitikėjimas savininku“"
+
+#~ msgid "_Validity"
+#~ msgstr "_Galiojimas"
+
+#~ msgid "Show validity column"
+#~ msgstr "Rodyti galiojimo stulpelį"
+
+#~ msgid "P_roperties"
+#~ msgstr "Sa_vybės"
+
+#~ msgid "Show key properties"
+#~ msgstr "Rodyti rakto savybes"
+
+#~ msgid "E_xport Public Key..."
+#~ msgstr "_Eksportuoti viešą raktą..."
+
+#~ msgid "Export public part of key to a file"
+#~ msgstr "Eksportuoti rakto viešą dalį į failą "
+
+#~ msgid "_Copy Public Key"
+#~ msgstr "Kopijuoti viešą raktą"
+
+#~ msgid "Copy public part of selected keys to the clipboard"
+#~ msgstr "Kopijuoti pasirinktų raktų viešas dalis į iškarpinę"
+
+#~ msgid "_Delete Key"
+#~ msgstr "_Ištrinti raktą"
+
+#~ msgid "Delete selected keys"
+#~ msgstr "Ištrinti pasirinktą raktus"
+
+#~ msgid "_Sign..."
+#~ msgstr "_Pasirašyti"
+
+#~ msgid "Sign public key"
+#~ msgstr "Pasirašyti viešą raktą"
+
+#~ msgid "Set Up Computer for _Secure Shell..."
+#~ msgstr "Sukonfigūruoti kompiuterį _saugiam prisijungimui (SSH)..."
+
+#~ msgid ""
+#~ "Send public Secure Shell key to another machine, and enable logins using "
+#~ "that key."
+#~ msgstr ""
+#~ "Nusiųsti viešą saugaus prisijungimo (SSH) raktą į kitą kompiuterį bei "
+#~ "įjungti galimybę prisijungti, naudojant šitą raktą."
+
+#~ msgid "_Find Remote Keys..."
+#~ msgstr "_Ieškoti raktų internete..."
+
+#~ msgid "Search for keys on a key server"
+#~ msgstr "Ieškoti raktų raktų serveryje"
+
+#~ msgid "_Sync and Publish Keys..."
+#~ msgstr "Sinchronizuoti bei nusiųsti _raktus..."
+
+#~ msgid "Publish and/or synchronize your keys with those online."
+#~ msgstr "Nusiųsti ir/arba sinchronizuoti turimus raktus su internetiniais."
+
+#~ msgid "<big><b>First time options:</b></big>"
+#~ msgstr "<big><b>Pirmojo karto pasirinkimai:</b></big>"
+
+#~ msgid "Filter:"
+#~ msgstr "Filtras"
+
+#~ msgid "Generate a new key of your own: "
+#~ msgstr "Susikurkite naują raktą sau:"
+
+#~ msgid "Import existing keys from a file:"
+#~ msgstr "Importuoti egzistuojančius raktus iš failo:"
+
+#~ msgid "My _Personal Keys"
+#~ msgstr "Mano _asmeniniai raktai"
+
+#~ msgid "Other _Collected Keys"
+#~ msgstr "Kiti s_ukaupti raktai"
+
+#~ msgid "To get started with encryption you will need keys."
+#~ msgstr "Norint pradėti šifravimą jums reikės raktų."
+
+#~ msgid "_Import"
+#~ msgstr "_Importuoti"
+
+#~ msgid "_Passwords"
+#~ msgstr "_Slaptažodžiai"
+
+#~ msgid "_Trusted Keys"
+#~ msgstr "Pa_tikimi raktai"
+
+#~ msgid "Expired"
+#~ msgstr "Nebegaliojantis"
+
+#~ msgid "User ID"
+#~ msgstr "Naudotojo ID"
+
+#~ msgid "Couldn't retrieve key data"
+#~ msgstr "Nepavyko gauti rakto duomenų"
+
+#~ msgid "Couldn't write key to file"
+#~ msgstr "Nepavyko įrašyti rakto į failą"
+
+#~ msgid "Validity"
+#~ msgstr "Galiojimas"
+
+#~ msgid "Trust"
+#~ msgstr "Pasitikėjimas"
+
+#~ msgid "Type"
+#~ msgstr "Tipas"
+
+#~ msgid "Expiration Date"
+#~ msgstr "Galioja iki"
+
+#~ msgid "Couldn't change primary user ID"
+#~ msgstr "Nepavyko pakeisti pirminio vartotojo ID"
+
+#~ msgid "[Unknown]"
+#~ msgstr "[Nežinomas]"
+
+#~ msgid "Name/Email"
+#~ msgstr "Vardas/el. paštas"
+
+#~ msgid "Signature ID"
+#~ msgstr "Parašo ID"
+
+#~ msgid "Couldn't change primary photo"
+#~ msgstr "Nepavyko pakeisti pirminės nuotraukos"
+
+#~ msgid "(unknown)"
+#~ msgstr "(nežinomas)"
+
+#~ msgid "This key expired on: %s"
+#~ msgstr "Šio rakto galiojimo laikas baigėsi: %s"
+
+#~ msgid "Unable to change trust"
+#~ msgstr "Nepavyko pakeisti pasitikėjimo reikšmės"
+
+#~ msgid "Export Complete Key"
+#~ msgstr "Eksportuoti visą raktą"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Created"
+#~ msgstr "Sukurtas"
+
+#~ msgid "Expires"
+#~ msgstr "Galiojimas baigiasi"
+
+#~ msgid "Status"
+#~ msgstr "Būsena"
+
+#~ msgid "Strength"
+#~ msgstr "Stiprumas"
+
+#~ msgid "Good"
+#~ msgstr "Geras"
+
+#~ msgid "Couldn't import keys into key ring"
+#~ msgstr "Nepavyko importuoti raktų į raktinę"
+
+#~ msgid "Importing keys from key servers"
+#~ msgstr "Importuojami raktai iš raktų serverių"
+
+#~ msgid "Couldn't write keys to file: %s"
+#~ msgstr "Nepavyko raktų įrašyti į failą: %s"
+
+#~ msgid "Save Remote Keys"
+#~ msgstr "Išsaugoti internete esančius raktus"
+
+#~ msgid "No matching keys found"
+#~ msgstr "Sutampančių raktų nerasta"
+
+#~ msgid "_Close"
+#~ msgstr "_Uždaryti"
+
+#~ msgid "Close this window"
+#~ msgstr "Uždaryti šį langą"
+
+#~ msgid "_Expand All"
+#~ msgstr "_Išskleisti viską"
+
+#~ msgid "Expand all listings"
+#~ msgstr "Išskleisti visus įrašus"
+
+#~ msgid "_Collapse All"
+#~ msgstr "_Suskleisti viską"
+
+#~ msgid "Collapse all listings"
+#~ msgstr "Suskleisti visus įrašus"
+
+#~ msgid "Import selected keys to local key ring"
+#~ msgstr "Pasirinktus raktus importuoti į vietinę raktinę"
+
+#~ msgid "Save Key As..."
+#~ msgstr "Išsaugoti raktą kaip..."
+
+#~ msgid "Save selected keys as a file"
+#~ msgstr "Išsaugoti pasirinktus raktus į failą"
+
+#~ msgid "_Copy Key"
+#~ msgstr "_Kopijuoti raktą"
+
+#~ msgid "Copy selected keys to the clipboard"
+#~ msgstr "Pasirinktus raktus kopijuoti į iškarpinę"
+
+#~ msgid "Remote Keys"
+#~ msgstr "Raktai internete"
+
+#~ msgid "Remote Keys Containing '%s'"
+#~ msgstr "Raktai internete, turintys „%s“"
+
+#~ msgid "Remote Encryption Keys"
+#~ msgstr "Šifravimo raktai tinkle"
+
+#~ msgid "<b>Key Servers:</b>"
+#~ msgstr "<b>Raktų serveriai:</b>"
+
+#~ msgid "<b>Shared Keys Near Me:</b>"
+#~ msgstr "<b>Paviešinti raktai vietiniame tinkle:</b>"
+
+#~ msgid "Find Remote Keys"
+#~ msgstr "Ieškoti raktų internete"
+
+#~ msgid ""
+#~ "This will find keys for others on the Internet. These keys can then be "
+#~ "imported into your local key ring."
+#~ msgstr ""
+#~ "Kitų asmenų raktus galite rasti internete. Paskui galėsite pasirinkti, "
+#~ "kuriuos iš rastų raktų norėsite importuoti į jūsų vietinę raktinę."
+
+#~ msgid "Where to search:"
+#~ msgstr "Kur ieškoti:"
+
+#~ msgid "_Search"
+#~ msgstr "_Ieškoti"
+
+#~ msgid "_Search for keys containing: "
+#~ msgstr "_Ieškoti raktų, turinčių:"
+
+#~ msgid "Couldn't publish keys to server: %s"
+#~ msgstr "Nepavyko nusiųsti raktų į serverį: %s"
+
+#~ msgid "Couldn't retrieve keys from server: %s"
+#~ msgstr "Nepavyko gauti raktų iš serverio: %s"
+
+#~ msgid "<b>%d key is selected for synchronizing</b>"
+#~ msgid_plural "<b>%d keys are selected for synchronizing</b>"
+#~ msgstr[0] "<b>%d raktas pasirinktas sinchronizavimui</b>"
+#~ msgstr[1] "<b>%d raktai pasirinkti sinchronizavimui</b>"
+#~ msgstr[2] "<b>%d raktų pasirinkta sinchronizavimui</b>"
+
+#~ msgid "Synchronizing keys"
+#~ msgstr "Sinchronizuojami raktai"
+
+#~ msgid "Synchronizing keys..."
+#~ msgstr "Sinchronizuojami raktai..."
+
+#~ msgid "<b>X keys are selected for synchronizing</b>"
+#~ msgstr "<b>X raktų pasirinkta sinchronizavimui</b>"
+
+#~ msgid "Sync Keys"
+#~ msgstr "Sinchronizuoti raktus"
+
+#~ msgid ""
+#~ "This will publish the keys in your key ring so they're available for "
+#~ "others to use. You'll also get any changes others have made since you "
+#~ "received their keys."
+#~ msgstr ""
+#~ "Jūsų raktinėje esančių raktų viešosios dalys bus nusiųstos į viešą raktų "
+#~ "serverį, kad tuos raktus galėtų naudoti kiti. Taipogi gausite raktų "
+#~ "atnaujinimus, kuriuos kiti žmonės padarė po paskutinio raktų gavimo."
+
+#~ msgid ""
+#~ "This will retrieve any changes others have made since you received their "
+#~ "keys. No key server has been chosen for publishing, so your keys will not "
+#~ "be made available to others."
+#~ msgstr ""
+#~ "Bus parsiųsti raktų atnaujinimai, kuriuos kiti žmonės padarė po "
+#~ "paskutinio raktų gavimo. Nebuvo nurodytas joks raktų serveris "
+#~ "nusiuntimui, taigi jūsų sukurti nauji raktai bei raktų pakeitimai nebus "
+#~ "prieinami kitiems."
+
+#~ msgid "_Key Servers"
+#~ msgstr "_Raktų serveriai"
+
+#~ msgid "_Sync"
+#~ msgstr "_Sinchronizuoti"
+
+#~ msgid "DSA Elgamal"
+#~ msgstr "DSA ElGamal"
+
+#~ msgid "Couldn't generate PGP key"
+#~ msgstr "Nepavyko sukurti PGP rakto"
+
+#~ msgid "Passphrase for New PGP Key"
+#~ msgstr "Slaptafrazė naujam PGP raktui"
+
+#~ msgid "Enter the passphrase for your new key twice."
+#~ msgstr "Dukart įveskite slaptafrazę (ilgą slaptažodį) naujam raktui."
+
+#~ msgid "Couldn't generate key"
+#~ msgstr "Nepavyko sukurti rakto"
+
+#~ msgid "Generating key"
+#~ msgstr "Kuriamas raktas"
+
+#~ msgid "<b>_Advanced key options</b>"
+#~ msgstr "<b>_Papildomi rakto nustatymai</b>"
+
+#~ msgid "A PGP key allows you to encrypt email or files to other people."
+#~ msgstr "PGP raktas leidžia šifruoti el. laiškus ar failus kitiems žmonėms. "
+
+#~ msgid "Algorithms here"
+#~ msgstr "Algoritmai čia"
+
+#~ msgid "C_reate"
+#~ msgstr "_Sukurti"
+
+#~ msgid "Create a PGP Key"
+#~ msgstr "Sukurti PGP raktą"
+
+#~ msgid "E_xpiration Date:"
+#~ msgstr "_Galiojimo pabaigos data:"
+
+#~ msgid "Encryption _Type:"
+#~ msgstr "Šifravimo _tipas:"
+
+#~ msgid "Generate a new key"
+#~ msgstr "Sukurti naują raktą"
+
+#~ msgid "Key _Strength (bits):"
+#~ msgstr "Rakto _stiprumas (bitais):"
+
+#~ msgid "Ne_ver Expires"
+#~ msgstr "_Niekada nesibaigia"
+
+#~ msgid "New PGP Key"
+#~ msgstr "Naujas PGP raktas"
+
+#~ msgid "_Comment:"
+#~ msgstr "_Komentaras:"
+
+#~ msgid "<b>Actions</b>"
+#~ msgstr "<b>Veiksmai</b>"
+
+#~ msgid "<b>Comment:</b>"
+#~ msgstr "<b>Komentaras:</b>"
+
+#~ msgid "<b>Dates</b>"
+#~ msgstr "<b>Datos</b>"
+
+#~ msgid "<b>Email:</b>"
+#~ msgstr "<b>El. paštas:</b>"
+
+#~ msgid "<b>Fingerprint</b>"
+#~ msgstr "<b>Atspaudas</b>"
+
+#~ msgid "<b>Key ID:</b>"
+#~ msgstr "<b>Rakto ID:</b>"
+
+#~ msgid "<b>Key Names and Signatures</b>"
+#~ msgstr "<b>Raktų vardai ir parašai</b>"
+
+#~ msgid "<b>Name:</b>"
+#~ msgstr "<b>Vardas:</b>"
+
+#~ msgid "<b>Photo </b>"
+#~ msgstr "<b>Nuotrauka </b>"
+
+#~ msgid "<b>Technical Details</b>"
+#~ msgstr "<b>Techninės detalės</b>"
+
+#~ msgid "<b>This key has been revoked</b>"
+#~ msgstr "<b>Šis raktas paskelbtas negaliojančiu</b>"
+
+#~ msgid "<b>This key has expired</b>"
+#~ msgstr "<b>Šio rakto galiojimas baigėsi</b>"
+
+#~ msgid "<b>Type:</b>"
+#~ msgstr "<b>Tipas:</b>"
+
+#~ msgid "<b>Use:</b>"
+#~ msgstr "<b>Naudojimas:</b>"
+
+#~ msgid "<b>_Subkeys</b>"
+#~ msgstr "<b>_Antriniai raktai</b>"
+
+#~ msgid "Add"
+#~ msgstr "Pridėti"
+
+#~ msgid "Add a photo to this key"
+#~ msgstr "Prie šio rakto pridėti nuotrauką"
+
+#~ msgid "Change _Passphrase"
+#~ msgstr "Pakeisti _slaptafrazę"
+
+#~ msgid "Created:"
+#~ msgstr "Sukurta:"
+
+#~ msgid "Decrypt files and email sent to you."
+#~ msgstr "Iššifruoti failus ir jums atsiųstus el. laiškus."
+
+#~ msgid "Delete"
+#~ msgstr "Ištrinti"
+
+#~ msgid "Expire"
+#~ msgstr "Galiojimas baigsis"
+
+#~ msgid "Expires:"
+#~ msgstr "Galiojimas baigiasi: "
+
+#~ msgid "Export"
+#~ msgstr "Eksportuoti"
+
+#~ msgid "Go to next photo"
+#~ msgstr "Eiti prie kitos nuotraukos"
+
+#~ msgid "Go to previous photo"
+#~ msgstr "Eiti prie ankstesnės nuotraukos"
+
+#~ msgid "Key ID:"
+#~ msgstr "Rakto ID:"
+
+#~ msgid "Make this photo the primary photo"
+#~ msgstr "Šią nuotrauką padaryti pirmine"
+
+#~ msgid "Names and Signatures"
+#~ msgstr "Vardai ir parašai"
+
+#~ msgid "Override Owner _Trust:"
+#~ msgstr "Nustatyti pasitikėjimą savo raktu:"
+
+#~ msgid "Owner"
+#~ msgstr "Savininkas"
+
+#~ msgid "Primary"
+#~ msgstr "Pirminis"
+
+#~ msgid "Remove this photo from this key"
+#~ msgstr "Pašalinti šią nuotrauką iš rakto"
+
+#~ msgid "Revoke"
+#~ msgstr "Paskelbti negaliojančiu"
+
+#~ msgid "Strength:"
+#~ msgstr "Stiprumas:"
+
+#~ msgid "The owner of the key revoked the key. It can no longer be used."
+#~ msgstr ""
+#~ "Rakto savininkas raktą paskelbė negaliojančiu. Jis nebegali būti "
+#~ "naudojamas."
+
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginal\n"
+#~ "Full\n"
+#~ "Ultimate"
+#~ msgstr ""
+#~ "Nežinomas\n"
+#~ "Niekada\n"
+#~ "Dalinis\n"
+#~ "Pilnas\n"
+#~ "Visiškas"
+
+#~ msgid "_Add Name"
+#~ msgstr "_Pridėti vardą"
+
+#~ msgid "_Export Complete Key:"
+#~ msgstr "_Eksportuoti visą raktą:"
+
+#~ msgid "<b>Dates:</b>"
+#~ msgstr "<b>Datos:</b>"
+
+#~ msgid "<b>Fingerprint:</b>"
+#~ msgstr "<b>Atspaudas:</b>"
+
+#~ msgid "<b>Indicate Trust:</b>"
+#~ msgstr "<b>Nurodykite pasitikėjimą:</b>"
+
+#~ msgid "<b>Your trust of this key</b>"
+#~ msgstr "<b>Jūsų pasitikėjimas šiuo raktu</b>"
+
+#~ msgid "<b>_Other Names:</b>"
+#~ msgstr "<b>_Kiti vardai:</b>"
+
+#~ msgid "<b>_People who have signed this key:</b>"
+#~ msgstr "<b>Ž_monės pasirašę šį raktą:</b>"
+
+#~ msgid "Encrypt files and email to the key's owner "
+#~ msgstr "Šifruoti failams ir el. laiškams rakto savininkui"
+
+#~ msgid "I have checked that this key belongs to '%s'"
+#~ msgstr "Patikrinau, kad šis raktas priklauso asmeniui „%s“"
+
+#~ msgid "I trust signatures from '%s' on other keys "
+#~ msgstr "Aš pasitikiu asmens „%s“ parašais kituose raktuose"
+
+#~ msgid ""
+#~ "If you no longer trust this person's identity, <i>revoke</i> your "
+#~ "signature:"
+#~ msgstr ""
+#~ "Jei nebepasitikite šio asmens tapatybe, savo parašą <i>paskelbkite "
+#~ "negaliojančiu</i>:"
+
+#~ msgid "To indicate your trust of this key to others, <i>sign</i> this key:"
+#~ msgstr ""
+#~ "Jūsų pasitikėjimą šiuo raktu kiti sužinos, jei <i>pasirašysite</i> šį "
+#~ "raktą:"
+
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginally\n"
+#~ "Fully\n"
+#~ "Ultimately"
+#~ msgstr ""
+#~ "Nežinau\n"
+#~ "Niekada\n"
+#~ "Dalinai\n"
+#~ "Pilnai\n"
+#~ "Visiškai"
+
+#~ msgid "You _Trust the Owner:"
+#~ msgstr "Jūsų pasi_tikėjimas savininku:"
+
+#~ msgid "Your trust is manually specified on the <i>Details</i> tab."
+#~ msgstr "Pasitikėjimas yra nustatytas kortelėje <i>Detalės</i>."
+
+#~ msgid "_Only display the signatures of people I trust"
+#~ msgstr "Pateikti _tik žmonių, kuriais pasitikiu, parašus"
+
+#~ msgid "_Revoke Signature"
+#~ msgstr "_Parašą paskelbti negaliojančiu"
+
+#~ msgid "_Sign this Key"
+#~ msgstr "Pasirašyti šį _raktą"
+
+#~ msgid ""
+#~ "<big><b>The photo is too large</b></big>\n"
+#~ "The recommended size for a photo on your key is %d x %d pixels."
+#~ msgstr ""
+#~ "<big><b>Ši nuotrauka per didelė</b></big>\n"
+#~ "Rakto faile esančios nuotraukos rekomenduojamas dydis yra %d x %d "
+#~ "pikselių."
+
+#~ msgid "_Don't Resize"
+#~ msgstr "_Nekeisti dydžio"
+
+#~ msgid "_Resize"
+#~ msgstr "Pa_keisti dydį"
+
+#~ msgid ""
+#~ "This is not a image file, or an unrecognized kind of image file. Try to "
+#~ "use a JPEG image."
+#~ msgstr ""
+#~ "Tai ne paveikslėlio failas, arba nežinomas paveikslėlio failas. Bandykite "
+#~ "naudoti JPEG paveikslėlį. "
+
+#~ msgid "All image files"
+#~ msgstr "Visi vaizdo failai"
+
+#~ msgid "All JPEG files"
+#~ msgstr "Visi JPEG failai"
+
+#~ msgid "Choose Photo to Add to Key"
+#~ msgstr "Pasirinkite nuotrauką pridėti prie rakto"
+
+#~ msgid "Couldn't add photo"
+#~ msgstr "Nepavyko pridėti nuotraukos"
+
+#~ msgid "The file could not be loaded. It may be in an invalid format"
+#~ msgstr "Failo nepavyko įkelti. Galbūt formatas yra netinkamas"
+
+#~ msgid "Are you sure you want to remove the current photo from your key?"
+#~ msgstr "Ar tikrai norite pašalinti šią nuotrauką iš rakto?"
+
+#~ msgid "Couldn't delete photo"
+#~ msgstr "Nepavyko ištrinti nuotraukos"
+
+#~ msgid "Couldn't revoke subkey"
+#~ msgstr "Antrinio rakto nepavyko paskelbti negaliojančiu"
+
+#~ msgid "Revoke Subkey %d of %s"
+#~ msgstr "Antrinį raktą %d, priklausantį %s, paskelbti negaliojančiu"
+
+#~ msgid "Revoke %s"
+#~ msgstr "Paskelbti negaliojančiu raktą „%s“"
+
+#~ msgid "No reason"
+#~ msgstr "Nepateikta priežastis"
+
+#~ msgid "No reason for revoking key"
+#~ msgstr "Nepateikta priežastis paskelbti raktą negaliojančiu"
+
+#~ msgid "Compromised"
+#~ msgstr "Nebesaugus"
+
+#~ msgid "Key has been compromised"
+#~ msgstr "Raktas tapo nebesaugus"
+
+#~ msgid "Superseded"
+#~ msgstr "Pakeistas naujesniu"
+
+#~ msgid "Key has been superseded"
+#~ msgstr "Raktas buvo pakeistas naujesniu"
+
+#~ msgid "Not Used"
+#~ msgstr "Nenaudojamas"
+
+#~ msgid "Key is no longer used"
+#~ msgstr "Raktas nebenaudojamas"
+
+#~ msgid ""
+#~ "You are about to add %s as a revoker for %s. This operation cannot be "
+#~ "undone! Are you sure you want to continue?"
+#~ msgstr ""
+#~ "Jūs ruošiatės paskelbti %2$s negaliojančiu naudojant %1$s. Ši operacija "
+#~ "negalės būti atšaukta! Ar tikrai norite tęsti?"
+
+#~ msgid "Couldn't add revoker"
+#~ msgstr "Nepavyko paskelbti negaliojančiu"
+
+#~ msgid "Optional description of revocation"
+#~ msgstr "Neprivalomas rakto paskelbimo negaliojančiu aprašymas"
+
+#~ msgid "Re_voke"
+#~ msgstr "Paskelbti _negaliojančiu"
+
+#~ msgid "Reason for revoking the key"
+#~ msgstr "Rakto paskelbimo negaliojančiu priežastis"
+
+#~ msgid "_Reason:"
+#~ msgstr "_Priežastis:"
+
+#~ msgid "Couldn't sign key"
+#~ msgstr "Nepavyko pasirašyti rakto"
+
+#~ msgid ""
+#~ "You have no personal PGP keys that can be used to indicate your trust of "
+#~ "this key."
+#~ msgstr ""
+#~ "Jūs neturite asmeninių PGP raktų, kuriuos galėtume panaudoti nustatant "
+#~ "jūsų pasitikėjimą šiuo raktu."
+
+#~ msgid "<b>How carefully have you checked this key?</b>"
+#~ msgstr "<b>Kaip atidžiai jūs tikrinote šį raktą?</b>"
+
+#~ msgid "<b>How others will see this signature:</b>"
+#~ msgstr "<b>Kaip kiti matys šį parašą:</b>"
+
+#~ msgid "<b>Sign key as:</b>"
+#~ msgstr "<b>Pasirašyti raktą kaip:</b>"
+
+#~ msgid ""
+#~ "<i>Casually:</i> means you have done a casual verification that the key\n"
+#~ "is owned by the person who claims to own it. For example, you could\n"
+#~ "read the key fingerprint to the owner over the phone. "
+#~ msgstr ""
+#~ "<i>Nerūpestingai:</i> reiškia, jog atsakingai nepatikrinote, kad raktas\n"
+#~ "priklauso čia minimam asmeniui.\n"
+#~ "Pavyzdžiui, jei rakto atspaudas jums buvo pasakytas telefonu."
+
+#~ msgid "<i>Key Name</i>"
+#~ msgstr "<i>Rakto vardas</i>"
+
+#~ msgid ""
+#~ "<i>Not at all:</i> means you believe the key is owned by the person who \n"
+#~ "claims to own it, but you could not or did not verify this to be a fact."
+#~ msgstr ""
+#~ "<i>Netikrinau:</i> reiškia, jog jūs tikite, kad raktas priklauso čia "
+#~ "minimam asmeniui,\n"
+#~ "tačiau jūs negalite patikrinti arba netikrinote, kad tikrai taip yra."
+
+#~ msgid ""
+#~ "<i>Very Carefully:</i> Select this only if you are absolutely sure that "
+#~ "this\n"
+#~ "key is genuine."
+#~ msgstr ""
+#~ "<i>Labai atidžiai:</i> Pasirinkite tik tada, jei esate visiškai tikras, "
+#~ "kad\n"
+#~ "raktas yra nesuklastotas."
+
+#~ msgid "By signing you indicate your trust that this key belongs to:"
+#~ msgstr ""
+#~ "Pasirašydami jūs parodote savo pasitikėjimą, kad šis raktas priklauso:"
+
+#~ msgid "I can _revoke this signature at a later date."
+#~ msgstr "Aš pasilieku teisę šį parašą paskelbti ne_galiojančiu."
+
+#~ msgid ""
+#~ "You could use a hard to forge photo identification (such as a passport) \n"
+#~ "to personally check that the name on the key is correct. You should \n"
+#~ "have also used email to check that the email address belongs to the\n"
+#~ "owner."
+#~ msgstr ""
+#~ "Rakto savininko tapatybei patvirtinti, Jums reikėtų naudotis sunkiai \n"
+#~ "suklastojamu asmens tapatybę įrodančiu dokumentu su nuotrauka (pvz. "
+#~ "pasu).\n"
+#~ "El. pašto adreso patikrinimui, jūs turite nurodytu el. pašto adresu "
+#~ "parašyti šiuo \n"
+#~ " raktu užšifruotą laišką ir jį iššifruotą gauti atgal."
+
+#~ msgid "_Casually"
+#~ msgstr "_Nerūpestingai"
+
+#~ msgid "_Not at all"
+#~ msgstr "Ne_tikrinau"
+
+#~ msgid "_Others may not see this signature"
+#~ msgstr "_Kiti negalės šio parašo matyti"
+
+#~ msgid "_Signer:"
+#~ msgstr "_Pasirašantysis:"
+
+#~ msgid "_Very Carefully"
+#~ msgstr "_Labai atidžiai"
+
+#~ msgid "Couldn't generate Secure Shell key"
+#~ msgstr "Nepavyko sukurti saugaus prisijungimo (SSH) rakto"
+
+#~ msgid "Creating Secure Shell Key"
+#~ msgstr "Kuriamas saugaus prisijungimo (SSH) raktas"
+
+#~ msgid ""
+#~ "<i>Use your email address, and any other reminder\n"
+#~ " you need about what this key is for.</i>"
+#~ msgstr ""
+#~ "<i>Naudokite savo el. pašto adresą bei įv. kitas, jums reikiamas,\n"
+#~ " užuominas, kaip priminimą, kam šitas raktas skirtas.</i>"
+
+#~ msgid ""
+#~ "A Secure Shell (SSH) key lets you connect securely to trusted\n"
+#~ "computers using SSH, without entering a different password \n"
+#~ "for each of them."
+#~ msgstr ""
+#~ "Saugaus prisijungimo (SSH) raktas skirtas saugiai prisijungti prie\n"
+#~ "patikimų kompiuterių SSH protokolu, nenaudojant skirtingų \n"
+#~ "slaptažodžių kiekvienam kompiuteriui."
+
+#~ msgid ""
+#~ "If there is already a computer you want to use this key with, you \n"
+#~ "can set up that computer to recognize your key now. "
+#~ msgstr ""
+#~ "Jei turite galimybę prisijungti prie kompiuterio, prisijungimui prie "
+#~ "kurio naudosite\n"
+#~ "šį raktą, jūs galite dabar nustatyti, kad tas kompiuteris atpažintų jūsų "
+#~ "raktą. "
+
+#~ msgid "New Secure Shell Key"
+#~ msgstr "Naujas saugaus prisijungimo (SSH) raktas"
+
+#~ msgid "_Create and Set Up"
+#~ msgstr "_Sukurti ir nustatyti"
+
+#~ msgid "_Just Create Key"
+#~ msgstr "_Tik sukurti raktą"
+
+#~ msgid "_Key Description:"
+#~ msgstr "_Rakto aprašymas:"
+
+#~ msgid "Couldn't rename key."
+#~ msgstr "Nepavyko pervadinti rakto."
+
+#~ msgid "Couldn't change authorization for key."
+#~ msgstr "Nepavyko pakeisti leidimų šiam raktui."
+
+#~ msgid "Couldn't change passhrase for key."
+#~ msgstr "Nepavyko pakeisti rakto slaptafrazės."
+
+#~ msgid "/home/nate/.ssh/blah_rsa"
+#~ msgstr "/home/naudotojas/.ssh/blah_rsa"
+
+#~ msgid "00:00:00:00:00"
+#~ msgstr "00:00:00:00:00"
+
+#~ msgid "<b>Algorithm:</b>"
+#~ msgstr "<b>Algoritmas:</b>"
+
+#~ msgid "<b>Identifier:</b>"
+#~ msgstr "<b>Identifikatorius:</b>"
+
+#~ msgid "<b>Location:</b>"
+#~ msgstr "<b>Vieta:</b>"
+
+#~ msgid "<b>Strength:</b>"
+#~ msgstr "<b>Stiprumas:</b>"
+
+#~ msgid "<b>Trust</b>"
+#~ msgstr "<b>Pasitikėjimas</b>"
+
+#~ msgid "<i>This only applies to the '%s'</i> account."
+#~ msgstr "<i>Galioja tiktai '%s'</i> naudotojui."
+
+#~ msgid "E_xport Complete Key"
+#~ msgstr "_Eksportuoti visą raktą"
+
+#~ msgid "The owner of this key is _authorized to connect to this computer"
+#~ msgstr "Šio rakto savininkui _leidžiama prisijungti prie šio kompiuterio"
+
+#~ msgid "Used to connect to other computers."
+#~ msgstr "Naudotas prisijungti prie kitų kompiuterių."
+
+#~ msgid "Couldn't configure Secure Shell keys on remote computer."
+#~ msgstr ""
+#~ "Nepavyko sukonfigūruoti saugaus prisijungimo (SSH) raktų nutolusiame "
+#~ "kompiuteryje."
+
+#~ msgid "Configuring Secure Shell Keys..."
+#~ msgstr "Konfigūruojami saugaus prisijungimo (SSH) raktai..."
+
+#~ msgid "<i>eg: fileserver.example.com</i>"
+#~ msgstr "<i>pvz.: linux.openoffice.lt</i>"
+
+#~ msgid "Set Up Computer for SSH Connection"
+#~ msgstr "Nustatyti kitą kompiuterį saugiam (SSH) prisijungimui"
+
+#~ msgid ""
+#~ "To use your Secure Shell key with another computer that\n"
+#~ "uses SSH, you must already have a login account on that \n"
+#~ "computer."
+#~ msgstr ""
+#~ "Norėdami naudoti saugaus prisijungimo (SSH) raktą jungimuisi \n"
+#~ "prie kito kompiuterio, jūs privalote žinoti prisijungimo vardą bei \n"
+#~ "turėti galimybę prisijungti SSH protokolu prie to kompiuterio."
+
+#~ msgid "_Computer Name:"
+#~ msgstr "_Kompiuterio vardas:"
+
+#~ msgid "_Login Name:"
+#~ msgstr "_Prisijungimo vardas:"
+
+#~ msgid "_Set Up"
+#~ msgstr "_Nustatyti"

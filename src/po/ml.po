@@ -1,0 +1,1165 @@
+# translation of seahorse-plugins.master.ml.po to
+# translation of seahorse-plugins.HEAD.ml.po to
+# translation of seahorse.HEAD.ml.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# FSF-India <locale@gnu.org.in>, 2003.
+# Ani Peter <apeter@redhat.com>, 2007, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: seahorse-plugins.master.ml\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=seahorse-plugins&component=general\n"
+"POT-Creation-Date: 2009-04-22 20:42+0000\n"
+"PO-Revision-Date: 2009-09-15 21:40+0530\n"
+"Last-Translator: \n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+
+#: ../agent/seahorse-agent-actions.c:120
+msgid "Passphrase:"
+msgstr "പാസ്ഫ്രെയിസ്:"
+
+#: ../agent/seahorse-agent-actions.c:121
+msgid "Please enter a passphrase to use."
+msgstr "ദയവായി ഒരു പാസ്ഫ്രെയിസ് നല്‍കുക."
+
+#: ../agent/seahorse-agent-cache.c:66
+msgid "Unparseable Key ID"
+msgstr "അണ്‍പാഴ്സബിള്‍ കീ ID"
+
+#: ../agent/seahorse-agent-cache.c:67
+msgid "Unknown/Invalid Key"
+msgstr "അജ്ഞാതം/തെറ്റായ കീ"
+
+#: ../agent/seahorse-agent-cache.c:533
+#, c-format
+msgid "PGP Key: %s"
+msgstr "PGP കീ: %s"
+
+#: ../agent/seahorse-agent-cache.glade.h:1
+msgid ""
+"<b>Warning</b>: Your system is not configured to cache passphrases in secure "
+"memory."
+msgstr ""
+"<b>മുന്നറിയിപ്പു്</b>: സുരക്ഷിതമായ മെമ്മറിയില്‍ പാസ്‌ഫ്രെയിസ് കാഷ് ചെയ്യുന്നതിനായി നിങ്ങളുടെ "
+"സിസ്റ്റം സജ്ജമല്ല."
+
+#: ../agent/seahorse-agent-cache.glade.h:2
+msgid "Cache _Preferences"
+msgstr "കാഷിനുള്ള മുന്‍ഗണനകള്‍ (_P)"
+
+#: ../agent/seahorse-agent-cache.glade.h:3
+msgid "Cached Encryption Keys"
+msgstr "കാഷ്ഡ് എന്‍ക്രിപ്ഷന്‍ കീ"
+
+#: ../agent/seahorse-agent-cache.glade.h:4
+msgid "Change passphrase cache settings."
+msgstr "പാസ്ഫ്രെയിസ് കാഷ് ക്റമികരണം മാറ്റുക"
+
+#: ../agent/seahorse-agent-cache.glade.h:5
+msgid "Clear passphrase cache"
+msgstr "പാസ്ഫ്രെയിസ് കാഷ് വെടിപ്പാക്കുക"
+
+#: ../agent/seahorse-agent-cache.glade.h:6
+msgid "_Clear Cache"
+msgstr "കാഷ് വെടിപ്പാക്കുക (_C)"
+
+#: ../agent/seahorse-agent-cache.glade.h:7
+msgid "_Show Window"
+msgstr "ജാലകം കാണിക്കുക (_S)"
+
+#: ../agent/seahorse-agent-main.c:52
+msgid "Do not daemonize seahorse-agent"
+msgstr "seahorse-agent ഡെമണൈസ് ചെയ്യരുതു്"
+
+#: ../agent/seahorse-agent-main.c:56
+msgid "Print variables in for a C type shell"
+msgstr "C തരത്തിലുള്ള ഷെല്ലിനു് വേരിയബിളുകള്‍ പ്രിന്റ് ചെയ്യുക"
+
+#: ../agent/seahorse-agent-main.c:60
+msgid "Display environment variables (the default)"
+msgstr "എന്‍വയോണ്മെന്റ് വേരിയബിളുകള്‍ കാണിക്കുക (സ്വതവേ)"
+
+#: ../agent/seahorse-agent-main.c:63
+msgid "Execute other arguments on the command line"
+msgstr "കമാന്‍ഡ് ലൈനില്‍ മറ്റു് ആര്‍ഗ്യുമെന്റുകള്‍ പ്രവര്‍ത്തിപ്പിക്കുക"
+
+#: ../agent/seahorse-agent-main.c:67
+msgid "Allow GPG agent request from any display"
+msgstr "ഏതു് ഡിസ്പ്ലെയില്‍ നിന്നും GPG ഏജന്റിനുള്ള ആവശ്യം അനുവദിക്കുക"
+
+#: ../agent/seahorse-agent-main.c:70
+msgid "command..."
+msgstr "കമാന്‍ഡ്..."
+
+#: ../agent/seahorse-agent-main.c:108
+msgid "couldn't fork process"
+msgstr "പ്രക്രിയ ഫോര്‍ക്ക് ചെയ്യുവാന്‍ സാധിച്ചില്ല"
+
+#: ../agent/seahorse-agent-main.c:114
+msgid "couldn't create new process group"
+msgstr "പ്രക്രിയയ്ക്കുള്ള പുതിയ കൂട്ടം ഉണ്ടാക്കുവാന്‍ സാധിച്ചില്ല"
+
+#: ../agent/seahorse-agent-main.c:240
+msgid "Encryption Key Agent (Seahorse)"
+msgstr "എന്‍ക്രിപ്ഷന്‍ കീ ഏജന്റ് (സീഹോഴ്സ്)"
+
+#: ../agent/seahorse-agent-main.c:248
+msgid "no command specified to execute"
+msgstr "പ്റവറ്‍ത്തിക്കുന്നതിനുള്ള കമാന്‍ഡ് ലഭ്യമല്ല"
+
+#: ../agent/seahorse-agent-prompt.c:216
+msgid "Authorize Passphrase Access"
+msgstr "പാസ്‌ഫ്രെയിസ് ലഭ്യമാക്കുന്നതിനുള്ള ആധികാരികത"
+
+#: ../agent/seahorse-agent-prompt.c:252
+msgid "The passphrase is cached in memory."
+msgstr "പാസ്ഫ്രെയിസ് മെമ്മറിയില്‍ കാഷ് ചെയ്തിരിക്കുന്നു."
+
+#: ../agent/seahorse-agent-prompt.c:257
+msgid "Always ask me before using a cached passphrase"
+msgstr "ഒരു കാഷ് പാസ്ഫ്രെയിസ് ഉപയോഗിക്കുന്നതിന് മുമ്പ് എപ്പോഴും ചോദിക്കുക"
+
+#: ../agent/seahorse-agent-prompt.c:274
+msgid "_Authorize"
+msgstr "_ആധികാരികത നല്‍കുക"
+
+#. Make the uid column
+#: ../agent/seahorse-agent-status.c:145
+msgid "Key Name"
+msgstr "കീയുടെ പേര്"
+
+#: ../data/seahorse-plugins.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"വിദൂര PGP കീകള്‍ തെരയുന്നതിനുള്ള കീ സര്‍വര്‍ യുആര്‍ഐകളുടെ ഒരു പട്ടിക. ഇനിയുള്ള "
+"പതിപ്പുകളില്‍, ഒരു സ്പെയിസും പേരും അവസാനം ചേര്‍ത്തു് ഒരു പ്രദര്‍ശന നാമം ഉള്‍പ്പെടുത്താം."
+
+#: ../data/seahorse-plugins.schemas.in.h:2
+msgid ""
+"After performing an decrypt or verify operation from the applet, display the "
+"resulting text in a window."
+msgstr ""
+"ആപ്ലെറ്റില്‍ നിന്നും ഒരു ഡീക്രിപ്റ്റ് അല്ലെങ്കില്‍ ഉറപ്പാക്കല്‍ പ്രക്രിയ നടത്തിയ ശേഷം, "
+"ജാലകത്തില്‍ ഫലമാകുന്ന പദാവലി കാണിക്കുക."
+
+#: ../data/seahorse-plugins.schemas.in.h:3
+msgid ""
+"After performing an encrypt or signing operation from the applet, display "
+"the resulting text in a window."
+msgstr ""
+"ആപ്ലെറ്റില്‍ നിന്നും ഒരു എന്‍ക്രിപ്റ്റ് അല്ലെങ്കില്‍ ഒപ്പിടല്‍ പ്രക്രിയ നടത്തിയ ശേഷം, "
+"ജാലകത്തില്‍ ഫലമാകുന്ന പദാവലി കാണിക്കുക."
+
+#: ../data/seahorse-plugins.schemas.in.h:4
+msgid "Display cache reminder in the notification area"
+msgstr "അറിയിപ്പിനുള്ള സ്ഥലത്തു് കാഷ് റിമയിന്‍ടര്‍ കാണിക്കുക"
+
+#: ../data/seahorse-plugins.schemas.in.h:5
+msgid "Display clipboard after decrypting"
+msgstr "ഡീക്രിപ്റ്റ് ചെയ്ത ശേഷം ക്ലിപ്പ്ബോര്‍ഡില്‍ കാണിക്കുക"
+
+#: ../data/seahorse-plugins.schemas.in.h:6
+msgid "Display clipboard after encrypting"
+msgstr "എന്‍ക്രിപ്റ്റ് ചെയ്ത ശേഷം ക്ലിപ്പ്ബോര്‍ഡില്‍ കാണിക്കുക"
+
+#: ../data/seahorse-plugins.schemas.in.h:7
+msgid "Expire passwords in the cache"
+msgstr "കാഷിലുള്ള പാസ്‌വേര്‍ഡുകളുടെ കാലാവധി തീര്‍ക്കുക"
+
+#: ../data/seahorse-plugins.schemas.in.h:8
+msgid "ID of the default key"
+msgstr "സ്വതവേയുള്ള കീയുടെ ഐഡി"
+
+#: ../data/seahorse-plugins.schemas.in.h:9
+msgid ""
+"If set to 'gnome' uses gnome-keyring to cache passwords. When set to "
+"'internal' uses internal cache."
+msgstr ""
+"'gnome' ആയി സജ്ജമാക്കിയാല്‍, പാസ്‌വേര്‍ഡുകള്‍ കാഷ് ചെയ്യുന്നതിനായി gnome-keyring "
+"ഉപയോഗിക്കുന്നു. 'internal' ആയി സജ്ജമാക്കിയാല്‍ ഇന്റേര്‍ണല്‍ കാഷ് ഉപയോഗിക്കുന്നു."
+
+#: ../data/seahorse-plugins.schemas.in.h:10
+msgid ""
+"If set to true, then files encrypted with seahorse will be ASCII armor "
+"encoded."
+msgstr ""
+"true ആയി സജ്ജമാക്കിയാല്‍, seahorse ഉപയോഗിച്ചു് എന്‍ക്രിപ്റ്റ് ചെയ്ത ഫയലുകള്‍ ASCII ആര്‍മര്‍ "
+"എന്‍കോഡഡ് ആയിരിക്കും."
+
+#: ../data/seahorse-plugins.schemas.in.h:11
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"true ആയി സജ്ജമാക്കിയാല്‍, സ്വതവേയുള്ള കീ എപ്പോഴും ഒരു എന്‍ക്രിപ്ഷന്‍ റെസീപ്യന്റ്സ് "
+"പട്ടികയിലേക്ക് ചേര്‍ക്കുന്നു."
+
+#: ../data/seahorse-plugins.schemas.in.h:12
+msgid "Last key used to sign a message."
+msgstr "ഒരു സന്ദേശം അയയ്ക്കുന്നതിനായി ഉപയോഗിക്കുന്ന അവസാന കീ."
+
+#: ../data/seahorse-plugins.schemas.in.h:13
+msgid "PGP Key servers"
+msgstr "PGP കീ സറ്‍വറുകള്‍"
+
+#: ../data/seahorse-plugins.schemas.in.h:14
+msgid "Prompt before using GPG passwords in cache"
+msgstr "കാഷില്‍ GPG പാസ്‌വേര്‍ഡുകള്‍ ഉപയോഗിക്കുന്നതിനു് മുമ്പായി ചോദിക്കുക"
+
+#: ../data/seahorse-plugins.schemas.in.h:15
+msgid ""
+"Reflect the contents of the clipboard (whether encrypted, signed, etc...) in "
+"the panel applet icon."
+msgstr ""
+"പാനല്‍ ആപ്ലെറ്റ് ചിഹ്നത്തില്‍ ക്ലിപ് ബോര്‍ഡിലുള്ളവ സൂചിപ്പിക്കുക (എന്‍ക്രിപ്റ്റ്ഡ്, ഒപ്പിട്ടവ "
+"ആണോ എന്നു്)."
+
+#: ../data/seahorse-plugins.schemas.in.h:16
+msgid ""
+"Set to 'true' to enable display of the cache reminder in the notification "
+"area of your panel."
+msgstr ""
+"നിങ്ങളുടെ പാനലില്‍, അറിയിപ്പിനുള്ള സ്ഥലത്തു് കാഷ് റിമയിന്‍ടര്‍ കാണിക്കുന്നതിനായി 'true' ആയി "
+"സജ്ജമാക്കുക."
+
+#: ../data/seahorse-plugins.schemas.in.h:17
+msgid ""
+"Set to 'true' to have seahorse-agent prompt before giving out passwords it "
+"has cached."
+msgstr ""
+"seahorse-agent കാഷ് ചെയ്ത അടയാളവാക്കുകള്‍ ലഭ്യമാക്കുന്നതിനു് മുമ്പു് "
+"seahorse-agent ലഭിക്കുന്നതിനായി'true' ആയി സജ്ജമാക്കുക."
+
+#: ../data/seahorse-plugins.schemas.in.h:18
+msgid "Show clipboard state in panel"
+msgstr "ക്ലിപ്പ്ബോര്‍ഡിന്റെ അവസ്ഥ പാനലില്‍ കാണിക്കുക"
+
+#: ../data/seahorse-plugins.schemas.in.h:19
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"റെസിപ്യന്റ്സിന്റെ ജാലകം ക്രമത്തിലാക്കേണ്ടതു് എതു് നിരയനുസരിച്ചാണെന്നു് വ്യക്തമാക്കുക. "
+"നിരകള്‍: 'പേര്', 'id'. കൂടുതലില്‍ നിന്നും കുറവിലേക്ക് എന്ന ക്രമത്തിലാക്കുന്നതിനായി "
+"നിരയുടെ പേരിനു് മുമ്പ് '-' ചേര്‍ക്കുക"
+
+#: ../data/seahorse-plugins.schemas.in.h:20
+msgid "The ID of the last secret key used to sign a message."
+msgstr "ഒരു സന്ദേശം ഒപ്പിടുന്നതിനായുപയോഗിക്കുന്ന അവസാന രഹസ്യ കീയുടെ ID"
+
+#: ../data/seahorse-plugins.schemas.in.h:21
+msgid "The column to sort the recipients by"
+msgstr "റെസിപ്യന്റുകള്‍ ക്രമത്തിലാക്കേണ്ടു് ഈ നിരയനുസരിച്ചു്"
+
+#: ../data/seahorse-plugins.schemas.in.h:22
+msgid "The time (in minutes) to cache GPG passwords"
+msgstr "GPG പാസ്‌വേര്‍ഡുകള്‍ കാഷ് ചെയ്യുവാനുള്ള സമയം (മിനിറ്റില്‍)"
+
+#: ../data/seahorse-plugins.schemas.in.h:23
+msgid ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"seahorse-agent."
+msgstr "seahorse-agent-ല്‍ GPG പാസ്‌വേര്‍ഡുകള്‍ കാഷ് ചെയ്യുന്നതിനായുള്ള സമയം (മിനിറ്റില്‍)."
+
+#: ../data/seahorse-plugins.schemas.in.h:24
+msgid ""
+"This option enables the GPG password cache in the seahorse-agent program. "
+"The 'use-agent' setting in gpg.conf affects this setting."
+msgstr ""
+"seahorse-agent പ്രോഗ്രാമില്‍ GPG പാസ്‌വേര്‍ഡ് കാഷ് സജ്ജമാക്കുന്നതിനുള്ള ഉപാധി.gpg.conf-ലുള്ള "
+"'use-agent' ഈ സജ്ജീകരണത്തെ ബാധിക്കുന്നു."
+
+#: ../data/seahorse-plugins.schemas.in.h:25
+msgid "This specifies the default key to use for certain operations, mainly signing."
+msgstr "ഒപ്പിടുന്നതുപോലെയുള്ള ചില പ്രക്രിയകള്‍ക്കു് സ്വതവേയുള്ള കീ ഉപയോഗിക്കുന്നതിനായി ഇതു് വ്യക്തമാക്കുന്നു."
+
+#: ../data/seahorse-plugins.schemas.in.h:26
+msgid ""
+"When set, seahorse-agent expires GPG passwords in its cache after a period "
+"of time."
+msgstr ""
+"സജ്ജമാക്കുമ്പോള്‍, കുറച്ചു സമയത്തിനു് ശേഷം, കാഷില്‍ seahorse-agent GPG  പാസ്‌വേര്‍ഡുകളുടെ "
+"കാലാവധി അവസാനിപ്പിക്കുന്നു."
+
+#: ../data/seahorse-plugins.schemas.in.h:27
+msgid "Where to store cached passwords."
+msgstr "കാഷ് ചെയ്ത പാസ്‌വേര്‍ഡുകള്‍ എവിടെ സൂക്ഷിക്കണം."
+
+#: ../data/seahorse-plugins.schemas.in.h:28
+msgid "Whether the GPG password cache is enabled"
+msgstr "GPG പാസ്‌വേര്‍ഡ് കാഷ് സജ്ജമാണോ എന്നു്"
+
+#: ../data/seahorse-plugins.schemas.in.h:29
+msgid "Whether to always encrypt to default key"
+msgstr "സ്വതവേയുള്ള കീയായി എപ്പോഴും എന്‍ക്രിപ്റ്റ് ചെയ്യണമോ എന്നു്"
+
+#: ../data/seahorse-plugins.schemas.in.h:30
+msgid "Whether to use ASCII Armor"
+msgstr "ASCII ആര്‍മര്‍ ഉപയോഗിക്കണമോ എന്നു്"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:1
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<b>നിങ്ങള്‍ നിരവധി ഫയലുകള്‍ അല്ലെങ്കില്‍ ഫോള്‍ഡറുകള്‍ തിരഞ്ഞെടുത്തിരിക്കുന്നു</b>"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:2
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr "ഫയലുകള്‍ റിമോട്ടായി സ്ഥാപിച്ചിരിക്കുന്നതിനാല്‍, അവ ഓരോന്നായി എന്‍ക്രിപ്റ്റ് ചെയ്യുന്നു."
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:3
+msgid "Encrypt Multiple Files"
+msgstr "നിരവധി ഫയലുകള്‍ എന്‍ക്രിപ്റ്റ് ചെയ്യുക"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:4
+msgid "Encrypt each file separately"
+msgstr "ഫയലുകള്‍ ഓരോന്നായി എന്‍ക്രിപ്റ്റ് ചെയ്യുക"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:5
+msgid "Encrypt packed together in a package"
+msgstr "പാക്കേജിനൊപ്പം എന്‍ക്രിപ്റ്റ് ചെയ്തതും പാക്ക് ചെയ്തിരിക്കുന്നു"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:6
+msgid "Package Name:"
+msgstr "പാക്കേജിന്റെ പേര്:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:7
+msgid "Packaging:"
+msgstr "പാക്കേജ് ചെയ്യുന്നു:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:8
+msgid "encrypted-package"
+msgstr "encrypted-package"
+
+#: ../libseahorse/seahorse-notification.c:573
+#: ../libseahorse/seahorse-notification.c:598
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "ഇംപോര്‍ട്ട് ചെയ്ത കീ"
+msgstr[1] "ഇംപോര്‍ട്ട് ചെയ്ത കീകള്‍"
+
+#: ../libseahorse/seahorse-notification.c:577
+#: ../libseahorse/seahorse-notification.c:597
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "ഇംപോര്‍ട്ട് ചെയ്ത %i കീ"
+msgstr[1] "ഇംപോര്‍ട്ട് ചെയ്ത %i കീകള്‍"
+
+#: ../libseahorse/seahorse-notification.c:579
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "ഒരു കീ ഇംപോര്‍ട്ട് ചെയ്യേണ്ടതു്"
+msgstr[1] "കീകള്‍ ഇംപോര്‍ട്ട് ചെയ്യേണ്ടതു്"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:616
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "ഒപ്പിട്ടതു് <i><key id='%s'/> %s-ല്‍ <b>കാലാവധി കഴിഞ്ഞിരിക്കുന്നു</b></i>."
+
+#: ../libseahorse/seahorse-notification.c:617
+msgid "Invalid Signature"
+msgstr "തെറ്റായ ഒപ്പ്"
+
+#: ../libseahorse/seahorse-notification.c:623
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "%s-ല്‍ ഒപ്പിട്ടതു് <i><key id='%s'/></i> <b>കാലാവധി കഴിഞ്ഞിരിക്കുന്നു</b>."
+
+#: ../libseahorse/seahorse-notification.c:624
+msgid "Expired Signature"
+msgstr "കാലാവധി കഴിഞ്ഞ ഒപ്പ്"
+
+#: ../libseahorse/seahorse-notification.c:630
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+
+#: ../libseahorse/seahorse-notification.c:631
+msgid "Revoked Signature"
+msgstr "പിന്‍വലിച്ച ഒപ്പ്"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:637
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "%s-ല്‍ ഒപ്പിട്ടിരിക്കുന്നതു് <i><key id='%s'/></i>."
+
+#: ../libseahorse/seahorse-notification.c:638
+msgid "Good Signature"
+msgstr "ശരിയായ ഒപ്പ്"
+
+#: ../libseahorse/seahorse-notification.c:643
+msgid "Signing key not in keyring."
+msgstr "ഒപ്പിടേണ്ട കീ കീറിങില്‍ ലഭ്യമല്ല."
+
+#: ../libseahorse/seahorse-notification.c:644
+msgid "Unknown Signature"
+msgstr "അറിയപ്പെടാത്ത ഒപ്പ്"
+
+#: ../libseahorse/seahorse-notification.c:648
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "തെറ്റായ ഒപ്പു്. ഒപ്പിട്ട ഡേറ്റായില്‍ മാറ്റം വരുത്തിയിരിക്കുന്നു."
+
+#: ../libseahorse/seahorse-notification.c:649
+msgid "Bad Signature"
+msgstr "തെറ്റായ ഒപ്പ്"
+
+#: ../libseahorse/seahorse-notification.c:657
+msgid "Couldn't verify signature."
+msgstr "ഒപ്പ് ഉറപ്പാക്കുവാന്‍ സാധ്യമായില്ല."
+
+#: ../libseahorse/seahorse-notify.glade.h:1
+msgid "Notification Messages"
+msgstr "അറിയിപ്പു് സന്ദേശങ്ങള്‍"
+
+#: ../libseahorse/seahorse-passphrase.c:200
+msgid "Passphrase"
+msgstr "പാസ്ഫ്രെയിസ്"
+
+#: ../libseahorse/seahorse-passphrase.c:203
+msgid "Password:"
+msgstr "പാസ്‌വേറ്‍ഡ്:"
+
+#: ../libseahorse/seahorse-passphrase.c:266
+msgid "Confirm:"
+msgstr "ഉറപ്പാക്കുക:"
+
+#: ../libseahorse/seahorse-passphrase.c:351
+#, c-format
+msgid "Wrong passphrase."
+msgstr "തെറ്റായ പാസ്ഫ്രെയിസ്."
+
+#: ../libseahorse/seahorse-passphrase.c:355
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "'%s'-നുള്ള പുതിയ പാസ്ഫ്രെയിസ്"
+
+#: ../libseahorse/seahorse-passphrase.c:357
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "'%s'-നുള്ള പാസ്ഫ്രെയിസ്"
+
+#: ../libseahorse/seahorse-passphrase.c:360
+msgid "Enter new passphrase"
+msgstr "പുതിയ പാസ്ഫ്രെയിസ് നല്‍കുക"
+
+#: ../libseahorse/seahorse-passphrase.c:362
+msgid "Enter passphrase"
+msgstr "പാസ്ഫ്രെയിസ് നല്‍കുക"
+
+#: ../libseahorse/seahorse-prefs.c:100
+msgid "None. Prompt for a key."
+msgstr "ശൂന്യം. കീയ്ക്കായി ആവശ്യപ്പെടുക."
+
+#: ../libseahorse/seahorse-prefs.glade.h:1
+msgid "<b>Default Key</b>"
+msgstr "<b>സ്വതവേയുള്ള കീ</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:2
+msgid "<b>Remember PGP Passphrases</b>"
+msgstr "<b>PGP പാസ്ഫ്രെയിസുകള്‍ സൂക്ഷിക്കുക</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:3
+msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+msgstr "<i>പിന്തുണയുള്ള ഒരു PGP പാസ്ഫ്രെയിസ് കാഷിങ് ഏജന്റ് പ്രവര്‍ത്തനത്തിലില്ല.</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:4
+msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+msgstr "<i>മറ്റൊരു കീയും തെരഞ്ഞെടുക്കാത്തപ്പോള്‍ സന്ദേശങ്ങള്‍ ഒപ്പിടുന്നതിനായി ഈ കീ ഉപയോഗിക്കുന്നു</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:5
+msgid "As_k me before using a cached passphrase"
+msgstr "ഒരു കാഷ് പാസ്ഫ്രെയിസ് ഉപയോഗിക്കുന്നതിന് മുമ്പ് എപ്പോഴും ചോ_ദിക്കുക"
+
+#: ../libseahorse/seahorse-prefs.glade.h:6
+msgid "Encryption"
+msgstr "എന്‍ക്രിപ്ഷന്‍"
+
+#: ../libseahorse/seahorse-prefs.glade.h:7
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:2
+msgid "Encryption and Keyrings"
+msgstr "എന്‍ക്രിപ്ഷനും കീറിങുകളും"
+
+#: ../libseahorse/seahorse-prefs.glade.h:8
+msgid "PGP Passphrases"
+msgstr "പിജിപി പാസ്ഫ്രെയിസുകള്‍"
+
+#: ../libseahorse/seahorse-prefs.glade.h:9
+msgid "Show _icon in status area when passphrases are in memory"
+msgstr "പാസ്ഫ്രെയിസുകള്‍ സൂക്ഷിക്കുമ്പോള്‍, അവസ്ഥ ലഭ്യമാക്കുന്ന സ്ഥലത്തു് ചിഹ്നം _കാണിക്കുക"
+
+#: ../libseahorse/seahorse-prefs.glade.h:10
+msgid "When _encrypting, always include myself as a recipient"
+msgstr "_എന്‍ക്രിപ്റ്റ് ചെയ്യുമ്പോള്‍, ലഭിക്കേണ്ട ആളായി എന്നെ എപ്പോഴും ഉള്‍പ്പെടുത്തുക"
+
+#: ../libseahorse/seahorse-prefs.glade.h:11
+msgid "_Always remember passphrases whenever logged in"
+msgstr "ലോഗിന്‍ ചെയ്യുമ്പോള്‍ _എല്ലാം പാസ്‌ഫ്രെയിസ് സൂക്ഷിക്കുക"
+
+#: ../libseahorse/seahorse-prefs.glade.h:12
+msgid "_Default key:"
+msgstr "_സ്വതവേയുള്ള കീ:"
+
+#: ../libseahorse/seahorse-prefs.glade.h:13
+msgid "_Never remember passphrases"
+msgstr "പാസ്‌ഫ്രെയിസ് _ഒരിക്കലും സൂക്ഷിക്കേണ്ട"
+
+#: ../libseahorse/seahorse-prefs.glade.h:14
+msgid "_Remember passphrases for"
+msgstr "പാസ്ഫ്രെയിസുകള്‍ _സൂക്ഷിക്കേണ്ടതു്"
+
+#: ../libseahorse/seahorse-prefs.glade.h:15
+msgid "minutes"
+msgstr "മിനിറ്റുകള്‍"
+
+#: ../libseahorse/seahorse-progress.glade.h:1
+msgid "Progress Title"
+msgstr "പുരോഗതിയ്ക്കുള്ള തലക്കെട്ട്"
+
+#: ../libseahorse/seahorse-util.c:173
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "ഡീക്രിപ്ഷന്‍ പരാജയപ്പെട്ടു. നിങ്ങള്‍ക്കു് ഒരു പക്ഷേ, ഡീക്രിപ്ഷന്‍ കീ ഉണ്ടാവില്ല."
+
+#: ../libseahorse/seahorse-util.c:223
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../libseahorse/seahorse-util.c:642
+msgid "Couldn't run file-roller"
+msgstr "file-roller പ്രവര്‍ത്തിക്കുവാന്‍ സാധ്യമായില്ല"
+
+#: ../libseahorse/seahorse-util.c:647
+#: ../plugins/nautilus/seahorse-tool-files.c:872
+msgid "Couldn't package files"
+msgstr "ഫയലുകള്‍ പാക്കേജ് ചെയ്യുവാന്‍ സാധ്യമായില്ല"
+
+#: ../libseahorse/seahorse-util.c:648
+msgid "The file-roller process did not complete successfully"
+msgstr "file-roller പ്രക്രിയ വിജയകരമായി പൂര്‍ത്തിയായില്ല."
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libseahorse/seahorse-util.c:708
+msgid "All key files"
+msgstr "എല്ലാ കീ ഫയലുകളും"
+
+#: ../libseahorse/seahorse-util.c:715 ../libseahorse/seahorse-util.c:755
+msgid "All files"
+msgstr "എല്ലാ ഫയലുകളും"
+
+#: ../libseahorse/seahorse-util.c:748
+msgid "Archive files"
+msgstr "ആര്‍ക്കൈവ് ഫയലുകള്‍"
+
+#: ../libseahorse/seahorse-util.c:777
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>ഈ പേരില്‍ ഒരു ഫയല്‍ നിലവിലുണ്ടു്.</b>\n"
+"\n"
+"പുതിയ ഒരു ഫയല്‍ ഉപയോഗിച്ചു് നിങ്ങള്‍ക്കിതു് മാറ്റണമോ?"
+
+#: ../libseahorse/seahorse-util.c:780
+msgid "_Replace"
+msgstr "_മാറ്റി എഴുതുക"
+
+#: ../libseahorse/seahorse-widget.c:324
+#, c-format
+msgid "Could not display help: %s"
+msgstr "സഹായം ലഭ്യമാക്കുവാന്‍ സാധ്യമായില്ല: %s"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:1
+msgid "Clipboard Text Encryption"
+msgstr "ക്ലിപ്പ്ബോര്‍ഡിലുള്ള വാചക എന്‍ക്രിപ്ഷന്‍"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:2
+msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+msgstr ""
+"ക്ലിപ്പ്ബോര്‍ഡ് എന്‍ക്രിപ്റ്റ്, ഡീക്രിപ്റ്റ് അല്ലെങ്കില്‍ ഒപ്പിടുക (PGP തരത്തിലുള്ള എന്‍ക്രിപ്ഷന്‍ "
+"ഉപയോഗിക്കുക)"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:3
+msgid "Seahorse Applet Factory"
+msgstr "Seahorse ആപ്ലെറ്റ് ഫാക്ടറി"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:1
+msgid "_About"
+msgstr "_സംബന്ധിച്ചുള്ള"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:2
+msgid "_Help"
+msgstr "_സഹായം"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:3
+msgid "_Preferences"
+msgstr "ഗുണഗണങ്ങള്‍ (_P)"
+
+#: ../plugins/applet/seahorse-applet.c:276
+#: ../plugins/applet/seahorse-applet.c:721
+#, c-format
+msgid "Could not display URL: %s"
+msgstr "URL കാണിക്കുവാന്‍ സാധ്യമായില്ല: %s"
+
+#: ../plugins/applet/seahorse-applet.c:312
+msgid "seahorse-applet"
+msgstr "seahorse-applet"
+
+#: ../plugins/applet/seahorse-applet.c:314
+#: ../plugins/applet/seahorse-applet.c:874
+msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+msgstr ""
+"ക്ലിപ്പബോര്‍ഡ്  എന്‍ക്രിപ്റ്റ്/ഡീക്രിപ്റ്റ്/ഒപ്പ്/ഉറപ്പാക്കുക/ഇംപോര്‍ട്ട് ചെയ്യുന്നതിനായി PGP/GPG "
+"ഉപയോഗിക്കുക."
+
+#: ../plugins/applet/seahorse-applet.c:319
+msgid "translator-credits"
+msgstr "അനി പീറ്ററ്‍ <peter.ani@gmail.com>"
+
+#: ../plugins/applet/seahorse-applet.c:322
+msgid "Seahorse Project Homepage"
+msgstr "Seahorse സംരംഭത്തിനുള്ള പ്രധാനതാള്‍"
+
+#. Get the recipient list
+#: ../plugins/applet/seahorse-applet.c:394
+#: ../plugins/epiphany/seahorse-extension.c:275
+#: ../plugins/gedit/seahorse-gedit.c:338
+msgid "Choose Recipient Keys"
+msgstr "റെസിപ്യന്റ് കീകള്‍ തെരഞ്ഞെടുക്കുക"
+
+#: ../plugins/applet/seahorse-applet.c:413
+msgid "Encrypted Text"
+msgstr "എന്‍ക്രിപ്റ്റ് ചെയ്ത വാചകം"
+
+#: ../plugins/applet/seahorse-applet.c:415
+msgid "Encryption Failed"
+msgstr "എന്‍ക്രിപ്ഷന്‍ പരാജയപ്പെട്ടു"
+
+#: ../plugins/applet/seahorse-applet.c:415
+msgid "The clipboard could not be encrypted."
+msgstr "ക്ലിപ്പ്ബോര്‍ഡ് എന്‍ക്രിപ്റ്റ് ചെയ്യുവാന്‍ സാധ്യമായില്ല."
+
+#: ../plugins/applet/seahorse-applet.c:453
+#: ../plugins/epiphany/seahorse-extension.c:325
+#: ../plugins/gedit/seahorse-gedit.c:628
+msgid "Choose Key to Sign with"
+msgstr "ഒപ്പിടേണ്ട കീ തെരഞ്ഞെടുക്കുക"
+
+#: ../plugins/applet/seahorse-applet.c:473
+msgid "Signed Text"
+msgstr "ഒപ്പിട്ട വാചകം"
+
+#: ../plugins/applet/seahorse-applet.c:475
+#: ../plugins/applet/seahorse-applet.c:555
+msgid "Signing Failed"
+msgstr "ഒപ്പിടുന്നതു് പരാജയപ്പെട്ടു"
+
+#: ../plugins/applet/seahorse-applet.c:475
+#: ../plugins/applet/seahorse-applet.c:555
+msgid "The clipboard could not be Signed."
+msgstr "ക്ലിപ്പ്ബോര്‍ഡില്‍ ഒപ്പിടുവാന്‍ സാധ്യമായില്ല."
+
+#: ../plugins/applet/seahorse-applet.c:517
+#: ../plugins/epiphany/seahorse-extension.c:369
+#: ../plugins/nautilus/seahorse-tool.c:464
+msgid "Import Failed"
+msgstr "ഇംപോര്‍ട്ട് പരാജയപ്പെട്ടു"
+
+#: ../plugins/applet/seahorse-applet.c:518
+#: ../plugins/epiphany/seahorse-extension.c:370
+#: ../plugins/nautilus/seahorse-tool.c:465
+msgid "Keys were found but not imported."
+msgstr "കീകള്‍ ലഭ്യമായി പക്ഷേ, ഇംപോര്‍ട്ട് ചെയ്തിട്ടില്ല"
+
+#: ../plugins/applet/seahorse-applet.c:610
+msgid "No PGP key or message was found on clipboard"
+msgstr "ക്ലിപ്പ്ബോര്‍ഡില്‍ PGP കീ അല്ലെങ്കില്‍ സന്ദേശം ലഭ്യമായില്ല"
+
+#: ../plugins/applet/seahorse-applet.c:611
+msgid "No PGP data found."
+msgstr "PGP ഡേറ്റാ ലഭ്യമായില്ല."
+
+#. TRANSLATORS: This means 'The text that was decrypted'
+#: ../plugins/applet/seahorse-applet.c:648
+msgid "Decrypted Text"
+msgstr "ഡീക്രിപ്റ്റ് ചെയ്ത വാചകം"
+
+#: ../plugins/applet/seahorse-applet.c:789
+msgid "_Encrypt Clipboard"
+msgstr "ക്ലിപ്പ്ബോര്‍ഡ് _എന്‍ക്രിപ്റ്റ് ചെയ്യുക"
+
+#: ../plugins/applet/seahorse-applet.c:796
+msgid "_Sign Clipboard"
+msgstr "ക്ലിപ്പ്ബോര്‍ഡ് _ഒപ്പിടുക"
+
+#: ../plugins/applet/seahorse-applet.c:803
+msgid "_Decrypt/Verify Clipboard"
+msgstr "ക്ലിപ്പ്ബോര്‍ഡ് _ഡീക്രിപ്റ്റ് ചെയ്യുക/ഉറപ്പാക്കുക"
+
+#: ../plugins/applet/seahorse-applet.c:809
+msgid "_Import Keys from Clipboard"
+msgstr "ക്ലിപ്പ്ബോര്‍ഡില്‍ നിന്നും കീകള്‍ _ഇംപോര്‍ട്ട് ചെയ്യുക"
+
+#: ../plugins/applet/seahorse-applet.c:871
+#: ../plugins/applet/seahorse-applet.c:873
+msgid "Encryption Applet"
+msgstr "എന്‍ക്രിപ്ഷന്‍ ആപ്ലെറ്റ്"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:1
+msgid "<b>Display clipboard contents after:</b>"
+msgstr "<b>ക്ലിപ്പ്ബോര്‍ഡ് ഉള്ളടക്കം കാണിക്കേണ്ടതു്:</b>"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:2
+msgid "Clipboard Encryption Preferences"
+msgstr "ക്ലിപ്പ്ബോര്‍ഡ് എന്‍ക്രിപ്ഷന്‍ മുന്‍ഗണനകള്‍"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:3
+msgid "_Decrypting the clipboard"
+msgstr "ക്ലിപ്പ്ബോര്‍ഡിലുള്ളവ _ഡീക്രിപ്റ്റ് ചെയ്യുന്നു"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:4
+msgid "_Encrypting or signing the clipboard"
+msgstr "ക്ലിപ്പ്ബോര്‍ഡ് _എന്‍ക്രിപ്റ്റ് ചെയ്യുക അല്ലെങ്കില്‍ ഒപ്പിടുക"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:5
+msgid "_Show clipboard state in panel"
+msgstr "പാനലില്‍ ക്ലിപ്പ്ബോര്‍ഡിന്റെ അവസ്ഥ _കാണിക്കുക"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:6
+msgid "_Verifying the clipboard"
+msgstr "ക്ലിപ്പ്ബോര്‍ഡ് _ഉറപ്പാക്കുന്നു"
+
+#: ../plugins/epiphany/seahorse-extension.c:408
+msgid "Decrypting Failed"
+msgstr "ഡീക്രിപ്റ്റ് ചെയ്യുന്നതില്‍ പരാജയം"
+
+#: ../plugins/epiphany/seahorse-extension.c:408
+msgid "Text may be malformed."
+msgstr "വാചകം തെറ്റായ ശൈലിയിലാവാം."
+
+#: ../plugins/epiphany/seahorse-extension.c:632
+msgid "_Encrypt"
+msgstr "_എന്‍ക്രിപ്റ്റ് ചെയ്യുക"
+
+#: ../plugins/epiphany/seahorse-extension.c:639
+msgid "_Sign"
+msgstr "_ഒപ്പിടുക"
+
+#: ../plugins/epiphany/seahorse-extension.c:646
+msgid "_Decrypt/Verify"
+msgstr "_ഡീക്രിപ്റ്റ് ചെയ്യുക/ഉറപ്പാക്കുക"
+
+#: ../plugins/epiphany/seahorse-extension.c:653
+msgid "_Import Key"
+msgstr "കീ ഇംപോറ്‍ട്ട് ചെയ്യുക (_I)"
+
+#: ../plugins/gedit/seahorse-gedit.c:268
+msgid "Couldn't connect to seahorse-daemon"
+msgstr "seahorse-daemon-ലേക്കു് കണക്ട് ചെയ്യുവാന്‍ സാധിച്ചില്ല"
+
+#: ../plugins/gedit/seahorse-gedit.c:360
+msgid "Encrypted text"
+msgstr "എന്‍ക്രിപ്റ്റ് ചെയ്ത വാചകം"
+
+#: ../plugins/gedit/seahorse-gedit.c:363
+msgid "Couldn't encrypt text"
+msgstr "വാചകം എന്‍ക്രിപ്റ്റ് ചെയ്യുവാന്‍ സാധിച്ചില്ല"
+
+#: ../plugins/gedit/seahorse-gedit.c:393
+msgid "Couldn't import keys"
+msgstr "കീകള്‍ ഇംപോര്‍ട്ട് ചെയ്യുവാന്‍ സാധിച്ചില്ല"
+
+#: ../plugins/gedit/seahorse-gedit.c:402
+msgid "Keys found but not imported"
+msgstr "കീകള്‍ ലഭ്യമായി പക്ഷേ ഇംപോര്‍ട്ട് ചെയ്യുന്നില്ല"
+
+#: ../plugins/gedit/seahorse-gedit.c:439
+msgid "Couldn't decrypt text"
+msgstr "വാചകം ഡീക്രിപ്റ്റ് ചെയ്യുവാന്‍ സാധിച്ചില്ല"
+
+#: ../plugins/gedit/seahorse-gedit.c:476
+msgid "Couldn't verify text"
+msgstr "വാചകം ഉറപ്പാക്കുവാന്‍ സാധിച്ചില്ല"
+
+#: ../plugins/gedit/seahorse-gedit.c:524
+msgid "No encrypted or signed text is selected."
+msgstr "എന്‍ക്രിപ്റ്റ് ചെയ്ത അല്ലെങ്കില്‍ ഒപ്പിട്ട വാചകം തെരഞ്ഞെടുത്തിട്ടില്ല."
+
+#: ../plugins/gedit/seahorse-gedit.c:554
+msgid "Decrypted text"
+msgstr "ഡീക്രിപ്റ്റ് ചെയ്ത വാചകം"
+
+#: ../plugins/gedit/seahorse-gedit.c:561
+msgid "Verified text"
+msgstr "ഉറപ്പാക്കിയ വാചകം"
+
+#: ../plugins/gedit/seahorse-gedit.c:596
+#: ../plugins/nautilus/seahorse-tool.c:490
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] "ഇംപോര്‍ട്ട് ചെയ്ത %d കീ"
+msgstr[1] "ഇംപോര്‍ട്ട് ചെയ്ത %d കീകള്‍"
+
+#: ../plugins/gedit/seahorse-gedit.c:650
+msgid "Signed text"
+msgstr "ഒപ്പിട്ട വാചകം"
+
+#: ../plugins/gedit/seahorse-gedit.c:653
+msgid "Couldn't sign text"
+msgstr "വാചകം ഒപ്പിടുവാന്‍ സാധിച്ചില്ല"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:133
+msgid "_Encrypt..."
+msgstr "_എന്‍ക്രിപ്റ്റ് ചെയ്യുക..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:134
+msgid "Encrypt the selected text"
+msgstr "തെരഞ്ഞെടുത്ത വാചകം എന്‍ക്രിപ്റ്റ് ചെയ്യുക"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:135
+msgid "Decr_ypt/Verify"
+msgstr "_ഡീക്രിപ്റ്റ് ചെയ്യുക/ഉറപ്പാക്കുക"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:136
+msgid "Decrypt and/or Verify text"
+msgstr "വാചകം ഡീക്രിപ്റ്റ് ചെയ്യുക അല്ലെങ്കില്‍ ഉറപ്പാക്കുക"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:137
+msgid "Sig_n..."
+msgstr "_ഒപ്പിടുക..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:138
+msgid "Sign the selected text"
+msgstr "തെരഞ്ഞെടുത്ത വാചകം ഒപ്പിടുക"
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:1
+msgid "Enable the seahorse encryption plugin for gedit."
+msgstr "gedit-നുള്ള seahorse എന്‍ക്രിപ്ഷന്‍ പ്ലഗിന്‍ സജ്ജമാക്കുക."
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:2
+msgid "Enable the seahorse gedit plugin"
+msgstr "seahorse gedit പ്ലഗിന്‍ സജ്ജമാക്കുക"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:1
+msgid "Text Encryption"
+msgstr "വാചക എന്‍ക്രിപ്ഷന്‍"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:2
+msgid "This plugin performs encryption operations on text."
+msgstr "ഈ പ്ലഗിന്‍ വാചകം എന്‍ക്രിപ്റ്റ് ചെയ്യുന്നു."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:158
+msgid "Encrypt..."
+msgstr "എന്‍ക്രിപ്റ്റ് ചെയ്യുക..."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:159
+msgid "Encrypt (and optionally sign) the selected file"
+msgid_plural "Encrypt the selected files"
+msgstr[0] "തെരഞ്ഞെടുത്ത ഫയല്‍ എന്‍ക്രിപ്റ്റ് ചെയ്യുക (വേണമെങ്കില്‍ ഒപ്പിടുക)"
+msgstr[1] "തെരഞ്ഞെടുത്ത ഫയലുകള്‍ എന്‍ക്രിപ്റ്റ് ചെയ്യുക"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:165
+msgid "Sign"
+msgstr "ഒപ്പിടുക"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:166
+msgid "Sign the selected file"
+msgid_plural "Sign the selected files"
+msgstr[0] "തെരഞ്ഞെടുത്ത ഫയല്‍ ഒപ്പിടുക"
+msgstr[1] "തെരഞ്ഞെടുത്ത ഫയലുകള്‍ ഒപ്പിടുക"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:39
+msgid "For internal use"
+msgstr "ആന്തരിക ഉപയോഗത്തിനായി"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:63
+msgid "Encryption Preferences"
+msgstr "എന്‍ക്രിപ്ഷന്‍ മുന്‍ഗണനകള്‍"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:1
+msgid "Configure key servers and other encryption settings"
+msgstr "കീ സര്‍വറുകളും മറ്റു് എന്‍ക്രിപ്ഷന്‍ ക്രമീകരണങ്ങളും ക്രമീകരിക്കുക"
+
+#: ../plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in.h:1
+msgid "Decrypt File"
+msgstr "ഫയല്‍ ഡീക്റിപ്റ്റ് ചെയ്യുക"
+
+#: ../plugins/nautilus/seahorse-pgp-keys.desktop.in.in.h:1
+msgid "Import Key"
+msgstr "കീ ഇംപോറ്‍ട്ട് ചെയ്യുക"
+
+#: ../plugins/nautilus/seahorse-pgp-signature.desktop.in.in.h:1
+msgid "Verify Signature"
+msgstr "ഒപ്പ് ഉറപ്പാക്കുക"
+
+#: ../plugins/nautilus/seahorse-tool.c:62
+msgid "Import keys from the file"
+msgstr "ഫയലില്‍ നിന്നും കീകള്‍ ഇംപോര്‍ട്ട് ചെയ്യുക"
+
+#: ../plugins/nautilus/seahorse-tool.c:64
+msgid "Encrypt file"
+msgstr "ഫയല്‍ എന്‍ക്രിപ്റ്റ് ചെയ്യുക"
+
+#: ../plugins/nautilus/seahorse-tool.c:66
+msgid "Sign file with default key"
+msgstr "സ്വതവേയുള്ള കീ ഉപയോഗിച്ചു് ഫയല്‍ ഒപ്പിടുക"
+
+#: ../plugins/nautilus/seahorse-tool.c:68
+msgid "Encrypt and sign file with default key"
+msgstr "സ്വതവേയുള്ള കീ ഉപയോഗിച്ചു് ഫയല്‍ എന്‍ക്രിപ്റ്റ് ചെയ്തു് ഒപ്പിടുക"
+
+#: ../plugins/nautilus/seahorse-tool.c:70
+msgid "Decrypt encrypted file"
+msgstr "എന്‍ക്രിപ്റ്റ് ചെയ്ത ഫയല്‍ ഡീക്രിപ്റ്റ് ചെയ്യുക"
+
+#: ../plugins/nautilus/seahorse-tool.c:72
+msgid "Verify signature file"
+msgstr "ഒപ്പുള്ള ഫയല്‍ ഉറപ്പാക്കുക"
+
+#: ../plugins/nautilus/seahorse-tool.c:74
+msgid "Read list of URIs on standard in"
+msgstr "യുആര്‍ഐകളുടെ പട്ടിക ലഭ്യമാക്കുക"
+
+#: ../plugins/nautilus/seahorse-tool.c:76
+msgid "file..."
+msgstr "ഫയല്‍"
+
+#: ../plugins/nautilus/seahorse-tool.c:170
+msgid "Choose Recipients"
+msgstr "റെയിപ്യന്റ്സിനെ തെരഞ്ഞെടുക്കുക"
+
+#: ../plugins/nautilus/seahorse-tool.c:232
+#: ../plugins/nautilus/seahorse-tool.c:341
+msgid "Couldn't load keys"
+msgstr "കീകള്‍ ലഭ്യമാക്കുവാന്‍ സാധ്യമായില്ല"
+
+#: ../plugins/nautilus/seahorse-tool.c:250
+#, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr "'%s'-നുള്ള എന്‍ക്രിപ്റ്റ് ചെയ്ത ഫയല്‍നാമം തെരഞ്ഞെടുക്കുക"
+
+#: ../plugins/nautilus/seahorse-tool.c:323
+msgid "Choose Signer"
+msgstr "സൈനര്‍ തെരഞ്ഞെടുക്കുക"
+
+#: ../plugins/nautilus/seahorse-tool.c:361
+#, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr "'%s'-നുള്ള ഒപ്പുള്ള ഫയല്‍നാമം തെരഞ്ഞെടുക്കുക"
+
+#: ../plugins/nautilus/seahorse-tool.c:401
+msgid "Import is complete"
+msgstr "ഇംപോര്‍ട്ട് പൂര്‍ണ്ണമായിരിക്കുന്നു"
+
+#: ../plugins/nautilus/seahorse-tool.c:434
+msgid "Importing keys ..."
+msgstr "കീകള്‍ ഇംപോര്‍ട്ട് ചെയ്യുന്നു..."
+
+#: ../plugins/nautilus/seahorse-tool.c:488
+#, c-format
+msgid "Imported key"
+msgstr "ഇംപോറ്‍ട്ട് ചെയ്ത കീ"
+
+#. File to decrypt to
+#: ../plugins/nautilus/seahorse-tool.c:512
+#, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr "'%s'-നുള്ള ഡീക്രിപ്റ്റ് ചെയ്ത ഫയല്‍നാമം തെരഞ്ഞെടുക്കുക"
+
+#: ../plugins/nautilus/seahorse-tool.c:568
+#, c-format
+msgid "Choose Original File for '%s'"
+msgstr "'%s'-നുള്ള യഥാര്‍ത്ഥ ഫയല്‍ തെരഞ്ഞെടുക്കുക"
+
+#.
+#. * TODO: What should happen with multiple files at this point.
+#. * The last thing we want to do is cascade a big pile of error
+#. * dialogs at the user.
+#.
+#: ../plugins/nautilus/seahorse-tool.c:640
+#, c-format
+msgid "No valid signatures found"
+msgstr "ശരിയായ ഒപ്പുകള്‍ ലഭ്യമല്ല"
+
+#: ../plugins/nautilus/seahorse-tool.c:689
+msgid "File Encryption Tool"
+msgstr "ഫയല്‍ എന്‍ക്രിപ്ഷന്‍ സംവിധാനം"
+
+#: ../plugins/nautilus/seahorse-tool.c:708
+msgid "Encrypting"
+msgstr "എന്‍ക്രിപ്റ്റ് ചെയ്യുന്നു"
+
+#: ../plugins/nautilus/seahorse-tool.c:709
+#, c-format
+msgid "Couldn't encrypt file: %s"
+msgstr "ഫയല്‍ എന്‍ക്രിപ്റ്റ് ചെയ്യുവാന്‍ സാധിച്ചില്ല: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:717
+msgid "Signing"
+msgstr "ഒപ്പിടുന്നു"
+
+#: ../plugins/nautilus/seahorse-tool.c:718
+#, c-format
+msgid "Couldn't sign file: %s"
+msgstr "ഫയല്‍ ഒപ്പിടുവാന്‍ സാധിച്ചില്ല: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:723
+msgid "Importing"
+msgstr "ഇംപോറ്‍ട്ട് ചെയ്യുന്നു"
+
+#: ../plugins/nautilus/seahorse-tool.c:724
+#, c-format
+msgid "Couldn't import keys from file: %s"
+msgstr "ഫയലില്‍ നിന്നും കീകള്‍ ഇംപോര്‍ട്ട് ചെയ്യുവാന്‍ സാധ്യമായില്ല: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:730
+msgid "Decrypting"
+msgstr "ഡീക്രിപ്റ്റ് ചെയ്യുന്നു"
+
+#: ../plugins/nautilus/seahorse-tool.c:731
+#, c-format
+msgid "Couldn't decrypt file: %s"
+msgstr "ഫയല്‍ ഡീക്രിപ്റ്റ് ചെയ്യുവാന്‍ സാധ്യമായില്ല: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:736
+msgid "Verifying"
+msgstr "ഉറപ്പാക്കുന്നു"
+
+#: ../plugins/nautilus/seahorse-tool.c:737
+#, c-format
+msgid "Couldn't verify file: %s"
+msgstr "ഫയല്‍ ഉറപ്പാക്കുവാന്‍ സാധ്യമായില്ല: %s"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:120
+msgid "Ace (.ace)"
+msgstr "Ace (.ace)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:121
+msgid "Ar (.ar)"
+msgstr "Ar (.ar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:122
+msgid "Arj (.arj)"
+msgstr "Arj (.arj)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:129
+msgid "Ear (.ear)"
+msgstr "Ear (.ear)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:130
+msgid "Self-extracting zip (.exe)"
+msgstr "സ്വയം ലഭ്യമാക്കുന്ന zip (.exe)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:132
+msgid "Jar (.jar)"
+msgstr "Jar (.jar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:133
+msgid "Lha (.lzh)"
+msgstr "Lha (.lzh)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:135
+msgid "Rar (.rar)"
+msgstr "Rar (.rar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:137
+msgid "Tar uncompressed (.tar)"
+msgstr "Tar അണ്‍കംപ്രസ്സ് ചെയ്യുന്നു (.tar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:138
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "bzip ഉപയോഗിച്ചു് tar കംപ്രസ്സ് ചെയ്തിരിക്കുന്നു (.tar.bz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:139
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "bzip2 ഉപയോഗിച്ചു് tar കംപ്രസ്സ് ചെയ്തിരിക്കുന്നു (.tar.bz2)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:140
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "gzip ഉപയോഗിച്ചു് tar കംപ്രസ്സ് ചെയ്തിരിക്കുന്നു (.tar.gz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:141
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "lzop ഉപയോഗിച്ചു് tar കംപ്രസ്സ് ചെയ്തിരിക്കുന്നു (.tar.lzo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:142
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "compress ഉപയോഗിച്ചു് tar കംപ്രസ്സ് ചെയ്തിരിക്കുന്നു (.tar.Z)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:144
+msgid "War (.war)"
+msgstr "War (.war)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:145
+msgid "Zip (.zip)"
+msgstr "Zip (.zip)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:146
+msgid "Zoo (.zoo)"
+msgstr "Zoo (.zoo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:147
+msgid "7-Zip (.7z)"
+msgstr "7-Zip (.7z)"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:327
+#, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] "നിങ്ങള്‍ %d ഫയല്‍ തെരഞ്ഞെടുത്തിരിക്കുന്നു"
+msgstr[1] "നിങ്ങള്‍ %d ഫയലുകള്‍ തെരഞ്ഞെടുത്തിരിക്കുന്നു"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:332
+#, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] "%d ഫോള്‍ഡറും"
+msgstr[1] "%d ഫോള്‍ഡറുകളും"
+
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: ../plugins/nautilus/seahorse-tool-files.c:337
+#, c-format
+msgid "<b>%s%s</b>"
+msgstr "<b>%s%s</b>"
+
+#. should never be called for just one file
+#: ../plugins/nautilus/seahorse-tool-files.c:346
+#, c-format
+msgid "You have selected %d files"
+msgstr "നിങ്ങള്‍ %d ഫോള്‍ഡറുകള്‍ തെരഞ്ഞെടുത്തിരിക്കുന്നു"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:351
+#, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] "നിങ്ങള്‍ %d ഫോള്‍ഡര്‍ തെരഞ്ഞെടുത്തിരിക്കുന്നു"
+msgstr[1] "നിങ്ങള്‍ %d ഫോള്‍ഡറുകള്‍ തെരഞ്ഞെടുത്തിരിക്കുന്നു"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:853
+msgid "Preparing..."
+msgstr "തയ്യാറാക്കുന്നു..."
+
+#: ../plugins/nautilus/seahorse-tool-files.c:862
+#: ../plugins/nautilus/seahorse-tool-files.c:885
+msgid "Couldn't list files"
+msgstr "ഫയലുകള്‍ ലഭ്യമാക്കുവാന്‍ സാധിച്ചില്ല"
+

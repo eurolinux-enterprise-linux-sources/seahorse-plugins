@@ -1,0 +1,1186 @@
+# translation of seahorse-plugins.gnome-2-26.po to catalan
+# Seahorse translation to Catalan
+# Copyright © 2003, 2005, 2006, 2007, 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Seahorse package.
+#
+# Josep Monés i Teixidor <jmones@puntbarra.com>, 2003.
+# Josep Puigdemont i Casamajó <josep.puigdemont@gmail.com>, 2005, 2006, 2007.
+# Gil Forcada <gilforcada@guifi.net>, 2007, 2008.
+# Carles Ferrando Garcia <carles.ferrando@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: seahorse-plugins.gnome-2-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-14 12:39+0200\n"
+"PO-Revision-Date: 2009-09-05 15:15+0200\n"
+"Last-Translator: Carles Ferrando Garcia <carles.ferrando@gmail.com>\n"
+"Language-Team: catalan <tradgnome@softcatala.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../agent/seahorse-agent-actions.c:120
+msgid "Passphrase:"
+msgstr "Contrasenya:"
+
+#: ../agent/seahorse-agent-actions.c:121
+msgid "Please enter a passphrase to use."
+msgstr "Introduïu la contrasenya a utilitzar."
+
+#: ../agent/seahorse-agent-cache.c:66
+msgid "Unparseable Key ID"
+msgstr "No es pot analitzar la ID de la clau"
+
+#: ../agent/seahorse-agent-cache.c:67
+msgid "Unknown/Invalid Key"
+msgstr "Clau desconeguda o invàlida"
+
+#: ../agent/seahorse-agent-cache.c:533
+#, c-format
+msgid "PGP Key: %s"
+msgstr "Clau PGP: %s"
+
+#: ../agent/seahorse-agent-cache.glade.h:1
+msgid ""
+"<b>Warning</b>: Your system is not configured to cache passphrases in secure "
+"memory."
+msgstr ""
+"<b>Avís</b>: El sistema no està configurat per a encauar contrasenyes en "
+"memòria segura."
+
+#: ../agent/seahorse-agent-cache.glade.h:2
+msgid "Cache _Preferences"
+msgstr "_Preferències de la memòria cau"
+
+#: ../agent/seahorse-agent-cache.glade.h:3
+msgid "Cached Encryption Keys"
+msgstr "Claus de xifratge encauades"
+
+# FIXME?
+#: ../agent/seahorse-agent-cache.glade.h:4
+msgid "Change passphrase cache settings."
+msgstr "Canvia les preferències de la memòria cau de contrasenyes."
+
+#: ../agent/seahorse-agent-cache.glade.h:5
+msgid "Clear passphrase cache"
+msgstr "Neteja la memòria cau de contrasenyes"
+
+#: ../agent/seahorse-agent-cache.glade.h:6
+msgid "_Clear Cache"
+msgstr "_Neteja la memòria cau"
+
+#: ../agent/seahorse-agent-cache.glade.h:7
+msgid "_Show Window"
+msgstr "Mo_stra la finestra"
+
+#: ../agent/seahorse-agent-main.c:52
+msgid "Do not daemonize seahorse-agent"
+msgstr "No crees un dimoni per al seahorse-agent"
+
+#: ../agent/seahorse-agent-main.c:56
+msgid "Print variables in for a C type shell"
+msgstr "Escriu les variables in per a un intèrpret tipus C"
+
+#: ../agent/seahorse-agent-main.c:60
+msgid "Display environment variables (the default)"
+msgstr "Mostra les variables d'entorn (predeterminat)"
+
+#: ../agent/seahorse-agent-main.c:63
+msgid "Execute other arguments on the command line"
+msgstr "Executa altres arguments a la línia d'ordes"
+
+#: ../agent/seahorse-agent-main.c:67
+msgid "Allow GPG agent request from any display"
+msgstr "Permet sol·licituds de l'agent GPG des de qualsevol pantalla"
+
+#: ../agent/seahorse-agent-main.c:70
+msgid "command..."
+msgstr "orde..."
+
+#: ../agent/seahorse-agent-main.c:108
+msgid "couldn't fork process"
+msgstr "no s'ha pogut bifurcar el procés"
+
+#: ../agent/seahorse-agent-main.c:114
+msgid "couldn't create new process group"
+msgstr "no s'ha pogut crear un grup de procés nou"
+
+#: ../agent/seahorse-agent-main.c:240
+msgid "Encryption Key Agent (Seahorse)"
+msgstr "Agent de claus de xifratge (Seahorse)"
+
+#: ../agent/seahorse-agent-main.c:248
+msgid "no command specified to execute"
+msgstr "no s'ha especificat cap orde per executar"
+
+# FIXME
+#: ../agent/seahorse-agent-prompt.c:218
+msgid "Authorize Passphrase Access"
+msgstr "Autoritza l'accés amb contrasenya"
+
+#: ../agent/seahorse-agent-prompt.c:254
+msgid "The passphrase is cached in memory."
+msgstr "La contrasenya és a la memòria cau."
+
+#: ../agent/seahorse-agent-prompt.c:259
+msgid "Always ask me before using a cached passphrase"
+msgstr "Pregunta abans d'emprar una contrasenya encauada"
+
+#: ../agent/seahorse-agent-prompt.c:276
+msgid "_Authorize"
+msgstr "_Autoritza"
+
+#. Make the uid column
+#: ../agent/seahorse-agent-status.c:145
+msgid "Key Name"
+msgstr "Nom de la clau"
+
+#: ../data/seahorse-plugins.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"Una llista d'URI de servidors de claus on cercar claus PGP remotes. En "
+"versions recents s'hi pot incloure un nom descriptiu, afegint un espai i "
+"després el nom."
+
+#: ../data/seahorse-plugins.schemas.in.h:2
+msgid ""
+"After performing an decrypt or verify operation from the applet, display the "
+"resulting text in a window."
+msgstr ""
+"Després de desxifrar o verificar amb la miniaplicació, mostra el text "
+"resultant en una finestra."
+
+#: ../data/seahorse-plugins.schemas.in.h:3
+msgid ""
+"After performing an encrypt or signing operation from the applet, display "
+"the resulting text in a window."
+msgstr ""
+"Després de xifrar o signar amb la miniaplicació, mostra el text resultant en "
+"una finestra."
+
+#: ../data/seahorse-plugins.schemas.in.h:4
+msgid "Display cache reminder in the notification area"
+msgstr "Mostra un recordatori de la memòria cau a l'àrea de notificació"
+
+#: ../data/seahorse-plugins.schemas.in.h:5
+msgid "Display clipboard after decrypting"
+msgstr "Mostra el porta-retalls després de desxifrar"
+
+#: ../data/seahorse-plugins.schemas.in.h:6
+msgid "Display clipboard after encrypting"
+msgstr "Mostra el porta-retalls després de xifrar"
+
+#: ../data/seahorse-plugins.schemas.in.h:7
+msgid "Expire passwords in the cache"
+msgstr "Fes que les contrasenyes encauades vencen"
+
+#: ../data/seahorse-plugins.schemas.in.h:8
+msgid "ID of the default key"
+msgstr "ID de la clau predeterminada"
+
+#: ../data/seahorse-plugins.schemas.in.h:9
+msgid ""
+"If set to 'gnome' uses gnome-keyring to cache passwords. When set to "
+"'internal' uses internal cache."
+msgstr ""
+"Si s'estableix a «gnome», s'emprarà el gnome-keyring per a encauar-hi "
+"contrasenyes. Si s'hi posa «internal», s'emprarà la memòria cau interna."
+
+#: ../data/seahorse-plugins.schemas.in.h:10
+msgid ""
+"If set to true, then files encrypted with seahorse will be ASCII armor "
+"encoded."
+msgstr ""
+"Si s'estableix a cert, es codificaran els fitxers xifrats amb el seahorse  "
+"amb una armadura ASCII."
+
+#: ../data/seahorse-plugins.schemas.in.h:11
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"Si s'estableix a cert, sempre s'afegirà la clau predeterminada a la llista "
+"de destinataris."
+
+#: ../data/seahorse-plugins.schemas.in.h:12
+msgid "Last key used to sign a message."
+msgstr "Darrera clau emprada per a signar un missatge."
+
+#: ../data/seahorse-plugins.schemas.in.h:13
+msgid "PGP Key servers"
+msgstr "Servidors de claus PGP"
+
+#: ../data/seahorse-plugins.schemas.in.h:14
+msgid "Prompt before using GPG passwords in cache"
+msgstr "Pregunta abans de fer servir contrasenyes PGP en memòria cau"
+
+#: ../data/seahorse-plugins.schemas.in.h:15
+msgid ""
+"Reflect the contents of the clipboard (whether encrypted, signed, etc...) in "
+"the panel applet icon."
+msgstr ""
+"Reflecteix els continguts del porta-retalls (ja siguen xifrats, signats, "
+"etc...) a la icona de la miniaplicació del quadre."
+
+#: ../data/seahorse-plugins.schemas.in.h:16
+msgid ""
+"Set to 'true' to enable display of the cache reminder in the notification "
+"area of your panel."
+msgstr ""
+"Establiu-ho a «true» (cert) per a habilitar la visualització del recordatori "
+"de la memòria cau a l'àrea de notificació del quadre."
+
+#: ../data/seahorse-plugins.schemas.in.h:17
+msgid ""
+"Set to 'true' to have seahorse-agent prompt before giving out passwords it "
+"has cached."
+msgstr ""
+"Establiu-ho a «cert» per tal que el seahorse-agent vos pregunte abans de "
+"donar contrasenyes que estiguen en memòria cau."
+
+#: ../data/seahorse-plugins.schemas.in.h:18
+msgid "Show clipboard state in panel"
+msgstr "Mostra l'estat del porta-retalls al quadre"
+
+#: ../data/seahorse-plugins.schemas.in.h:19
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"Especifiqueu la columna amb la qual s'ordenarà la finestra de destinataris. "
+"Les columnes són: «name», i «id». Poseu un «-» al davant del nom de la columna "
+"per ordenar-la al revés."
+
+#: ../data/seahorse-plugins.schemas.in.h:20
+msgid "The ID of the last secret key used to sign a message."
+msgstr "L'ID de la darrera clau secreta emprada per a signar un missatge."
+
+#: ../data/seahorse-plugins.schemas.in.h:21
+msgid "The column to sort the recipients by"
+msgstr "La columna amb la qual ordenar els destinataris"
+
+#: ../data/seahorse-plugins.schemas.in.h:22
+msgid "The time (in minutes) to cache GPG passwords"
+msgstr "El temps (en minuts) a encauar contrasenyes GPG"
+
+#: ../data/seahorse-plugins.schemas.in.h:23
+msgid ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"seahorse-agent."
+msgstr ""
+"Este és el temps, en minuts, que el seahorse-agent mantindrà les "
+"contrasenyes GPG en memòria cau."
+
+#: ../data/seahorse-plugins.schemas.in.h:24
+msgid ""
+"This option enables the GPG password cache in the seahorse-agent program. "
+"The 'use-agent' setting in gpg.conf affects this setting."
+msgstr ""
+"Esta opció habilita l'encauat de contrasenyes GPG al programa seahorse-"
+"agent.\n"
+"El paràmetre «use-agent» a gpg.conf afecta este paràmetre."
+
+#: ../data/seahorse-plugins.schemas.in.h:25
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr ""
+"Això especifica la clau predeterminada que s'emprarà per certes operacions, "
+"principalment de signat"
+
+#: ../data/seahorse-plugins.schemas.in.h:26
+msgid ""
+"When set, seahorse-agent expires GPG passwords in its cache after a period "
+"of time."
+msgstr ""
+"Si s'estableix, el seahorse-agent expira contrasenyes GPG de la memòria cau "
+"al cap d'un cert temps."
+
+#: ../data/seahorse-plugins.schemas.in.h:27
+msgid "Where to store cached passwords."
+msgstr "On emmagatzemar les contrasenyes encauades."
+
+#: ../data/seahorse-plugins.schemas.in.h:28
+msgid "Whether the GPG password cache is enabled"
+msgstr "Si la memòria cau de contrasenyes GPG està habilitada"
+
+#: ../data/seahorse-plugins.schemas.in.h:29
+msgid "Whether to always encrypt to default key"
+msgstr "Si sempre es xifra amb la clau predeterminada"
+
+#: ../data/seahorse-plugins.schemas.in.h:30
+msgid "Whether to use ASCII Armor"
+msgstr "Si s'ha de fer servir una armadura ASCII"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:1
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<b>Heu seleccionat diversos fitxers o carpetes</b>"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:2
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr ""
+"Atès que els fitxers estan ubicats remotament, es xifraran per separat."
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:3
+msgid "Encrypt Multiple Files"
+msgstr "Xifra diversos fitxers"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:4
+msgid "Encrypt each file separately"
+msgstr "Xifra cada fitxer per separat"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:5
+msgid "Encrypt packed together in a package"
+msgstr "Xifra empaquetats tots en un sol paquet"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:6
+msgid "Package Name:"
+msgstr "Nom del paquet:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:7
+msgid "Packaging:"
+msgstr "Empaquetament:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:8
+msgid "encrypted-package"
+msgstr "paquet-xifrat"
+
+#: ../libseahorse/seahorse-notification.c:573
+#: ../libseahorse/seahorse-notification.c:598
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "S'ha importat la clau"
+msgstr[1] "S'han importat les claus"
+
+#: ../libseahorse/seahorse-notification.c:577
+#: ../libseahorse/seahorse-notification.c:597
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "S'ha importat %i clau"
+msgstr[1] "S'han importat %i claus"
+
+#: ../libseahorse/seahorse-notification.c:579
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "Clau importada per a"
+msgstr[1] "Claus importades per a"
+
+# FIXME si "%s" és "dijous blah", l'article a "el %s" hi sobra (josep)
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:616
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "Signat per <i><key id='%s'/> <b>expirat</b></i> el %s."
+
+#: ../libseahorse/seahorse-notification.c:617
+msgid "Invalid Signature"
+msgstr "La signatura no és vàlida"
+
+#: ../libseahorse/seahorse-notification.c:623
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "Signat per <i><key id='%s'/></i> el %s <b>Expirat</b>."
+
+#: ../libseahorse/seahorse-notification.c:624
+msgid "Expired Signature"
+msgstr "La signatura ha vençut"
+
+#: ../libseahorse/seahorse-notification.c:630
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "Signat per <i><key id='%s'/> <b>Revocat</b></i> el %s."
+
+#: ../libseahorse/seahorse-notification.c:631
+msgid "Revoked Signature"
+msgstr "La signatura ha estat revocada"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:637
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "Signat per <i><key id='%s'/></i> el %s."
+
+#: ../libseahorse/seahorse-notification.c:638
+msgid "Good Signature"
+msgstr "La signatura és bona"
+
+#: ../libseahorse/seahorse-notification.c:643
+msgid "Signing key not in keyring."
+msgstr "La clau de signatura no és a l'anell de claus."
+
+#
+#: ../libseahorse/seahorse-notification.c:644
+msgid "Unknown Signature"
+msgstr "La signatura és desconeguda"
+
+#: ../libseahorse/seahorse-notification.c:648
+msgid "Bad or forged signature. The signed data was modified."
+msgstr ""
+"La signatura no és bona, o bé ha estat falsificada. Les dades signades han "
+"estat modificades."
+
+#: ../libseahorse/seahorse-notification.c:649
+msgid "Bad Signature"
+msgstr "La signatura no és bona"
+
+#: ../libseahorse/seahorse-notification.c:657
+msgid "Couldn't verify signature."
+msgstr "No s'ha pogut verificar la signatura."
+
+#: ../libseahorse/seahorse-notify.glade.h:1
+msgid "Notification Messages"
+msgstr "Missatges de notificació"
+
+#: ../libseahorse/seahorse-passphrase.c:200
+msgid "Passphrase"
+msgstr "Contrasenya"
+
+#: ../libseahorse/seahorse-passphrase.c:203
+msgid "Password:"
+msgstr "Contrasenya:"
+
+#: ../libseahorse/seahorse-passphrase.c:266
+msgid "Confirm:"
+msgstr "Confirmeu:"
+
+#: ../libseahorse/seahorse-passphrase.c:351
+#, c-format
+msgid "Wrong passphrase."
+msgstr "Contrasenya equivocada."
+
+#: ../libseahorse/seahorse-passphrase.c:355
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Entreu una contrasenya nova per a «%s»"
+
+#: ../libseahorse/seahorse-passphrase.c:357
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "Entreu la contrasenya per a «%s»"
+
+#: ../libseahorse/seahorse-passphrase.c:360
+msgid "Enter new passphrase"
+msgstr "Entreu una contrasenya nova"
+
+#: ../libseahorse/seahorse-passphrase.c:362
+msgid "Enter passphrase"
+msgstr "Entreu la contrasenya"
+
+#: ../libseahorse/seahorse-prefs.c:100
+msgid "None. Prompt for a key."
+msgstr "Cap. Demana una clau."
+
+#: ../libseahorse/seahorse-prefs.glade.h:1
+msgid "<b>Default Key</b>"
+msgstr "<b>Clau predeterminada</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:2
+msgid "<b>Remember PGP Passphrases</b>"
+msgstr "<b>Recorda contrasenyes PGP</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:3
+msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+msgstr ""
+"<i>No s'està executant cap agent de memòria cau de contrasenyes PGP "
+"compatible.</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:4
+msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+msgstr ""
+"<i>Esta clau s'empra per a signar missatges quan no es tria cap altra clau</"
+"i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:5
+msgid "As_k me before using a cached passphrase"
+msgstr "_Pregunta abans d'emprar una contrasenya de la memòria cau"
+
+#: ../libseahorse/seahorse-prefs.glade.h:6
+msgid "Encryption"
+msgstr "Xifratge"
+
+#: ../libseahorse/seahorse-prefs.glade.h:7
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:2
+msgid "Encryption and Keyrings"
+msgstr "Xifratge i anells de claus"
+
+#: ../libseahorse/seahorse-prefs.glade.h:8
+msgid "PGP Passphrases"
+msgstr "Contrasenyes PGP"
+
+#: ../libseahorse/seahorse-prefs.glade.h:9
+msgid "Show _icon in status area when passphrases are in memory"
+msgstr ""
+"Mostra una _icona en l'àrea de notificació quan hi haja contrasenyes en "
+"memòria"
+
+#: ../libseahorse/seahorse-prefs.glade.h:10
+msgid "When _encrypting, always include myself as a recipient"
+msgstr "En _xifrar, inclou-me sempre entre els destinataris"
+
+#: ../libseahorse/seahorse-prefs.glade.h:11
+msgid "_Always remember passphrases whenever logged in"
+msgstr "Recorda _sempre les contrasenyes en estar connectat"
+
+#: ../libseahorse/seahorse-prefs.glade.h:12
+msgid "_Default key:"
+msgstr "_Clau predeterminada:"
+
+#: ../libseahorse/seahorse-prefs.glade.h:13
+msgid "_Never remember passphrases"
+msgstr "_No recordes mai les contrasenyes"
+
+#: ../libseahorse/seahorse-prefs.glade.h:14
+msgid "_Remember passphrases for"
+msgstr "_Recorda les contrasenyes durant"
+
+#: ../libseahorse/seahorse-prefs.glade.h:15
+msgid "minutes"
+msgstr "minuts"
+
+# FIXME
+#: ../libseahorse/seahorse-progress.glade.h:1
+msgid "Progress Title"
+msgstr "Títol del progrés"
+
+#: ../libseahorse/seahorse-util.c:173
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr ""
+"No s'ha pogut desxifrar. Possiblement no teniu la clau per a desxifrar."
+
+#: ../libseahorse/seahorse-util.c:223
+msgid "%Y-%m-%d"
+msgstr "%d-%m-%Y"
+
+#: ../libseahorse/seahorse-util.c:642
+msgid "Couldn't run file-roller"
+msgstr "No s'ha pogut executar el file-roller"
+
+#: ../libseahorse/seahorse-util.c:647
+#: ../plugins/nautilus/seahorse-tool-files.c:872
+msgid "Couldn't package files"
+msgstr "No s'han pogut empaquetar els fitxers"
+
+#: ../libseahorse/seahorse-util.c:648
+msgid "The file-roller process did not complete successfully"
+msgstr "El procés del gestor d'arxius no s'ha executat correctament"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libseahorse/seahorse-util.c:708
+msgid "All key files"
+msgstr "Tots els fitxers de claus"
+
+#: ../libseahorse/seahorse-util.c:715 ../libseahorse/seahorse-util.c:755
+msgid "All files"
+msgstr "Tots els fitxers"
+
+#: ../libseahorse/seahorse-util.c:748
+msgid "Archive files"
+msgstr "Arxius"
+
+#: ../libseahorse/seahorse-util.c:777
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>Ja existeix un fitxer amb este nom.</b>\n"
+"\n"
+"Voleu reemplaçar-lo per un fitxer nou?"
+
+#: ../libseahorse/seahorse-util.c:780
+msgid "_Replace"
+msgstr "_Reemplaça"
+
+#: ../libseahorse/seahorse-widget.c:324
+#, c-format
+msgid "Could not display help: %s"
+msgstr "No s'ha pogut mostrar l'ajuda: %s"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:1
+msgid "Clipboard Text Encryption"
+msgstr "Xifratge de text del porta-retalls"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:2
+msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+msgstr "Xifreu, desxifreu o signeu el porta-retalls (empra xifratge PGP)."
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:3
+msgid "Seahorse Applet Factory"
+msgstr "Factoria de miniaplicacions del Seahorse"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:1
+msgid "_About"
+msgstr "_Quant a"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:2
+msgid "_Help"
+msgstr "A_juda"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:3
+msgid "_Preferences"
+msgstr "Preferè_ncies"
+
+#: ../plugins/applet/seahorse-applet.c:276
+#: ../plugins/applet/seahorse-applet.c:721
+#, c-format
+msgid "Could not display URL: %s"
+msgstr "No s'ha pogut mostrar l'URL: %s"
+
+#: ../plugins/applet/seahorse-applet.c:312
+msgid "seahorse-applet"
+msgstr "miniaplicació-seahorse"
+
+#: ../plugins/applet/seahorse-applet.c:314
+#: ../plugins/applet/seahorse-applet.c:874
+msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+msgstr ""
+"Empra el PGP/GPG per a xifrar, desxifrar, signar, verificar, o importar el "
+"porta-retalls."
+
+#: ../plugins/applet/seahorse-applet.c:319
+msgid "translator-credits"
+msgstr ""
+"Josep Monés i Teixidor <jmones@puntbarra.com>\n"
+"Josep Puigdemont i Casamajó <josep.puigdemont@gmail.com>"
+
+#: ../plugins/applet/seahorse-applet.c:322
+msgid "Seahorse Project Homepage"
+msgstr "Pàgina inicial del projecte Seahorse"
+
+#. Get the recipient list
+#: ../plugins/applet/seahorse-applet.c:394
+#: ../plugins/epiphany/seahorse-extension.c:275
+#: ../plugins/gedit/seahorse-gedit.c:338
+msgid "Choose Recipient Keys"
+msgstr "Escolliu les claus dels destinataris"
+
+#: ../plugins/applet/seahorse-applet.c:413
+msgid "Encrypted Text"
+msgstr "Text xifrat"
+
+#: ../plugins/applet/seahorse-applet.c:415
+msgid "Encryption Failed"
+msgstr "Ha fallat el xifratge"
+
+#: ../plugins/applet/seahorse-applet.c:415
+msgid "The clipboard could not be encrypted."
+msgstr "No s'ha pogut xifrar el porta-retalls."
+
+#: ../plugins/applet/seahorse-applet.c:453
+#: ../plugins/epiphany/seahorse-extension.c:325
+#: ../plugins/gedit/seahorse-gedit.c:628
+msgid "Choose Key to Sign with"
+msgstr "Escolliu la clau amb la qual signar"
+
+#: ../plugins/applet/seahorse-applet.c:473
+msgid "Signed Text"
+msgstr "Text signat"
+
+#: ../plugins/applet/seahorse-applet.c:475
+#: ../plugins/applet/seahorse-applet.c:555
+msgid "Signing Failed"
+msgstr "Ha fallat el signat del text"
+
+#: ../plugins/applet/seahorse-applet.c:475
+#: ../plugins/applet/seahorse-applet.c:555
+msgid "The clipboard could not be Signed."
+msgstr "No s'ha pogut signar el porta-retalls."
+
+#: ../plugins/applet/seahorse-applet.c:517
+#: ../plugins/epiphany/seahorse-extension.c:369
+#: ../plugins/nautilus/seahorse-tool.c:464
+msgid "Import Failed"
+msgstr "Ha fallat la importació"
+
+#: ../plugins/applet/seahorse-applet.c:518
+#: ../plugins/epiphany/seahorse-extension.c:370
+#: ../plugins/nautilus/seahorse-tool.c:465
+msgid "Keys were found but not imported."
+msgstr "S'han trobat claus però no s'han importat."
+
+#: ../plugins/applet/seahorse-applet.c:610
+msgid "No PGP key or message was found on clipboard"
+msgstr "No s'ha trobat cap clau PGP o missatge al porta-retalls"
+
+#: ../plugins/applet/seahorse-applet.c:611
+msgid "No PGP data found."
+msgstr "No s'han trobat dades PGP."
+
+#. TRANSLATORS: This means 'The text that was decrypted'
+#: ../plugins/applet/seahorse-applet.c:648
+msgid "Decrypted Text"
+msgstr "Text desxifrat"
+
+#: ../plugins/applet/seahorse-applet.c:789
+msgid "_Encrypt Clipboard"
+msgstr "Xifra el _porta-retalls"
+
+#: ../plugins/applet/seahorse-applet.c:796
+msgid "_Sign Clipboard"
+msgstr "_Signa el porta-retalls"
+
+#: ../plugins/applet/seahorse-applet.c:803
+msgid "_Decrypt/Verify Clipboard"
+msgstr "_Desxifra/verifica el porta-retalls"
+
+#: ../plugins/applet/seahorse-applet.c:809
+msgid "_Import Keys from Clipboard"
+msgstr "_Importa claus del porta-retalls"
+
+#: ../plugins/applet/seahorse-applet.c:871
+#: ../plugins/applet/seahorse-applet.c:873
+msgid "Encryption Applet"
+msgstr "Miniaplicació de xifratge"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:1
+msgid "<b>Display clipboard contents after:</b>"
+msgstr "<b>Mostra el contingut del porta-retalls al cap de:</b>"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:2
+msgid "Clipboard Encryption Preferences"
+msgstr "Preferències del xifratge del porta-retalls"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:3
+msgid "_Decrypting the clipboard"
+msgstr "S'està _desxifrant el porta-retalls"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:4
+msgid "_Encrypting or signing the clipboard"
+msgstr "En _xifrar o signar el porta-retalls"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:5
+msgid "_Show clipboard state in panel"
+msgstr "_Mostra l'estat del porta-retalls al quadre"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:6
+msgid "_Verifying the clipboard"
+msgstr "S'està _verificant el porta-retalls"
+
+#: ../plugins/epiphany/seahorse-extension.c:408
+msgid "Decrypting Failed"
+msgstr "Ha fallat el desxifratge"
+
+#: ../plugins/epiphany/seahorse-extension.c:408
+msgid "Text may be malformed."
+msgstr "El text pot estar mal format."
+
+#: ../plugins/epiphany/seahorse-extension.c:632
+msgid "_Encrypt"
+msgstr "_Xifra"
+
+#: ../plugins/epiphany/seahorse-extension.c:639
+msgid "_Sign"
+msgstr "_Signa"
+
+#: ../plugins/epiphany/seahorse-extension.c:646
+msgid "_Decrypt/Verify"
+msgstr "_Desxifra/verifica"
+
+#: ../plugins/epiphany/seahorse-extension.c:653
+msgid "_Import Key"
+msgstr "_Importa la clau"
+
+#: ../plugins/gedit/seahorse-gedit.c:268
+msgid "Couldn't connect to seahorse-daemon"
+msgstr "No s'ha pogut connectar al seahorse-daemon"
+
+#: ../plugins/gedit/seahorse-gedit.c:360
+msgid "Encrypted text"
+msgstr "Text xifrat"
+
+#: ../plugins/gedit/seahorse-gedit.c:363
+msgid "Couldn't encrypt text"
+msgstr "No s'ha pogut xifrar el text"
+
+#: ../plugins/gedit/seahorse-gedit.c:393
+msgid "Couldn't import keys"
+msgstr "No s'han pogut importar les claus"
+
+#: ../plugins/gedit/seahorse-gedit.c:402
+msgid "Keys found but not imported"
+msgstr "S'han trobat les claus però no s'han importat"
+
+#: ../plugins/gedit/seahorse-gedit.c:439
+msgid "Couldn't decrypt text"
+msgstr "No s'ha pogut desxifrar el text"
+
+#: ../plugins/gedit/seahorse-gedit.c:476
+msgid "Couldn't verify text"
+msgstr "No s'ha pogut verificar el text"
+
+#: ../plugins/gedit/seahorse-gedit.c:524
+msgid "No encrypted or signed text is selected."
+msgstr "No s'ha seleccionat cap text xifrat o signat."
+
+#: ../plugins/gedit/seahorse-gedit.c:554
+msgid "Decrypted text"
+msgstr "Text desxifrat"
+
+#: ../plugins/gedit/seahorse-gedit.c:561
+msgid "Verified text"
+msgstr "Text verificat"
+
+#: ../plugins/gedit/seahorse-gedit.c:596
+#: ../plugins/nautilus/seahorse-tool.c:490
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] "S'ha importat %d clau"
+msgstr[1] "S'han importat %d claus"
+
+#: ../plugins/gedit/seahorse-gedit.c:650
+msgid "Signed text"
+msgstr "Text signat"
+
+#: ../plugins/gedit/seahorse-gedit.c:653
+msgid "Couldn't sign text"
+msgstr "No s'ha pogut signar el text"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:133
+msgid "_Encrypt..."
+msgstr "_Xifra..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:134
+msgid "Encrypt the selected text"
+msgstr "Xifra el text seleccionat"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:135
+msgid "Decr_ypt/Verify"
+msgstr "Des_xifra/verifica"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:136
+msgid "Decrypt and/or Verify text"
+msgstr "Desxifra i/o verifica el text"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:137
+msgid "Sig_n..."
+msgstr "Sig_na..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:138
+msgid "Sign the selected text"
+msgstr "Signa el text seleccionat"
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:1
+msgid "Enable the seahorse encryption plugin for gedit."
+msgstr "Habilita el connector de xifratge seahorse al gedit."
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:2
+msgid "Enable the seahorse gedit plugin"
+msgstr "Habilita al gedit el connector del seahorse"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:1
+msgid "Text Encryption"
+msgstr "Xifratge de text"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:2
+msgid "This plugin performs encryption operations on text."
+msgstr "Este connector xifra text."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:158
+msgid "Encrypt..."
+msgstr "Xifra..."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:159
+msgid "Encrypt (and optionally sign) the selected file"
+msgid_plural "Encrypt the selected files"
+msgstr[0] "Xifra (i signa opcionalment) l'arxiu seleccionat"
+msgstr[1] "Xifra els arxius seleccionats"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:165
+msgid "Sign"
+msgstr "Signa"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:166
+msgid "Sign the selected file"
+msgid_plural "Sign the selected files"
+msgstr[0] "Signa el fitxer seleccionat"
+msgstr[1] "Signa els fitxers seleccionat"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:39
+msgid "For internal use"
+msgstr "Per a ús intern"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:64
+msgid "Encryption Preferences"
+msgstr "Preferències del xifratge"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:1
+msgid "Configure key servers and other encryption settings"
+msgstr "Configura servidors de claus i altres paràmetres de xifratge"
+
+#: ../plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in.h:1
+msgid "Decrypt File"
+msgstr "Desxifra un fitxer"
+
+#: ../plugins/nautilus/seahorse-pgp-keys.desktop.in.in.h:1
+msgid "Import Key"
+msgstr "Importa clau"
+
+#: ../plugins/nautilus/seahorse-pgp-signature.desktop.in.in.h:1
+msgid "Verify Signature"
+msgstr "Verifica una signatura"
+
+#: ../plugins/nautilus/seahorse-tool.c:62
+msgid "Import keys from the file"
+msgstr "Importa les claus del fitxer"
+
+#: ../plugins/nautilus/seahorse-tool.c:64
+msgid "Encrypt file"
+msgstr "Xifra el fitxer"
+
+#: ../plugins/nautilus/seahorse-tool.c:66
+msgid "Sign file with default key"
+msgstr "Signa el fitxer amb la clau predeterminada"
+
+#: ../plugins/nautilus/seahorse-tool.c:68
+msgid "Encrypt and sign file with default key"
+msgstr "Xifra i signa el fitxer amb la clau predeterminada"
+
+#: ../plugins/nautilus/seahorse-tool.c:70
+msgid "Decrypt encrypted file"
+msgstr "Desxifra un fitxer xifrat"
+
+#: ../plugins/nautilus/seahorse-tool.c:72
+msgid "Verify signature file"
+msgstr "Verifica el fitxer de signatura"
+
+#: ../plugins/nautilus/seahorse-tool.c:74
+msgid "Read list of URIs on standard in"
+msgstr "Llig una llista d'URI de l'entrada estàndard"
+
+#: ../plugins/nautilus/seahorse-tool.c:76
+msgid "file..."
+msgstr "fitxer ..."
+
+#: ../plugins/nautilus/seahorse-tool.c:170
+msgid "Choose Recipients"
+msgstr "Escolliu els destinataris"
+
+#: ../plugins/nautilus/seahorse-tool.c:232
+#: ../plugins/nautilus/seahorse-tool.c:341
+msgid "Couldn't load keys"
+msgstr "No s'han pogut afegir les claus"
+
+#: ../plugins/nautilus/seahorse-tool.c:250
+#, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr "Escolliu el nom de fitxer xifrat per a «%s»"
+
+#: ../plugins/nautilus/seahorse-tool.c:323
+msgid "Choose Signer"
+msgstr "Escolliu un signant"
+
+#: ../plugins/nautilus/seahorse-tool.c:361
+#, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr "Escolliu el nom del fitxer de signatura per a «%s»"
+
+#: ../plugins/nautilus/seahorse-tool.c:401
+msgid "Import is complete"
+msgstr "S'ha completat la importació"
+
+#: ../plugins/nautilus/seahorse-tool.c:434
+msgid "Importing keys ..."
+msgstr "S'estan important les claus ..."
+
+#: ../plugins/nautilus/seahorse-tool.c:488
+#, c-format
+msgid "Imported key"
+msgstr "Clau importada"
+
+#. File to decrypt to
+#: ../plugins/nautilus/seahorse-tool.c:512
+#, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr "Escolliu el nom de fitxer desxifrat per a «%s»"
+
+#: ../plugins/nautilus/seahorse-tool.c:568
+#, c-format
+msgid "Choose Original File for '%s'"
+msgstr "Escolliu el fitxer original per a «%s»"
+
+#.
+#. * TODO: What should happen with multiple files at this point.
+#. * The last thing we want to do is cascade a big pile of error
+#. * dialogs at the user.
+#.
+#: ../plugins/nautilus/seahorse-tool.c:640
+#, c-format
+msgid "No valid signatures found"
+msgstr "No s'han trobat signatures vàlides"
+
+#: ../plugins/nautilus/seahorse-tool.c:689
+msgid "File Encryption Tool"
+msgstr "Eina de xifratge de fitxers"
+
+#: ../plugins/nautilus/seahorse-tool.c:708
+msgid "Encrypting"
+msgstr "S'està xifrant"
+
+#: ../plugins/nautilus/seahorse-tool.c:709
+#, c-format
+msgid "Couldn't encrypt file: %s"
+msgstr "No s'ha pogut xifrar el fitxer: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:717
+msgid "Signing"
+msgstr "S'està signant"
+
+#: ../plugins/nautilus/seahorse-tool.c:718
+#, c-format
+msgid "Couldn't sign file: %s"
+msgstr "No s'ha pogut signar el fitxer: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:723
+msgid "Importing"
+msgstr "S'està important"
+
+#: ../plugins/nautilus/seahorse-tool.c:724
+#, c-format
+msgid "Couldn't import keys from file: %s"
+msgstr "No s'han pogut importar les claus del fitxer: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:730
+msgid "Decrypting"
+msgstr "S'està desxifrant"
+
+#: ../plugins/nautilus/seahorse-tool.c:731
+#, c-format
+msgid "Couldn't decrypt file: %s"
+msgstr "No s'ha pogut desxifrar el fitxer: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:736
+msgid "Verifying"
+msgstr "S'està verificant"
+
+#: ../plugins/nautilus/seahorse-tool.c:737
+#, c-format
+msgid "Couldn't verify file: %s"
+msgstr "No s'ha pogut verificar el fitxer: %s"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:120
+msgid "Ace (.ace)"
+msgstr "Ace (.ace)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:121
+msgid "Ar (.ar)"
+msgstr "Ar (.ar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:122
+msgid "Arj (.arj)"
+msgstr "Arj (.arj)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:129
+msgid "Ear (.ear)"
+msgstr "Ear (.ear)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:130
+msgid "Self-extracting zip (.exe)"
+msgstr "Zip autoextraïble (.exe)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:132
+msgid "Jar (.jar)"
+msgstr "Jar (.jar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:133
+msgid "Lha (.lzh)"
+msgstr "Lha (.lzh)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:135
+msgid "Rar (.rar)"
+msgstr "Rar (.rar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:137
+msgid "Tar uncompressed (.tar)"
+msgstr "Tar sense comprimir (.tar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:138
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "Tar comprimit amb bzip (.tar.bz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:139
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "Tar compriit amb bzip2 (.tar.bz2)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:140
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "Tar comprimit amb gzip (.tar.gz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:141
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "Tar comprimit amb lzop (.tar.lzo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:142
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "Tar comprimit amb el compress (.tar.Z)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:144
+msgid "War (.war)"
+msgstr "War (.war)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:145
+msgid "Zip (.zip)"
+msgstr "Zip (.zip)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:146
+msgid "Zoo (.zoo)"
+msgstr "Zoo (.zoo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:147
+msgid "7-Zip (.7z)"
+msgstr "7-Zip (.7z)"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:327
+#, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] "Heu seleccionat %d fitxer"
+msgstr[1] "Heu seleccionat %d fitxers"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:332
+#, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] "i %d carpeta"
+msgstr[1] "i %d carpetes"
+
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: ../plugins/nautilus/seahorse-tool-files.c:337
+#, c-format
+msgid "<b>%s%s</b>"
+msgstr "<b>%s%s</b>"
+
+#. should never be called for just one file
+#: ../plugins/nautilus/seahorse-tool-files.c:346
+#, c-format
+msgid "You have selected %d files"
+msgstr "Heu seleccionat %d fitxers"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:351
+#, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] "Heu seleccionat %d carpeta"
+msgstr[1] "Heu seleccionat %d carpetes"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:853
+msgid "Preparing..."
+msgstr "S'està preparant..."
+
+#: ../plugins/nautilus/seahorse-tool-files.c:862
+#: ../plugins/nautilus/seahorse-tool-files.c:885
+msgid "Couldn't list files"
+msgstr "No s'han pogut llistar els fitxers"

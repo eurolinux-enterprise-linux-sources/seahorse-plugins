@@ -1,0 +1,1156 @@
+# translation of seahorse-plugins.master.te.po to Telugu
+# Telugu translation of seahorse.
+# Copyright (C) 2007 Swecha Telugu Localisation Team <localisation@swecha.org>
+# This file is distributed under the same license as the seahorse package.
+#
+# Srinivasa Chary <srinu.kolpur@gmail.com>, 2007.
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: seahorse-plugins.master.te\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=seahorse-plugins&component=general\n"
+"POT-Creation-Date: 2009-04-22 20:42+0000\n"
+"PO-Revision-Date: 2009-09-11 18:21+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../agent/seahorse-agent-actions.c:120
+msgid "Passphrase:"
+msgstr "సంకేతపదము:"
+
+#: ../agent/seahorse-agent-actions.c:121
+msgid "Please enter a passphrase to use."
+msgstr "దయచేసి ఒక పాస్ పదసముదాయం వాడుటకు చేర్చుము."
+
+#: ../agent/seahorse-agent-cache.c:66
+msgid "Unparseable Key ID"
+msgstr "వ్యాకరించలేని మీట గుచి"
+
+#: ../agent/seahorse-agent-cache.c:67
+msgid "Unknown/Invalid Key"
+msgstr "అపరిచితము /నిస్సారమైన మీట"
+
+#: ../agent/seahorse-agent-cache.c:533
+#, c-format
+msgid "PGP Key: %s"
+msgstr "పీజీపీ మీట:%s"
+
+#: ../agent/seahorse-agent-cache.glade.h:1
+msgid ""
+"<b>Warning</b>: Your system is not configured to cache passphrases in secure "
+"memory."
+msgstr "<b>హెచ్చరిక</b>: రక్షత మెమొరీనందు క్యాచీ చేయుటకు మీ సిస్టమ్ ఆకృతీకరించబడలేదు."
+
+#: ../agent/seahorse-agent-cache.glade.h:2
+msgid "Cache _Preferences"
+msgstr "తాత్కాలిక స్థలం_అభీష్టాలు"
+
+#: ../agent/seahorse-agent-cache.glade.h:3
+msgid "Cached Encryption Keys"
+msgstr "తాత్కాలిక స్థలాన్ని రహస్యపరచే మీటలు"
+
+#: ../agent/seahorse-agent-cache.glade.h:4
+msgid "Change passphrase cache settings."
+msgstr "పాస్ పదసముదాయ తాత్కాలిక స్థల అమరికలను మార్చు"
+
+#: ../agent/seahorse-agent-cache.glade.h:5
+msgid "Clear passphrase cache"
+msgstr "పాస్ పదసముదాయ తాత్కాలిక స్థలాన్ని శుభ్రము చేయు"
+
+#: ../agent/seahorse-agent-cache.glade.h:6
+msgid "_Clear Cache"
+msgstr "_తాత్కాలిక స్థలాన్ని శుభ్రము చేయు"
+
+#: ../agent/seahorse-agent-cache.glade.h:7
+msgid "_Show Window"
+msgstr "_గవాక్షాన్ని చూపు"
+
+#: ../agent/seahorse-agent-main.c:52
+msgid "Do not daemonize seahorse-agent"
+msgstr "సీహార్స్-కర్తను సూత్రధారిగా చేయవద్దు"
+
+#: ../agent/seahorse-agent-main.c:56
+msgid "Print variables in for a C type shell"
+msgstr "చరరాశులను C రకమైన షెల్ కొరకు ముద్రించు"
+
+#: ../agent/seahorse-agent-main.c:60
+msgid "Display environment variables (the default)"
+msgstr "ఎన్విరాన్మెంట్ చరరాశులను ప్రదర్శించుము (అప్రమేయ)"
+
+#: ../agent/seahorse-agent-main.c:63
+msgid "Execute other arguments on the command line"
+msgstr "ఇతర క్రమానుగత సంకేతాలను ఆదేశవాక్యంలో నిర్వర్తించు"
+
+#: ../agent/seahorse-agent-main.c:67
+msgid "Allow GPG agent request from any display"
+msgstr "ఏదైనా ప్రదర్శనం నుంచి జీపీజీ కర్త విన్నపాన్ని అనుమతించండి"
+
+#: ../agent/seahorse-agent-main.c:70
+msgid "command..."
+msgstr "ఆదేశం..."
+
+#: ../agent/seahorse-agent-main.c:108
+msgid "couldn't fork process"
+msgstr "ప్రోసెస్‌ను ఫోర్కు చేయలేకపోయింది"
+
+#: ../agent/seahorse-agent-main.c:114
+msgid "couldn't create new process group"
+msgstr "కొత్త క్రమణసముదాయాన్ని సృష్టించలేకపోయింది"
+
+#: ../agent/seahorse-agent-main.c:240
+msgid "Encryption Key Agent (Seahorse)"
+msgstr "రహస్యపరచు మీట కర్త (సీహార్స్)"
+
+#: ../agent/seahorse-agent-main.c:248
+msgid "no command specified to execute"
+msgstr "నిర్వర్తించటానికి ఆదేశం ఇవ్వలేదు"
+
+#: ../agent/seahorse-agent-prompt.c:216
+msgid "Authorize Passphrase Access"
+msgstr "పాస్ పదసముదాయ సాంగత్యానికి అధికారమివ్వు"
+
+#: ../agent/seahorse-agent-prompt.c:252
+msgid "The passphrase is cached in memory."
+msgstr "పాస్ పదసముదాయాన్ని జ్ఞాపకశక్తిలో తాత్కాలికంగా పెట్టబడింది"
+
+#: ../agent/seahorse-agent-prompt.c:257
+msgid "Always ask me before using a cached passphrase"
+msgstr "తాత్కాలికంగా పెట్టబడిన పాస్ పదసముదాయాన్ని వాడే ముందు ఎల్లప్పుడు నన్ను అడుగు"
+
+#: ../agent/seahorse-agent-prompt.c:274
+msgid "_Authorize"
+msgstr "_అధికారమివ్వుట"
+
+#. Make the uid column
+#: ../agent/seahorse-agent-status.c:145
+msgid "Key Name"
+msgstr "మీట యొక్క పేరు"
+
+#: ../data/seahorse-plugins.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"ఎడమైన పీజీపీ మీటల కోసం వెతకడానికి ముఖ్య సేవికల యూ ఆర్ ఐల జాబితా.తరువాతి వివరణాలలో ఒక ఖాళీ అక్షరాన్ని ఇచ్చి "
+"పేరును ప్రద"
+
+#: ../data/seahorse-plugins.schemas.in.h:2
+msgid ""
+"After performing an decrypt or verify operation from the applet, display the "
+"resulting text in a window."
+msgstr ""
+"ఆప్లెట్‌నుండి డిక్రిప్టు లేదా నిర్ధారణ ఆపరేషన్ జరిపిన తర్వాత, ఫలిత పాఠ్యమును విండోనందు "
+"ప్రదర్శించుము."
+
+#: ../data/seahorse-plugins.schemas.in.h:3
+msgid ""
+"After performing an encrypt or signing operation from the applet, display "
+"the resulting text in a window."
+msgstr "యాప్ లెట్ నుం రహస్యపరచడం లేదా సంతకం చేసిన తరువాత , వచ్చిన ఫలితాన్ని మరో గవాక్షంలో ప్రదర్శించు."
+
+#: ../data/seahorse-plugins.schemas.in.h:4
+msgid "Display cache reminder in the notification area"
+msgstr "ప్రకటన ప్రాంతమునందు క్యాచీ గుర్తుచేయుదానిని ప్రదర్శించుము"
+
+#: ../data/seahorse-plugins.schemas.in.h:5
+msgid "Display clipboard after decrypting"
+msgstr "డిక్రిప్ట్ తర్వాత క్లిప్‌బోర్డు ప్రదర్శించుము"
+
+#: ../data/seahorse-plugins.schemas.in.h:6
+msgid "Display clipboard after encrypting"
+msgstr "రహస్యపరచడం అయిన తరువాత క్లిప్ బోర్డును ప్రదర్శించు."
+
+#: ../data/seahorse-plugins.schemas.in.h:7
+msgid "Expire passwords in the cache"
+msgstr "తాత్కాలిక స్థలంలోని రహస్యపదాలను ముగించు"
+
+#: ../data/seahorse-plugins.schemas.in.h:8
+msgid "ID of the default key"
+msgstr "అప్రమేయ మీట యొక్క గుచి"
+
+#: ../data/seahorse-plugins.schemas.in.h:9
+msgid ""
+"If set to 'gnome' uses gnome-keyring to cache passwords. When set to "
+"'internal' uses internal cache."
+msgstr ""
+"గ్నోమ్ కు పెడితే రహస్యపదాలను తాత్కాలిక స్థలంలో‌ పెట్టడానికి గ్నోమ్-కీలకవలయాన్ని వాడుతుంది.'ఇంటర్నల్'కు పెడితే "
+"అంతర్గత తాత్కాలిక స్థలాన్ని వాడుతుంది."
+
+#: ../data/seahorse-plugins.schemas.in.h:10
+msgid ""
+"If set to true, then files encrypted with seahorse will be ASCII armor "
+"encoded."
+msgstr "సత్యమునకు అమర్చితే, సీహార్స్ తో ఎన్క్రిప్టైన ఫైళ్ళు ASCII ఆర్మర్ ఎన్కోడ్ చేయబడతాయి "
+
+#: ../data/seahorse-plugins.schemas.in.h:11
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr "సత్యమునకు అమర్చితే, అప్పుడు అప్రమేయ కీ యెల్లప్పుడూ ఎన్క్రిప్షన్ స్వీకరణకర్తల జాబితాకు జతచేయబడుతుంది."
+
+#: ../data/seahorse-plugins.schemas.in.h:12
+msgid "Last key used to sign a message."
+msgstr "సంతకము చేయుటకు చివరిగా వాడిన మీట"
+
+#: ../data/seahorse-plugins.schemas.in.h:13
+msgid "PGP Key servers"
+msgstr "పీజీపీ మీట సేవికలు"
+
+#: ../data/seahorse-plugins.schemas.in.h:14
+msgid "Prompt before using GPG passwords in cache"
+msgstr "తాత్కాలిక స్థలంలో జీపీజీ రహస్యపదాలను వాడేముందు తెలియపరచు"
+
+#: ../data/seahorse-plugins.schemas.in.h:15
+msgid ""
+"Reflect the contents of the clipboard (whether encrypted, signed, etc...) in "
+"the panel applet icon."
+msgstr "క్లిప్ బోర్డులోనిది ప్యానల్ యాప్ లెట్ ప్రతిమలో ప్రతిఫలింపచేయు(రహస్యపరచి ఉన్న,సంతకం చేయబడి ఉన్న,మొదలైనవి...)."
+
+#: ../data/seahorse-plugins.schemas.in.h:16
+msgid ""
+"Set to 'true' to enable display of the cache reminder in the notification "
+"area of your panel."
+msgstr ""
+"మీ పానల్‌యొక్క ప్రకటన ప్రాంతమునందు క్యాచీ గుర్తుచేయుదానియొక్క ప్రదర్శనను చేతనంచేయుటకు "
+"'సత్యము'కు అమర్చుము."
+
+#: ../data/seahorse-plugins.schemas.in.h:17
+msgid ""
+"Set to 'true' to have seahorse-agent prompt before giving out passwords it "
+"has cached."
+msgstr "తాత్కాలిక స్థలంలోని రహస్యపదాలను ఇచ్చేముందు సీహార్స్-కర్త మీకు చెప్పాలంటే దీనిని నిజానికి పెట్టండి"
+
+#: ../data/seahorse-plugins.schemas.in.h:18
+msgid "Show clipboard state in panel"
+msgstr "ప్యానల్లో క్లిప్ బోర్డు పరిస్థితిని చూపు "
+
+#: ../data/seahorse-plugins.schemas.in.h:19
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"పుచ్చుకునేవారి గవాక్షాన్నిచక్కదిద్దేందుకు నిలువును వివరముగా తెలియచేయండి.ఆ నిలువులు :'పేరు'మరియు "
+"'గుచి'  .అవరోహణాక్రమంగా చక్కదిద్దేందుకు నిలువు ముందు ఒక '-'ను పెట్టండి."
+
+#: ../data/seahorse-plugins.schemas.in.h:20
+msgid "The ID of the last secret key used to sign a message."
+msgstr "చివరిగా సందేశాన్ని సంతకం చేయడానికి వాడిన రహస్య మీట యొక్క గుచి."
+
+#: ../data/seahorse-plugins.schemas.in.h:21
+msgid "The column to sort the recipients by"
+msgstr "పుచ్చుకునే వారిని చక్కదిద్దేందుకు నిలువు"
+
+#: ../data/seahorse-plugins.schemas.in.h:22
+msgid "The time (in minutes) to cache GPG passwords"
+msgstr "జీపీజీ రహస్యపదాలను తాత్కాలిక స్థలంలో ఉంచడానికి సమయం(నిమిషాలలో)"
+
+#: ../data/seahorse-plugins.schemas.in.h:23
+msgid ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"seahorse-agent."
+msgstr "ఇది సీహార్స్-కర్తలో  జీపీజీ రహస్యపదాలను తాత్కాలిక స్థలంలో ఉంచడానికి పట్టే సమయం నిమిషాలలో వివరంగా తెలియజేయబడింది"
+
+#: ../data/seahorse-plugins.schemas.in.h:24
+msgid ""
+"This option enables the GPG password cache in the seahorse-agent program. "
+"The 'use-agent' setting in gpg.conf affects this setting."
+msgstr ""
+"ఈ ఐచ్చికము సీహార్సు-ప్రతినిధి ప్రోగ్రామునందలి GPG సంకేతపద క్యాచీను చేతనపరుస్తుంది. "
+"gpg.conf అమరిక నందలి 'use-agent' అమరిక ఈ అమరికను ప్రభావితం చేస్తుంది."
+
+#: ../data/seahorse-plugins.schemas.in.h:25
+msgid "This specifies the default key to use for certain operations, mainly signing."
+msgstr "ఇది కొన్ని కార్యాల కోసం, ముఖ్యంగా సంతకం చేయటానికి అప్రమేయ మీటను వివరిస్తుంది."
+
+#: ../data/seahorse-plugins.schemas.in.h:26
+msgid ""
+"When set, seahorse-agent expires GPG passwords in its cache after a period "
+"of time."
+msgstr "అమర్చినప్పుడు, కొంత సమయం తర్వాత సీహార్సు-ప్రతినిధి GPG సంకేతపదములను దాని క్యాచీనందు తీసివేయును."
+
+#: ../data/seahorse-plugins.schemas.in.h:27
+msgid "Where to store cached passwords."
+msgstr "తాత్కాలిక స్థలంలో ఉన్న రహస్యపదాలను ఎక్కడ ఉంచాలి."
+
+#: ../data/seahorse-plugins.schemas.in.h:28
+msgid "Whether the GPG password cache is enabled"
+msgstr "GPG సంకేతపదపు క్యాచీ చేతనపరచవలెనా"
+
+#: ../data/seahorse-plugins.schemas.in.h:29
+msgid "Whether to always encrypt to default key"
+msgstr "ఎల్లప్పుడూ అప్రమేయకీనకు ఎన్క్రిప్టు చేయబడాలా"
+
+#: ../data/seahorse-plugins.schemas.in.h:30
+msgid "Whether to use ASCII Armor"
+msgstr "ASCII Armorను వాడాలా వద్దా"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:1
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<b>మీరు ఎక్కువ దస్త్రాలను లేదా  సంచయాలను ఎన్నుకొన్నారు</b>"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:2
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr "ఎందుకంటే దస్త్రాలు సుదూరంగా ఉన్నయి, ప్రతి దస్త్రం వేరువేరుగా రహస్యపరచబడతాయి."
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:3
+msgid "Encrypt Multiple Files"
+msgstr "చాలా దస్త్రాలను రహస్యపరచు"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:4
+msgid "Encrypt each file separately"
+msgstr "ప్రతి దస్త్రాన్ని వేరువేరుగా రహస్యపరచండి"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:5
+msgid "Encrypt packed together in a package"
+msgstr "ప్యాకైనవి కలిపి సంకలనమునందు ఎన్క్రిప్టుచేయుము"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:6
+msgid "Package Name:"
+msgstr "కట్ట పేరు:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:7
+msgid "Packaging:"
+msgstr "కట్ట:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:8
+msgid "encrypted-package"
+msgstr "రహస్యపరచిన-కట్ట"
+
+#: ../libseahorse/seahorse-notification.c:573
+#: ../libseahorse/seahorse-notification.c:598
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "మీట దిగుమతి చేయబడింది"
+msgstr[1] "మీటలను దిగుమతి చేయబడినవి"
+
+#: ../libseahorse/seahorse-notification.c:577
+#: ../libseahorse/seahorse-notification.c:597
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "%i మీట దిగుమతి చేయబడింది"
+msgstr[1] "%i మీటలు దిగుమతి చేయబడ్డాయి"
+
+#: ../libseahorse/seahorse-notification.c:579
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "మీట దిగుమతి చేయబడింది"
+msgstr[1] "మీటలు దిగుమతి చేయబడ్డాయి"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:616
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "<i><key id='%s'/>చే సంతకం చేయబడినది %s <b>ముగిసినది</b></i>"
+
+#: ../libseahorse/seahorse-notification.c:617
+msgid "Invalid Signature"
+msgstr "నిస్సారమైన సంతకం"
+
+#: ../libseahorse/seahorse-notification.c:623
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "<i><key id='%s'/>చే సంతకం చేయబడినది %s <b>ముగిసినది</b></i>"
+
+#: ../libseahorse/seahorse-notification.c:624
+msgid "Expired Signature"
+msgstr "ముగిసిన సంతకం"
+
+#: ../libseahorse/seahorse-notification.c:630
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "<i><key id='%s'/>చే సంతకం చేయబడినది %s <b>కొట్టివేయబడింది</b></i>"
+
+#: ../libseahorse/seahorse-notification.c:631
+msgid "Revoked Signature"
+msgstr "కొట్టివేయబడిన సంతకం"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:637
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "%s పై <i><key id='%s'/></i>సంతకం చేయబడింది. "
+
+#: ../libseahorse/seahorse-notification.c:638
+msgid "Good Signature"
+msgstr "మంచి సంతకం"
+
+#: ../libseahorse/seahorse-notification.c:643
+msgid "Signing key not in keyring."
+msgstr "సంతకం చేయబడుతున్న మీట కీలకవలయంలో లేదు."
+
+#: ../libseahorse/seahorse-notification.c:644
+msgid "Unknown Signature"
+msgstr "తెలియని సంతకం"
+
+#: ../libseahorse/seahorse-notification.c:648
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "చెడ్డ లేదా దొంగ సంతకము. సంతకంచేసిన డాటా సవరించబడింది."
+
+#: ../libseahorse/seahorse-notification.c:649
+msgid "Bad Signature"
+msgstr "చెడ్డ సంతకం"
+
+#: ../libseahorse/seahorse-notification.c:657
+msgid "Couldn't verify signature."
+msgstr "సంతకాన్ని పరీక్షించలేకపోయింది."
+
+#: ../libseahorse/seahorse-notify.glade.h:1
+msgid "Notification Messages"
+msgstr "తాఖీదు సందేశాలు"
+
+#: ../libseahorse/seahorse-passphrase.c:200
+msgid "Passphrase"
+msgstr "పాస్ పదసముదాయం"
+
+#: ../libseahorse/seahorse-passphrase.c:203
+msgid "Password:"
+msgstr "రహస్యపదం:"
+
+#: ../libseahorse/seahorse-passphrase.c:266
+msgid "Confirm:"
+msgstr "ధృఢపరచు:"
+
+#: ../libseahorse/seahorse-passphrase.c:351
+#, c-format
+msgid "Wrong passphrase."
+msgstr "తప్పు పాస్ పదసముదాయం."
+
+#: ../libseahorse/seahorse-passphrase.c:355
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "'%s' కోసం కొత్త పాస్ పదసముదాయాన్ని ఇవ్వండి"
+
+#: ../libseahorse/seahorse-passphrase.c:357
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "'%s' కోసం పాస్ పదసముదాయాన్ని ఇవ్వండి"
+
+#: ../libseahorse/seahorse-passphrase.c:360
+msgid "Enter new passphrase"
+msgstr "కొత్త పాస్ పదసముదాయాన్ని ఇవ్వండి"
+
+#: ../libseahorse/seahorse-passphrase.c:362
+msgid "Enter passphrase"
+msgstr "పాస్ పదసముదాయాన్ని ఇవ్వండి"
+
+#: ../libseahorse/seahorse-prefs.c:100
+msgid "None. Prompt for a key."
+msgstr "ఒకటీ లేదు.మీట కోసం తెలియపరచు."
+
+#: ../libseahorse/seahorse-prefs.glade.h:1
+#| msgid "<b>Defaults</b>"
+msgid "<b>Default Key</b>"
+msgstr "<b>అప్రమేయ కీ</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:2
+msgid "<b>Remember PGP Passphrases</b>"
+msgstr "<b>పీజీపీ పాస్ పదసముదాయాలను గుర్తుంచుకోండి</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:3
+msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+msgstr "<i>మద్దతిచ్చునటువంటి PGP సంకేతపదము క్యచింగ్ ప్రతినిధి నడుచుటలేదు.</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:4
+msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+msgstr "<i>ఈ మీట వేరే </i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:5
+#| msgid "_Ask me before using a cached passphrase"
+msgid "As_k me before using a cached passphrase"
+msgstr "క్యాచీచేసిన సంకేతపదమును వుపయోగించుటకు ముందుగా నన్ను అడుగుము (_k)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:6
+#| msgid "Encrypting"
+msgid "Encryption"
+msgstr "ఎన్క్రిప్షన్"
+
+#: ../libseahorse/seahorse-prefs.glade.h:7
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:2
+#| msgid "Encryption Settings"
+msgid "Encryption and Keyrings"
+msgstr "ఎన్క్రిప్షన్ మరియు కీరింగ్‌లు"
+
+#: ../libseahorse/seahorse-prefs.glade.h:8
+#| msgid "Passphrase"
+msgid "PGP Passphrases"
+msgstr "PGP సంకేతపదములు"
+
+#: ../libseahorse/seahorse-prefs.glade.h:9
+msgid "Show _icon in status area when passphrases are in memory"
+msgstr "సంకేతపదములు మెమొరీనందు వున్నప్పుడు స్థితి ప్రాంతమునందు ప్రతిమను చూపుము (_i)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:10
+msgid "When _encrypting, always include myself as a recipient"
+msgstr "ఎన్క్రిప్టింగ్ చేయునప్పుడు, ఎల్లప్పుడూ నన్నుకూడా స్వీకరించు వానిగా చేర్చుము"
+
+#: ../libseahorse/seahorse-prefs.glade.h:11
+msgid "_Always remember passphrases whenever logged in"
+msgstr "ఎప్పుడు లాగినైనా యెల్లప్పుడూ సంకేతపదములను గుర్తుంచుకొనుము (_A)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:12
+#| msgid "_Default Key:"
+msgid "_Default key:"
+msgstr "అప్రమేయ కీ (_D):"
+
+#: ../libseahorse/seahorse-prefs.glade.h:13
+msgid "_Never remember passphrases"
+msgstr "సంకేతపదములను యెప్పుడూ గుర్తుంచుకొనవద్దు (_N)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:14
+msgid "_Remember passphrases for"
+msgstr "సంకేతపదములను దీనికొరకు గుర్తుంచుకొనుము (_R)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:15
+msgid "minutes"
+msgstr "నిమిషాలు"
+
+#: ../libseahorse/seahorse-progress.glade.h:1
+msgid "Progress Title"
+msgstr "పురోగమన శీర్షిక"
+
+#: ../libseahorse/seahorse-util.c:173
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "డిక్రిప్షన్ విఫలమైంది. మీరు బహుశా డిక్రిప్షన్ కీను కలిగిలేరు."
+
+#: ../libseahorse/seahorse-util.c:223
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../libseahorse/seahorse-util.c:642
+msgid "Couldn't run file-roller"
+msgstr "ఫైల్-రోలర్‌ను నడుపలేక పోయింది"
+
+#: ../libseahorse/seahorse-util.c:647
+#: ../plugins/nautilus/seahorse-tool-files.c:872
+msgid "Couldn't package files"
+msgstr "ఫైళ్ళను సంకలనము చేయలేకపోయింది"
+
+#: ../libseahorse/seahorse-util.c:648
+msgid "The file-roller process did not complete successfully"
+msgstr "ఫైల్-రోలర్ కార్యక్రమము సమర్ధవంతంగా పూర్తికాలేదు"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libseahorse/seahorse-util.c:708
+msgid "All key files"
+msgstr "అన్ని ముఖ్యమైన దస్త్రాలు"
+
+#: ../libseahorse/seahorse-util.c:715 ../libseahorse/seahorse-util.c:755
+msgid "All files"
+msgstr "అన్ని దస్త్రాలు"
+
+#: ../libseahorse/seahorse-util.c:748
+msgid "Archive files"
+msgstr "సంగ్రహమైన దస్త్రాలు"
+
+#: ../libseahorse/seahorse-util.c:777
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>ఈ నామముతో వొక ఫైలు యిప్పటికే వుంది.</b>\n"
+"\n"
+"మీరు దీనిని కొత్త ఫైలుతో పునఃస్థాపించాలని అనుకొనుచున్నారా?"
+
+#: ../libseahorse/seahorse-util.c:780
+msgid "_Replace"
+msgstr "_పునఃస్థాపించు"
+
+#: ../libseahorse/seahorse-widget.c:324
+#, c-format
+msgid "Could not display help: %s"
+msgstr "%s సహాయాన్ని ప్రదర్శించలేకపోయింది"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:1
+msgid "Clipboard Text Encryption"
+msgstr "క్లిప్ బోర్డు పాఠం రహస్యపరచడం"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:2
+msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+msgstr "క్లిప్‌బోర్డు ఎన్క్రిప్టు, డీక్రిప్టు లేదా సంతకం (PGP రకము ఎన్క్రిప్షన్ వుపయోగిస్తుంది)."
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:3
+msgid "Seahorse Applet Factory"
+msgstr "సీహార్స్-యాప్ లెట్ కర్మాగారము"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:1
+msgid "_About"
+msgstr "_గురించి"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:2
+msgid "_Help"
+msgstr "_సహాయం"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:3
+msgid "_Preferences"
+msgstr "_అభీష్టాలు"
+
+#: ../plugins/applet/seahorse-applet.c:276
+#: ../plugins/applet/seahorse-applet.c:721
+#, c-format
+#| msgid "Could not display help: %s"
+msgid "Could not display URL: %s"
+msgstr "URL ప్రదర్శించలేక పోయింది: %s"
+
+#: ../plugins/applet/seahorse-applet.c:312
+msgid "seahorse-applet"
+msgstr "సీహార్స్-యాప్ లెట్"
+
+#: ../plugins/applet/seahorse-applet.c:314
+#: ../plugins/applet/seahorse-applet.c:874
+msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+msgstr "క్లిప్‌బోర్డు encrypt/decrypt/sign/verify/import నకు PGP/GPG వుపయోగించుము."
+
+#: ../plugins/applet/seahorse-applet.c:319
+msgid "translator-credits"
+msgstr "Srinivasa Chary <srinu.kolpur@gmail.com>"
+
+#: ../plugins/applet/seahorse-applet.c:322
+msgid "Seahorse Project Homepage"
+msgstr "సీహార్స్ పథకం నివాస పుట"
+
+#. Get the recipient list
+#: ../plugins/applet/seahorse-applet.c:394
+#: ../plugins/epiphany/seahorse-extension.c:275
+#: ../plugins/gedit/seahorse-gedit.c:338
+msgid "Choose Recipient Keys"
+msgstr "పుచ్చుకునే మీటలను ఎన్నుకోండి"
+
+#: ../plugins/applet/seahorse-applet.c:413
+msgid "Encrypted Text"
+msgstr "రహస్యపరచిన పాఠం"
+
+#: ../plugins/applet/seahorse-applet.c:415
+msgid "Encryption Failed"
+msgstr "రహస్యపరచడం నిఫలమైంది"
+
+#: ../plugins/applet/seahorse-applet.c:415
+msgid "The clipboard could not be encrypted."
+msgstr "క్లిప్ బోర్డు రహస్యపరచడలేదు."
+
+#: ../plugins/applet/seahorse-applet.c:453
+#: ../plugins/epiphany/seahorse-extension.c:325
+#: ../plugins/gedit/seahorse-gedit.c:628
+msgid "Choose Key to Sign with"
+msgstr "సంతకం చేయటానికి మీటను ఎన్నుకోండి"
+
+#: ../plugins/applet/seahorse-applet.c:473
+msgid "Signed Text"
+msgstr "సంతకం చేయబడ్డ పాఠం"
+
+#: ../plugins/applet/seahorse-applet.c:475
+#: ../plugins/applet/seahorse-applet.c:555
+msgid "Signing Failed"
+msgstr "సంతకం చేయడం విఫలమైంది"
+
+#: ../plugins/applet/seahorse-applet.c:475
+#: ../plugins/applet/seahorse-applet.c:555
+msgid "The clipboard could not be Signed."
+msgstr "క్లిప్ బోర్డును సంతకం చేయబడలేదు."
+
+#: ../plugins/applet/seahorse-applet.c:517
+#: ../plugins/epiphany/seahorse-extension.c:369
+#: ../plugins/nautilus/seahorse-tool.c:464
+msgid "Import Failed"
+msgstr "దిగుమతి విఫలమైంది"
+
+#: ../plugins/applet/seahorse-applet.c:518
+#: ../plugins/epiphany/seahorse-extension.c:370
+#: ../plugins/nautilus/seahorse-tool.c:465
+msgid "Keys were found but not imported."
+msgstr "మీటలు దొరికినవి కానీ దిగుమతి చేయబడలేదు."
+
+#: ../plugins/applet/seahorse-applet.c:610
+msgid "No PGP key or message was found on clipboard"
+msgstr "క్లిప్ బోర్డులో పీజీపీ మీట లేదా సందేశం ఏదీ దొరకలేదు"
+
+#: ../plugins/applet/seahorse-applet.c:611
+msgid "No PGP data found."
+msgstr "పీజీపీ దత్తాంశం ఏదీ దొరకలేదు."
+
+#. TRANSLATORS: This means 'The text that was decrypted'
+#: ../plugins/applet/seahorse-applet.c:648
+msgid "Decrypted Text"
+msgstr "పాఠ్యమును డీక్రిప్టుచేయుము"
+
+#: ../plugins/applet/seahorse-applet.c:789
+msgid "_Encrypt Clipboard"
+msgstr "_రహస్యపరచు క్లిప్ బోర్డు"
+
+#: ../plugins/applet/seahorse-applet.c:796
+msgid "_Sign Clipboard"
+msgstr "క్లిప్ బోర్డును సంతకం చేయు"
+
+#: ../plugins/applet/seahorse-applet.c:803
+msgid "_Decrypt/Verify Clipboard"
+msgstr "క్లిప్‌బోర్డు డీక్రిప్టుచేయి/నిర్ధారించుము (_D)"
+
+#: ../plugins/applet/seahorse-applet.c:809
+msgid "_Import Keys from Clipboard"
+msgstr "_క్లిప్ బోర్డు నుంచి మీటలను దిగుమతిచేయు"
+
+#: ../plugins/applet/seahorse-applet.c:871
+#: ../plugins/applet/seahorse-applet.c:873
+msgid "Encryption Applet"
+msgstr "రహస్యపరచు యాప్ లెట్"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:1
+msgid "<b>Display clipboard contents after:</b>"
+msgstr "<b>క్ల్లిప్ బోర్డు యొక్క వివరములను ఎంత సమయం తరువాత ప్రదర్శించాలి:</b>"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:2
+msgid "Clipboard Encryption Preferences"
+msgstr "క్లిప్ బోర్డు  రహస్యపరచు అభీష్టాలు"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:3
+#| msgid "_Encrypting or signing the clipboard"
+msgid "_Decrypting the clipboard"
+msgstr "క్లిప్‌బోర్డు డీక్రిప్టుచేయుచున్నది (_D)"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:4
+msgid "_Encrypting or signing the clipboard"
+msgstr "_క్లిప్ బోర్డును రహస్యపరచు లేదా సంతకం చేయు"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:5
+msgid "_Show clipboard state in panel"
+msgstr "_క్లిప్ బోర్డు స్థితిని ప్యానలల్లో చూపు"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:6
+#| msgid "_Encrypting or signing the clipboard"
+msgid "_Verifying the clipboard"
+msgstr "క్లిప్‌బోర్డును నిర్ధారించుచున్నది (_V)"
+
+#: ../plugins/epiphany/seahorse-extension.c:408
+msgid "Decrypting Failed"
+msgstr "డీక్రిప్టుచేయుట విఫలమైంది"
+
+#: ../plugins/epiphany/seahorse-extension.c:408
+msgid "Text may be malformed."
+msgstr "పాఠ్యము చెడ్డగా వుండివుండవచ్చు."
+
+#: ../plugins/epiphany/seahorse-extension.c:632
+msgid "_Encrypt"
+msgstr "_రహస్యపరచు"
+
+#: ../plugins/epiphany/seahorse-extension.c:639
+msgid "_Sign"
+msgstr "_సంతకం"
+
+#: ../plugins/epiphany/seahorse-extension.c:646
+msgid "_Decrypt/Verify"
+msgstr "డిక్రిప్టు/నిర్ధారణ (_D)"
+
+#: ../plugins/epiphany/seahorse-extension.c:653
+msgid "_Import Key"
+msgstr "_మీటను దిగుమతి చేయు"
+
+#: ../plugins/gedit/seahorse-gedit.c:268
+msgid "Couldn't connect to seahorse-daemon"
+msgstr "సీహార్స్-సూత్రధారికి బంధించలేకపోయింది"
+
+#: ../plugins/gedit/seahorse-gedit.c:360
+msgid "Encrypted text"
+msgstr "రహస్యపరచబడ్డ పాఠం"
+
+#: ../plugins/gedit/seahorse-gedit.c:363
+msgid "Couldn't encrypt text"
+msgstr "పాఠాన్ని రహస్యపరచలేకపోయింది"
+
+#: ../plugins/gedit/seahorse-gedit.c:393
+msgid "Couldn't import keys"
+msgstr "మీటలను దిగుమతి చేయలేకపోయింది"
+
+#: ../plugins/gedit/seahorse-gedit.c:402
+msgid "Keys found but not imported"
+msgstr "మీటలు దొరికినవి కానీ దిగుమతి చేయబడలేదు"
+
+#: ../plugins/gedit/seahorse-gedit.c:439
+msgid "Couldn't decrypt text"
+msgstr "పాఠ్యమును డీక్రిప్టు చేయలేక పోయింది"
+
+#: ../plugins/gedit/seahorse-gedit.c:476
+msgid "Couldn't verify text"
+msgstr "పాఠాన్ని తనిఖీ చేయలేకపోయింది"
+
+#: ../plugins/gedit/seahorse-gedit.c:524
+msgid "No encrypted or signed text is selected."
+msgstr "రహస్యపరచబడ్డ లేదా సంతకం చేయబడ్డ ఏదీ ఎన్నుకొనబడలేదు."
+
+#: ../plugins/gedit/seahorse-gedit.c:554
+msgid "Decrypted text"
+msgstr "డీక్రిప్టుచేసిన పాఠ్యము"
+
+#: ../plugins/gedit/seahorse-gedit.c:561
+msgid "Verified text"
+msgstr "తనిఖీ చేయబడ్డ పాఠం"
+
+#: ../plugins/gedit/seahorse-gedit.c:596
+#: ../plugins/nautilus/seahorse-tool.c:490
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] "%d మీట దిగుమతి చేయబడింది"
+msgstr[1] "%d మీటలు దిగుమతి చేయబడ్డాయి"
+
+#: ../plugins/gedit/seahorse-gedit.c:650
+msgid "Signed text"
+msgstr "సంతకం చేయబడ్డ పాఠం"
+
+#: ../plugins/gedit/seahorse-gedit.c:653
+msgid "Couldn't sign text"
+msgstr "పాఠాన్ని సంతకం చేయలేకపోయింది"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:133
+msgid "_Encrypt..."
+msgstr "_రహస్యపరచు..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:134
+msgid "Encrypt the selected text"
+msgstr "ఎన్నుకొన్న పాఠాన్ని రహస్యపరచు"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:135
+msgid "Decr_ypt/Verify"
+msgstr "డీక్రిప్టుచేయి/నిర్ధారించుము (_y)"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:136
+msgid "Decrypt and/or Verify text"
+msgstr "పాఠ్యము డీక్రిప్టుచేయి మరియు/లేదా నిర్ధారించుము"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:137
+msgid "Sig_n..."
+msgstr "సంతకం..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:138
+msgid "Sign the selected text"
+msgstr "ఎంపికచేసిన పాఠ్యమును సంతకంచేయుము"
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:1
+msgid "Enable the seahorse encryption plugin for gedit."
+msgstr "సరికూర్చుట కొరకు సీహార్సు ఎన్క్రిప్షన్ ప్లగిన్‌ చేతనము చేయుము."
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:2
+msgid "Enable the seahorse gedit plugin"
+msgstr "సీహార్సు gedit ప్లగిన్ చేతనముచేయి"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:1
+msgid "Text Encryption"
+msgstr "పాఠ్యము ఎన్క్రిప్షన్"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:2
+msgid "This plugin performs encryption operations on text."
+msgstr "ఈ ప్లగిన్ యెన్క్రిప్షన్ ఆపరేషన్లను పాఠ్యముపై జరుపుతుంది."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:158
+msgid "Encrypt..."
+msgstr "రహస్యపరచు..."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:159
+msgid "Encrypt (and optionally sign) the selected file"
+msgid_plural "Encrypt the selected files"
+msgstr[0] "ఎంపికచేసిన ఫైలు ఎన్క్రిప్టుచేయి (మరియు ఐచ్చికంగా సంతకంచేయి)"
+msgstr[1] "ఎంపికచేసిన దస్త్రములను ఎన్క్రిప్టుచేయి"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:165
+msgid "Sign"
+msgstr "సంతకం"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:166
+msgid "Sign the selected file"
+msgid_plural "Sign the selected files"
+msgstr[0] "ఎన్నుకొన్న దస్త్రాన్ని సంతకం చేయు"
+msgstr[1] "ఎన్నుకొన్న దస్త్రాలను సంతకం చేయు"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:39
+msgid "For internal use"
+msgstr "అంతర్గత  వాడుక కోసం"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:63
+msgid "Encryption Preferences"
+msgstr "రహస్యపరచు అభీష్టాలు"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:1
+msgid "Configure key servers and other encryption settings"
+msgstr "కీ సేవికలను మరియు యితర ఎన్క్రిప్షన్ అమరికలను ఆకృతీకరించుము"
+
+#: ../plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in.h:1
+msgid "Decrypt File"
+msgstr "దస్త్రమును డీక్రిప్టుచేయి"
+
+#: ../plugins/nautilus/seahorse-pgp-keys.desktop.in.in.h:1
+msgid "Import Key"
+msgstr "కీను దిగుమతిచేయి"
+
+#: ../plugins/nautilus/seahorse-pgp-signature.desktop.in.in.h:1
+msgid "Verify Signature"
+msgstr "సంతకాన్ని ధృవీకరించు"
+
+#: ../plugins/nautilus/seahorse-tool.c:62
+msgid "Import keys from the file"
+msgstr "మీటలను దస్త్రం నుంచి దిగుమతిచేయు"
+
+#: ../plugins/nautilus/seahorse-tool.c:64
+msgid "Encrypt file"
+msgstr "దస్త్రాన్ని రహస్యపరచు"
+
+#: ../plugins/nautilus/seahorse-tool.c:66
+msgid "Sign file with default key"
+msgstr "దస్త్రాన్ని అప్రమేయ మీటతో సంతకం చేయు"
+
+#: ../plugins/nautilus/seahorse-tool.c:68
+msgid "Encrypt and sign file with default key"
+msgstr "దస్త్రాన్ని రహస్యపరచి అప్రమేయ మీటతో సంతకం చేయు"
+
+#: ../plugins/nautilus/seahorse-tool.c:70
+msgid "Decrypt encrypted file"
+msgstr "ఎన్క్రిప్టుచేసిన దస్త్రమును డీక్రిప్టుచేయుము"
+
+#: ../plugins/nautilus/seahorse-tool.c:72
+msgid "Verify signature file"
+msgstr "సంతక దస్త్రాన్ని పరీక్షించు"
+
+#: ../plugins/nautilus/seahorse-tool.c:74
+msgid "Read list of URIs on standard in"
+msgstr "యూ ఆర్ ఐ ల జాబితాను ప్రమాణంలో చదవండి"
+
+#: ../plugins/nautilus/seahorse-tool.c:76
+msgid "file..."
+msgstr "దస్త్రం..."
+
+#: ../plugins/nautilus/seahorse-tool.c:170
+msgid "Choose Recipients"
+msgstr "పుచ్చుకునేవారిని ఎన్నుకోండి"
+
+#: ../plugins/nautilus/seahorse-tool.c:232
+#: ../plugins/nautilus/seahorse-tool.c:341
+msgid "Couldn't load keys"
+msgstr "కీలను లోడుచేయలేక పోయింది"
+
+#: ../plugins/nautilus/seahorse-tool.c:250
+#, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr "'%s' కొరకు రహస్యపరచిన దస్త్రం పేరును ఎన్నుకోండి"
+
+#: ../plugins/nautilus/seahorse-tool.c:323
+msgid "Choose Signer"
+msgstr "సంతకదారిని ఎన్నుకోండి"
+
+#: ../plugins/nautilus/seahorse-tool.c:361
+#, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr "'%s' కొరకు సంతక దస్త్రం పేరును ఎన్నుకోండి"
+
+#: ../plugins/nautilus/seahorse-tool.c:401
+#| msgid "Export Complete Key"
+msgid "Import is complete"
+msgstr "దిగుమతి పూర్తైనది"
+
+#: ../plugins/nautilus/seahorse-tool.c:434
+#| msgid "Importing Keys"
+msgid "Importing keys ..."
+msgstr "కీలను దిగుమతిచేయుచున్నది ..."
+
+#: ../plugins/nautilus/seahorse-tool.c:488
+#, c-format
+msgid "Imported key"
+msgstr "దిగుమతి చేయబడ్డ మీట"
+
+#. File to decrypt to
+#: ../plugins/nautilus/seahorse-tool.c:512
+#, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr "'%s' కొరకు డిక్రిప్టుచేసిన దస్త్రము నామమును యెంచుకొనుము"
+
+#: ../plugins/nautilus/seahorse-tool.c:568
+#, c-format
+msgid "Choose Original File for '%s'"
+msgstr "'%s' కొరకు అసలు దస్త్రాన్ని ఎన్నుకోండి"
+
+#.
+#. * TODO: What should happen with multiple files at this point.
+#. * The last thing we want to do is cascade a big pile of error
+#. * dialogs at the user.
+#.
+#: ../plugins/nautilus/seahorse-tool.c:640
+#, c-format
+msgid "No valid signatures found"
+msgstr "సారమైన సంతకాలు కనబడలేదు"
+
+#: ../plugins/nautilus/seahorse-tool.c:689
+msgid "File Encryption Tool"
+msgstr "దస్త్రాన్ని రహస్యపరచే పనిముట్టు"
+
+#: ../plugins/nautilus/seahorse-tool.c:708
+msgid "Encrypting"
+msgstr "రహస్యపరచడం"
+
+#: ../plugins/nautilus/seahorse-tool.c:709
+#, c-format
+msgid "Couldn't encrypt file: %s"
+msgstr "%s ను రహస్యపరచలేకపోయింది"
+
+#: ../plugins/nautilus/seahorse-tool.c:717
+msgid "Signing"
+msgstr "సంతకం చేస్తోంది"
+
+#: ../plugins/nautilus/seahorse-tool.c:718
+#, c-format
+msgid "Couldn't sign file: %s"
+msgstr "%s దస్త్రాన్ని సంతకం చేయలేకపోయింది"
+
+#: ../plugins/nautilus/seahorse-tool.c:723
+msgid "Importing"
+msgstr "దిగుమతి చేస్తోంది"
+
+#: ../plugins/nautilus/seahorse-tool.c:724
+#, c-format
+msgid "Couldn't import keys from file: %s"
+msgstr "%s దస్త్రం నుంచి మీటలను దిగుమతి చేయలేకపోయింది"
+
+#: ../plugins/nautilus/seahorse-tool.c:730
+msgid "Decrypting"
+msgstr "డిక్రిప్టుచేయుచున్నది"
+
+#: ../plugins/nautilus/seahorse-tool.c:731
+#, c-format
+msgid "Couldn't decrypt file: %s"
+msgstr "దస్త్రమును డిక్రిప్టు చేయలేకపోయింది: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:736
+msgid "Verifying"
+msgstr "పరీక్షిస్తోంది"
+
+#: ../plugins/nautilus/seahorse-tool.c:737
+#, c-format
+msgid "Couldn't verify file: %s"
+msgstr "%s దస్తాన్ని పరీక్షించలేకపోయింది"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:120
+msgid "Ace (.ace)"
+msgstr "ఏస్ (.ace)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:121
+msgid "Ar (.ar)"
+msgstr "ఆర్(.ar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:122
+msgid "Arj (.arj)"
+msgstr "ఆర్జ్(.arj)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:129
+msgid "Ear (.ear)"
+msgstr "ఇఅర్(.ear)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:130
+msgid "Self-extracting zip (.exe)"
+msgstr "స్వయంగా-బయల్పడు జిప్ (.exe)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:132
+msgid "Jar (.jar)"
+msgstr "జార్(.jar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:133
+msgid "Lha (.lzh)"
+msgstr "ల్హ(.lzh)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:135
+msgid "Rar (.rar)"
+msgstr "రార్(.rar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:137
+msgid "Tar uncompressed (.tar)"
+msgstr "టార్ సంకుచితము చెందలేదు(.టార్)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:138
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "బీజిప్ తో అణచబడిన టార్(.tar.bz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:139
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "బీజిప్2 తో అణచబడిన టార్(.tar.bz2)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:140
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "జీజిప్ తో అణచబడిన టార్(.tar.gzip)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:141
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "ఎల్ జాప్ తో అణచబడిన టార్(.tar.lzo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:142
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "కంప్రెస్ తో అణచబడిన టార్(.tar.Z)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:144
+msgid "War (.war)"
+msgstr "వార్(.war)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:145
+msgid "Zip (.zip)"
+msgstr "జిప్(.zip)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:146
+msgid "Zoo (.zoo)"
+msgstr "జూ (.zoo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:147
+msgid "7-Zip (.7z)"
+msgstr "7-జిప్(.7z)"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:327
+#, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] "మీరు %d దస్త్రాన్ని ఎన్నుకొన్నారు"
+msgstr[1] "మీరు %d దస్త్రాలను ఎన్నుకొన్నారు"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:332
+#, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] "మరియు %d సంచయం"
+msgstr[1] "మరియు %d సంచయాలు"
+
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: ../plugins/nautilus/seahorse-tool-files.c:337
+#, c-format
+msgid "<b>%s%s</b>"
+msgstr "<b>%s%s</b>"
+
+#. should never be called for just one file
+#: ../plugins/nautilus/seahorse-tool-files.c:346
+#, c-format
+msgid "You have selected %d files"
+msgstr "మీరు %d దస్త్రాలను ఎన్నుకొన్నారు"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:351
+#, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] "మీరు %d సంచయాన్ని ఎన్నుకొన్నారు"
+msgstr[1] "మీరు %d సంచయాలను ఎన్నుకొన్నారు"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:853
+msgid "Preparing..."
+msgstr "తయారవుతోంది..."
+
+#: ../plugins/nautilus/seahorse-tool-files.c:862
+#: ../plugins/nautilus/seahorse-tool-files.c:885
+msgid "Couldn't list files"
+msgstr "దస్త్రాలను జాబితా చేయలేకపోయింది"
+

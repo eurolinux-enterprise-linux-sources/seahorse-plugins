@@ -1,0 +1,518 @@
+# Generated automatically. Do not edit.
+
+commit 3c4cbf986cee18016b958634e47beacb2748b567
+Author: Peter Bloomfield <peterbloomfield@bellsouth.net>
+Date:   2009-10-04
+
+    Bug 586855 - seahorse-agent does not work with gnupg-2.0.12
+    
+    Patch from Peter Bloomfield to add the get-info command to
+    seahorse-agent
+
+ agent/seahorse-agent-io.c     |   83 ++++++++++++++++++++++++++++++++++++++++-
+ agent/seahorse-agent-prompt.c |    9 +++-
+ agent/seahorse-agent.h        |    1 +
+ 3 files changed, 90 insertions(+), 3 deletions(-)
+
+commit bc531db3b54614735743c77c34ef5d18dcb5fe06
+Author: Frédéric Péters <fpeters@0d.be>
+Date:   2009-09-23
+
+    [release] post release version bump
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 1d713b89106b48145f273accc4773705c14e5e35
+Author: Frédéric Péters <fpeters@0d.be>
+Date:   2009-09-23
+
+    [release] 2.28.0
+
+ NEWS         |   27 +++++++++++++++++++++++++++
+ configure.in |    2 +-
+ 2 files changed, 28 insertions(+), 1 deletions(-)
+
+commit d789e8c87c8d18a653c0eda921773e39d9ae11e3
+Author: Manoj Kumar Giri <mgiri@mgiri.csb>
+Date:   2009-09-22
+
+    Upadated Oriya Translation
+
+ po/or.po |  114 ++++++++++++++++++++++++++++++++++++++-----------------------
+ 1 files changed, 71 insertions(+), 43 deletions(-)
+
+commit b43308f9bf0be20c2a9a690160ff1271bf1d6122
+Author: Rajesh Ranjan <rranjan@rranjan.csb>
+Date:   2009-09-18
+
+    maithili update, translated by Sangeeta Kumari
+
+ po/LINGUAS |    1 +
+ po/mai.po  | 1127 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 1128 insertions(+), 0 deletions(-)
+
+commit 7f2be115a9a7499197d8433ca962fce6363caa2b
+Author: Ani <peter.ani@gmail.com>
+Date:   2009-09-15
+
+    Updated Malayalam Translations
+
+ po/ml.po |  137 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 73 insertions(+), 64 deletions(-)
+
+commit f5be4361d088f907146c9c013357f4f95fcded59
+Author: Rajesh Ranjan <rranjan@rranjan.csb>
+Date:   2009-09-14
+
+    hindi update by Rajesh Ranjan
+
+ po/hi.po |  129 ++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 68 insertions(+), 61 deletions(-)
+
+commit 9d7524aeccb6a3df832685949342b02a10fb9e12
+Author: Rajesh Ranjan <rranjan@rranjan.csb>
+Date:   2009-09-14
+
+    hindi update by Rajesh Ranjan
+
+ po/hi.po |  163 ++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 85 insertions(+), 78 deletions(-)
+
+commit ee5e842e9e64709f0023305459b7372dbc87cd54
+Author: Carles Ferrando <carles.ferrando@gmail.com>
+Date:   2009-09-14
+
+    Added Catalan (Valencian) translation
+
+ po/LINGUAS        |    1 +
+ po/ca@valencia.po | 1186 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 1187 insertions(+), 0 deletions(-)
+
+commit cef86ef288cb2f7a7bcba7f8d326bdadf0ac6dff
+Author: Kjartan Maraas <kmaraas@gnome.org>
+Date:   2009-09-14
+
+    Update Norwegian bokmål translation.
+
+ po/nb.po |  303 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 151 insertions(+), 152 deletions(-)
+
+commit 0a08342645d6df88d3b9e4277b39ded09d155e9f
+Author: Ask H. Larsen <asklarsen@gmail.com>
+Date:   2009-09-13
+
+    Updated Danish translation
+
+ po/da.po |   12 ++++++------
+ 1 files changed, 6 insertions(+), 6 deletions(-)
+
+commit 1b652e7e98412fb8af2e7f2a0160b09b95b4eae6
+Author: Kostas Papadimas <pkst@gnome.org>
+Date:   2009-09-12
+
+    Updated Greek help translation.
+
+ help/el/el.po |   39 +++++++++++++++++++--------------------
+ 1 files changed, 19 insertions(+), 20 deletions(-)
+
+commit 92363bbaa20b19b51397c3aaa02480b20d47fb29
+Author: krishnababu k <kkrothap@redhat.ocm>
+Date:   2009-09-11
+
+    Updated Telugu Translations
+
+ po/te.po |  210 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 105 insertions(+), 105 deletions(-)
+
+commit 4f9b9fd7c521e83123d7793346ede520cc166607
+Author: Denis Arnaud <darnaud@src.gnome.org>
+Date:   2009-08-31
+
+    Updated breton translation
+
+ po/br.po |   20 ++++++++++----------
+ 1 files changed, 10 insertions(+), 10 deletions(-)
+
+commit 948a651119836d72bf46a6c2c49eced6bcfba989
+Author: Branko Kokanović <branko.kokanovic@gmail.com>
+Date:   2009-08-30
+
+    Updated Serbian translation
+
+ po/sr.po       | 2942 ++++++++++++++++----------------------------------------
+ po/sr@latin.po | 2942 ++++++++++++++++----------------------------------------
+ 2 files changed, 1668 insertions(+), 4216 deletions(-)
+
+commit d5922e39b33eebb5ac46c09aab4f98574433fe71
+Author: Og B. Maciel <ogmaciel@gnome.org>
+Date:   2009-08-30
+
+    Updated mailing list address.
+
+ po/pt_BR.po |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 0ec38ba57c1652f079d2b86d7e62c53c135e2d8f
+Author: Pablo Castellano <pablog.ubuntu@gmail.com>
+Date:   2009-08-23
+
+    Removed old CVS stuff.
+    
+    Removed traces about CVS, including .cvsignore
+    files and finished migration to .gitignore.
+
+ .cvsignore                          |   26 --------------------------
+ .gitignore                          |    8 ++++++++
+ README.cvs                          |   16 ----------------
+ agent/.cvsignore                    |    8 --------
+ agent/.gitignore                    |    2 ++
+ autogen.sh                          |    2 +-
+ data/.cvsignore                     |    4 ----
+ data/.gitignore                     |    1 +
+ help/.cvsignore                     |    3 ---
+ help/.gitignore                     |    2 +-
+ help/C/.cvsignore                   |    4 ----
+ help/C/.gitignore                   |    5 +++++
+ help/it/.cvsignore                  |    1 -
+ libseahorse/.cvsignore              |   19 -------------------
+ libseahorse/.gitignore              |    7 +++++++
+ m4/.cvsignore                       |    3 ---
+ pixmaps/.cvsignore                  |    2 --
+ pixmaps/22x22/.cvsignore            |    2 --
+ pixmaps/48x48/.cvsignore            |    2 --
+ pixmaps/scalable/.cvsignore         |    2 --
+ plugins/.cvsignore                  |    2 --
+ plugins/applet/.cvsignore           |   14 --------------
+ plugins/applet/.gitignore           |    1 +
+ plugins/applet/docs/.cvsignore      |    3 ---
+ plugins/applet/docs/.gitignore      |    2 +-
+ plugins/applet/docs/C/.cvsignore    |    4 ----
+ plugins/applet/docs/C/.gitignore    |    4 ++++
+ plugins/epiphany/.cvsignore         |    2 --
+ plugins/epiphany/mozilla/.cvsignore |    2 --
+ plugins/gedit/.cvsignore            |   10 ----------
+ plugins/gedit/.gitignore            |    1 +
+ plugins/nautilus-ext/.cvsignore     |    6 ------
+ plugins/nautilus/.cvsignore         |   12 ------------
+ plugins/nautilus/.gitignore         |   10 +++++++---
+ po/.cvsignore                       |   15 ---------------
+ po/.gitignore                       |   11 ++++++++++-
+ 36 files changed, 49 insertions(+), 169 deletions(-)
+
+commit 12b5836dce0ea9a74c603e180d330675e14f8f2b
+Author: Pablo Castellano <pablog.ubuntu@gmail.com>
+Date:   2009-08-23
+
+    Fixed crash in seahorse-preferences.
+    
+    seahorse-preferences now checks for invalid
+    arguments to avoid crashing.
+
+ plugins/nautilus/seahorse-pgp-preferences.c |    7 ++++++-
+ 1 files changed, 6 insertions(+), 1 deletions(-)
+
+commit 8436987598b9948d6c18d61eb767756ccbd917cf
+Author: Pablo Castellano <pablog.ubuntu@gmail.com>
+Date:   2009-08-23
+
+    Corrected file permissions.
+    
+    seahorse-tool-progress.c and seahorse-tool.c
+    do not need execute permissions.
+
+ 0 files changed, 0 insertions(+), 0 deletions(-)
+
+commit e6253bab69139fe5fe32e83de4923adcc2553e49
+Author: Changwoo Ryu <cwryu@debian.org>
+Date:   2009-08-29
+
+    Update Korean translation
+
+ po/ko.po |    6 +++---
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+
+commit b949015ce938c4ee1baa34c51d25670192f0aea3
+Author: Jamil Ahmed <itsjamil@gmail.com>
+Date:   2009-08-24
+
+    Updated Bengali translation
+
+ po/bn.po | 4565 ++++++++++++++++----------------------------------------------
+ 1 files changed, 1179 insertions(+), 3386 deletions(-)
+
+commit 0d59349671e332cc24152b2b2ea8bc84b1241303
+Author: Pablo Castellano <pablog.ubuntu@gmail.com>
+Date:   2009-08-19
+
+    Added .gitignore files
+
+ .gitignore                          |   38 +++++++++++++++++++++++++++++++++++
+ agent/.gitignore                    |    4 +++
+ data/.gitignore                     |    3 ++
+ help/.gitignore                     |    3 ++
+ help/ca/.gitignore                  |    2 +
+ help/cs/.gitignore                  |    2 +
+ help/de/.gitignore                  |    2 +
+ help/el/.gitignore                  |    2 +
+ help/en_GB/.gitignore               |    2 +
+ help/es/.gitignore                  |    2 +
+ help/fr/.gitignore                  |    2 +
+ help/it/.gitignore                  |    2 +
+ help/oc/.gitignore                  |    2 +
+ help/ru/.gitignore                  |    2 +
+ help/sv/.gitignore                  |    2 +
+ help/vi/.gitignore                  |    2 +
+ libseahorse/.gitignore              |    5 ++++
+ m4/.gitignore                       |    7 ++++++
+ pixmaps/.gitignore                  |    2 +
+ pixmaps/22x22/.gitignore            |    2 +
+ pixmaps/48x48/.gitignore            |    2 +
+ pixmaps/scalable/.gitignore         |    2 +
+ plugins/.gitignore                  |    2 +
+ plugins/applet/.gitignore           |    7 ++++++
+ plugins/applet/docs/.gitignore      |    3 ++
+ plugins/applet/docs/es/.gitignore   |    2 +
+ plugins/applet/docs/fr/.gitignore   |    2 +
+ plugins/applet/docs/it/.gitignore   |    2 +
+ plugins/applet/docs/oc/.gitignore   |    2 +
+ plugins/applet/docs/ru/.gitignore   |    2 +
+ plugins/applet/docs/sv/.gitignore   |    2 +
+ plugins/applet/docs/vi/.gitignore   |    2 +
+ plugins/epiphany/.gitignore         |    5 ++++
+ plugins/epiphany/mozilla/.gitignore |    4 +++
+ plugins/gedit/.gitignore            |    6 +++++
+ plugins/nautilus-ext/.gitignore     |    4 +++
+ plugins/nautilus/.gitignore         |    9 ++++++++
+ po/.gitignore                       |    7 ++++++
+ 38 files changed, 153 insertions(+), 0 deletions(-)
+
+commit 1689a29dcc5077809cc54f9b02ebf8d15b454d04
+Author: Denis Arnaud <darnaud@src.gnome.org>
+Date:   2009-08-18
+
+    Updated breton translation
+
+ po/br.po |    3 ++-
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+
+commit 8f2093fa2fb3e5099484edca6dcc6bb0baf6ddb1
+Author: Denis Arnaud <darnaud@src.gnome.org>
+Date:   2009-08-18
+
+    Updated breton translation
+
+ po/br.po |   79 +++++++++++++++++++------------------------------------------
+ 1 files changed, 25 insertions(+), 54 deletions(-)
+
+commit 6379f2e70d92a8e6b6bad5a21734ca3d8bf7173f
+Author: Denis Arnaud <darnaud@src.gnome.org>
+Date:   2009-08-18
+
+    Updated breton translation
+
+ po/br.po |   82 +++++++++++++++++++++++++++++++++++++++++--------------------
+ 1 files changed, 55 insertions(+), 27 deletions(-)
+
+commit 2aca69a898005e2ee2bd03efdcd063c202543a0e
+Author: Vincent Untz <vuntz@gnome.org>
+Date:   2009-08-04
+
+    Bug 590723 – Build failure because of missing include
+
+ agent/seahorse-agent-prompt.c      |    2 ++
+ libseahorse/seahorse-gpg-options.c |    2 ++
+ libseahorse/seahorse-gpgmex-op.c   |    2 ++
+ 3 files changed, 6 insertions(+), 0 deletions(-)
+
+commit 2224fa4f04c91600d399a3e0d45087f4762f0998
+Author: Denis Arnaud <darnaud@src.gnome.org>
+Date:   2009-07-30
+
+    Updated breton translation and added br in Linguas file
+
+ po/br.po |   84 ++++++++++++++++++++------------------------------------------
+ 1 files changed, 27 insertions(+), 57 deletions(-)
+
+commit 0f3c2bce3f7ec02b82506c1099f0f5a00b9edab5
+Author: Denis Arnaud <darnaud@src.gnome.org>
+Date:   2009-07-30
+
+    Updated breton translation and added br in Linguas file
+
+ po/LINGUAS |    1 +
+ po/br.po   | 1129 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 1130 insertions(+), 0 deletions(-)
+
+commit f7500a2ae15e60b22b4d7966118d7d953f0616c6
+Author: Marek Černocký <marek@manet.cz>
+Date:   2009-07-17
+
+    Updated Czech help translation
+
+ help/cs/cs.po |   39 ++++++++++++++++++++++++++-------------
+ 1 files changed, 26 insertions(+), 13 deletions(-)
+
+commit 0a426c0d161f66706fb431ca1cf504bddc710745
+Author: Kjartan Maraas <kmaraas@gnome.org>
+Date:   2009-07-14
+
+    Fix single glib include
+
+ libseahorse/seahorse-algo.h |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 8bc932022249a63b071a50c10b62d22e418b97eb
+Author: Maxim V. Dziumanenko <dziumanenko@gmail.com>
+Date:   2009-07-09
+
+    Updated Ukrainian translation
+
+ po/uk.po | 2945 ++++++--------------------------------------------------------
+ 1 files changed, 284 insertions(+), 2661 deletions(-)
+
+commit 2d2f4e7e2a172be00f8a11ce4ec5b398117f1f31
+Author: Ask H. Larsen <asklarsen@gmail.com>
+Date:   2009-05-30
+
+    Updated Danish translation
+
+ po/da.po |  281 ++++++++++++++++++++++++++++++--------------------------------
+ 1 files changed, 136 insertions(+), 145 deletions(-)
+
+commit 858307521709c39428a91ddce36cd9712d9e5360
+Author: Thomas Klausner <wiz@danbala.tuwien.ac.at>
+Date:   2009-05-21
+
+    Bug 583279 – Unportable test(1) construct in configure script
+    
+    Fix second test error
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit d067d3400363e3d7dab62c3a0c586d7ccc1c1f09
+Author: Adam Schreiber <sadam@gnome.org>
+Date:   2009-05-20
+
+    Bug 583279 – Unportable test(1) construct in configure script
+    
+    Changed == to = in the ebook test.
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit e0d33c440eb3ef9e588d25368e2f04ade915d6a8
+Author: Adam Schreiber <sadam@gnome.org>
+Date:   2009-05-20
+
+    Change epiphany errors to echos
+
+ configure.in |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit a272684fb3aff174587cacd1239fcec9ef3929db
+Author: Jennie Petoumenou <epetoumenou@gmail.com>
+Date:   2009-05-08
+
+    Updated Greek translation
+
+ help/el/el.po | 2367 ++++++++++++++++-----------------------------------------
+ 1 files changed, 639 insertions(+), 1728 deletions(-)
+
+commit 25f62203dafacf07e8e052890b99e537c5ecb596
+Author: Jorge Gonzalez <jorgegonz@svn.gnome.org>
+Date:   2009-05-03
+
+    Updated Spanish translation
+
+ po/es.po |  331 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 167 insertions(+), 164 deletions(-)
+
+commit eece1108ec94d77da35d03ed646d702fddc932bb
+Author: Adam Schreiber <sadam@gnome.org>
+Date:   2009-05-03
+
+    Post-bump version number
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 648154b0f28218b4672754bc2c491cb8456d85e9
+Author: Adam Schreiber <sadam@gnome.org>
+Date:   2009-05-01
+
+    Update NEWS file
+
+ NEWS |    8 ++++++++
+ 1 files changed, 8 insertions(+), 0 deletions(-)
+
+commit 268c62c67e5c2d50620f8a129f892ba3d1ca53aa
+Author: Adam Schreiber <sadam@gnome.org>
+Date:   2009-05-01
+
+    Bump version to 2.27.1
+
+ README       |    2 +-
+ configure.in |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 4cec75a2d3b0b63feae09ed595877d4ec1a123e0
+Author: Adam Schreiber <sadam@gnome.org>
+Date:   2009-05-01
+
+    Add fuzzy to string
+
+ po/ne.po |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit e0046488de858ef65359342b2c9d34fe3c2a118f
+Author: Adam Schreiber <sadam@gnome.org>
+Date:   2009-05-01
+
+    Add fuzzy to untranslated formatted strings
+
+ po/bn.po |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 8812480e96bf98cea716ff566850fcfd1d8df0b5
+Author: Manoj Kumar Giri <mgiri@mgiri.csb>
+Date:   2009-04-27
+
+    Updated Oriya Translation.
+
+ po/or.po |   92 ++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 48 insertions(+), 44 deletions(-)
+
+commit a95459663959fb2c1ca78c9c53ec4b215189469b
+Author: Adam Schreiber <sadam@gnome.org>
+Date:   2009-04-26
+
+    Autogenerate ChangeLog
+
+ ChangeLog          |  471 +++-------------------------------------------------
+ ChangeLog.pre-auto |  458 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ Makefile.am        |   19 ++
+ 3 files changed, 500 insertions(+), 448 deletions(-)
+
+commit bf129561d05d238c1c544f8a3a1cffe82044d113
+Author: Adam Schreiber <sadam@gnome.org>
+Date:   2009-04-26
+
+    Add doap file
+
+ seahorse-plugins.doap |   31 +++++++++++++++++++++++++++++++
+ 1 files changed, 31 insertions(+), 0 deletions(-)
+
+commit 02140f48f3532e1a896a56fbab1f7935f8041c48
+Author: Adam Schreiber <sadam@gnome.org>
+Date:   2009-04-22
+
+    Bug 579738 – seahorse-agent leaves behind its socket dir
+    
+    Add an atexit() handler after forking the child process.
+
+ agent/seahorse-agent-main.c |    4 +++-
+ agent/seahorse-agent.c      |    5 +++++
+ agent/seahorse-agent.h      |    1 +
+ 3 files changed, 9 insertions(+), 1 deletions(-)

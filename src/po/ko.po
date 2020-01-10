@@ -1,0 +1,1155 @@
+# This file is distributed under the same license as the seahorse package.
+# Changwoo Ryu <cwryu@debian.org>, 2007, 2008, 2009.
+#
+# 새로 번역하는 분은 translator-credit에 추가하세요.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: seahorse\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-14 20:41+0900\n"
+"PO-Revision-Date: 2009-08-29 01:20+0900\n"
+"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
+"Language-Team: Korean <gnome-kr-hackers@lists.kldp.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../agent/seahorse-agent-actions.c:120
+msgid "Passphrase:"
+msgstr "암호:"
+
+#: ../agent/seahorse-agent-actions.c:121
+msgid "Please enter a passphrase to use."
+msgstr "사용할 암호를 입력하십시오."
+
+#: ../agent/seahorse-agent-cache.c:66
+msgid "Unparseable Key ID"
+msgstr "파싱할 수 없는 키 아이디"
+
+#: ../agent/seahorse-agent-cache.c:67
+msgid "Unknown/Invalid Key"
+msgstr "알 수 없거나 잘못된 키"
+
+#: ../agent/seahorse-agent-cache.c:533
+#, c-format
+msgid "PGP Key: %s"
+msgstr "PGP 키: %s"
+
+#: ../agent/seahorse-agent-cache.glade.h:1
+msgid ""
+"<b>Warning</b>: Your system is not configured to cache passphrases in secure "
+"memory."
+msgstr ""
+"<b>경고</b>: 이 시스템은 메모리 안에 암호를 임시 저장할 때 안전한 메모리를 사"
+"용할 수 없게 되어 있습니다."
+
+#: ../agent/seahorse-agent-cache.glade.h:2
+msgid "Cache _Preferences"
+msgstr "임시 저장 기본 설정(_P)"
+
+#: ../agent/seahorse-agent-cache.glade.h:3
+msgid "Cached Encryption Keys"
+msgstr "임시 저장한 암호화 키"
+
+#: ../agent/seahorse-agent-cache.glade.h:4
+msgid "Change passphrase cache settings."
+msgstr "암호 임시 저장 설정을 바꿉니다."
+
+#: ../agent/seahorse-agent-cache.glade.h:5
+msgid "Clear passphrase cache"
+msgstr "암호 임시 저장 지우기"
+
+#: ../agent/seahorse-agent-cache.glade.h:6
+msgid "_Clear Cache"
+msgstr "임시 저장 지우기(_C)"
+
+#: ../agent/seahorse-agent-cache.glade.h:7
+msgid "_Show Window"
+msgstr "창 표시(_S)"
+
+#: ../agent/seahorse-agent-main.c:52
+msgid "Do not daemonize seahorse-agent"
+msgstr "seahorse-agent를 데몬으로 실행하지 않습니다"
+
+#: ../agent/seahorse-agent-main.c:56
+msgid "Print variables in for a C type shell"
+msgstr "C 쉘에 호환되도록 변수를 표시"
+
+#: ../agent/seahorse-agent-main.c:60
+msgid "Display environment variables (the default)"
+msgstr "표시 환경 변수 (기본값)"
+
+#: ../agent/seahorse-agent-main.c:63
+msgid "Execute other arguments on the command line"
+msgstr "명령행에서 기타 인자를 실행합니다"
+
+#: ../agent/seahorse-agent-main.c:67
+msgid "Allow GPG agent request from any display"
+msgstr "모든 디스플레이에서 GPG 에이전트 요청을 받아들입니다"
+
+#: ../agent/seahorse-agent-main.c:70
+msgid "command..."
+msgstr "<명령어>..."
+
+#: ../agent/seahorse-agent-main.c:108
+msgid "couldn't fork process"
+msgstr "프로세스를 포크할 수 없습니다"
+
+#: ../agent/seahorse-agent-main.c:114
+msgid "couldn't create new process group"
+msgstr "새 프로세스 그룹을 만들 수 없습니다"
+
+#: ../agent/seahorse-agent-main.c:240
+msgid "Encryption Key Agent (Seahorse)"
+msgstr "암호화 키 에이전트 (시호스)"
+
+#: ../agent/seahorse-agent-main.c:246
+msgid "no command specified to execute"
+msgstr "실행할 명령어를 지정하지 않았습니다"
+
+#: ../agent/seahorse-agent-prompt.c:216
+msgid "Authorize Passphrase Access"
+msgstr "암호 접속 인증"
+
+#: ../agent/seahorse-agent-prompt.c:252
+msgid "The passphrase is cached in memory."
+msgstr "암호를 메모리에 임시 저장합니다."
+
+# check box
+#: ../agent/seahorse-agent-prompt.c:257
+msgid "Always ask me before using a cached passphrase"
+msgstr "임시 저장한 암호를 사용할 때 항상 물어보기"
+
+#: ../agent/seahorse-agent-prompt.c:274
+msgid "_Authorize"
+msgstr "인증(_A)"
+
+#. Make the uid column
+#: ../agent/seahorse-agent-status.c:145
+msgid "Key Name"
+msgstr "키 이름"
+
+#: ../data/seahorse-plugins.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"원격 PGP 키를 찾을 키 서버 URI의 목록. 최근 버전에서는 URI 뒤에 공백 다음에 "
+"디스플레이 이름을 붙일 수 있습니다."
+
+#: ../data/seahorse-plugins.schemas.in.h:2
+msgid ""
+"After performing an decrypt or verify operation from the applet, display the "
+"resulting text in a window."
+msgstr ""
+"애플릿에서 복호화 혹은 서명 확인 작업을 한 다음에, 그 결과 텍스트를 창에 표시"
+"합니다."
+
+#: ../data/seahorse-plugins.schemas.in.h:3
+msgid ""
+"After performing an encrypt or signing operation from the applet, display "
+"the resulting text in a window."
+msgstr ""
+"애플릿에서 암호화 혹은 서명 작업을 한 다음에, 그 결과 텍스트를 창에 표시합니"
+"다."
+
+#: ../data/seahorse-plugins.schemas.in.h:4
+msgid "Display cache reminder in the notification area"
+msgstr "알림 영역에 임시 저장 알림 표시"
+
+#: ../data/seahorse-plugins.schemas.in.h:5
+msgid "Display clipboard after decrypting"
+msgstr "복호화한 다음에 클립보드 표시"
+
+#: ../data/seahorse-plugins.schemas.in.h:6
+msgid "Display clipboard after encrypting"
+msgstr "암호화한 다음에 클립보드 표시"
+
+#: ../data/seahorse-plugins.schemas.in.h:7
+msgid "Expire passwords in the cache"
+msgstr "임시 저장한 암호 만료"
+
+#: ../data/seahorse-plugins.schemas.in.h:8
+msgid "ID of the default key"
+msgstr "기본 키의 아이디"
+
+#: ../data/seahorse-plugins.schemas.in.h:9
+msgid ""
+"If set to 'gnome' uses gnome-keyring to cache passwords. When set to "
+"'internal' uses internal cache."
+msgstr ""
+"'gnome'이라고 설정하면 암호를 임시 저장할 때 gnome-keyring을 사용합니다. "
+"'internal'이라고 설정하면 내부 임시 저장을 사용합니다."
+
+#: ../data/seahorse-plugins.schemas.in.h:10
+msgid ""
+"If set to true, then files encrypted with seahorse will be ASCII armor "
+"encoded."
+msgstr "참이면, 시호스가 암호화한 파일은 아스키 형식으로 인코딩합니다."
+
+#: ../data/seahorse-plugins.schemas.in.h:11
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr "참이면, 기본 키를 항상 암호화 수신자 목록에 넣습니다."
+
+#: ../data/seahorse-plugins.schemas.in.h:12
+msgid "Last key used to sign a message."
+msgstr "최근에 메시지를 서명할 때 사용한 키."
+
+#: ../data/seahorse-plugins.schemas.in.h:13
+msgid "PGP Key servers"
+msgstr "PGP 키 서버"
+
+#: ../data/seahorse-plugins.schemas.in.h:14
+msgid "Prompt before using GPG passwords in cache"
+msgstr "임시 저장한 GPG 암호를 사용하기 전에 확인 질문"
+
+#: ../data/seahorse-plugins.schemas.in.h:15
+msgid ""
+"Reflect the contents of the clipboard (whether encrypted, signed, etc...) in "
+"the panel applet icon."
+msgstr ""
+"클립보드의 내용을 (암호화되었는지, 서명되었는지 등등..) 패널 애플릿 아이콘에 "
+"표시합니다."
+
+#: ../data/seahorse-plugins.schemas.in.h:16
+msgid ""
+"Set to 'true' to enable display of the cache reminder in the notification "
+"area of your panel."
+msgstr "참으로 설정하면 패널의 알림 영역에 남은 캐시를 표시합니다."
+
+#: ../data/seahorse-plugins.schemas.in.h:17
+msgid ""
+"Set to 'true' to have seahorse-agent prompt before giving out passwords it "
+"has cached."
+msgstr "참이면 seahorse-agent가 임시 저장한 암호를 사용하기 전에 물어봅니다."
+
+#: ../data/seahorse-plugins.schemas.in.h:18
+msgid "Show clipboard state in panel"
+msgstr "패널에 클립보드 상태 표시"
+
+#: ../data/seahorse-plugins.schemas.in.h:19
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"수신자 창에서 어떤 열에 맞춰 정렬할 지 지정합니다. 열은 'name'과 'id'가 있습"
+"니다. 내림차순으로 정렬하려면 열 이름 앞에 '-' 기호를 붙이십시오."
+
+#: ../data/seahorse-plugins.schemas.in.h:20
+msgid "The ID of the last secret key used to sign a message."
+msgstr "최근에 메시지를 서명하는데 사용한 비밀 키의 아이디."
+
+#: ../data/seahorse-plugins.schemas.in.h:21
+msgid "The column to sort the recipients by"
+msgstr "수신자 창을 정렬할 때 사용할 열"
+
+#: ../data/seahorse-plugins.schemas.in.h:22
+msgid "The time (in minutes) to cache GPG passwords"
+msgstr "GPG 암호를 임시 저장할 시간 (분 단위)"
+
+#: ../data/seahorse-plugins.schemas.in.h:23
+msgid ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"seahorse-agent."
+msgstr "seahorse-agent에서 GPG 암호를 임시 저장할 시간입니다. 분 단위."
+
+#: ../data/seahorse-plugins.schemas.in.h:24
+msgid ""
+"This option enables the GPG password cache in the seahorse-agent program. "
+"The 'use-agent' setting in gpg.conf affects this setting."
+msgstr ""
+"seahorse-agent 프로그램의 GPG 암호 임시 저장 기능을 사용합니다. gpg.conf의 "
+"'use-agent' 설정이 이 설정에 영향을 미칩니다."
+
+#: ../data/seahorse-plugins.schemas.in.h:25
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr "특정 동작에 사용할 (주로 서명 용도) 기본 키를 지정합니다."
+
+#: ../data/seahorse-plugins.schemas.in.h:26
+msgid ""
+"When set, seahorse-agent expires GPG passwords in its cache after a period "
+"of time."
+msgstr ""
+"참이면 일정 시간이 지난 후에 seahorse-agent가 임시 저장한 GPG 암호를 지웁니"
+"다."
+
+#: ../data/seahorse-plugins.schemas.in.h:27
+msgid "Where to store cached passwords."
+msgstr "암호를 임시 저장할 위치."
+
+#: ../data/seahorse-plugins.schemas.in.h:28
+msgid "Whether the GPG password cache is enabled"
+msgstr "GPG 암호를 임시 저장할 지 여부"
+
+#: ../data/seahorse-plugins.schemas.in.h:29
+msgid "Whether to always encrypt to default key"
+msgstr "항상 기본 키에 대해 암호화할 지 여부"
+
+#: ../data/seahorse-plugins.schemas.in.h:30
+msgid "Whether to use ASCII Armor"
+msgstr "아스키 형식을 사용할 지 여부"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:1
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<b>파일을 여러개 선택했거나 폴더를 선택했습니다</b>"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:2
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr "파일 위치가 원격이므로, 각 파일을 따로따로 암호화합니다."
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:3
+msgid "Encrypt Multiple Files"
+msgstr "여러 개 파일 암호화"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:4
+msgid "Encrypt each file separately"
+msgstr "각각의 파일을 따로 암호화"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:5
+msgid "Encrypt packed together in a package"
+msgstr "꾸러미 안에 묶어서 암호화"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:6
+msgid "Package Name:"
+msgstr "묶음 이름:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:7
+msgid "Packaging:"
+msgstr "묶는 방법:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:8
+msgid "encrypted-package"
+msgstr "암호화한-묶음"
+
+#: ../libseahorse/seahorse-notification.c:573
+#: ../libseahorse/seahorse-notification.c:598
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "키를 가져왔습니다"
+
+#: ../libseahorse/seahorse-notification.c:577
+#: ../libseahorse/seahorse-notification.c:597
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "키 %i개를 가져왔습니다"
+
+#: ../libseahorse/seahorse-notification.c:579
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "키를 가져왔습니다"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:614
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "서명한 키: <i><key id='%s'/>, %s에 <b>만료됨</b></i>."
+
+#: ../libseahorse/seahorse-notification.c:615
+msgid "Invalid Signature"
+msgstr "잘못된 서명"
+
+#: ../libseahorse/seahorse-notification.c:621
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "서명한 키: <i>%2$s의 <key id='%1$s'/>, <b>만료됨</b></i>."
+
+#: ../libseahorse/seahorse-notification.c:622
+msgid "Expired Signature"
+msgstr "만료된 서명"
+
+#: ../libseahorse/seahorse-notification.c:628
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "서명한 키: <i><key id='%s'/>, %s에 <b>철회됨</b></i>."
+
+#: ../libseahorse/seahorse-notification.c:629
+msgid "Revoked Signature"
+msgstr "철회한 서명"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:635
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "서명한 키: <i>%2$s의 <key id='%1$s'/></i>."
+
+#: ../libseahorse/seahorse-notification.c:636
+msgid "Good Signature"
+msgstr "올바른 서명"
+
+#: ../libseahorse/seahorse-notification.c:641
+msgid "Signing key not in keyring."
+msgstr "서명할 때 쓴 키가 키 모음에 없습니다."
+
+#: ../libseahorse/seahorse-notification.c:642
+msgid "Unknown Signature"
+msgstr "알 수 없는 서명"
+
+#: ../libseahorse/seahorse-notification.c:646
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "서명이 틀렸거나 조작되었습니다. 서명한 데이터가 바뀌었습니다."
+
+#: ../libseahorse/seahorse-notification.c:647
+msgid "Bad Signature"
+msgstr "서명 틀림"
+
+#: ../libseahorse/seahorse-notification.c:655
+msgid "Couldn't verify signature."
+msgstr "서명이 올바른 지 확인할 수 없습니다."
+
+#: ../libseahorse/seahorse-notify.glade.h:1
+msgid "Notification Messages"
+msgstr "알림 메시지"
+
+#: ../libseahorse/seahorse-passphrase.c:174
+msgid "Passphrase"
+msgstr "암호"
+
+#: ../libseahorse/seahorse-passphrase.c:177
+msgid "Password:"
+msgstr "암호:"
+
+#: ../libseahorse/seahorse-passphrase.c:241
+msgid "Confirm:"
+msgstr "다시 입력:"
+
+#: ../libseahorse/seahorse-passphrase.c:324
+#, c-format
+msgid "Wrong passphrase."
+msgstr "암호가 틀렸습니다."
+
+#: ../libseahorse/seahorse-passphrase.c:328
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "'%s'에 대한 새 암호를 입력하십시오"
+
+#: ../libseahorse/seahorse-passphrase.c:330
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "'%s'에 대한 암호를 입력하십시오"
+
+#: ../libseahorse/seahorse-passphrase.c:333
+msgid "Enter new passphrase"
+msgstr "새 암호를 입력하십시오"
+
+#: ../libseahorse/seahorse-passphrase.c:335
+msgid "Enter passphrase"
+msgstr "암호를 입력하십시오"
+
+#: ../libseahorse/seahorse-prefs.c:100
+msgid "None. Prompt for a key."
+msgstr "없음. 어떤 키를 사용할 지 물어봄."
+
+#: ../libseahorse/seahorse-prefs.glade.h:1
+msgid "<b>Default Key</b>"
+msgstr "<b>기본 키</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:2
+msgid "<b>Remember PGP Passphrases</b>"
+msgstr "<b>PGP 암호 기억</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:3
+msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+msgstr "<i>지원하는 PGP 암호 임시 저장 에이전트가 동작하고 있지 않습니다.</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:4
+msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+msgstr "<i>다른 키를 특별히 선택하지 않는다면 이 키를 메시지를 서명하는데 사용합니다</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:5
+msgid "As_k me before using a cached passphrase"
+msgstr "임시 저장한 암호를 사용할 때 물어보기(_K)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:6
+msgid "Encryption"
+msgstr "암호화"
+
+#: ../libseahorse/seahorse-prefs.glade.h:7
+msgid "PGP Passphrases"
+msgstr "PGP 암호"
+
+#: ../libseahorse/seahorse-prefs.glade.h:8
+msgid "Password and Encryption Settings"
+msgstr "암호 및 암호화 설정"
+
+#: ../libseahorse/seahorse-prefs.glade.h:9
+msgid "Show _icon in status area when passphrases are in memory"
+msgstr "암호가 메모리에 들어 있으면 상태 표시줄에 아이콘 표시(_I)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:10
+msgid "When _encrypting, always include myself as a recipient"
+msgstr "암호화할 때 항상 자기 자신을 수신자로 넣기(_E)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:11
+msgid "_Always remember passphrases whenever logged in"
+msgstr "로그인할 때마다 항상 암호 기억(_A)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:12
+msgid "_Default key:"
+msgstr "기본 키(_D):"
+
+#: ../libseahorse/seahorse-prefs.glade.h:13
+msgid "_Never remember passphrases"
+msgstr "암호를 기억하지 않기(_N)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:14
+msgid "_Remember passphrases for"
+msgstr "암호를 다음 시간동안 기억(_R): "
+
+#: ../libseahorse/seahorse-prefs.glade.h:15
+msgid "minutes"
+msgstr "분"
+
+#: ../libseahorse/seahorse-progress.glade.h:1
+msgid "Progress Title"
+msgstr "진행 제목"
+
+#: ../libseahorse/seahorse-util.c:175
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "암호화 해제가 실패했습니다. 해제 키를 가지고 있지 않은 것 같습니다."
+
+#: ../libseahorse/seahorse-util.c:225
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../libseahorse/seahorse-util.c:644
+msgid "Couldn't run file-roller"
+msgstr "file-roller를 실행할 수 없습니다"
+
+#: ../libseahorse/seahorse-util.c:649
+#: ../plugins/nautilus/seahorse-tool-files.c:872
+msgid "Couldn't package files"
+msgstr "파일을 묶을 수 없습니다"
+
+#: ../libseahorse/seahorse-util.c:650
+msgid "The file-roller process did not complete successfully"
+msgstr "file-roller 프로세스가 성공적으로 끝나지 않았습니다"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libseahorse/seahorse-util.c:710
+msgid "All key files"
+msgstr "모든 키 파일"
+
+#: ../libseahorse/seahorse-util.c:717 ../libseahorse/seahorse-util.c:757
+msgid "All files"
+msgstr "모든 파일"
+
+#: ../libseahorse/seahorse-util.c:750
+msgid "Archive files"
+msgstr "아카이브 파일"
+
+#: ../libseahorse/seahorse-util.c:779
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>같은 이름의 파일이 이미 있습니다.</b>\n"
+"\n"
+"새로 만들 파일로 덮어 쓰시겠습니까?"
+
+#: ../libseahorse/seahorse-util.c:782
+msgid "_Replace"
+msgstr "바꾸기(_R)"
+
+#: ../libseahorse/seahorse-widget.c:322
+#, c-format
+msgid "Could not display help: %s"
+msgstr "도움말을 표시할 수 없습니다: %s"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:1
+msgid "Clipboard Text Encryption"
+msgstr "클립보드 텍스트 암호화"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:2
+msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+msgstr "클립보드를 암호화, 복호화, 서명합니다 (PGP 암호화 사용)."
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:3
+msgid "Seahorse Applet Factory"
+msgstr "시호스 애플릿 팩토리"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:1
+msgid "_About"
+msgstr "정보(_A)"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:2
+msgid "_Help"
+msgstr "도움말(_H)"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:3
+msgid "_Preferences"
+msgstr "기본 설정(_P)"
+
+#: ../plugins/applet/seahorse-applet.c:278
+#: ../plugins/applet/seahorse-applet.c:723
+#, c-format
+msgid "Could not display URL: %s"
+msgstr "URL을 표시할 수 없습니다: %s"
+
+#: ../plugins/applet/seahorse-applet.c:314
+msgid "seahorse-applet"
+msgstr "시호스 애플릿"
+
+#: ../plugins/applet/seahorse-applet.c:316
+#: ../plugins/applet/seahorse-applet.c:879
+msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+msgstr ""
+"PGP/GPG를 사용해 클립보드에 대해 암호화/복호화/서명/서명 확인/가져오기를 합니"
+"다."
+
+#: ../plugins/applet/seahorse-applet.c:321
+msgid "translator-credits"
+msgstr "류창우 <cwryu@debian.org>"
+
+#: ../plugins/applet/seahorse-applet.c:324
+msgid "Seahorse Project Homepage"
+msgstr "시호스 프로젝트 홈페이지"
+
+#. Get the recipient list
+#: ../plugins/applet/seahorse-applet.c:396
+#: ../plugins/epiphany/seahorse-extension.c:275
+#: ../plugins/gedit/seahorse-gedit.c:340
+msgid "Choose Recipient Keys"
+msgstr "수신자 키 선택"
+
+#: ../plugins/applet/seahorse-applet.c:415
+msgid "Encrypted Text"
+msgstr "암호화한 텍스트"
+
+#: ../plugins/applet/seahorse-applet.c:417
+msgid "Encryption Failed"
+msgstr "암호화가 실패했습니다"
+
+#: ../plugins/applet/seahorse-applet.c:417
+msgid "The clipboard could not be encrypted."
+msgstr "클립보드 내용을 암호화할 수 없습니다."
+
+#: ../plugins/applet/seahorse-applet.c:455
+#: ../plugins/epiphany/seahorse-extension.c:325
+#: ../plugins/gedit/seahorse-gedit.c:630
+msgid "Choose Key to Sign with"
+msgstr "서명할 때 사용할 키를 선택하십시오"
+
+#: ../plugins/applet/seahorse-applet.c:475
+msgid "Signed Text"
+msgstr "서명한 텍스트"
+
+#: ../plugins/applet/seahorse-applet.c:477
+#: ../plugins/applet/seahorse-applet.c:557
+msgid "Signing Failed"
+msgstr "서명 실패"
+
+#: ../plugins/applet/seahorse-applet.c:477
+#: ../plugins/applet/seahorse-applet.c:557
+msgid "The clipboard could not be Signed."
+msgstr "클립보드에 서명할 수 없습니다."
+
+#: ../plugins/applet/seahorse-applet.c:519
+#: ../plugins/epiphany/seahorse-extension.c:369
+#: ../plugins/nautilus/seahorse-tool.c:443
+msgid "Import Failed"
+msgstr "가져오기 실패"
+
+#: ../plugins/applet/seahorse-applet.c:520
+#: ../plugins/epiphany/seahorse-extension.c:370
+#: ../plugins/nautilus/seahorse-tool.c:444
+msgid "Keys were found but not imported."
+msgstr "키가 있지만 가져오지 않았습니다."
+
+#: ../plugins/applet/seahorse-applet.c:612
+msgid "No PGP key or message was found on clipboard"
+msgstr "클립보드에 PGP 키나 메시지가 없습니다"
+
+#: ../plugins/applet/seahorse-applet.c:613
+msgid "No PGP data found."
+msgstr "PGP 데이터를 찾지 못했습니다."
+
+#. TRANSLATORS: This means 'The text that was decrypted'
+#: ../plugins/applet/seahorse-applet.c:650
+msgid "Decrypted Text"
+msgstr "복호화한 텍스트"
+
+#: ../plugins/applet/seahorse-applet.c:791
+msgid "_Encrypt Clipboard"
+msgstr "클립보드 암호화(_E)"
+
+#: ../plugins/applet/seahorse-applet.c:798
+msgid "_Sign Clipboard"
+msgstr "클립보드 서명(_S)"
+
+#: ../plugins/applet/seahorse-applet.c:805
+msgid "_Decrypt/Verify Clipboard"
+msgstr "클립보드 복호화/서명 확인(_D)"
+
+#: ../plugins/applet/seahorse-applet.c:811
+msgid "_Import Keys from Clipboard"
+msgstr "클립보드의 키 가져오기(_I)"
+
+#: ../plugins/applet/seahorse-applet.c:876
+#: ../plugins/applet/seahorse-applet.c:878
+msgid "Encryption Applet"
+msgstr "암호화 애플릿"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:1
+msgid "<b>Display clipboard contents after:</b>"
+msgstr "<b>다음 작업 후에 클립보드 내용을 표시:</b>"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:2
+msgid "Clipboard Encryption Preferences"
+msgstr "클립보드 암호화 기본 설정"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:3
+msgid "_Decrypting the clipboard"
+msgstr "클립보드 복호화(_D)"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:4
+msgid "_Encrypting or signing the clipboard"
+msgstr "클립보드 암호화 혹은 서명(_E)"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:5
+msgid "_Show clipboard state in panel"
+msgstr "패널에 클립보드 상태 표시(_S)"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:6
+msgid "_Verifying the clipboard"
+msgstr "클립보드 서명 확인(_V)"
+
+#: ../plugins/epiphany/seahorse-extension.c:408
+msgid "Decrypting Failed"
+msgstr "복호화가 실패했습니다"
+
+#: ../plugins/epiphany/seahorse-extension.c:408
+msgid "Text may be malformed."
+msgstr "텍스트가 망가진 것 같습니다."
+
+#: ../plugins/epiphany/seahorse-extension.c:654
+msgid "_Encrypt"
+msgstr "암호화(_E)"
+
+#: ../plugins/epiphany/seahorse-extension.c:661
+msgid "_Sign"
+msgstr "서명(_S)"
+
+#: ../plugins/epiphany/seahorse-extension.c:668
+msgid "_Decrypt/Verify"
+msgstr "복호화/서명 확인(_D)"
+
+#: ../plugins/epiphany/seahorse-extension.c:675
+msgid "_Import Key"
+msgstr "키 가져오기(_I)"
+
+#: ../plugins/gedit/seahorse-gedit.c:270
+msgid "Couldn't connect to seahorse-daemon"
+msgstr "seahorse-daemon에 연결할 수 없습니다"
+
+#: ../plugins/gedit/seahorse-gedit.c:362
+msgid "Encrypted text"
+msgstr "암호화한 텍스트"
+
+#: ../plugins/gedit/seahorse-gedit.c:365
+msgid "Couldn't encrypt text"
+msgstr "텍스트를 암호화할 수 없습니다"
+
+#: ../plugins/gedit/seahorse-gedit.c:395
+msgid "Couldn't import keys"
+msgstr "키를 가져올 수 없습니다"
+
+#: ../plugins/gedit/seahorse-gedit.c:404
+msgid "Keys found but not imported"
+msgstr "키를 찾았지만 가져오지 않았습니다"
+
+#: ../plugins/gedit/seahorse-gedit.c:441
+msgid "Couldn't decrypt text"
+msgstr "텍스트를 복호화할 수 없습니다"
+
+#: ../plugins/gedit/seahorse-gedit.c:478
+msgid "Couldn't verify text"
+msgstr "텍스트의 서명을 확인할 수 없습니다"
+
+#: ../plugins/gedit/seahorse-gedit.c:526
+msgid "No encrypted or signed text is selected."
+msgstr "암호화했거나 서명한 텍스트를 선택하지 않았습니다."
+
+#: ../plugins/gedit/seahorse-gedit.c:556
+msgid "Decrypted text"
+msgstr "복호화한 텍스트"
+
+#: ../plugins/gedit/seahorse-gedit.c:563
+msgid "Verified text"
+msgstr "서명 확인한 텍스트"
+
+#: ../plugins/gedit/seahorse-gedit.c:598
+#: ../plugins/nautilus/seahorse-tool.c:469
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] "키 %d개를 가져왔습니다"
+
+#: ../plugins/gedit/seahorse-gedit.c:652
+msgid "Signed text"
+msgstr "서명한 텍스트"
+
+#: ../plugins/gedit/seahorse-gedit.c:655
+msgid "Couldn't sign text"
+msgstr "텍스트에 서명할 수 없습니다"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:133
+msgid "_Encrypt..."
+msgstr "암호화(_E)..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:134
+msgid "Encrypt the selected text"
+msgstr "선택한 텍스트를 암호화합니다"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:135
+msgid "Decr_ypt/Verify"
+msgstr "복호화/서명 확인(_Y)"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:136
+msgid "Decrypt and/or Verify text"
+msgstr "텍스트를 복호화하거나/하고 서명을 확인합니다"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:137
+msgid "Sig_n..."
+msgstr "서명(_N)..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:138
+msgid "Sign the selected text"
+msgstr "선택한 텍스트를 서명합니다"
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:1
+msgid "Enable the seahorse encryption plugin for gedit."
+msgstr "gedit용 시호스 암호화 플러그인을 사용합니다."
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:2
+msgid "Enable the seahorse gedit plugin"
+msgstr "시호스 gedit 플러그인을 사용합니다"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:1
+msgid "Text Encryption"
+msgstr "텍스트 암호화"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:2
+msgid "This plugin performs encryption operations on text."
+msgstr "이 플러그인은 텍스트의 암호화 관련 기능을 수행합니다."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:158
+msgid "Encrypt..."
+msgstr "암호화..."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:159
+msgid "Encrypt (and optionally sign) the selected file"
+msgid_plural "Encrypt the selected files"
+msgstr[0] "선택한 파일을 암호화 (추가로 서명도 가능)"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:165
+msgid "Sign"
+msgstr "서명"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:166
+msgid "Sign the selected file"
+msgid_plural "Sign the selected files"
+msgstr[0] "선택한 파일에 서명"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:39
+msgid "For internal use"
+msgstr "내부 용도"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:63
+msgid "Encryption Preferences"
+msgstr "암호화 기본 설정"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:1
+msgid "Configure key servers and other encryption settings"
+msgstr "키 서버 및 기타 암호화 관련 옵션을 설정합니다"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:2
+msgid "Encryption and Keyrings"
+msgstr "암호화 및 키 모음"
+
+#: ../plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in.h:1
+msgid "Decrypt File"
+msgstr "파일 복호화"
+
+#: ../plugins/nautilus/seahorse-pgp-keys.desktop.in.in.h:1
+msgid "Import Key"
+msgstr "키 가져오기"
+
+#: ../plugins/nautilus/seahorse-pgp-signature.desktop.in.in.h:1
+msgid "Verify Signature"
+msgstr "서명 확인"
+
+# option description
+#: ../plugins/nautilus/seahorse-tool.c:61
+msgid "Import keys from the file"
+msgstr "파일에서 키를 가져옵니다"
+
+# option description
+#: ../plugins/nautilus/seahorse-tool.c:63
+msgid "Encrypt file"
+msgstr "파일을 암호화합니다"
+
+# option description
+#: ../plugins/nautilus/seahorse-tool.c:65
+msgid "Sign file with default key"
+msgstr "파일을 기본 키로 서명합니다"
+
+# option description
+#: ../plugins/nautilus/seahorse-tool.c:67
+msgid "Encrypt and sign file with default key"
+msgstr "파일을 기본 키로 암호화하고 서명합니다"
+
+# option description
+#: ../plugins/nautilus/seahorse-tool.c:69
+msgid "Decrypt encrypted file"
+msgstr "암호화한 파일을 복호화합니다"
+
+# option description
+#: ../plugins/nautilus/seahorse-tool.c:71
+msgid "Verify signature file"
+msgstr "서명 파일을 확인합니다"
+
+# option description
+#: ../plugins/nautilus/seahorse-tool.c:73
+msgid "Read list of URIs on standard in"
+msgstr "표준 입력으로 URI의 목록을 읽어들입니다"
+
+#: ../plugins/nautilus/seahorse-tool.c:75
+msgid "file..."
+msgstr "<파일>..."
+
+#: ../plugins/nautilus/seahorse-tool.c:169
+msgid "Choose Recipients"
+msgstr "수신자 선택"
+
+#: ../plugins/nautilus/seahorse-tool.c:231
+#: ../plugins/nautilus/seahorse-tool.c:321
+msgid "Couldn't load keys"
+msgstr "키를 읽어들일 수 없습니다"
+
+# 창 제목
+#: ../plugins/nautilus/seahorse-tool.c:249
+#, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr "'%s'의 암호화한 파일 이름을 선택하십시오"
+
+#: ../plugins/nautilus/seahorse-tool.c:305
+msgid "Choose Signer"
+msgstr "서명에 사용할 키 선택"
+
+# 창 제목
+#: ../plugins/nautilus/seahorse-tool.c:340
+#, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr "'%s'의 서명 파일 이름을 선택하십시오"
+
+#: ../plugins/nautilus/seahorse-tool.c:380
+msgid "Import is complete"
+msgstr "가져오기가 끝났습니다"
+
+#: ../plugins/nautilus/seahorse-tool.c:413
+msgid "Importing keys ..."
+msgstr "키를 가져오는 중..."
+
+#: ../plugins/nautilus/seahorse-tool.c:467
+#, c-format
+msgid "Imported key"
+msgstr "가져온 키"
+
+# 창 제목
+#. File to decrypt to
+#: ../plugins/nautilus/seahorse-tool.c:491
+#, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr "'%s'의 복호화한 파일 이름을 선택하십시오"
+
+# 창 제목
+#: ../plugins/nautilus/seahorse-tool.c:547
+#, c-format
+msgid "Choose Original File for '%s'"
+msgstr "'%s'의 원래 파일 이름을 선택하십시오"
+
+#.
+#. * TODO: What should happen with multiple files at this point.
+#. * The last thing we want to do is cascade a big pile of error
+#. * dialogs at the user.
+#.
+#: ../plugins/nautilus/seahorse-tool.c:619
+#, c-format
+msgid "No valid signatures found"
+msgstr "올바른 서명을 찾을 수 없습니다"
+
+#: ../plugins/nautilus/seahorse-tool.c:668
+msgid "File Encryption Tool"
+msgstr "파일 암호화 도구"
+
+#: ../plugins/nautilus/seahorse-tool.c:687
+msgid "Encrypting"
+msgstr "암호화하는 중입니다"
+
+#: ../plugins/nautilus/seahorse-tool.c:688
+#, c-format
+msgid "Couldn't encrypt file: %s"
+msgstr "파일을 암호화할 수 없습니다: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:696
+msgid "Signing"
+msgstr "서명하는 중입니다"
+
+#: ../plugins/nautilus/seahorse-tool.c:697
+#, c-format
+msgid "Couldn't sign file: %s"
+msgstr "파일에 서명할 수 없습니다: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:702
+msgid "Importing"
+msgstr "가져오는 중입니다"
+
+#: ../plugins/nautilus/seahorse-tool.c:703
+#, c-format
+msgid "Couldn't import keys from file: %s"
+msgstr "파일에서 키를 가져올 수 없습니다: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:709
+msgid "Decrypting"
+msgstr "복호화하는 중입니다"
+
+#: ../plugins/nautilus/seahorse-tool.c:710
+#, c-format
+msgid "Couldn't decrypt file: %s"
+msgstr "파일을 복호화할 수 없습니다: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:715
+msgid "Verifying"
+msgstr "서명 확인 중입니다"
+
+#: ../plugins/nautilus/seahorse-tool.c:716
+#, c-format
+msgid "Couldn't verify file: %s"
+msgstr "파일 서명을 확인할 수 없습니다: %s"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:120
+msgid "Ace (.ace)"
+msgstr "ACE (.ace)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:121
+msgid "Ar (.ar)"
+msgstr "AR (.ar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:122
+msgid "Arj (.arj)"
+msgstr "ARJ (.arj)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:129
+msgid "Ear (.ear)"
+msgstr "EAR (.ear)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:130
+msgid "Self-extracting zip (.exe)"
+msgstr "자체 풀리는 ZIP (.exe)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:132
+msgid "Jar (.jar)"
+msgstr "JAR (.jar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:133
+msgid "Lha (.lzh)"
+msgstr "LHA (.lzh)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:135
+msgid "Rar (.rar)"
+msgstr "RAR (.rar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:137
+msgid "Tar uncompressed (.tar)"
+msgstr "TAR 압축하지 않음 (.tar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:138
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "TAR BZIP으로 압축 (.tar.bz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:139
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "TAR BZIP2로 압축 (.tar.bz2)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:140
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "TAR GZIP으로 압축 (.tar.gz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:141
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "TAR LZOP으로 압축 (.tar.lzo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:142
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "TAR compress로 압축 (.tar.Z)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:144
+msgid "War (.war)"
+msgstr "WAR (.war)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:145
+msgid "Zip (.zip)"
+msgstr "ZIP (.zip)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:146
+msgid "Zoo (.zoo)"
+msgstr "ZOO (.zoo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:147
+msgid "7-Zip (.7z)"
+msgstr "7-ZIP (.7z)"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:327
+#, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] "%d개 파일을 선택했습니다"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:332
+#, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] "%d개 폴더 및"
+
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: ../plugins/nautilus/seahorse-tool-files.c:337
+#, c-format
+msgid "<b>%s%s</b>"
+msgstr "<b>%2$s%1$s</b>"
+
+#. should never be called for just one file
+#: ../plugins/nautilus/seahorse-tool-files.c:346
+#, c-format
+msgid "You have selected %d files"
+msgstr "%d개 파일을 선택했습니다"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:351
+#, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] "%d개 폴더를 선택했습니다"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:853
+msgid "Preparing..."
+msgstr "준비하는 중..."
+
+#: ../plugins/nautilus/seahorse-tool-files.c:862
+#: ../plugins/nautilus/seahorse-tool-files.c:885
+msgid "Couldn't list files"
+msgstr "파일의 목록을 만들 수 없습니다"

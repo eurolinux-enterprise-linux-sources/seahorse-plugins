@@ -1,0 +1,774 @@
+# Italian translation of seahorse-plugins manual.
+# Copyright (c) 2006, 2007, 2008, 2009 The Free Software Foundation, Inc.
+# This file is distributed under the same license as the seahorse-plugins package.
+# Milo Casagrande <milo@ubuntu.com>, 2006-2009
+#
+# passphrase -> invariato, come da manuale GPG
+# keyserver -> server di chiavi, come da manuale GPG
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: seahorse-plugins manual\n"
+"POT-Creation-Date: 2008-11-08 19:14+0000\n"
+"PO-Revision-Date: 2009-02-13 20:49+0100\n"
+"Last-Translator: Milo Casagrande <milo@ubuntu.com>\n"
+"Language-Team: Italian <tp@lists.linux.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: C/seahorse-plugins.xml:16(title)
+msgid "Encryption and Keyrings Manual"
+msgstr "Manuale di Cifratura e portachiavi"
+
+#: C/seahorse-plugins.xml:18(year)
+msgid "2005, 2006, 2007, 2008"
+msgstr "2005, 2006, 2007, 2008"
+
+#: C/seahorse-plugins.xml:19(holder)
+msgid "Jacob Perkins and Adam Schreiber"
+msgstr "Jacob Perkins e Adam Schreiber"
+
+#: C/seahorse-plugins.xml:22(publishername) C/seahorse-plugins.xml:31(orgname)
+#: C/seahorse-plugins.xml:43(orgname) C/seahorse-plugins.xml:51(publishername)
+#: C/seahorse-plugins.xml:81(para) C/seahorse-plugins.xml:93(para)
+msgid "Seahorse Project"
+msgstr "Progetto Seahorse"
+
+#: C/seahorse-plugins.xml:2(para)
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
+"in the file COPYING-DOCS distributed with this manual."
+msgstr ""
+"Questo documento può essere copiato, distribuito o modificato solo in "
+"conformità con i termini della GNU Free Documentation License (GFDL) "
+"Versione 1.1 o delle versioni successive pubblicate dalla Free Software "
+"Foundation senza sezioni invariabili, frontespizi e testi di copertina. Una "
+"copia della GFDL è disponibile su questo <ulink type=\"help\" url=\"ghelp:fdl"
+"\">collegamento</ulink> o nel file COPYING-DOCS distribuito con questo "
+"manuale."
+
+#: C/seahorse-plugins.xml:12(para)
+msgid ""
+"This manual is part of a collection of GNOME manuals distributed under the "
+"GFDL. If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"section 6 of the license."
+msgstr ""
+"Questo manuale fa parte di una raccolta di manuali GNOME distribuita in "
+"conformità con la GFDL. Per poter distribuire questo manuale separatamente, "
+"è necessario inserirvi una copia della licenza, come descritto nella sezione "
+"6 della licenza."
+
+#: C/seahorse-plugins.xml:19(para)
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and the members of the GNOME Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"Molti dei nomi usati dalle aziende per distinguere i propri prodotti e "
+"servizi sono rivendicati come marchi. Quando questi nomi compaiono nella "
+"documentazione di GNOME, e i partecipanti al GNOME Documentation Project "
+"sono consapevoli del loro utilizzo, essi vengono scritti in lettere "
+"maiuscole o con l'iniziale maiuscola."
+
+#: C/seahorse-plugins.xml:35(para)
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"IL DOCUMENTO VIENE FORNITO SENZA GARANZIE DI ALCUN TIPO, ESPLICITE O "
+"IMPLICITE, INCLUSE, MA SENZA LIMITAZIONE, LE GARANZIE ATTESTANTI CHE IL "
+"DOCUMENTO O LE SUE VERSIONI MODIFICATE SIANO PRIVI DI DIFETTI, "
+"COMMERCIALIZZABILI, IDONEI A UN DETERMINATO SCOPO O CHE NON VIOLINO DIRITTI "
+"DI TERZI. SI DECLINA QUALUNQUE RESPONSABILITÀ RIGUARDO AI RISCHI INERENTI LA "
+"QUALITÀ, L'ACCURATEZZA E LE PRESTAZIONI DEL DOCUMENTO O DI UNA SUA VERSIONE "
+"MODIFICATA. QUALORA UN DOCUMENTO O UNA SUA VERSIONE MODIFICATA DOVESSERO "
+"PRESENTARE QUALUNQUE TIPO DI DIFETTO, IL COSTO DI EVENTUALI INTERVENTI DI "
+"ASSISTENZA, RIPARAZIONE O CORREZIONE SARÀ A CARICO DELL'UTENTE (NON DEL "
+"REDATTORE INIZIALE, DELL'AUTORE O DI ALTRI COLLABORATORI). QUESTA "
+"LIMITAZIONE DELLA GARANZIA COSTITUISCE PARTE ESSENZIALE DELLA LICENZA. L'USO "
+"DEL DOCUMENTO O DELLE SUE VERSIONI MODIFICATE È CONSENTITO SOLO ENTRO I "
+"TERMINI DI QUESTA LIMITAZIONE DELLA GARANZIA;"
+
+#: C/seahorse-plugins.xml:55(para)
+msgid ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"IN NESSUNA CIRCOSTANZA E PER NESSUNA RAGIONE LEGALE, INCLUSI I PRINCIPI DI "
+"COLPA (INCLUSA LA NEGLIGENZA), ACCORDO CONTRATTUALE O ALTRO, SARÀ POSSIBILE "
+"CONSIDERARE L'AUTORE, IL REDATTORE INIZIALE, GLI ALTRI COLLABORATORI, "
+"QUALUNQUE DISTRIBUTORE DEL DOCUMENTO O DI UNA SUA VERSIONE MODIFICATA O "
+"QUALUNQUE FORNITORE DELLE PERSONE CITATE, RESPONSABILE NEI CONFRONTI DI "
+"QUALUNQUE PERSONA PER DANNI DIRETTI, INDIRETTI, SPECIALI, INCIDENTALI O "
+"CONSEGUENTI DI QUALUNQUE NATURA, INCLUSI, MA SENZA LIMITAZIONE, I DANNI PER "
+"PERDITA DI AVVIAMENTO, INTERRUZIONE DEL LAVORO, GUASTO O MALFUNZIONAMENTO "
+"DEL COMPUTER O QUALUNQUE ALTRO DANNO O PERDITA DERIVANTE O CORRELATA ALL'USO "
+"DEL DOCUMENTO O DI UNA SUA VERSIONE MODIFICATA, ANCHE QUALORA LE PERSONE "
+"CITATE FOSSERO STATE INFORMATE DELLA POSSIBILITÀ DI TALI DANNI."
+
+#: C/seahorse-plugins.xml:28(para)
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<placeholder-1/>"
+msgstr ""
+"QUESTO DOCUMENTO E LE SUE VERSIONI MODIFICATE VENGONO FORNITI IN BASE AI "
+"TERMINI DELLA GNU FREE DOCUMENTATION LICENSE, CON L'INTESA CHE: <placeholder-"
+"1/>"
+
+#: C/seahorse-plugins.xml:28(firstname)
+msgid "Jacob"
+msgstr "Jacob"
+
+#: C/seahorse-plugins.xml:29(surname)
+msgid "Perkins"
+msgstr "Perkins"
+
+#: C/seahorse-plugins.xml:40(firstname)
+msgid "Adam"
+msgstr "Adam"
+
+#: C/seahorse-plugins.xml:41(surname)
+msgid "Schreiber"
+msgstr "Schreiber"
+
+#: C/seahorse-plugins.xml:45(email)
+msgid "sadam@clemson.edu"
+msgstr "sadam@clemson.edu"
+
+#: C/seahorse-plugins.xml:55(revnumber)
+msgid "Encryption and Keyrings Manual V0.10.0"
+msgstr "Manuale V0.10.0 di Cifratura e portachiavi"
+
+#: C/seahorse-plugins.xml:56(date)
+msgid "August 2008"
+msgstr "Agosto 2008"
+
+#: C/seahorse-plugins.xml:58(para) C/seahorse-plugins.xml:78(para)
+msgid "Adam Schreiber <email>sadam@clemson.edu</email>"
+msgstr "Adam Schreiber <email>sadam@clemson.edu</email>"
+
+#: C/seahorse-plugins.xml:65(revnumber)
+msgid "Encryption and Keyrings Manual V0.9.1"
+msgstr "Manuale V0.9.1 di Cifratura e portachiavi"
+
+#: C/seahorse-plugins.xml:66(date)
+msgid "November 2006"
+msgstr "Novembre 2006"
+
+#: C/seahorse-plugins.xml:68(para)
+msgid "Milo Casagrande <email>milo_casagrande@yahoo.it</email>"
+msgstr "Milo Casagrande <email>milo_casagrande@yahoo.it</email>"
+
+#: C/seahorse-plugins.xml:75(revnumber)
+msgid "Encryption and Keyrings Manual V0.9.0"
+msgstr "Manuale V0.9.0 di Cifratura e portachiavi"
+
+#: C/seahorse-plugins.xml:76(date)
+msgid "July 2005"
+msgstr "Luglio 2005"
+
+#: C/seahorse-plugins.xml:85(revnumber)
+msgid "Encryption and Keyrings Manual V0.7.0"
+msgstr "Manuale V0.7.0 di Cifratura e portachiavi"
+
+#: C/seahorse-plugins.xml:86(date)
+msgid "February 2003"
+msgstr "Febbraio 2003"
+
+#: C/seahorse-plugins.xml:88(para)
+msgid "Jacob Perkins"
+msgstr "Jacob Perkins"
+
+#: C/seahorse-plugins.xml:97(releaseinfo)
+msgid "This manual describes version 2.24.x of Encryption and Keyrings"
+msgstr "Questo manuale descrive la versione 2.24.x di Cifratura e portachiavi"
+
+#: C/seahorse-plugins.xml:99(title)
+msgid "Feedback"
+msgstr "Commenti"
+
+#: C/seahorse-plugins.xml:100(para)
+msgid ""
+"To report a bug or make a suggestion regarding the <application>Encryption "
+"and Keyrings</application> application or this manual, follow the directions "
+"in the <ulink url=\"ghelp:gnome-feedback\" type=\"help\">Gnome Feedback "
+"Page</ulink>."
+msgstr ""
+"Per segnalare un problema o inviare suggerimenti riguardo "
+"<application>Cifratura e portachiavi</application> o su questo manuale, "
+"seguire le istruzioni presenti alla <ulink url=\"ghelp:gnome-feedback\" type="
+"\"help\">pagina di commenti di GNOME</ulink>."
+
+#: C/seahorse-plugins.xml:107(para)
+msgid ""
+"<application>Encryption and Keyrings</application> is the application for "
+"managing your primary encryption key and how the passphrase for your key is "
+"stored after performing an encryption operation."
+msgstr ""
+"<application>Cifratura e portachiavi</application> è l'applicazione per "
+"gestire la chiave di cifratura principale e come la passphrase della propria "
+"chiave viene salvate una volta eseguita un'operazione di cifratura."
+
+#: C/seahorse-plugins.xml:116(primary)
+msgid "Seahorse"
+msgstr "Seahorse"
+
+#: C/seahorse-plugins.xml:120(primary)
+msgid "seahorse"
+msgstr "seahorse"
+
+#: C/seahorse-plugins.xml:124(primary)
+msgid "Encryption Keys"
+msgstr "Chiavi di cifratura"
+
+#: C/seahorse-plugins.xml:128(title)
+msgid "Introduction"
+msgstr "Introduzione"
+
+#: C/seahorse-plugins.xml:129(para)
+msgid ""
+"You can use <application>Encryption and Keyrings</application> to select "
+"your primary encryption key and how the passphrase for your key is stored "
+"after performing an encryption operation."
+msgstr ""
+"È possibile usare <application>Cifratura e portachiavi</application> per "
+"selezionare la chiave di cifratura principale e come la passphrase per la "
+"propria chiave viene salvata dopo aver eseguito un'operazione di cifratura."
+
+#: C/seahorse-plugins.xml:137(ulink)
+msgid "Gedit Text Editor"
+msgstr "Gedit - Editor di testo"
+
+#: C/seahorse-plugins.xml:140(ulink)
+msgid "Nautilus File Manager"
+msgstr "Nautilus - Gestore di file"
+
+#: C/seahorse-plugins.xml:143(ulink)
+msgid "Epiphany Web Browser"
+msgstr "Epiphany - Browser web"
+
+#: C/seahorse-plugins.xml:133(para)
+msgid ""
+"Additionally, this manual contains information pertaining to encryption "
+"plugins provided for: <placeholder-1/>"
+msgstr "Questo manuale contiene anche informazioni riguardo i plugin di cifratura forniti per: <placeholder-1/>"
+
+#: C/seahorse-plugins.xml:150(title)
+msgid "File Manager Integration"
+msgstr "Integrazione col file manager"
+
+#: C/seahorse-plugins.xml:151(para)
+msgid ""
+"<application>Encryption and Keyrings</application> integrates with "
+"<application><ulink url=\"ghelp:user-guide?nautilus\">Nautilus</ulink></"
+"application>. You can encrypt, decrypt, sign and verify files as well as "
+"import public keys from the file manager window without launching "
+"<application>Encryption and Keyrings</application>."
+msgstr ""
+"<application>Cifratura e portachiavi</application> si integra con il file "
+"manager <application><ulink url=\"ghelp:user-guide?nautilus\">Nautilus</"
+"ulink></application>. È possibile cifrare, decifrare, firmare e verificare i "
+"file, così come importare chiavi pubbliche dal gestore di file senza avviare "
+"<application>Cifrature e portachiavi</application>."
+
+#: C/seahorse-plugins.xml:155(title)
+msgid "Encrypting Files"
+msgstr "Cifrare file"
+
+#: C/seahorse-plugins.xml:160(para) C/seahorse-plugins.xml:183(para)
+msgid "Select one or more files from the file manager,"
+msgstr "selezionare uno o più file dal file manager,"
+
+#: C/seahorse-plugins.xml:165(para)
+msgid ""
+"Right click on any selected file and choose <guimenuitem>Encrypt</"
+"guimenuitem>,"
+msgstr "fare clic col pulsante destro del mouse su uno dei file selezionati e scegliere <guimenuitem>Cifra</guimenuitem>,"
+
+#: C/seahorse-plugins.xml:170(para)
+msgid ""
+"Select the people you would like to encypt the file to, and then click "
+"<guibutton>OK</guibutton>."
+msgstr ""
+"selezionare le persone per cui cifrare i file e fare clic su <guibutton>Ok</"
+"guibutton>."
+
+#: C/seahorse-plugins.xml:156(para)
+msgid ""
+"To encrypt files from the file manager, perform the following steps: "
+"<placeholder-1/>"
+msgstr ""
+"Per cifrare dei file dal file manager, procedere come segue: <placeholder-1/>"
+
+#: C/seahorse-plugins.xml:178(title)
+msgid "Signing Files"
+msgstr "Firmare file"
+
+#: C/seahorse-plugins.xml:188(para)
+msgid ""
+"Right click on any selected file and choose <guimenuitem>Sign</guimenuitem>,"
+msgstr "fare clic col pulsante destro del mouse su uno dei file selezionati e scegliere <guimenuitem>Firma</guimenuitem>,"
+
+#: C/seahorse-plugins.xml:193(para) C/seahorse-plugins.xml:211(para)
+msgid "If asked, enter the passphrase of your private key."
+msgstr "se richiesto, inserire la passphrase per la propria chiave privata."
+
+#: C/seahorse-plugins.xml:179(para)
+msgid ""
+"To sign files from the file manager, perform the following steps: "
+"<placeholder-1/>"
+msgstr ""
+"Per firmare dei file dal file manager, procedere come segue: <placeholder-1/>"
+
+#: C/seahorse-plugins.xml:201(title)
+msgid "Decrypting Files"
+msgstr "Decifrare file"
+
+#: C/seahorse-plugins.xml:206(para)
+msgid "Double click on the file you want to decrypt,"
+msgstr "fare doppio clic sul file che si desidera decifrare,"
+
+#: C/seahorse-plugins.xml:202(para)
+msgid ""
+"To decrypt an encrypted file from the file manager, perform the following "
+"steps: <placeholder-1/>"
+msgstr ""
+"Per decifrare un file cifrato dal file manager, procedere come segue: "
+"<placeholder-1/>"
+
+#: C/seahorse-plugins.xml:219(title)
+msgid "Verifing Signatures"
+msgstr "Verificare firme"
+
+#: C/seahorse-plugins.xml:220(para)
+msgid ""
+"To verify files, simply double click on the the detached signature file."
+msgstr ""
+"Per verificare un file, basta semplicemente fare clic sul file della firma "
+"separato."
+
+#: C/seahorse-plugins.xml:223(para)
+msgid "Detached signature file names often take the form &lt;file name&gt;.sig"
+msgstr ""
+"I nomi dei file delle firme separate hanno la forma &lt;nome del file&gt;.sig"
+
+#: C/seahorse-plugins.xml:229(title)
+msgid "Text Editor Integration"
+msgstr "Integrazione con l'editor di testo"
+
+#: C/seahorse-plugins.xml:234(para)
+msgid ""
+"Run <application>Gedit</application> by choosing "
+"<menuchoice><guimenu>Applications</guimenu><guimenuitem>Accessories</"
+"guimenuitem><guimenuitem>Text Editor</guimenuitem></menuchoice>,"
+msgstr ""
+"Avviare <application>Gedit</application> scegliendo "
+"<menuchoice><guimenu>Applicazioni</guimenu><guimenuitem>Accessori</"
+"guimenuitem><guimenuitem>Editor di testo</guimenuitem></menuchoice>."
+
+#: C/seahorse-plugins.xml:244(para)
+msgid ""
+"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</"
+"guimenuitem></menuchoice>,"
+msgstr ""
+"Scegliere <menuchoice><guimenu>Modifica</guimenu><guimenuitem>Preferenze</"
+"guimenuitem></menuchoice>."
+
+#: C/seahorse-plugins.xml:253(para)
+msgid ""
+"In the <guilabel>Plugin</guilabel> tab, select the <guilabel>Text "
+"Encryption</guilabel> plugin."
+msgstr ""
+"Nella scheda <guilabel>Plugin</guilabel>, selezionare il plugin "
+"<guilabel>Cifratura del testo</guilabel>,"
+
+#: C/seahorse-plugins.xml:230(para)
+msgid ""
+"To enable the Text Encryption plugin in <application><ulink url=\"ghelp:gedit"
+"\" type=\"help\">Gedit</ulink></application>, the GNOME text editor, perform "
+"the following steps: <placeholder-1/>"
+msgstr ""
+"Per abilitare il plugin di cifratura del testo in <application><ulink url="
+"\"ghelp:gedit\" type=\"help\">Gedit</ulink></application>, l'editor di testo "
+"di GNOME, procedere come segue: <placeholder-1/>"
+
+#: C/seahorse-plugins.xml:260(title) C/seahorse-plugins.xml:364(title)
+msgid "Encrypting Text"
+msgstr "Cifrare del testo"
+
+#: C/seahorse-plugins.xml:265(para)
+msgid ""
+"Select the text you want to encrypt, and choose <menuchoice><guimenu>Edit</"
+"guimenu><guimenuitem>Encrypt</guimenuitem></menuchoice>,"
+msgstr ""
+"selezionare il testo da cifrare e scegliere <menuchoice><guimenu>Modifica</"
+"guimenu><guimenuitem>Cifra</guimenuitem></menuchoice>,"
+
+#: C/seahorse-plugins.xml:274(para) C/seahorse-plugins.xml:377(para)
+msgid ""
+"Select the people you want to encrypt the text to, and click <guilabel>OK</"
+"guilabel>."
+msgstr ""
+"selezionare le persone per cui cifrare il testo e fare clic su <guilabel>Ok</"
+"guilabel>."
+
+#: C/seahorse-plugins.xml:261(para)
+msgid ""
+"To encrypt a selection of text from <application>Gedit</application>, "
+"perform the following steps: <placeholder-1/> You can now copy or save the "
+"encrypted text."
+msgstr ""
+"Per cifrare del testo all'interno di <application>Gedit</application>, "
+"procedere come segue: <placeholder-1/> È ora possibile copiare o salvare il "
+"testo cifrato."
+
+#: C/seahorse-plugins.xml:283(title) C/seahorse-plugins.xml:386(title)
+msgid "Signing Text"
+msgstr "Firmare del testo"
+
+#: C/seahorse-plugins.xml:288(para)
+msgid ""
+"Select the text you want to sign and choose <menuchoice><guimenu>Edit</"
+"guimenu><guimenuitem>Sign</guimenuitem></menuchoice>,"
+msgstr ""
+"selezionare il testo che si desidera firmare e scegliere "
+"<menuchoice><guimenu>Modifica</guimenu><guimenuitem>Firma</guimenuitem></"
+"menuchoice>,"
+
+#: C/seahorse-plugins.xml:297(para) C/seahorse-plugins.xml:320(para)
+#: C/seahorse-plugins.xml:399(para) C/seahorse-plugins.xml:421(para)
+msgid "Insert, if asked, the passphrase of your private key."
+msgstr "se richiesto, inserire la passphrase per la propria chiave privata."
+
+#: C/seahorse-plugins.xml:284(para)
+msgid ""
+"To sign a selection of text from <application>Gedit</application>, perform "
+"the following steps: <placeholder-1/> You can now copy or save the signed "
+"text."
+msgstr ""
+"Per firmare del testo selezionato in <application>Gedit</application>, "
+"procedere come segue: <placeholder-1/> È ora possibile copiare o salvare il "
+"testo firmato."
+
+#: C/seahorse-plugins.xml:306(title) C/seahorse-plugins.xml:408(title)
+msgid "Decrypting/Verifing Text"
+msgstr "Decifrare/Verificare del testo"
+
+#: C/seahorse-plugins.xml:311(para)
+msgid ""
+"Select the text you want to decrypt/verify and choose "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Decrypt/Verify</"
+"guimenuitem></menuchoice>,"
+msgstr ""
+"selezionare il testo che si desidera decifrare/verificare e scegliere "
+"<menuchoice><guimenu>Modifica</guimenu><guimenuitem>Decifra/Verifica</"
+"guimenuitem></menuchoice>,"
+
+#: C/seahorse-plugins.xml:307(para)
+msgid ""
+"To decrypt and/or verify a selection of text from <application>Gedit</"
+"application>, perform the following steps: <placeholder-1/> You can now copy "
+"or save the decrypted text."
+msgstr "Per decifrare o verificare del testo selezionato in <application>Gedit</application>, procedere come segue: <placeholder-1/> È ora possibile copiare o salvare il testo decifrato."
+
+#: C/seahorse-plugins.xml:330(title)
+msgid "Web Browser Integration"
+msgstr "Integrazione col browser web"
+
+#: C/seahorse-plugins.xml:331(para)
+msgid ""
+"This extension allows encryption, decryption, signing and importing of the "
+"contents of text fields."
+msgstr ""
+"Questa estensione consente di cifrare, decifrare, firmare e importare i "
+"contenuti dei campi di testo."
+
+#: C/seahorse-plugins.xml:338(para)
+msgid ""
+"Run <application>Epiphany Web Browser</application> by choosing "
+"<menuchoice><guimenu>Applications</guimenu><guimenuitem>Internet</"
+"guimenuitem><guimenuitem>Epiphany Web Browser</guimenuitem></menuchoice>,"
+msgstr ""
+"Avviare <application>Epiphany</application> scegliendo "
+"<menuchoice><guimenu>Applicazioni</guimenu><guimenuitem>Internet</"
+"guimenuitem><guimenuitem>Epiphany - Browser web</guimenuitem></menuchoice>,"
+
+# (ndt) ma dove sono questi menù?!?!
+#: C/seahorse-plugins.xml:348(para)
+msgid ""
+"Choose <menuchoice><guimenu>Tools</guimenu><guimenuitem>Extensions</"
+"guimenuitem></menuchoice>,"
+msgstr ""
+"Scegliere <menuchoice><guimenu>Strumenti</guimenu><guimenuitem>Estensioni</"
+"guimenuitem></menuchoice>."
+
+#: C/seahorse-plugins.xml:357(para)
+msgid "Select the <guilabel>Seahorse</guilabel> plugin."
+msgstr "Selezionare il plugin <guilabel>Seahorse</guilabel>."
+
+#: C/seahorse-plugins.xml:334(para)
+msgid ""
+"To enable the encryption extension in <application><ulink url=\"ghelp:"
+"epiphany-browser\" type=\"help\">Epiphany Web Browser</ulink></application>, "
+"the GNOME web browser, perform the following steps: <placeholder-1/>"
+msgstr ""
+"Per abilitare l'estensione di cifratura in <application><ulink url=\"ghelp:"
+"gedit\" type=\"help\">Epiphany</ulink></application>, il browser web "
+"predefinito di GNOME, procedere come segue: <placeholder-1/>"
+
+#: C/seahorse-plugins.xml:369(para)
+msgid ""
+"Right click in the text input field you want to encrypt, and choose "
+"<menuchoice><guimenuitem>Encrypt</guimenuitem></menuchoice>,"
+msgstr ""
+"Fare clic col pulsante destro del mouse sul campo di testo da cifrare e "
+"scegliere <menuchoice><guimenuitem>Cifra</guimenuitem></menuchoice>."
+
+#: C/seahorse-plugins.xml:365(para)
+msgid ""
+"To encrypt the contents of a text input field in <application>Epiphany Web "
+"Browser</application>, perform the following steps: <placeholder-1/> The "
+"encrypted text will now appear in the text input field."
+msgstr ""
+"Per cifrare il contenuto di un campo di testo in <application>Epiphany</"
+"application>, procedere come segue: <placeholder-1/> Il testo cifrato appare "
+"nel campo di testo."
+
+#: C/seahorse-plugins.xml:391(para)
+msgid ""
+"Right click in the text input field you want to sign and choose "
+"<menuchoice><guimenuitem>Sign</guimenuitem></menuchoice>,"
+msgstr ""
+"Fare clic col pulsante destro del mouse sul campo di testo che si vuole "
+"firmare e scegliere <menuchoice><guimenuitem>Firma</guimenuitem></"
+"menuchoice>."
+
+#: C/seahorse-plugins.xml:387(para)
+msgid ""
+"To sign the contents of a text input field in <application>Epiphany Web "
+"Browser</application>, perform the following steps: <placeholder-1/> The "
+"signed text will now appear in the text input field."
+msgstr ""
+"Per firmare del testo selezionato in <application>Gedit</application>, "
+"procedere come segue: <placeholder-1/> È ora possibile copiare o salvare il "
+"testo firmato."
+
+#: C/seahorse-plugins.xml:413(para)
+msgid ""
+"Right click in the text input field you want to decrypt/verify and choose "
+"<menuchoice><guimenuitem>Decrypt/Verify</guimenuitem></menuchoice>,"
+msgstr ""
+"Fare clic col pulsante destro del mouse sul campo di testo da decifrare/"
+"verificare e scegliere <menuchoice><guimenuitem>Decifra/Verifica</"
+"guimenuitem></menuchoice>,"
+
+#: C/seahorse-plugins.xml:409(para)
+msgid ""
+"To decrypt and/or verify the contents of a text input field in "
+"<application>Epiphany Web Browser</application>, perform the following "
+"steps: <placeholder-1/> The decrypted text will now appear in the text input "
+"field."
+msgstr "Per decifrare o verificare il contenuto di un campo di testo in <application>Epiphany</application>, procedere come segue: <placeholder-1/> Il testo decifrato appare nel campo di testo."
+
+#: C/seahorse-plugins.xml:432(title)
+msgid "Preferences"
+msgstr "Preferenze di cifratura"
+
+#: C/seahorse-plugins.xml:433(para)
+msgid ""
+"This section describes the preferences settable in <application>Encryption "
+"and Keyrings</application>."
+msgstr ""
+"Questa sezione descrive le preferenze configurabili in "
+"<application>Cifratura e portachiavi</application>."
+
+#: C/seahorse-plugins.xml:438(title)
+msgid "Encryption Preferences"
+msgstr "Preferenze di cifratura"
+
+#: C/seahorse-plugins.xml:439(para)
+msgid ""
+"This section describes the preferences settable by choosing "
+"<menuchoice><guimenu>System</guimenu><guimenuitem>Preferences</"
+"guimenuitem><guimenuitem>Encryption and Keyrings</guimenuitem></menuchoice> "
+"from the panel."
+msgstr ""
+"Questa sezione descrive le preferenze configurabili scegliendo "
+"<menuchoice><guimenu>Sistema</guimenu><guimenuitem>Preferenze</"
+"guimenuitem><guimenuitem>Cifratura e portachiavi</guimenuitem></menuchoice> "
+"dal pannello superiore."
+
+#: C/seahorse-plugins.xml:449(title)
+msgid "Encryption Settings"
+msgstr "Impostazioni di cifratura"
+
+#: C/seahorse-plugins.xml:454(guilabel)
+msgid "Default Key"
+msgstr "Chiave predefinita"
+
+#: C/seahorse-plugins.xml:456(para)
+msgid ""
+"This is the key that will be used by applications and plugins to sign files. "
+"It will also be the key that files will be encrypted to if encrypt to self "
+"is selected."
+msgstr "Questa è la chiave che verrà utilizzata dalle applicazioni e dai plugin per firmare i file. È anche la chiave utilizzata per cifrare i file se è stato scelto di cifrare per se stessi."
+
+#: C/seahorse-plugins.xml:464(guilabel)
+msgid "When encrypting, always include myself as a recipient"
+msgstr "Durante la cifratura, includi sempre me stesso come destinatario"
+
+#: C/seahorse-plugins.xml:466(para)
+msgid ""
+"Sets the encrypt to self option, whether or not you will be added to the "
+"recipients list for all files that are encrypted."
+msgstr ""
+"Imposta l'opzione di cifrare per se stessi, indica la possibilità di essere "
+"aggiunti tra i destinatari durante la procedura di cifratura."
+
+#: C/seahorse-plugins.xml:471(para)
+msgid ""
+"If you do not select this and you do not select yourself as a recipient you "
+"will not be unable to decrypt any files you encrypt."
+msgstr ""
+"Se non si seleziona questa opzione e non si seleziona se stessi tra i "
+"destinatari, non si sarà in grado di decifrare alcun file cifrato."
+
+#: C/seahorse-plugins.xml:482(title)
+msgid "Passphrase Cache"
+msgstr "Archiviazione della passphrase"
+
+#: C/seahorse-plugins.xml:483(para)
+msgid ""
+"Enabling the passphrase caching ability will allow you to perform many "
+"operations that require entering your passphrase without re-entering it "
+"every time. <command>seahorse-agent</command> takes the place of "
+"<command>gpg-agent</command>. Letting the cached passphrases expire is "
+"usually a good idea. This will then require re-entering your passphrase, but "
+"adds security."
+msgstr ""
+"L'archiviazione delle passphrase consente di eseguire tutte le operazioni "
+"che richiedono l'inserimento della passphrase senza inserirla ogni volta. "
+"<command>seahorse-agent</command> sostituisce <command>gpg-agent</command>. "
+"È buona norma impostare un tempo massimo per l'archiviazione delle "
+"passphrase. Questo implica il dover reinserire la propria passphrase, ma "
+"aggiunge un grado di sicurezza."
+
+#: C/seahorse-plugins.xml:493(guilabel)
+msgid "Never remember passphrases"
+msgstr "Non ricordare mai la passphrase"
+
+#: C/seahorse-plugins.xml:495(para)
+msgid "Sets to not remember any passphrase."
+msgstr "Indica di non ricordare mai la passphrase."
+
+#: C/seahorse-plugins.xml:501(guilabel)
+msgid "Remember passphrases for ... minutes"
+msgstr "Ricorda la passphrase per ... minuti"
+
+#: C/seahorse-plugins.xml:503(para)
+msgid ""
+"Sets the amount of time, in minutes, for storing passphrases. Use the spin "
+"box to set the desired time."
+msgstr ""
+"Indica il tempo, in minuti, per archiviare le passphrase. Usare il controllo "
+"di selezione per impostare il tempo desiderato."
+
+#: C/seahorse-plugins.xml:510(guilabel)
+msgid "Always remember passphrases whenever logged in"
+msgstr "Ricorda sempre le passphrase durante la sessione"
+
+#: C/seahorse-plugins.xml:512(para)
+msgid ""
+"Sets to remember any passphrases whenever you are logged in the session."
+msgstr "Indica di ricordare sempre le passphrase per la durata della sessione."
+
+#: C/seahorse-plugins.xml:518(guilabel)
+msgid "Ask me before using a cached passphrase"
+msgstr "Chiedi prima di utilizzare una passphrase archiviata"
+
+#: C/seahorse-plugins.xml:520(para)
+msgid "Sets to ask you before using a stored passphrase."
+msgstr "Indica di chiedere prima di utilizzare una passphrase in memoria."
+
+#: C/seahorse-plugins.xml:526(guilabel)
+msgid "Automatically load Secure Shell keys"
+msgstr "Caricamento automatico delle chiavi Secure Shell"
+
+#: C/seahorse-plugins.xml:528(para)
+msgid "Sets to automatically cache any Secure Shell key."
+msgstr "Indica di memorizzare automaticamente qualsiasi chiave Secure Shell."
+
+#: C/seahorse-plugins.xml:539(title)
+msgid "About Encryption and Keyrings"
+msgstr "Informazioni su Cifratura e portachiavi"
+
+#: C/seahorse-plugins.xml:540(para)
+msgid ""
+"<application>Passwords and Encryption Keys</application>, its associated "
+"plugins, the preferences applet and the panel applet are known collectively "
+"as the Seahorse Project. The original author of the Seahorse Project is "
+"Jacob Perkins. The current maintainers are Stef Walter and Adam Schreiber. "
+"This manual is by Adam Schreiber. The project's web site was designed by Jim "
+"Pharis. To find more information about Seahorse Project, the project , "
+"please visit the <ulink url=\"http://www.gnome.org/projects/seahorse/\" type="
+"\"http\">Seahorse Project web page</ulink>."
+msgstr "<application>Password e chiavi di cifratura</application>, i plugin associati, l'applet delle preferenze e l'applet da pannello sono conosciuti anche come Seahorse. Seahorse è stato scritto da Jacob Perkins. Gli attuali responsabili sono  Stef Walter e Adam Schreiber. Il sito web del progetto è stato creato da Jim Pharis. Per maggiori informazioni riguardo Seahorse, consultare la <ulink url=\"http://www.gnome.org/projects/seahorse/\" type=\"http\">pagina web di Seahorse</ulink>."
+
+#: C/seahorse-plugins.xml:547(para)
+msgid ""
+"To report a bug or make a suggestion regarding this application or this "
+"manual, follow the directions in the <ulink url=\"ghelp:user-guide?feedback-"
+"bugs\" type=\"help\">Feedback section of the GNOME User Guide</ulink>."
+msgstr ""
+"Per segnalare un problema o inviare suggerimenti riguardo questa "
+"applicazione o su questo manuale, seguire le istruzioni presenti alla <ulink "
+"url=\"ghelp:user-guide?feedback-bugs\" type=\"help\">pagina di commenti "
+"della guida utente di GNOME</ulink>."
+
+#: C/seahorse-plugins.xml:552(para)
+msgid ""
+"This program is distributed under the terms of the GNU General Public "
+"license as published by the Free Software Foundation; either version 2 of "
+"the License, or (at your option) any later version. A <ulink url=\"ghelp:gpl"
+"\" type=\"help\">copy of this license</ulink> is included with this "
+"documentation; another can be found in the file COPYING included with the "
+"source code of this program."
+msgstr ""
+"Questo programma è distribuito sotto i termini della GNU General Public "
+"License come pubblicata dalla Free Software Foundation; o la versione 2 "
+"della licenza o (a propria scelta) una versione successiva. Una <ulink url="
+"\"ghelp:gpl\" type=\"help\">copia di questa licenza</ulink> è inclusa in "
+"questa documentazione; un'altra copia può essere trovata nel file COPYING "
+"incluso con il codice sorgente di questo programma."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: C/seahorse-plugins.xml:0(None)
+msgid "translator-credits"
+msgstr "Milo Casagrande <milo@ubuntu.com>"

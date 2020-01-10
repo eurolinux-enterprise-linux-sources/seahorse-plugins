@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "2.24.x">
+<!ENTITY manrevision "3.1">
+<!ENTITY date "July 2005">
+<!ENTITY app "Encryption and Keyrings">
+<!ENTITY daemon "<application>seahorse-daemon</application>">
+<!ENTITY project "Seahorse Project">
+<!ENTITY key "<glossterm>key</glossterm>">
+<!ENTITY website "http://www.gnome.org/projects/seahorse/">
+]>
+<article id="index" lang="el">
+	<articleinfo>
+		<title>Εγχειρίδιο κρυπτογράφησης και κλειδοθηκών</title>
+		<copyright>
+			<year>2005, 2006, 2007, 2008</year>
+			<holder>Jacob Perkins και Adam Schreiber</holder>
+		</copyright><copyright><year>επισκεφθείτε την σελίδα http://www.gnome.gr</year><holder>Για περισσότερες πληροφορίες</holder></copyright>
+		<publisher role="maintainer">
+			<publishername>Έργο Seahorse</publishername>
+		</publisher>
+		<!-- link to document containig the legal notice of GNU FDL  -->
+		  <legalnotice id="legalnotice">
+	<para>Χορηγείται άδεια αντιγραφής, διανομής και/ή τροποποίησης του παρόντος εγγράφου υπό τους όρους της έκδοσης 1.1 της Ελεύθερης Άδειας Τεκμηρίωσης GNU (GFDL), ή οποιασδήποτε μεταγενέστερης έκδοσής αυτής από το Ίδρυμα Ελεύθερου Λογισμικού (FSF), χωρίς αμετάβλητες ενότητες, κείμενα εμπροσθοφύλλου και κείμενα οπισθοφύλλου. Αντίγραφο της άδειας GFDL είναι διαθέσιμο στον ακόλουθο <ulink type="help" url="ghelp:fdl">σύνδεσμο</ulink>, ή στο αρχείο COPYING-DOCS που διανέμεται μαζί με το παρόν εγχειρίδιο.</para>
+         <para>Αυτό το εγχειρίδιο αποτελεί μέρος της συλλογής εγχειριδίων του GNOME που διανέμονται υπό τους όρους της GFDL. Αν επιθυμείτε να διανείμετε το παρόν εγχειρίδιο ξεχωριστά από τη συλλογή, οφείλετε να προσθέσετε στο εγχειρίδιο αντίγραφο της άδειας χρήσης, όπως προβλέπεται στην ενότητα 6 της άδειας.</para>
+
+	<para>Πολλές από τις ονομασίες που χρησιμοποιούνται από εταιρείες για την διαφοροποίηση των προϊόντων και υπηρεσιών τους έχουν καταχωρισθεί ως εμπορικά σήματα. Σε όποιο σημείο της τεκμηρίωσης GNOME τυχόν εμφανίζονται αυτές οι ονομασίες, και εφόσον τα μέλη του Έργου τεκμηρίωσης GNOME έχουν λάβει γνώση αυτών των εμπορικών σημάτων, οι ονομασίες ή τα αρχικά αυτών θα γράφονται με κεφαλαίους χαρακτήρες.</para>
+
+	<para>ΤΟ ΠΑΡΟΝ ΕΓΓΡΑΦΟ ΚΑΙ ΟΙ ΤΡΟΠΟΙΗΜΕΝΕΣ ΕΚΔΟΣΕΙΣ ΑΥΤΟΥ ΠΑΡΕΧΟΝΤΑΙ ΥΠΟ ΤΟΥΣ ΟΡΟΥΣ ΤΗΣ ΕΛΕΥΘΕΡΗΣ ΑΔΕΙΑΣ ΤΕΚΜΗΡΙΩΣΗΣ GNU (GFDL) ΚΑΙ ΜΕ ΤΗΝ ΠΕΡΑΙΤΕΡΩ ΔΙΕΥΚΡΙΝΙΣΗ ΟΤΙ: <orderedlist>
+		<listitem>
+		  <para>ΤΟ ΠΑΡΟΝ ΕΓΓΡΑΦΟ ΠΑΡΕΧΕΤΑΙ "ΩΣ ΕΧΕΙ", ΧΩΡΙΣ ΟΠΟΙΑΔΗΠΟΤΕ ΑΛΛΗ ΕΓΓΥΗΣΗ, ΕΙΤΕ ΡΗΤΗ ΕΙΤΕ ΣΙΩΠΗΡΗ, ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΗΣ, ΧΩΡΙΣ ΠΕΡΙΟΡΙΣΜΟ, ΤΗΣ ΕΓΓΥΗΣΗΣ ΟΤΙ ΤΟ ΕΓΓΡΑΦΟ, Ή Η ΤΡΟΠΟΠΟΙΗΜΕΝΗ ΕΚΔΟΣΗ ΑΥΤΟΥ, ΕΙΝΑΙ ΕΜΠΟΡΕΥΣΙΜΟ, ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΕΙΔΙΚΟ ΣΚΟΠΟ ΚΑΙ ΔΕΝ ΠΡΟΣΒΑΛΛΕΙ ΔΙΚΑΙΩΜΑΤΑ ΤΡΙΤΩΝ. Ο ΧΡΗΣΤΗΣ ΑΝΑΛΑΜΒΑΝΕΙ ΕΞ ΟΛΟΚΛΗΡΟΥ ΤΗΝ ΕΘΥΝΗ ΩΣ ΠΡΟΣ ΤΗΝ ΠΟΙΟΤΗΤΑ, ΤΗΝ ΑΚΡΙΒΕΙΑ ΚΑΙ ΤΗΝ ΧΡΗΣΗ ΤΟΥ ΕΓΓΡΑΦΟΥ Ή ΤΗΣ ΤΡΟΠΟΠΟΙΗΜΕΝΗΣ ΕΚΔΟΣΗΣ ΑΥΤΟΥ. ΣΕ ΠΕΡΙΠΤΩΣΗ ΠΟΥ ΟΠΟΙΟΔΗΠΟΤΕ ΕΓΓΡΑΦΟ Ή ΤΡΟΠΟΠΟΙΗΜΕΝΗ ΕΚΔΟΣΗ ΑΥΤΟΥ ΑΠΟΔΕΙΧΘΟΥΝ ΕΛΑΤΤΩΜΑΤΙΚΑ ΚΑΘ' ΟΙΟΝΔΗΠΟΤΕ ΤΡΟΠΟ, Ο ΧΡΗΣΤΗΣ (ΚΑΙ ΟΧΙ Ο ΑΡΧΙΚΟΣ ΣΥΓΓΡΑΦΕΑΣ, ΔΗΜΙΟΥΡΓΟΣ Ή ΟΠΟΙΟΣΔΗΠΟΤΕ ΣΥΝΤΕΛΕΣΤΗΣ) ΑΝΑΛΑΜΒΑΝΕΙ ΤΟ ΚΟΣΤΟΣ ΟΠΟΙΑΣΔΗΠΟΤΕ ΑΝΑΓΚΑΙΑΣ ΣΥΝΤΗΡΗΣΗΣ, ΕΠΙΣΚΕΥΗΣ Ή ΔΙΟΡΘΩΣΗΣ. Η ΠΑΡΟΥΣΑ ΑΠΟΠΟΙΗΣΗ ΕΓΓΥΗΣΗΣ ΑΠΟΤΕΛΕΙ ΑΝΑΠΟΣΠΑΣΤΟ ΜΕΡΟΣ ΤΗΣ ΑΔΕΙΑΣ. ΔΕΝ ΕΠΙΤΡΕΠΕΤΑΙ ΟΥΔΕΜΙΑ ΧΡΗΣΗ ΤΟΥ ΕΓΓΡΑΦΟΥ Ή ΤΡΟΠΟΠΟΙΗΜΕΝΩΝ ΕΚΔΟΣΕΩΝ ΑΥΤΟΥ ΣΥΜΦΩΝΑ ΜΕ ΤΟΥΣ ΟΡΟΥΣ ΤΗΣ ΠΑΡΟΥΣΑΣ,  ΠΑΡΑ ΜΟΝΟ ΕΑΝ ΣΥΝΟΔΕΥΕΤΑΙ ΑΠΟ ΤΗΝ ΑΠΟΠΟΙΗΣΗ ΕΓΓΥΗΣΗΣ,  ΚΑΙ</para>
+		</listitem>
+		<listitem>
+		  <para>Ο ΔΗΜΙΟΥΡΓΟΣ, Ο ΑΡΧΙΚΟΣ ΣΥΓΓΡΑΦΕΑΣ, ΟΙ ΣΥΝΤΕΛΕΣΤΕΣ Ή ΟΙ ΔΙΑΝΟΜΕΙΣ ΤΟΥ ΕΓΓΡΑΦΟΥ Ή ΤΡΟΠΟΠΟΙΗΜΕΝΗΣ ΕΚΔΟΣΗΣ ΑΥΤΟΥ, ΚΑΘΩΣ ΚΑΙ ΟΙ ΠΡΟΜΗΘΕΥΤΕΣ ΟΠΟΙΩΝΔΗΠΟΤΕ ΕΚ ΤΩΝ ΠΡΟΑΝΑΦΕΡΟΜΕΝΩΝ ΜΕΡΩΝ, ΔΕΝ ΕΥΘΥΝΟΝΤΑΙ ΕΝΑΝΤΙ ΟΙΟΥΔΗΠΟΤΕ, ΣΕ ΚΑΜΙΑ ΠΕΡΙΠΤΩΣΗ ΚΑΙ ΥΠΟ ΚΑΜΙΑ ΕΡΜΗΝΕΙΑ ΝΟΜΟΥ, ΕΙΤΕ ΕΞ ΑΔΙΚΟΠΡΑΞΙΑΣ (ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΗΣ ΤΗΣ ΑΜΕΛΕΙΑΣ) ΕΙΤΕ ΣΤΟ ΠΛΑΙΣΙΟ ΣΥΜΒΑΤΙΚΗΣ Ή ΑΛΛΗΣ ΥΠΟΧΡΕΩΣΗΣ, ΓΙΑ ΤΥΧΟΝ ΑΜΕΣΕΣ, ΕΜΜΕΣΕΣ, ΕΙΔΙΚΕΣ, ΤΥΧΑΙΕΣ Ή ΣΥΝΕΠΑΚΟΛΟΥΘΕΣ ΖΗΜΙΕΣ ΟΠΟΙΑΣΔΗΠΟΤΕ ΜΟΡΦΗΣ, ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΩΝ, ΧΩΡΙΣ ΠΕΡΙΟΡΙΣΜΟ, ΖΗΜΙΩΝ ΛΟΓΩ ΑΠΩΛΕΙΑΣ ΦΗΜΗΣ ΚΑΙ ΠΕΛΑΤΕΙΑΣ, ΔΙΑΚΟΠΗΣ ΕΡΓΑΣΙΩΝ, ΔΥΣΛΕΙΤΟΥΡΓΙΑΣ Ή ΒΛΑΒΗΣ ΗΛΕΚΤΡΟΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ, Ή ΚΑΘΕ ΑΛΛΗΣ ΖΗΜΙΑΣ Ή ΑΠΩΛΕΙΑΣ ΠΟΥ ΟΦΕΙΛΕΤΑΙ Ή ΣΧΕΤΙΖΕΤΑΙ ΜΕ ΤΗΝ ΧΡΗΣΗ ΤΟΥ ΕΓΓΡΑΦΟΥ ΚΑΙ ΤΩΝ ΤΡΟΠΟΠΟΙΗΜΕΝΩΝ ΕΚΔΟΣΕΩΝ ΑΥΤΟΥ, ΑΚΟΜΑ ΚΑΙ ΑΝ ΤΑ ΩΣ ΑΝΩ ΜΕΡΗ ΕΙΧΑΝ ΛΑΒΕΙ ΓΝΩΣΗ ΤΗΣ ΠΙΘΑΝΟΤΗΤΑΣ ΠΡΟΚΛΗΣΗΣ ΤΕΤΟΙΩΝ ΖΗΜΙΩΝ.</para>
+		</listitem>
+	  </orderedlist></para>
+  </legalnotice>
+
+
+		<authorgroup>
+			<author>
+				<firstname>Jacob</firstname>
+				<surname>Perkins</surname>
+				<affiliation>
+					<orgname>Έργο Seahorse</orgname>
+					<!--
+					<address>
+						<email>jap1@users.sourceforge.net</email>
+					</address>
+					-->
+				</affiliation>
+			</author>
+			<author>
+				<firstname>Adam</firstname>
+				<surname>Schreiber</surname>
+				<affiliation>
+					<orgname>Έργο Seahorse</orgname>
+					<address>
+						<email>sadam@clemson.edu</email>
+					</address>
+				</affiliation>
+			</author>
+		</authorgroup>
+		<publisher role="maintainer">
+			<publishername>Έργο Seahorse</publishername>
+		</publisher>
+		<revhistory>
+		    <revision>
+				<revnumber>Εγχειρίδιο κρυπτογράφησης και κλειδοθηκών, έκδοση 0.10.0</revnumber>
+				<date>Αύγουστος 2008</date>
+				<revdescription>
+					<para role="author">Adam Schreiber <email>sadam@clemson.edu</email></para>
+				</revdescription>	
+			</revision>
+		    <revision>
+				<revnumber>Εγχειρίδιο κρυπτογράφησης και κλειδοθηκών, έκδοση 0.9.1</revnumber>
+				<date>Νοέμβριος 2006</date>
+				<revdescription>
+					<para role="author">Milo Casagrande <email>milo_casagrande@yahoo.it</email></para>
+				</revdescription>	
+			</revision>
+			<revision>
+				<revnumber>Εγχειρίδιο κρυπτογράφησης και κλειδοθηκών, έκδοση 0.9.0</revnumber>
+				<date>Ιούλιος 2005</date>
+				<revdescription>
+					<para role="author">Adam Schreiber <email>sadam@clemson.edu</email></para>
+					<para role="publisher">Έργο Seahorse</para>
+				</revdescription>
+			</revision>
+			<revision>
+				<revnumber>Εγχειρίδιο κρυπτογράφησης και κλειδοθηκών, έκδοση 0.7.0</revnumber>
+				<date>Φεβρουάριος 2003</date>
+				<revdescription>
+					<para role="author">Jacob Perkins</para>
+					<para role="publisher">Έργο Seahorse</para>
+				</revdescription>
+			</revision>
+		</revhistory>
+		<releaseinfo>Αυτό το εγχειρίδιο περιγράφει την έκδοση 2.24.x του εργαλείου Κρυπτογράφησης και Κλειδοθηκών</releaseinfo>
+		<legalnotice>
+			<title>Ανάδραση</title>
+			<para>Για να αναφέρετε ένα σφάλμα ή να κάνετε μία πρόταση σχετικά με την εφαρμογή ή το εγχειρίδιο, ακολουθήστε τις οδηγίες στη <ulink url="ghelp:gnome-feedback" type="help">σελίδα ανάδρασης Gnome</ulink>.</para>
+		</legalnotice>
+
+		<abstract role="description">
+			<para>Η <application>Κρυπτογράφηση και κλειδοθήκες</application> είναι η εφαρμογή που διαχειρίζεται το πρωτεύον σας κλειδί κρυπτογράφησης, καθώς και την αποθήκευση του συνθηματικού του, μετά την ολοκλήρωση της διαδικασίας κρυπτογράφησης.</para>
+		</abstract> 		
+
+	</articleinfo>
+
+	<indexterm zone="index">
+		<primary>Seahorse</primary>
+	</indexterm>
+
+	<indexterm zone="index">
+		<primary>seahorse</primary>	
+	</indexterm>
+
+	<indexterm zone="index">
+		<primary>Κλειδιά κρυπτογράφησης</primary>
+	</indexterm>
+
+    <sect1 id="introduction">
+        <title>Εισαγωγή</title>
+        <para>Μπορείτε να χρησιμοποιήσετε την εφαρμογή <application>Κρυπτογράφηση και κλειδοθήκες</application> για να επιλέξετε το πρωτεύον σας κλειδί κρυπτογράφησης, καθώς και τον τρόπο αποθήκευσης του συνθηματικού του πρωτεύοντος κλειδιού μετά την ολοκλήρωση της διαδικασίας κρυπτογράφησης.</para>
+        <para>Επιπλέον, αυτό το εγχειρίδιο περιέχει πληροφορίες για τα πρόσθετα κρυπτογράφησης των εξής εφαρμογών: <itemizedlist>
+				<listitem>
+					<para><application><ulink url="ghelp:gedit" type="help">Επεξεργαστής κειμένου Gedit</ulink></application></para>
+				</listitem>
+				<listitem>
+					<para><application><ulink url="ghelp:user-guide?nautilus">Διαχειριστής αρχείων Ναυτίλος</ulink></application></para>
+				</listitem>
+				<listitem>
+					<para><application><ulink url="ghelp:user-guide?epiphany-browser">Περιηγητής διαδικτύου Epiphany </ulink></application></para>
+				</listitem>
+			</itemizedlist></para>
+    </sect1>
+
+  <sect1 id="file-manager">
+    <title>Ενσωμάτωση στο διαχειριστή αρχείων</title>
+    <para>Η εφαρμογή <application>Κρυπτογράφηση και κλειδοθήκες</application> μπορεί να ενσωματωθεί στο <application><ulink url="ghelp:user-guide?nautilus">Ναυτίλο</ulink></application>. Έτσι, σας επιτρέπει να κρυπτογραφείτε, να αποκρυπτογραφείτε και να διαπιστώνετε αρχεία, καθώς και να εισάγετε δημόσια κλειδιά, από το παράθυρο του διαχειριστή αρχείων, χωρίς να χρειάζεται να εκκινήσετε την εφαρμογή.</para>
+    <sect2 id="encrypt-fm">
+      <title>Κρυπτογράφηση αρχείων</title>
+      <para>Για να κρυπτογραφήσετε αρχεία από το διαχειριστή αρχείων, εκτελέστε τα παρακάτω βήματα: <itemizedlist>
+	  <listitem>
+	    <para>Επιλέξτε ένα ή περισσότερα αρχεία στο διαχειριστή αρχείων,</para>
+	  </listitem>
+	  <listitem>
+	    <para>Κάντε δεξί κλικ στο επιλεγμένο αρχείο και επιλέξτε <guimenuitem>Κρυπτογράφηση</guimenuitem>,</para>
+	  </listitem>
+	  <listitem>
+	    <para>Επιλέξτε τα άτομα για τα οποία θέλετε να κρυπτογραφήσετε το αρχείο και πατήστε <guibutton>Εντάξει</guibutton>.</para>
+	  </listitem>
+	</itemizedlist></para>
+    </sect2>
+    <sect2 id="sign-fm">
+      <title>Υπογραφή αρχείων</title>
+      <para>Για να υπογράψετε αρχεία από το διαχειριστή αρχείων, εκτελέστε τα παρακάτω βήματα: <itemizedlist>
+	  <listitem>
+	    <para>Επιλέξτε ένα ή περισσότερα αρχεία στο διαχειριστή αρχείων,</para>
+	  </listitem>
+	  <listitem>
+	    <para>Κάντε δεξί κλικ στο επιλεγμένο αρχείο και επιλέξτε <guimenuitem>Υπογραφή</guimenuitem>,</para>
+	  </listitem>
+	  <listitem>
+	    <para>Αν σας ζητηθεί, εισάγετε το συνθηματικό για το ιδιωτικό σας κλειδί.</para>
+	  </listitem>
+	</itemizedlist></para>
+    </sect2>
+    <sect2 id="decrypt-fm">
+      <title>Αποκρυπτογράφηση αρχείων</title>
+      <para>Για να αποκρυπτογραφήσετε αρχεία από το διαχειριστή αρχείων, εκτελέστε τα παρακάτω βήματα: <itemizedlist>
+	  <listitem>
+	    <para>Κάντε διπλό κλικ στο αρχείο που επιθυμείτε να αποκρυπτογραφήσετε,</para>
+	  </listitem>
+	  <listitem>
+	    <para>Αν σας ζητηθεί, εισάγετε το συνθηματικό για το ιδιωτικό σας κλειδί.</para>
+	  </listitem>
+	</itemizedlist></para>
+    </sect2>
+    <sect2 id="verify-fm">
+      <title>Επιβεβαίωση υπογραφής</title> 
+      <para>Για τη διαπίστωση αρχείων, απλά κάντε διπλό κλικ στο ξεχωριστό αρχείο της υπογραφής.</para>
+      <note><para>Τα ξεχωριστά αρχεία υπογραφής συχνά έχουν ονόματα της μορφής &lt;όνομα_αρχείου&gt;.sig</para></note>
+    </sect2>
+  </sect1>
+  
+  <sect1 id="text-editor">
+    <title>Ενσωμάτωση στον επεξεργαστή κειμένου</title>
+    <para>Για να ενεργοποιήσετε το πρόσθετο της Κρυπτογράφησης κειμένου στο <application><ulink url="ghelp:gedit" type="help">Gedit</ulink></application>, τον επεξεργαστή κειμένου του GNOME, εκτελέστε τα παρακάτω βήματα: <itemizedlist>
+	<listitem>
+	  <para>Εκκινήστε το <application>Gedit</application>, επιλέγοντας<menuchoice><guimenu>Εφαρμογές</guimenu><guisubmenu>Βοηθήματα</guisubmenu><guimenuitem>Επεξεργαστής κειμένου</guimenuitem></menuchoice>,</para>
+	</listitem>
+	<listitem>
+	  <para>Επιλέξτε <menuchoice><guimenu>Επεξεργασία</guimenu><guimenuitem>Προτιμήσεις</guimenuitem></menuchoice>,</para>
+	</listitem>
+	<listitem>
+	  <para>Από την καρτέλα <guilabel>Πρόσθετες λειτουργίες</guilabel>, επιλέξτε την <guilabel>Κρυπτογράφηση κειμένου</guilabel>.</para>
+	</listitem>
+      </itemizedlist></para>
+    <sect2 id="encrypt-te">
+      <title>Κρυπτογράφηση κειμένου</title>
+      <para>Για να κρυπτογραφήσετε επιλεγμένο κείμενο στο <application>Gedit</application>, εκτελέστε τα παρακάτω βήματα: <itemizedlist>
+	  <listitem>
+	    <para>Επιλέξτε το κείμενο που επιθυμείτε να κρυπτογραφήσετε και επιλέξτε <menuchoice><guimenu>Επεξεργασία</guimenu><guimenuitem>Κρυπτογράφηση</guimenuitem></menuchoice>,</para>
+	  </listitem>
+	  <listitem>
+	    <para>Επιλέξτε τα άτομα για τα οποία θέλετε να κρυπτογραφήσετε το αρχείο και πατήστε <guibutton>Εντάξει</guibutton>.</para>
+	  </listitem>
+	</itemizedlist>. Μπορείτε τώρα να αντιγράψετε ή να αποθηκεύσετε το κρυπτογραφημένο κείμενο.</para>
+    </sect2>
+    <sect2 id="sign-te">
+      <title>Υπογραφή κειμένου</title>
+      <para>Για να υπογράψετε επιλεγμένο κείμενο στο <application>Gedit</application>, εκτελέστε τα παρακάτω βήματα: <itemizedlist>
+	  <listitem>
+	    <para>Επιλέξτε το κείμενο που επιθυμείτε να υπογράψετε και επιλέξτε <menuchoice><guimenu>Επεξεργασία</guimenu><guimenuitem>Υπογραφή</guimenuitem></menuchoice>,</para>
+	  </listitem>
+	  <listitem>
+	    <para>Εισάγετε, αν σας ζητηθεί, το συνθηματικό του ιδιωτικού σας κλειδιού.</para>
+	  </listitem>
+	</itemizedlist>. Μπορείτε τώρα να αντιγράψετε ή να αποθηκεύσετε το υπογεγραμμένο κείμενο.</para>
+    </sect2>
+    <sect2 id="decryptverify-te">
+      <title>Αποκρυπτογράφηση/επιβεβαίωση κειμένου</title>
+      <para>Για να αποκρυπτογραφήσετε και/ή να διαπιστώσετε επιλεγμένο κείμενο στο <application>Gedit</application>, εκτελέστε τα παρακάτω βήματα: <itemizedlist>
+	  <listitem>
+	    <para>Επιλέξτε το κείμενο που επιθυμείτε να αποκρυπτογραφήσετε/διαπιστώσετε και επιλέξτε <menuchoice><guimenu>Επεξεργασία</guimenu><guimenuitem>Αποκρυπτογράφηση/διαπίστωση</guimenuitem></menuchoice>,</para>
+	  </listitem>
+	  <listitem>
+	    <para>Εισάγετε, αν σας ζητηθεί, το συνθηματικό του ιδιωτικού σας κλειδιού.</para>
+	  </listitem>
+	</itemizedlist>. Μπορείτε τώρα να αντιγράψετε ή να αποθηκεύσετε το αποκρυπτογραφημένο κείμενο.</para>
+    </sect2>
+  </sect1>
+  <sect1 id="web-browser">
+    <title>Ενσωμάτωση στον περιηγητή διαδικτύου</title>
+    <para>Αυτή η επέκταση σας επιτρέπει να κρυπτογραφείτε, να αποκρυπτογραφείτε, να υπογράφετε και να εισάγετε τα περιεχόμενα πεδίων κειμένου.</para>
+    <para>Για να ενεργοποιήσετε το πρόσθετο της κρυπτογράφησης στον <application><ulink url="ghelp:epiphany-browser" type="help">Περιηγητή διαδικτύου Epiphany</ulink></application>, τον περιηγητή διαδικτύου του GNOME, εκτελέστε τα παρακάτω βήματα: <itemizedlist>
+	<listitem>
+	  <para>Εκκινήστε τον <application>Περιηγητή διαδικτύου Epiphany</application>, επιλέγοντας <menuchoice><guimenu>Εφαρμογές</guimenu><guimenuitem>Διαδίκτυο</guimenuitem><guimenuitem>Περιηγητής διαδικτύου Epiphany</guimenuitem></menuchoice>,</para>
+	</listitem>
+	<listitem>
+	  <para>Επιλέξτε <menuchoice><guimenu>Εργαλεία</guimenu><guimenuitem>Επεκτάσεις</guimenuitem></menuchoice>,</para>
+	</listitem>
+	<listitem>
+	  <para>Επιλέξτε το πρόσθετο <guilabel>Seahorse</guilabel>.</para>
+	</listitem>
+      </itemizedlist></para>
+    <sect2 id="encrypt-wb">
+      <title>Κρυπτογράφηση κειμένου</title>
+      <para>Για να κρυπτογραφήσετε τα περιεχόμενα ενός πεδίου κειμένου στον <application>Περιηγητή διαδικτύου Epiphany</application>, εκτελέστε τα παρακάτω βήματα: <itemizedlist>
+	  <listitem>
+	    <para>Κάντε δεξί κλικ στο πεδίο κειμένου που επιθυμείτε να κρυπτογραφήσετε και επιλέξτε <menuchoice><guimenuitem>Κρυπτογράφηση</guimenuitem></menuchoice>,</para>
+	  </listitem>
+	  <listitem>
+	    <para>Επιλέξτε τα άτομα για τα οποία θέλετε να κρυπτογραφήσετε το αρχείο και πατήστε <guibutton>Εντάξει</guibutton>.</para>
+	  </listitem>
+	</itemizedlist>.</para>
+    </sect2>
+    <sect2 id="sign-wb">
+      <title>Υπογραφή κειμένου</title>
+      <para>Για να υπογράψετε τα περιεχόμενα ενός πεδίου κειμένου στον <application>Περιηγητή διαδικτύου Epiphany</application>, εκτελέστε τα παρακάτω βήματα: <itemizedlist>
+	  <listitem>
+	    <para>Κάντε δεξί κλικ στο πεδίο κειμένου που επιθυμείτε να υπογράψετε και επιλέξτε <menuchoice><guimenuitem>Υπογραφή</guimenuitem></menuchoice>,</para>
+	  </listitem>
+	  <listitem>
+	    <para>Εισάγετε, αν σας ζητηθεί, το συνθηματικό του ιδιωτικού σας κλειδιού.</para>
+	  </listitem>
+	</itemizedlist>. Στο πεδίο κειμένου εμφανίζεται το υπογεγραμμένο κείμενο.</para>
+    </sect2>
+    <sect2 id="decryptverify-wb">
+      <title>Αποκρυπτογράφηση/επιβεβαίωση κειμένου</title>
+      <para>Για να αποκρυπτογραφήσετε και/ή να διαπιστώσετε τα περιεχόμενα ενός πεδίου κειμένου στον <application>Περιηγητή διαδικτύου Epiphany</application>, εκτελέστε τα παρακάτω βήματα: <itemizedlist>
+	  <listitem>
+	    <para>Κάντε δεξί κλικ στο πεδίο κειμένου που επιθυμείτε να αποκρυπτογραφήσετε/διαπιστώσετε και επιλέξτε <menuchoice><guimenuitem>Αποκρυπτογράφηση/διαπίστωση</guimenuitem></menuchoice>,</para>
+	  </listitem>
+	  <listitem>
+	    <para>Εισάγετε, αν σας ζητηθεί, το συνθηματικό του ιδιωτικού σας κλειδιού.</para>
+	  </listitem>
+	</itemizedlist>. Στο πεδίο κειμένου εμφανίζεται το αποκρυπτογραφημένο κείμενο.</para>
+    </sect2>
+  </sect1>
+  
+  <sect1 id="preferences">
+    <title>Προτιμήσεις</title>
+    <para>Αυτή η ενότητα περιγράφει τις προτιμήσεις που μπορείτε να ρυθμίσετε για την <application>Κρυπτογράφηση και κλειδοθήκες</application>.</para>
+        
+    <sect2 id="encrypt-pref">
+      <title>Προτιμήσεις κρυπτογράφησης</title>
+      <para>Αυτή η ενότητα περιγράφει τις προτιμήσεις που μπορείτε να ρυθμίσετε επιλέγοντας <menuchoice><guimenu>Σύστημα</guimenu><guimenuitem>Προτιμήσεις</guimenuitem><guimenuitem>Κρυπτογράφηση και κλειδοθήκες</guimenuitem></menuchoice> από το κύριο μενού.</para>
+      
+      <sect3 id="prefs">
+	<title>Ρυθμίσεις κρυπτογράφησης</title>
+	<para>
+	</para>
+	<variablelist>
+	  <varlistentry>
+	    <term><guilabel>Προεπιλεγμένο κλειδί</guilabel></term>
+	    <listitem>
+	      <para>Αυτό είναι το κλειδί που θα χρησιμοποιούν οι εφαρμογές και τα πρόσθετα για την υπογραφή αρχείων. Επίσης, θα είναι το κλειδί που θα χρησιμοποιείται για την κρυπτογράφηση αρχείων, αν έχει σημειωθεί η επιλογή για κρυπτογράφηση με παραλήπτη τον ίδιο το χρήστη.</para>
+	    </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Κατά την κρυπτογράφηση, πάντοτε να καταχωρούμαι ως παραλήπτης</guilabel></term>
+	    <listitem>
+	      <para>Επιλέγει την κρυπτογράφηση με παραλήπτη τον ίδιο το χρήστη, ανεξάρτητα από το αν έχετε συμπεριλάβει τον εαυτό σας στους παραλήπτες των αρχείων.</para>
+	      <note>
+		<para>Αν δεν είναι σημειωμένη αυτή η επιλογή και δεν επιλέξετε τον εαυτό σας ως παραλήπτη, δεν θα μπορείτε να αποκρυπτογραφήσετε τα αρχεία που κρυπτογραφήσατε.</para>
+	      </note>
+	    </listitem>
+	  </varlistentry>
+	</variablelist>
+      </sect3>
+      
+      <sect3 id="password-cache">
+	<title>Απομνημόνευση συνθηματικών</title>
+	<para>Αν ενεργοποιήσετε τη δυνατότητα απομνημόνευσης των συνθηματικών, θα μπορείτε να εκτελείτε διάφορες ενέργειες που απαιτούν το συνθηματικό σας, χωρίς να χρειάζεται να το εισάγετε εκ νέου κάθε φορά. Η <command>seahorse-agent</command> αντικαθιστά την <command>gpg-agent</command>. Γενικά, είναι προτιμότερο να επιτρέπετε στα συνθηματικά σας να λήγουν μετά από κάποιο χρονικό διάστημα. Ναι μεν θα αναγκάζεστε να εισάγετε εκ νέου το συνθηματικό σας, αλλά θα απολαμβάνετε μεγαλύτερη ασφάλεια.</para>
+	<variablelist>
+	  <varlistentry>
+	    <term><guilabel>Ποτέ απομνημόνευση συνθηματικών</guilabel></term>
+	    <listitem>
+	      <para>Δεν απομνημονεύεται ποτέ κανένα συνθηματικό.</para>
+	    </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Απομνημόνευση συνθηματικών για ... λεπτά</guilabel></term>
+	    <listitem>
+	      <para>Ορίζει το χρονικό διάστημα, σε λεπτά, για το οποίο παραμένουν στη μνήμη τα συνθηματικά. Επιλέξτε το επιθυμητό διάστημα από το πλαίσιο.</para>
+	    </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Πάντα απομνημόνευση συνθηματικών κατά τη σύνδεση</guilabel></term>
+	    <listitem>
+	      <para>Απομνημονεύει όλα τα συνθηματικά για όσο χρόνο είστε συνδεδεμένος στη συνεδρία.</para>
+	    </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Ερώτηση πριν τη χρήση συνθηματικού που βρίσκεται στη λανθάνουσα μνήμη</guilabel></term>
+	    <listitem>
+	      <para>Σας ερωτά πριν τη χρήση ενός απομνημονευμένου συνθηματικού.</para>
+	    </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Αυτόματη φόρτωση κλειδιών Secure Shell (SSH)</guilabel></term>
+	    <listitem>
+	      <para>Απομνημονεύει αυτόματα όλα τα κλειδιά Secure Shell.</para>
+	    </listitem>
+	  </varlistentry>
+	</variablelist>
+      </sect3>   
+    </sect2>
+  </sect1>
+      
+    <sect1 id="about">
+    <title>Περί Κρυπτογράφησης και κλειδοθηκών</title>
+    <para>Η εφαρμογή <application>Κρυπτογράφηση και κλειδοθήκες</application>, τα πρόσθετά της, το σχετικό εργαλείο προτιμήσεων και η αντίστοιχη μικροεφαρμογή του πίνακα εφαρμογών είναι γνωστές με την ονομασία Έργο Seahorse. Ο αρχικός συγγραφέας του Έργου Seahorse είναι ο Jacob Perkins. Αυτή την περίοδο, υπεύθυνοι του έργου είναι οι Stef Walter και Adam Schreiber. Ο συγγραφέας αυτού του εγχειριδίου είναι ο Adam Schreiber. Η ιστοσελίδα του έργου σχεδιάστηκε από τον Jim Pharis. Για περισσότερες πληροφορίες σχετικά με το Έργο Seahorse ως έργο, επισκεφθείτε την <ulink url="http://www.gnome.org/projects/seahorse/" type="http">ιστοσελίδα του Έργου Seahorse</ulink>.</para>
+    <para>Για να αναφέρετε ένα σφάλμα ή να κάνετε μία πρόταση σχετικά με την εφαρμογή ή το εγχειρίδιο, ακολουθήστε τις οδηγίες στη <ulink url="ghelp:user-guide?feedback-bugs" type="help">σελίδα ανάδρασης του οδηγού χρήστη Gnome</ulink>.</para>
+    <para>Αυτό το πρόγραμμα διανέμεται υπό τους όρους της Γενικής Άδειας Δημόσιας Χρήσης GNU (GPL), όπως αυτή έχει δημοσιευτεί από το Ίδρυμα Ελεύθερου Λογισμικού (FSS) — είτε της έκδοσης 2 της Άδειας, είτε (κατ' επιλογήν σας) οποιασδήποτε μεταγενέστερης έκδοσης. <ulink url="ghelp:gpl" type="help">Αντίγραφο της άδειας</ulink> συμπεριλαμβάνεται σε αυτή την τεκμηρίωση, καθώς και στο αρχείο COPYING που διανέμεται μαζί με τον πηγαίο κώδικα αυτού του προγράμματος.</para>
+  </sect1>
+</article>

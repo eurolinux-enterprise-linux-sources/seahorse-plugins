@@ -1,0 +1,458 @@
+2009-04-13  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in: bump to 2.26.2
+    
+=== seahorse-plugins 2.26.1 ===
+
+2009-04-13  Adam Schreiber  <sadam@clemson.edu>
+
+    * po/ChangeLog
+	* configure.in:
+	* README:
+	* NEWS: Release 2.26.1
+
+=== seahorse-plugins 2.26.0 ===
+
+2009-03-16  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in:
+	* README:
+	* NEWS: Release 2.26.0
+
+2009-03-03  Adam Schreiber  <sadam@clemson.edu>
+    
+    * configure.in: bump to 2.25.93
+
+== seahorse-plugins 2.25.92 ==
+
+2009-03-03  Adam Schreiber  <sadam@clemson.edu>
+    
+    * configure.in:
+    * NEWS:
+    * README: release 2.25.92
+    
+    * seahorse-agent.c:
+    * seahorse-agent-main.c:
+    * seahorse-agent.h: Connect the uninit function to gtk_quit signal.  Fixes
+    bug #560784
+
+2009-03-02  Stef Walter  <stef@memberwebs.com>
+
+	* libseahorse/seahorse-notification.c: Only use 16 characters when
+	generating a key identifier for notifications. Fixes bug #551012
+
+2009-02-27  Adam Schreiber  <sadam@clemson.edu>
+
+    * libseahorse/seahorse-widget.c: Fix reference counting to close windows 
+    properly
+
+2009-02-25  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/gedit/seahorse-gedit-plugin.c: Fixed Jesse's patch as per 
+    Paolo Borelli's suggestions.  See bug #571477
+
+    * plugins/gedit/seahorse-gedit-plugin.c: Switch to chaining to finalize 
+    instead of dispose.  Patch from Jesse van den Kieboom.  Fixes bug #571477
+
+2009-02-24  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/gedit/seahorse-gedit.c: Don't print replacement text to stderr.
+    Fixes bug #573044
+
+2009-02-17  Adam Schreiber  <sadam@clemson.edu>
+
+    * libseahorse/seahorse-widget.c: Remove deprecated GTK+ symbols
+
+    * plugins/applet/seahorse-applet.c:
+    * libseahorse/seahorse-widget.h: Remove deprecated GTK+ symbols
+    Fixes bug #572183
+
+2009-02-12  Adam Schreiber  <sadam@clemson.edu>
+
+    * help/C/figures: (deleted)
+    * help/Makefile.am: Removed unused screenshots
+
+2009-02-04  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in:
+    * plugins/epiphany/seahorse-extension.c: Update version number to 2.25.91
+    Update epiphany checking code.  Patch from Christian Persch.  
+    Fixes bugs #570525 and #570494 
+
+== seahorse-plugins 2.25.90 ==
+
+2009-02-03  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in:
+    * NEWS:
+    * README: release 2.25.90
+    
+2009-02-01  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/nautilus/seahorse-tool.c: Don't prompt for signer if only one 
+    private key.  Fixes bug #553474
+    * libseahorse/seahorse-prefs.glade: Bring name of window into alignment with
+    desktop file and documentation.
+
+2009-01-22 Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/applet/seahorse-applet.c: Remove call to gnome_url_show
+
+2008-12-21  Adam Schreiber  <sadam@clemson.edu>
+
+    * libseahorse/seahorse-util.c: Fix display of error messages.
+    Fixes bug #565240
+
+== seahorse-plugins 2.25.3 ==
+
+2008-12-19  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in:
+    * NEWS:
+    * README: release 2.25.3
+
+2008-12-14  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/applet/seahorse-applet.c: Remove call to gnome_url_show
+
+2008-12-12  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/applet/seahorse-applet.c: modify main () to match libpanel-applet
+    and no longer pull in libgnomeui.  Fixes bug #564300
+
+2008-12-09  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/nautilus-ext/seahorse-nautilus-module.c: Change g_printerror to
+    g_debug.  Fixes bug #563781
+
+2008-11-15  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/nautilus/seahorse-pgp-preferences.desktop.in: Add 
+    X-GNOME-PersonalSettings to categories.  Fixes bug #557980
+    * plugins/applet/seahorse-applet-preferences.glade:
+    * libseahorse/seahorse-notify.glade:
+    * libseahorse/seahorse-multi-encrypt.glade: HIG fixes.  
+    Patch from Christian Persch.  Fixes bug #552217
+
+2008-11-04  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/epiphany/mozilla/mozilla-helper.cpp: Fix casting of EphyEmbed.
+    Fixes bug #545020
+
+=== seahorse-plugins 2.25.1 ===
+
+2008-11-04  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in:
+	* NEWS:
+	* README: Release version 2.25.1
+	
+2008-11-04  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in: Remove last bit of dependency on gnome-vfs.
+
+=== seahorse-plugins 2.24.1 ===
+
+2008-10-19  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in:
+	* NEWS:
+	* README: Release version 2.24.1
+
+2008-10-11  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/applet/Makefile.am: Change glade dir.  Patch from 
+    Fryderyk Dziarmagowski.  Fixes bug #554823
+
+=== seahorse-plugins 2.24.0 ===
+
+2008-09-20  Stef Walter  <stef@memberwebs.com>
+
+	* NEWS:
+	* README:
+	* configure.in: Release 2.24.0
+
+2008-09-19  Adam Schreiber  <sadam@clemson.edu>
+
+    * help/C/seahorse-plugins.xml: Remove duplicated word.  Fixes bug #552889
+
+2008-09-15  Stef Walter  <stef@memberwebs.com>
+
+	* libseahorse/seahorse-passphrase.c: Some tweaks to the password
+	prompt window, including allowing minimizing to release the 
+	keyboard grab.
+	
+	* libseahorse/seahorse-passphrase.c: Better error reporting when
+	a keyboard grab fails. See bug #552321
+	
+2008-09-14  Christian Persch  <chpe@gnome.org>
+
+	R INSTALL: Don't put autotool-installed files into svn.
+	* README: Move seahorse-plugins specific install instructions here.
+	Bug #552219.
+
+2008-09-13  Stef Walter  <stef@memberwebs.com>
+
+	* libseahorse/seahorse-util.c:
+	* plugins/applet/seahorse-applet.c:
+	* plugins/epiphany/seahorse-extension.c:
+	* plugins/gedit/seahorse-gedit.c: Don't display DBus errors when 
+	they are the result of a user cancel. See bug #520119
+	
+2008-09-13  Stef Walter  <stef@memberwebs.com>
+
+	* pixmaps/22x22/Makefile.am:
+	* pixmaps/48x48/Makefile.am: Add 'seahorse-key-personal' icon into set 
+	of pixmaps to install.
+	
+2008-09-12  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/applet/GNOME_SeahorseApplet.xml: Switch to gtk-about icon from 
+    gnome-stock-about icon.  Patch from  Pacho Ramos.  Fixes bug #551783
+
+2008-09-08  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/applet/seahorse-applet.c: Make the applet use gnome_program_init
+    Fixes bug #54983
+    * pixmaps/22x22/Makefile.am:
+    * pixmaps/48x48/Makefile.am:
+    * pixmaps/scalable/Makefile.am:
+    * libseahorse/seahorse-notification.c: Change install directory so as not 
+    to conflict with seahorse
+
+=== seahorse-plugins 2.23.92 ===
+
+2008-09-07  Stef Walter  <stef@memberwebs.com>
+
+	* NEWS: 
+	* README: Release version 2.23.92
+
+=== seahorse-plugins 2.23.91 ===
+
+2008-09-03  Stef Walter  <stef@memberwebs.com>
+
+	* Makefile.am:
+	* NEWS: 
+	* README: Release version 2.23.91
+
+2008-09-01  Stef Walter  <stef@memberwebs.com>
+
+	* agent/Makefile.am: Install glade file in right directory.
+	
+	* agent/seahorse-agent-actions.c:
+	* agent/seahorse-agent-io.c:
+	* agent/seahorse-agent-prompt.c:
+	* agent/seahorse-agent-status.c: Don't g_assert conditions not controlled
+	directly by nearby code. Otherwise the agent can be caused to abort 
+	for missing glade files for example.
+	
+2008-09-01  Adam Schreiber  <sadam@clemson.edu>
+
+    *  plugins/nautilus/seahorse-pgp-keys.desktop.in.in:
+    * plugins/nautilus/seahorse-pgp-preferences.desktop.in:
+    * plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in:
+    * plugins/nautilus/seahorse-pgp-signature.desktop.in.in: Remove encoding
+    line.  Fixes bug #550168
+
+2008-08-27  Adam Schreiber  <sadam@clemson.edu>
+
+    * help/C/seahorse-plugins.xml: Updated manual to be in sync with only 
+    having preferences and plugins
+    * help/seahorse-plugins.omf.in: Change series id to not conflict with 
+    seahorse    
+    * plugins/nautilus/seahorse-tool.c:
+    * plugins/gedit/seahorse-gedit.c:
+    * libseahorse/seahorse-util.c:
+    * libseahorse/seahorse-gpg-options.c: Fix compiler warnings
+    * configure.in: Fix compilation
+
+2008-08-13  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in: Compile with epiphany 2.2[34]. Patch from Götz Waschk.
+    Fixes bug #547435     
+    * pixmaps/22x22/Makefile.am:
+    * pixmaps/48x48/Makefile.am:
+    * pixmaps/scalable/Makefile.am:
+    * libseahorse/seahorse-widget.c:
+    * libseahorse/seahorse-gtkstock.c:
+    * libseahorse/seahorse-gtkstock.h: Icon makover.  Patch from Michael Monreal.
+    Part of fixing bug #520114
+
+2008-08-12  Adam Schreiber  <sadam@clemson.edu>
+
+    * help/Makefile.am:
+    * help/seahorse.omf.in (deleted):
+    * help/C/seahorse.xml (deleted): Fixes bug #546531 (Or else)
+
+2008-08-11  Adam Schreiber  <sadam@clemson.edu>
+
+    * help/C/seahorse-plugins.xml (moved):
+    * help/seahorse-plugins.omf.in (moved): Fixes bug #546531 (and this time we
+    mean it)
+    * help/seahorse.omf.in: Change identifier URL
+
+2008-08-10  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in: Changed gettext_package to seahorse-plugins.  Fixes bug
+    #546531
+    * data/Makefile.am:
+    * data/seahorse.schemas.in (moved to data/seahorse-plugins.schemas.in):
+    Fixed conflict with seahorse schemas.  Partially fixes bug #546531
+
+=== seahorse-plugins 2.23.6 ===
+
+2008-08-05  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in: 
+	* Makefile.am:
+	* NEWS: 
+	* README: Release version 2.23.6
+	
+2008-07-27  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in:
+    * m4/gecko.m4: Fix not detecting xulrunner 1.9
+    Patch from Debian.  Fixes bug #541415
+    * agent/seahorse-agent-main.c:
+    * agent/seahorse-agent-io.c: Close file descriptors after fork
+    Patch from Josselin Mouette.  Fixes bug #544672
+
+2008-07-05  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/applet/seahorse-applet.c:
+    * plugins/epiphany/seahorse-extension.c:
+    * plugins/gedit/seahorse-gedit.c:
+    * plugins/nautilus/seahorse-tool: Finish guarding plugins against brand new
+    user without keys.
+    * plugins/nautilus/seahorse-tool: Prompt to create key when needed.  Fixes
+    bug #538696
+
+2008-06-30  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in:
+	* libseahorse/Makefile.am:
+	* libseahorse/seahorse-gtkstock.h:
+	* libseahorse/seahorse-multi-encrypt.glade: (added back)
+	* libseahorse/seahorse-util.c:
+	* libseahorse/seahorse-util.h:
+	* libseahorse/seahorse-vfs-data.c:
+	* libseahorse/seahorse-vfs-data.h:
+	* plugins/applet/seahorse-applet.c:
+	* plugins/nautilus/seahorse-tool.c:
+	* plugins/nautilus/seahorse-tool-files.c:
+	* plugins/nautilus/seahorse-tool-progress.c:
+	* plugins/nautilus-ext/seahorse-nautilus.c: Port to GIO from gnome-vfs
+	Fixes bug #509940
+	
+2008-06-25  Adam Schreiber  <sadam@clemson.edu>
+
+    * libseahorse/seahorse-secure-memory.c: sync with seahorse/trunk
+
+2008-05-29  Saleem Abdulrasool  <compnerd@compnerd.org>
+
+	reviewed by: Adam Schreiber  <sadam@clemson.edu>
+
+	* agent/seahorse-agent-actions.c: (seahorse_agent_actions_init),
+	(seahorse_agent_actions_uninit), (seahorse_agent_actions_getpass),
+	(free_passreq):
+	* agent/seahorse-agent-cache.c: (destroy_cache_item),
+	(seahorse_agent_cache_init), (seahorse_agent_cache_uninit),
+	(seahorse_agent_internal_set):
+	* agent/seahorse-agent-io.c: (free_conn), (connect_handler),
+	(seahorse_agent_io_init), (seahorse_agent_io_uninit):
+		Fixup the remaining usage of deprecated APIs.  This migrates the GMemChunk
+		usage to the slice allocator.
+
+2008-05-29  Saleem Abdulrasool  <compnerd@compnerd.org>
+
+	reviewed by: Adam Schreiber  <sadam@clemson.edu>
+
+	* agent/seahorse-agent-actions.c:
+	* agent/seahorse-agent-cache.c:
+	* agent/seahorse-agent-io.c:
+	* configure.in:
+	* libseahorse/seahorse-util.c: (seahorse_util_get_date_string),
+	(seahorse_util_get_display_date_string):
+	* plugins/nautilus/seahorse-tool-progress.c: (process_line):
+		Fix -DG_DISABLE_DEPRECATED usage and the fallout of defining it.
+
+2008-05-29  Saleem Abdulrasool  <compnerd@compnerd.org>
+
+	reviewed by: Adam Schreiber  <sadam@clemson.edu>
+
+	* INSTALL:
+	* configure.in:
+	* plugins/applet/seahorse-applet.c: (main):
+		Remove lingering libgnome/ui references
+
+2008-05-17  Adam Schreiber  <sadam@clemson.edu>
+
+    * agent/seahorse-agent-prompt.c:
+    * libseahorse/seahorse-passphrase.c: Grab keyboard focus
+    Patch from Josselin Mouette.  Fixes bug #326611
+    * agent/seahorse-agent-status.c: Close window if open when tray icon clicked
+    Patch from Josselin Mouette.  Fixes bug #532567
+
+2008-05-14  Adam Schreiber  <sadam@clemson.edu>
+
+    * libseahorse/Makefile.am: Install stuff in own space not seahorse's.
+
+2008-05-04  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/nautilus-ext/Makefile.am:
+    * plugins/nautilus/seahorse-tool-files.c:
+    * plugins/nautilus/seahorse-tool.c:
+    * plugins/nautilus/seahorse-tool-progress.c:
+    * plugins/nautilus/seahorse-pgp-preferences.c:
+    * plugins/applet/seahorse-applet.c:
+    * plugins/gedit/seahorse-gedit-bonobo.c:
+    * plugins/epiphany/seahorse-extension.c:
+    * configure.in:
+    * agent/seahorse-agent-actions.c:
+    * agent/seahorse-agent-prompt.c:
+    * agent/seahorse-agent.c:
+    * agent/seahorse-agent-cache.c:
+    * agent/seahorse-agent-status.c:
+    * agent/seahorse-agent-main.c:
+    * agent/seahorse-agent-io.c:
+    * libseahorse/seahorse-unix-signal.c:
+    * libseahorse/seahorse-vfs-data.h:
+    * libseahorse/seahorse-util.c:
+    * libseahorse/seahorse-widget.c:
+    * libseahorse/seahorse-operation.c:
+    * libseahorse/seahorse-gpg-options.c:
+    * libseahorse/seahorse-prefs-cache.c: Remove dependence on libgnome/ui.
+    Patch from Saleem Abdulrasool. Fixes bug #524018
+
+2008-05-01  Adam Schreiber  <sadam@clemson.edu>
+
+    * agent/seahorse-agent-io.c: Add includes.
+    * libseahorse/seahorse-gpg-options.c:remove paths.h. 
+    Patches from Brian Cameron.  Fixes bug #530952
+    
+2008-04-21  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/applet/seahorse-applet.c:
+    * plugins/applet/seahorse-applet-preferences.glade: Separate preferences for
+    displaying text after signing and verifying.  Fixes bug #515178
+    * plugins/epiphany/Makefile.am: Add flags for DBus
+
+2008-04-19  Stef Walter  <stef@memberwebs.com>
+
+    * configure.in:
+    * plugins/nautilus/Makefile.am:
+    * plugins/nautilus/seahorse-pgp-keys.desktop.in.in: 
+    * plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in: 
+    * plugins/nautilus/seahorse-pgp-signature.desktop.in.in: Add back 
+    the missing desktop files for the mime types.
+
+2008-04-17  Stef Walter  <stef@memberwebs.com>
+
+    * Remove libcryptui from seahorse-plugins (it lives in seahorse)
+
+2008-04-17  Stef Walter  <stef@memberwebs.com>
+
+    * Split seahorse-plugins from seahorse, and 
+    remove unneeded code.
+
+

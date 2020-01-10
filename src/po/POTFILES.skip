@@ -1,0 +1,5 @@
+plugins/applet/GNOME_SeahorseApplet.server.in
+plugins/nautilus/seahorse-pgp-encrypted.desktop.in
+plugins/nautilus/seahorse-pgp-keys.desktop.in
+plugins/nautilus/seahorse-pgp-signature.desktop.in
+

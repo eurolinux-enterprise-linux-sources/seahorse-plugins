@@ -1,0 +1,28 @@
+2009-02-02  Luca Ferretti  <elle.uca@libero.it>
+
+	* it.po: Fixed a misplaced tag (Close bug #528053) by Florian Müllner.
+
+2008-08-14  Philipp Kerling  <k.philipp@gmail.com>
+
+	* de.po: Added German translation by Mario Blättermann which was missing in the last commit.
+
+2008-07-28  Philipp Kerling  <k.philipp@gmail.com>
+
+	* de.po: Added German translation by Mario Blättermann.
+
+2008-04-14  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+
+	* es/es.po: Updated Spanish translation, fixes bug #528053
+
+2008-02-27  Claude Paroz  <claude@2xlibre.net>
+
+	* fr/fr.po: Updated French translation.
+
+2008-02-21  Daniel Nylander <po@danielnylander.se>
+
+	* sv/sv.po: Updated Swedish translation.
+
+2008-02-16  Luca Ferretti  <elle.uca@libero.it>
+
+	* it.po: Updated Italian translation by Milo Casagrande
+	* ChangeLog: Added.

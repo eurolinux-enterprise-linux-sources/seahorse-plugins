@@ -1,0 +1,1184 @@
+# Czech translation of seahorse-plugins.
+# Copyright (C) 1996, 2003, 2008 the author(s) of seahorse-plugins.
+# Copyright (C) 2004, 2005 Miloslav Trmac <mitr@volny.cz>.
+# This file is distributed under the same license as the seahorse-plugins package.
+# Petr Domansky <doman@atlas.cz>, 2000.
+# Michal Bukovjan <bukm@centrum.cz>, 2003.
+# Miloslav Trmac <mitr@volny.cz>, 2003, 2004, 2005.
+# Vitezslav Kotrla <vitko@post.cz>, 2008.
+# Petr Kovar <pknbe@volny.cz>, 2008.
+# Lucas Lommer <llommer@svn.gnome.org>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: seahorse-plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-12 16:50+0200\n"
+"PO-Revision-Date: 2008-09-12 01:21+0200\n"
+"Last-Translator: Petr Kovar <pknbe@volny.cz>\n"
+"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: ../agent/seahorse-agent-actions.c:120
+msgid "Passphrase:"
+msgstr "Heslo:"
+
+#: ../agent/seahorse-agent-actions.c:121
+msgid "Please enter a passphrase to use."
+msgstr "Zadejte prosím heslo."
+
+#: ../agent/seahorse-agent-cache.c:66
+msgid "Unparseable Key ID"
+msgstr "Nezpracovatelné ID klíče"
+
+#: ../agent/seahorse-agent-cache.c:67
+msgid "Unknown/Invalid Key"
+msgstr "Neznámý/neplatný klíč"
+
+#: ../agent/seahorse-agent-cache.c:533
+#, c-format
+msgid "PGP Key: %s"
+msgstr "PGP klíč: %s"
+
+#: ../agent/seahorse-agent-cache.glade.h:1
+msgid ""
+"<b>Warning</b>: Your system is not configured to cache passphrases in secure "
+"memory."
+msgstr ""
+"<b>Varování</b>: Váš systém není nastaven pro ukládání hesel do cache v "
+"zabezpečené paměti."
+
+#: ../agent/seahorse-agent-cache.glade.h:2
+msgid "Cache _Preferences"
+msgstr "_Nastavení cache"
+
+#: ../agent/seahorse-agent-cache.glade.h:3
+msgid "Cached Encryption Keys"
+msgstr "Šifrovací klíče v cache"
+
+#: ../agent/seahorse-agent-cache.glade.h:4
+msgid "Change passphrase cache settings."
+msgstr "Změna nastavení cache pro hesla."
+
+#: ../agent/seahorse-agent-cache.glade.h:5
+msgid "Clear passphrase cache"
+msgstr "Vymazat cache hesel"
+
+#: ../agent/seahorse-agent-cache.glade.h:6
+msgid "_Clear Cache"
+msgstr "_Vymazat cache"
+
+#: ../agent/seahorse-agent-cache.glade.h:7
+msgid "_Show Window"
+msgstr "_Zobrazit okno"
+
+#: ../agent/seahorse-agent-main.c:52
+msgid "Do not daemonize seahorse-agent"
+msgstr "Nespouštět program seahorse-agent na pozadí"
+
+#: ../agent/seahorse-agent-main.c:56
+msgid "Print variables in for a C type shell"
+msgstr "Vypsat proměnné v C shellu"
+
+#: ../agent/seahorse-agent-main.c:60
+msgid "Display environment variables (the default)"
+msgstr "Zobrazit proměnné prostředí (výchozí nastavení)"
+
+#: ../agent/seahorse-agent-main.c:63
+msgid "Execute other arguments on the command line"
+msgstr "Spustit další parametry v příkazové řádce"
+
+#: ../agent/seahorse-agent-main.c:67
+msgid "Allow GPG agent request from any display"
+msgstr "Povolit požadavky GPG agenta z libovolného displeje"
+
+#: ../agent/seahorse-agent-main.c:70
+msgid "command..."
+msgstr "příkaz..."
+
+#: ../agent/seahorse-agent-main.c:108
+msgid "couldn't fork process"
+msgstr "nemohu fork proces"
+
+#: ../agent/seahorse-agent-main.c:114
+msgid "couldn't create new process group"
+msgstr "nemohu vytvořit novou skupinu procesů"
+
+#: ../agent/seahorse-agent-main.c:240
+msgid "Encryption Key Agent (Seahorse)"
+msgstr "Agent pro šifrovací klíče (Seahorse)"
+
+#: ../agent/seahorse-agent-main.c:246
+msgid "no command specified to execute"
+msgstr "nebyl zadán žádný příkaz k provedení"
+
+#: ../agent/seahorse-agent-prompt.c:216
+msgid "Authorize Passphrase Access"
+msgstr "Autorizovat přístup k heslu"
+
+#: ../agent/seahorse-agent-prompt.c:252
+msgid "The passphrase is cached in memory."
+msgstr "Heslo je v paměti cache."
+
+#: ../agent/seahorse-agent-prompt.c:257
+msgid "Always ask me before using a cached passphrase"
+msgstr "Vždy se mě ptát před použitím hesla z cache"
+
+#: ../agent/seahorse-agent-prompt.c:274
+msgid "_Authorize"
+msgstr "_Autorizovat"
+
+#. Make the uid column
+#: ../agent/seahorse-agent-status.c:145
+msgid "Key Name"
+msgstr "Jméno klíče"
+
+#: ../data/seahorse-plugins.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"Seznam URI serverů klíčů, na kterých se mají vzdálené PGP klíče hledat. V "
+"pozdějších verzích může být přidáno zobrazitelné jméno (přidejte mezeru, a "
+"potom zobrazitelné jméno)."
+
+#: ../data/seahorse-plugins.schemas.in.h:2
+msgid ""
+"After performing an decrypt or verify operation from the applet, display the "
+"resulting text in a window."
+msgstr ""
+"Po provedení ověření nebo dešifrování z appletu ukaž výsledný text v okně."
+
+#: ../data/seahorse-plugins.schemas.in.h:3
+msgid ""
+"After performing an encrypt or signing operation from the applet, display "
+"the resulting text in a window."
+msgstr "Po zašifrování nebo podepsání z appletu ukaž výsledný text v okně."
+
+#: ../data/seahorse-plugins.schemas.in.h:4
+msgid "Display cache reminder in the notification area"
+msgstr "Upozorňovat v oznamovací oblasti na použití cache"
+
+#: ../data/seahorse-plugins.schemas.in.h:5
+msgid "Display clipboard after decrypting"
+msgstr "Ukázat po dešifrování obsah schránky"
+
+#: ../data/seahorse-plugins.schemas.in.h:6
+msgid "Display clipboard after encrypting"
+msgstr "Ukázat po zašifrování obsah schránky"
+
+#: ../data/seahorse-plugins.schemas.in.h:7
+msgid "Expire passwords in the cache"
+msgstr "Zrušit platnost hesel v cache"
+
+#: ../data/seahorse-plugins.schemas.in.h:8
+msgid "ID of the default key"
+msgstr "ID výchozího klíče"
+
+#: ../data/seahorse-plugins.schemas.in.h:9
+msgid ""
+"If set to 'gnome' uses gnome-keyring to cache passwords. When set to "
+"'internal' uses internal cache."
+msgstr ""
+"Pokud je nastaveno 'gnome', bude jako cache pro hesla použita klíčenka GNOME "
+"(gnome-keyring). Při nastavení 'internal' bude použita vnitřní cache."
+
+#: ../data/seahorse-plugins.schemas.in.h:10
+msgid ""
+"If set to true, then files encrypted with seahorse will be ASCII armor "
+"encoded."
+msgstr ""
+"Je-li nastaveno na true, soubory šifrované seahorse budou kódovány v ASCII "
+"armor."
+
+#: ../data/seahorse-plugins.schemas.in.h:11
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"Je-li nastaveno na true, bude výchozí klíč vždy přidán do seznamu příjemců "
+"šifrování."
+
+#: ../data/seahorse-plugins.schemas.in.h:12
+msgid "Last key used to sign a message."
+msgstr "Poslední klíč používaný pro podepisování zprávy."
+
+#: ../data/seahorse-plugins.schemas.in.h:13
+msgid "PGP Key servers"
+msgstr "Servery klíčů PGP"
+
+#: ../data/seahorse-plugins.schemas.in.h:14
+msgid "Prompt before using GPG passwords in cache"
+msgstr "Ptát se před používáním hesel GPG z cache"
+
+#: ../data/seahorse-plugins.schemas.in.h:15
+msgid ""
+"Reflect the contents of the clipboard (whether encrypted, signed, etc...) in "
+"the panel applet icon."
+msgstr ""
+"Naznačit obsah schránky (je-li text zašifrován, podepsán apod.) v ikoně "
+"appletu v panelu."
+
+#: ../data/seahorse-plugins.schemas.in.h:16
+msgid ""
+"Set to 'true' to enable display of the cache reminder in the notification "
+"area of your panel."
+msgstr ""
+"Nastavte 'ano' pro zobrazení upozornění na použití cache v oznamovací "
+"oblasti panelu."
+
+#: ../data/seahorse-plugins.schemas.in.h:17
+msgid ""
+"Set to 'true' to have seahorse-agent prompt before giving out passwords it "
+"has cached."
+msgstr ""
+"Nastavte na 'true', aby se seahorse-agent ptal před předáváním hesel z cache."
+
+#: ../data/seahorse-plugins.schemas.in.h:18
+msgid "Show clipboard state in panel"
+msgstr "Ukázat stav schránky v panelu"
+
+#: ../data/seahorse-plugins.schemas.in.h:19
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"Zadejte sloupec, podle kterého bude řazeno okno příjemců. Sloupce jsou "
+"'name' a 'id'. Přidáním '-' před název sloupce zvolíte sestupné řazení."
+
+#: ../data/seahorse-plugins.schemas.in.h:20
+msgid "The ID of the last secret key used to sign a message."
+msgstr "ID posledního tajného klíče používaného pro podepisování zprávy."
+
+#: ../data/seahorse-plugins.schemas.in.h:21
+msgid "The column to sort the recipients by"
+msgstr "Sloupec, podle kterého řadit příjemce"
+
+#: ../data/seahorse-plugins.schemas.in.h:22
+msgid "The time (in minutes) to cache GPG passwords"
+msgstr "Čas (v minutách) uložení hesel GPG v cache"
+
+#: ../data/seahorse-plugins.schemas.in.h:23
+msgid ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"seahorse-agent."
+msgstr "Toto je čas v minutách pro cache hesel GPG v seahrose-agent."
+
+#: ../data/seahorse-plugins.schemas.in.h:24
+msgid ""
+"This option enables the GPG password cache in the seahorse-agent program. "
+"The 'use-agent' setting in gpg.conf affects this setting."
+msgstr ""
+"Tento přepínač povoluje cache hesel GPG v programu seahorse-agent. Toto "
+"nastavení je ovlivněno volbou 'use-agent' v souboru gpg.conf."
+
+#: ../data/seahorse-plugins.schemas.in.h:25
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr "Toto určuje výchozí klíč pro jisté operace, hlavně podepisování."
+
+#: ../data/seahorse-plugins.schemas.in.h:26
+msgid ""
+"When set, seahorse-agent expires GPG passwords in its cache after a period "
+"of time."
+msgstr ""
+"Je-li nastaveno, seahorse-agent po určitém čase ruší platnost hesel GPG ve "
+"své cache."
+
+#: ../data/seahorse-plugins.schemas.in.h:27
+msgid "Where to store cached passwords."
+msgstr "Kde ukládat hesla v cache."
+
+#: ../data/seahorse-plugins.schemas.in.h:28
+msgid "Whether the GPG password cache is enabled"
+msgstr "Jestli je povolena cache hesel GPG"
+
+#: ../data/seahorse-plugins.schemas.in.h:29
+msgid "Whether to always encrypt to default key"
+msgstr "Jestli vždy šifrovat pro výchozí klíč"
+
+#: ../data/seahorse-plugins.schemas.in.h:30
+msgid "Whether to use ASCII Armor"
+msgstr "Jestli používat ASCII Armor"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:1
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<b>Bylo vybráno více souborů nebo složek</b>"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:2
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr ""
+"Protože jsou soubory umístěny vzdáleně, bude každý soubor zašifrován "
+"samostatně."
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:3
+msgid "Encrypt Multiple Files"
+msgstr "Zašifrovat více souborů"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:4
+msgid "Encrypt each file separately"
+msgstr "Zašifrovat každý soubor zvlášť"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:5
+msgid "Encrypt packed together in a package"
+msgstr "Zašifrovat sbalené do balíčku"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:6
+msgid "Package Name:"
+msgstr "Název balíčku:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:7
+msgid "Packaging:"
+msgstr "Balení:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:8
+msgid "encrypted-package"
+msgstr "šifrovaný balíček"
+
+#: ../libseahorse/seahorse-notification.c:573
+#: ../libseahorse/seahorse-notification.c:598
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Importovaný klíč"
+msgstr[1] "Importované klíče"
+msgstr[2] "Importovat"
+
+#: ../libseahorse/seahorse-notification.c:577
+#: ../libseahorse/seahorse-notification.c:597
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "Importován %i klíč"
+msgstr[1] "Importováno %i klíčů"
+msgstr[2] "Importováno %i klíčů"
+
+#: ../libseahorse/seahorse-notification.c:579
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "Importován klíč pro"
+msgstr[1] "Importovány klíče pro"
+msgstr[2] "Importován klíč"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:614
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "Podepsáno: <i><key id='%s'/> <b>vypršel</b></i> dne %s."
+
+#: ../libseahorse/seahorse-notification.c:615
+msgid "Invalid Signature"
+msgstr "Neplatný podpis"
+
+#: ../libseahorse/seahorse-notification.c:621
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr ""
+"Podepsáno klíčem <i><key id='%s'/></i> dne %s <b>Platnost klíče vypršela</b>."
+
+#: ../libseahorse/seahorse-notification.c:622
+msgid "Expired Signature"
+msgstr "Podpis s vypršenou platností"
+
+#: ../libseahorse/seahorse-notification.c:628
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "Podepsáno klíčem <i><key id='%s'/> <b>Klíč odvolán</b></i> dne %s."
+
+#: ../libseahorse/seahorse-notification.c:629
+msgid "Revoked Signature"
+msgstr "Odvolaný podpis"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:635
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "Podepsáno klíčem <i><key id='%s'/></i> dne %s."
+
+#: ../libseahorse/seahorse-notification.c:636
+msgid "Good Signature"
+msgstr "Správný podpis"
+
+#: ../libseahorse/seahorse-notification.c:641
+msgid "Signing key not in keyring."
+msgstr "Podpisový klíč v klíčence chybí."
+
+#: ../libseahorse/seahorse-notification.c:642
+msgid "Unknown Signature"
+msgstr "Neznámý podpis"
+
+#: ../libseahorse/seahorse-notification.c:646
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "Špatný nebo padělaný podpis. Podepsaná data byla změněna."
+
+#: ../libseahorse/seahorse-notification.c:647
+msgid "Bad Signature"
+msgstr "Špatný podpis"
+
+#: ../libseahorse/seahorse-notification.c:655
+msgid "Couldn't verify signature."
+msgstr "Nebylo možno ověřit podpis."
+
+#: ../libseahorse/seahorse-notify.glade.h:1
+msgid "Notification Messages"
+msgstr "Upozornění"
+
+#: ../libseahorse/seahorse-passphrase.c:200
+msgid "Passphrase"
+msgstr "Heslo"
+
+#: ../libseahorse/seahorse-passphrase.c:203
+msgid "Password:"
+msgstr "Heslo:"
+
+#: ../libseahorse/seahorse-passphrase.c:266
+msgid "Confirm:"
+msgstr "Potvrďte:"
+
+#: ../libseahorse/seahorse-passphrase.c:351
+#, c-format
+msgid "Wrong passphrase."
+msgstr "Špatné heslo."
+
+#: ../libseahorse/seahorse-passphrase.c:355
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Zadejte nové heslo pro '%s'"
+
+#: ../libseahorse/seahorse-passphrase.c:357
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "Zadejte heslo pro '%s'"
+
+#: ../libseahorse/seahorse-passphrase.c:360
+msgid "Enter new passphrase"
+msgstr "Zadejte nové heslo"
+
+#: ../libseahorse/seahorse-passphrase.c:362
+msgid "Enter passphrase"
+msgstr "Zadejte heslo"
+
+#: ../libseahorse/seahorse-prefs.c:100
+msgid "None. Prompt for a key."
+msgstr "Žádný. Ptát se na klíč."
+
+#: ../libseahorse/seahorse-prefs.glade.h:1
+msgid "<b>Default Key</b>"
+msgstr "<b>Výchozí klíč</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:2
+msgid "<b>Remember PGP Passphrases</b>"
+msgstr "<b>Pamatovat hesla pro PGP</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:3
+msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+msgstr "<i>Není spuštěn podporovaný cache agent pro hesla PGP.</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:4
+msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+msgstr ""
+"<i>Pokud nezvolíte jiný klíč, bude tento klíč použit pro podepisování zpráv</"
+"i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:5
+msgid "As_k me before using a cached passphrase"
+msgstr "_Zeptat se mě před použitím hesla z cache"
+
+#: ../libseahorse/seahorse-prefs.glade.h:6
+msgid "Encryption"
+msgstr "Šifrování"
+
+#: ../libseahorse/seahorse-prefs.glade.h:7
+msgid "PGP Passphrases"
+msgstr "Hesla pro PGP"
+
+#: ../libseahorse/seahorse-prefs.glade.h:8
+msgid "Password and Encryption Settings"
+msgstr "Nastavení hesel a šifrování"
+
+#: ../libseahorse/seahorse-prefs.glade.h:9
+msgid "Show _icon in status area when passphrases are in memory"
+msgstr "Pokud jsou hesla v paměti, ukázat ve stavové oblasti _ikonu"
+
+#: ../libseahorse/seahorse-prefs.glade.h:10
+msgid "When _encrypting, always include myself as a recipient"
+msgstr "_Vždy mě při šifrování zahrnout mezi příjemce"
+
+#: ../libseahorse/seahorse-prefs.glade.h:11
+msgid "_Always remember passphrases whenever logged in"
+msgstr "_Pamatovat si hesla, kdykoliv se přihlásím"
+
+#: ../libseahorse/seahorse-prefs.glade.h:12
+msgid "_Default key:"
+msgstr "Vý_chozí klíč:"
+
+#: ../libseahorse/seahorse-prefs.glade.h:13
+msgid "_Never remember passphrases"
+msgstr "_Nikdy si nepamatovat hesla"
+
+#: ../libseahorse/seahorse-prefs.glade.h:14
+msgid "_Remember passphrases for"
+msgstr "Pa_matovat si hesla"
+
+#: ../libseahorse/seahorse-prefs.glade.h:15
+msgid "minutes"
+msgstr "minut"
+
+#: ../libseahorse/seahorse-progress.glade.h:1
+msgid "Progress Title"
+msgstr "Nadpis průběhu"
+
+#: ../libseahorse/seahorse-util.c:175
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "Dešifrování selhalo. Pravděpodobně nemáte dešifrovací klíč."
+
+#: ../libseahorse/seahorse-util.c:225
+msgid "%Y-%m-%d"
+msgstr "%d.%m.%Y"
+
+#: ../libseahorse/seahorse-util.c:644
+msgid "Couldn't run file-roller"
+msgstr "Nebylo možno spustit file-roller"
+
+#: ../libseahorse/seahorse-util.c:649
+#: ../plugins/nautilus/seahorse-tool-files.c:872
+msgid "Couldn't package files"
+msgstr "Nebylo možno zabalit soubory"
+
+#: ../libseahorse/seahorse-util.c:650
+msgid "The file-roller process did not complete successfully"
+msgstr "Proces file-roller neskončil úspěšně"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libseahorse/seahorse-util.c:710
+msgid "All key files"
+msgstr "Všechny soubory klíčů"
+
+#: ../libseahorse/seahorse-util.c:717 ../libseahorse/seahorse-util.c:757
+msgid "All files"
+msgstr "Všechny soubory"
+
+#: ../libseahorse/seahorse-util.c:750
+msgid "Archive files"
+msgstr "Soubory archivů"
+
+#: ../libseahorse/seahorse-util.c:779
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>Již existuje soubor s tímto názvem.</b>\n"
+"\n"
+"Chcete jej nahradit novým souborem?"
+
+#: ../libseahorse/seahorse-util.c:782
+msgid "_Replace"
+msgstr "Na_hradit"
+
+#: ../libseahorse/seahorse-widget.c:322
+#, c-format
+msgid "Could not display help: %s"
+msgstr "Nebylo možno zobrazit nápovědu: %s"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:1
+msgid "Clipboard Text Encryption"
+msgstr "Šifrování textu ve schránce"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:2
+msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+msgstr ""
+"Zašifrovat, dešifrovat nebo podepsat text ve schránce (s použitím PGP)."
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:3
+msgid "Seahorse Applet Factory"
+msgstr "Generátor appletu Seahorse"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:1
+msgid "_About"
+msgstr "O _aplikaci"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:2
+msgid "_Help"
+msgstr "_Nápověda"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:3
+msgid "_Preferences"
+msgstr "_Nastavení"
+
+#: ../plugins/applet/seahorse-applet.c:278
+#: ../plugins/applet/seahorse-applet.c:723
+#, c-format
+msgid "Could not display URL: %s"
+msgstr "Nelze zobrazit adresu URL: %s"
+
+#: ../plugins/applet/seahorse-applet.c:314
+msgid "seahorse-applet"
+msgstr "seahorse-applet"
+
+#: ../plugins/applet/seahorse-applet.c:316
+#: ../plugins/applet/seahorse-applet.c:879
+msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+msgstr ""
+"Použít PGP/GPG pro zašifrování, dešifrování, podepsání, ověření či import "
+"schránky."
+
+#: ../plugins/applet/seahorse-applet.c:321
+msgid "translator-credits"
+msgstr ""
+"Petr Domanský <doman@atlas.cz>\n"
+"Michal Bukovjan <bukm@centrum.cz>\n"
+"Miloslav Trmač <mitr@volny.cz>\n"
+"Vítězslav Kotrla <vitko@post.cz>\n"
+"Petr Kovář <pknbe@volny.cz>\n"
+"Lucas Lommer <llommer@svn.gnome.org>"
+
+#: ../plugins/applet/seahorse-applet.c:324
+msgid "Seahorse Project Homepage"
+msgstr "Domovská stránka projektu Seahorse"
+
+#. Get the recipient list
+#: ../plugins/applet/seahorse-applet.c:396
+#: ../plugins/epiphany/seahorse-extension.c:275
+#: ../plugins/gedit/seahorse-gedit.c:340
+msgid "Choose Recipient Keys"
+msgstr "Vyberte klíče příjemců"
+
+#: ../plugins/applet/seahorse-applet.c:415
+msgid "Encrypted Text"
+msgstr "Zašifrovaný text"
+
+#: ../plugins/applet/seahorse-applet.c:417
+msgid "Encryption Failed"
+msgstr "Šifrování selhalo"
+
+#: ../plugins/applet/seahorse-applet.c:417
+msgid "The clipboard could not be encrypted."
+msgstr "Schránku nebylo možno zašifrovat."
+
+#: ../plugins/applet/seahorse-applet.c:455
+#: ../plugins/epiphany/seahorse-extension.c:325
+#: ../plugins/gedit/seahorse-gedit.c:630
+msgid "Choose Key to Sign with"
+msgstr "Vyberte klíč pro podpis"
+
+#: ../plugins/applet/seahorse-applet.c:475
+msgid "Signed Text"
+msgstr "Podepsaný text"
+
+#: ../plugins/applet/seahorse-applet.c:477
+#: ../plugins/applet/seahorse-applet.c:557
+msgid "Signing Failed"
+msgstr "Podepsání selhalo"
+
+#: ../plugins/applet/seahorse-applet.c:477
+#: ../plugins/applet/seahorse-applet.c:557
+msgid "The clipboard could not be Signed."
+msgstr "Obsah schránky nemohl být podepsán."
+
+#: ../plugins/applet/seahorse-applet.c:519
+#: ../plugins/epiphany/seahorse-extension.c:369
+#: ../plugins/nautilus/seahorse-tool.c:443
+msgid "Import Failed"
+msgstr "Import selhal"
+
+#: ../plugins/applet/seahorse-applet.c:520
+#: ../plugins/epiphany/seahorse-extension.c:370
+#: ../plugins/nautilus/seahorse-tool.c:444
+msgid "Keys were found but not imported."
+msgstr "Klíče nalezeny, ale nebyly importovány."
+
+#: ../plugins/applet/seahorse-applet.c:612
+msgid "No PGP key or message was found on clipboard"
+msgstr "Ve schránce nebyl nalezen ani PGP klíč, ani zpráva"
+
+#: ../plugins/applet/seahorse-applet.c:613
+msgid "No PGP data found."
+msgstr "Žádná PGP data nebyla nalezena."
+
+#. TRANSLATORS: This means 'The text that was decrypted'
+#: ../plugins/applet/seahorse-applet.c:650
+msgid "Decrypted Text"
+msgstr "Dešifrovaný text"
+
+#: ../plugins/applet/seahorse-applet.c:791
+msgid "_Encrypt Clipboard"
+msgstr "Zaši_frovat schránku"
+
+#: ../plugins/applet/seahorse-applet.c:798
+msgid "_Sign Clipboard"
+msgstr "Podep_sat schránku"
+
+#: ../plugins/applet/seahorse-applet.c:805
+msgid "_Decrypt/Verify Clipboard"
+msgstr "_Dešifrovat/Ověřit schránku"
+
+#: ../plugins/applet/seahorse-applet.c:811
+msgid "_Import Keys from Clipboard"
+msgstr "_Import klíčů ze schránky"
+
+#: ../plugins/applet/seahorse-applet.c:876
+#: ../plugins/applet/seahorse-applet.c:878
+msgid "Encryption Applet"
+msgstr "Applet pro šifrování"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:1
+msgid "<b>Display clipboard contents after:</b>"
+msgstr "<b>Zobrazit obsah schránky po:</b>"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:2
+msgid "Clipboard Encryption Preferences"
+msgstr "Nastavení šifrování schránky"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:3
+msgid "_Decrypting the clipboard"
+msgstr "_Dešifrování schránky"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:4
+msgid "_Encrypting or signing the clipboard"
+msgstr "Zašifro_vání nebo podepsání schránky"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:5
+msgid "_Show clipboard state in panel"
+msgstr "Ukázat _stav schránky v panelu"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:6
+msgid "_Verifying the clipboard"
+msgstr "_Ověření schránky"
+
+#: ../plugins/epiphany/seahorse-extension.c:408
+msgid "Decrypting Failed"
+msgstr "Dešifrování selhalo"
+
+#: ../plugins/epiphany/seahorse-extension.c:408
+msgid "Text may be malformed."
+msgstr "Text může být poškozen."
+
+#: ../plugins/epiphany/seahorse-extension.c:654
+msgid "_Encrypt"
+msgstr "Zašifrova_t"
+
+#: ../plugins/epiphany/seahorse-extension.c:661
+msgid "_Sign"
+msgstr "Podep_sat"
+
+#: ../plugins/epiphany/seahorse-extension.c:668
+msgid "_Decrypt/Verify"
+msgstr "_Dešifrovat / ověřit"
+
+#: ../plugins/epiphany/seahorse-extension.c:675
+msgid "_Import Key"
+msgstr "_Importovat klíč"
+
+#: ../plugins/gedit/seahorse-gedit.c:270
+msgid "Couldn't connect to seahorse-daemon"
+msgstr "Nebylo možno připojit se k procesu seahorse-daemon"
+
+#: ../plugins/gedit/seahorse-gedit.c:362
+msgid "Encrypted text"
+msgstr "Zašifrovaný text"
+
+#: ../plugins/gedit/seahorse-gedit.c:365
+msgid "Couldn't encrypt text"
+msgstr "Nebylo možno zašifrovat text"
+
+#: ../plugins/gedit/seahorse-gedit.c:395
+msgid "Couldn't import keys"
+msgstr "Nebylo možno importovat klíče"
+
+#: ../plugins/gedit/seahorse-gedit.c:404
+msgid "Keys found but not imported"
+msgstr "Klíče nalezeny, ale neimportovány"
+
+#: ../plugins/gedit/seahorse-gedit.c:441
+msgid "Couldn't decrypt text"
+msgstr "Nebylo možno dešifrovat text"
+
+#: ../plugins/gedit/seahorse-gedit.c:478
+msgid "Couldn't verify text"
+msgstr "Nebylo možno ověřit text"
+
+#: ../plugins/gedit/seahorse-gedit.c:526
+msgid "No encrypted or signed text is selected."
+msgstr "Není vybrán šifrovaný nebo podepsaný text."
+
+#: ../plugins/gedit/seahorse-gedit.c:556
+msgid "Decrypted text"
+msgstr "Dešifrovaný text"
+
+#: ../plugins/gedit/seahorse-gedit.c:563
+msgid "Verified text"
+msgstr "Ověřený text"
+
+#: ../plugins/gedit/seahorse-gedit.c:598
+#: ../plugins/nautilus/seahorse-tool.c:469
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] "Importován %d klíč"
+msgstr[1] "Importovány %d klíče"
+msgstr[2] "Importováno %d klíčů"
+
+#: ../plugins/gedit/seahorse-gedit.c:652
+msgid "Signed text"
+msgstr "Podepsaný text"
+
+#: ../plugins/gedit/seahorse-gedit.c:655
+msgid "Couldn't sign text"
+msgstr "Nebylo možno podepsat text"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:133
+msgid "_Encrypt..."
+msgstr "Zaši_frovat..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:134
+msgid "Encrypt the selected text"
+msgstr "Zašifrovat vybraný text"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:135
+msgid "Decr_ypt/Verify"
+msgstr "Dešif_rovat/Ověřit"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:136
+msgid "Decrypt and/or Verify text"
+msgstr "Dešifrovat a/nebo ověřit text"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:137
+msgid "Sig_n..."
+msgstr "_Podepsat..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:138
+msgid "Sign the selected text"
+msgstr "Podepsat vybraný text"
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:1
+msgid "Enable the seahorse encryption plugin for gedit."
+msgstr "Povolit zásuvný modul pro šifrování seahorse pro gedit."
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:2
+msgid "Enable the seahorse gedit plugin"
+msgstr "Povolit zásuvný modul seahorse pro gedit"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:1
+msgid "Text Encryption"
+msgstr "Šifrování textu"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:2
+msgid "This plugin performs encryption operations on text."
+msgstr "Zásuvný modul provádí operace šifrování s textem."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:158
+msgid "Encrypt..."
+msgstr "Zašifrovat..."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:159
+msgid "Encrypt (and optionally sign) the selected file"
+msgid_plural "Encrypt the selected files"
+msgstr[0] "Zašifrovat (a volitelně podepsat) vybraný soubor"
+msgstr[1] "Zašifrovat vybrané soubory"
+msgstr[2] "Zašifrovat vybraný archiv"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:165
+msgid "Sign"
+msgstr "Podepsat"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:166
+msgid "Sign the selected file"
+msgid_plural "Sign the selected files"
+msgstr[0] "Podepsat vybraný soubor"
+msgstr[1] "Podepsat vybrané soubory"
+msgstr[2] "Podepsat vybraných souborů"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:39
+msgid "For internal use"
+msgstr "Pro interní použití"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:63
+msgid "Encryption Preferences"
+msgstr "Nastavení šifrování"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:1
+msgid "Configure key servers and other encryption settings"
+msgstr "Nastavit servery klíčů a jiná nastavení šifrování"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:2
+msgid "Encryption and Keyrings"
+msgstr "Šifrování a klíčenky"
+
+#: ../plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in.h:1
+msgid "Decrypt File"
+msgstr "Dešifrovat soubor"
+
+#: ../plugins/nautilus/seahorse-pgp-keys.desktop.in.in.h:1
+msgid "Import Key"
+msgstr "Importovat klíč"
+
+#: ../plugins/nautilus/seahorse-pgp-signature.desktop.in.in.h:1
+msgid "Verify Signature"
+msgstr "Ověřit podpis"
+
+#: ../plugins/nautilus/seahorse-tool.c:61
+msgid "Import keys from the file"
+msgstr "Importovat klíče ze souboru"
+
+#: ../plugins/nautilus/seahorse-tool.c:63
+msgid "Encrypt file"
+msgstr "Zašifrovat soubor"
+
+#: ../plugins/nautilus/seahorse-tool.c:65
+msgid "Sign file with default key"
+msgstr "Podepsat soubor výchozím klíčem"
+
+#: ../plugins/nautilus/seahorse-tool.c:67
+msgid "Encrypt and sign file with default key"
+msgstr "Zašifrovat a podepsat soubor pomocí výchozího klíče"
+
+#: ../plugins/nautilus/seahorse-tool.c:69
+msgid "Decrypt encrypted file"
+msgstr "Dešifrovat šifrovaný soubor"
+
+#: ../plugins/nautilus/seahorse-tool.c:71
+msgid "Verify signature file"
+msgstr "Ověřit soubor podpisu"
+
+#: ../plugins/nautilus/seahorse-tool.c:73
+msgid "Read list of URIs on standard in"
+msgstr "Číst seznam URI ze standardního vstupu"
+
+#: ../plugins/nautilus/seahorse-tool.c:75
+msgid "file..."
+msgstr "soubor..."
+
+#: ../plugins/nautilus/seahorse-tool.c:169
+msgid "Choose Recipients"
+msgstr "Vyberte příjemce"
+
+#: ../plugins/nautilus/seahorse-tool.c:231
+#: ../plugins/nautilus/seahorse-tool.c:321
+msgid "Couldn't load keys"
+msgstr "Nebylo možno načíst klíče"
+
+#: ../plugins/nautilus/seahorse-tool.c:249
+#, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr "Zvolte název zašifrovaného souboru pro '%s'"
+
+#: ../plugins/nautilus/seahorse-tool.c:305
+msgid "Choose Signer"
+msgstr "Zvolte podpisový klíč"
+
+#: ../plugins/nautilus/seahorse-tool.c:340
+#, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr "Zvolte název souboru s podpisem pro '%s'"
+
+#: ../plugins/nautilus/seahorse-tool.c:380
+msgid "Import is complete"
+msgstr "Import byl dokončen"
+
+#: ../plugins/nautilus/seahorse-tool.c:413
+msgid "Importing keys ..."
+msgstr "Importuji klíče..."
+
+#: ../plugins/nautilus/seahorse-tool.c:467
+#, c-format
+msgid "Imported key"
+msgstr "Importován klíč"
+
+#. File to decrypt to
+#: ../plugins/nautilus/seahorse-tool.c:491
+#, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr "Zvolte název dešifrovaného souboru pro '%s'"
+
+#: ../plugins/nautilus/seahorse-tool.c:547
+#, c-format
+msgid "Choose Original File for '%s'"
+msgstr "Zvolte původní soubor pro '%s'"
+
+#.
+#. * TODO: What should happen with multiple files at this point.
+#. * The last thing we want to do is cascade a big pile of error
+#. * dialogs at the user.
+#.
+#: ../plugins/nautilus/seahorse-tool.c:619
+#, c-format
+msgid "No valid signatures found"
+msgstr "Nebyl nalezen žádný platný podpis"
+
+#: ../plugins/nautilus/seahorse-tool.c:668
+msgid "File Encryption Tool"
+msgstr "Nástroj pro šifrování souborů"
+
+#: ../plugins/nautilus/seahorse-tool.c:687
+msgid "Encrypting"
+msgstr "Šifrování"
+
+#: ../plugins/nautilus/seahorse-tool.c:688
+#, c-format
+msgid "Couldn't encrypt file: %s"
+msgstr "Nebylo možno zašifrovat soubor: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:696
+msgid "Signing"
+msgstr "Podepsání"
+
+#: ../plugins/nautilus/seahorse-tool.c:697
+#, c-format
+msgid "Couldn't sign file: %s"
+msgstr "Nebylo možno podepsat soubor: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:702
+msgid "Importing"
+msgstr "Import"
+
+#: ../plugins/nautilus/seahorse-tool.c:703
+#, c-format
+msgid "Couldn't import keys from file: %s"
+msgstr "Nebylo možno importovat klíče ze souboru: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:709
+msgid "Decrypting"
+msgstr "Dešifrování"
+
+#: ../plugins/nautilus/seahorse-tool.c:710
+#, c-format
+msgid "Couldn't decrypt file: %s"
+msgstr "Nebylo možno dešifrovat soubor: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:715
+msgid "Verifying"
+msgstr "Ověření"
+
+#: ../plugins/nautilus/seahorse-tool.c:716
+#, c-format
+msgid "Couldn't verify file: %s"
+msgstr "Nebylo možno ověřit soubor: %s"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:120
+msgid "Ace (.ace)"
+msgstr "Ace (.ace)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:121
+msgid "Ar (.ar)"
+msgstr "Ar (.ar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:122
+msgid "Arj (.arj)"
+msgstr "ARJ (.arj)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:129
+msgid "Ear (.ear)"
+msgstr "Ear (.ear)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:130
+msgid "Self-extracting zip (.exe)"
+msgstr "Samorozbalovací zip (.exe)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:132
+msgid "Jar (.jar)"
+msgstr "Jar (.jar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:133
+msgid "Lha (.lzh)"
+msgstr "LHA (.lzh)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:135
+msgid "Rar (.rar)"
+msgstr "RAR (.rar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:137
+msgid "Tar uncompressed (.tar)"
+msgstr "Nekomprimovaný Tar (.tar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:138
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "Tar s kompresí bzip (.tar.bz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:139
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "Tar s kompresí bzip2 (.tar.bz2)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:140
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "Tar s kompresí gzip (.tar.gz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:141
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "Tar s kompresí lzop (.tar.lzo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:142
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "Tar s kompresí compress (.tar.Z)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:144
+msgid "War (.war)"
+msgstr "War (.war)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:145
+msgid "Zip (.zip)"
+msgstr "Zip (.zip)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:146
+msgid "Zoo (.zoo)"
+msgstr "Zoo (.zoo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:147
+msgid "7-Zip (.7z)"
+msgstr "7-Zip (.7z)"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:327
+#, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] "Vybral jste %d soubor "
+msgstr[1] "Vybral jste %d souborů "
+msgstr[2] "Vybrali jste %d souborů "
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:332
+#, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] "a %d složka"
+msgstr[1] "a %d složky"
+msgstr[2] "a %d složek"
+
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: ../plugins/nautilus/seahorse-tool-files.c:337
+#, c-format
+msgid "<b>%s%s</b>"
+msgstr "<b>%s%s</b>"
+
+#. should never be called for just one file
+#: ../plugins/nautilus/seahorse-tool-files.c:346
+#, c-format
+msgid "You have selected %d files"
+msgstr "Vybrali jste %d souborů"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:351
+#, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] "Vybrali jste %d složku"
+msgstr[1] "Vybrali jste %d složky"
+msgstr[2] "Vybrali jste %d složek"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:853
+msgid "Preparing..."
+msgstr "Příprava..."
+
+#: ../plugins/nautilus/seahorse-tool-files.c:862
+#: ../plugins/nautilus/seahorse-tool-files.c:885
+msgid "Couldn't list files"
+msgstr "Nebylo možno vypsat soubory"

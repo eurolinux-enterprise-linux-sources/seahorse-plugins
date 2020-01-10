@@ -1,0 +1,1157 @@
+# translation of seahorse-plugins.HEAD.gu.po to Gujarati
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Ankit Patel <ankit@redhat.com>, 2007, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: seahorse-plugins.HEAD.gu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-06 18:34+0000\n"
+"PO-Revision-Date: 2008-09-21 21:08+0530\n"
+"Last-Translator: Ankit Patel <ankit@redhat.com>\n"
+"Language-Team: Gujarati <fedora-trans-gu@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n!=1);\n\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../agent/seahorse-agent-actions.c:120
+msgid "Passphrase:"
+msgstr "પાસફ્રેઝ:"
+
+#: ../agent/seahorse-agent-actions.c:121
+msgid "Please enter a passphrase to use."
+msgstr "મહેરબાની કરીને વાપરવા માટે પાસફ્રેઝ દાખલ કરો."
+
+#: ../agent/seahorse-agent-cache.c:66
+msgid "Unparseable Key ID"
+msgstr "પદચ્છેદન નહિં કરી શકાય તેવી કી ID"
+
+#: ../agent/seahorse-agent-cache.c:67
+msgid "Unknown/Invalid Key"
+msgstr "અજ્ઞાત/અયોગ્ય કી"
+
+#: ../agent/seahorse-agent-cache.c:533
+#, c-format
+msgid "PGP Key: %s"
+msgstr "PGP કી: %s"
+
+#: ../agent/seahorse-agent-cache.glade.h:1
+msgid ""
+"<b>Warning</b>: Your system is not configured to cache passphrases in secure "
+"memory."
+msgstr "<b>ચેતવણી</b>: તમારી સિસ્ટમ સુરક્ષિત મેમરીમાં પાસફ્રેઝ કેશ કરવા માટે રૂપરેખાંકિત થયેલ નથી."
+
+#: ../agent/seahorse-agent-cache.glade.h:2
+msgid "Cache _Preferences"
+msgstr "કેશ પસંદગીઓ (_P)"
+
+#: ../agent/seahorse-agent-cache.glade.h:3
+msgid "Cached Encryption Keys"
+msgstr "કેશ થયેલ એનક્રિપ્શન કીઓ"
+
+#: ../agent/seahorse-agent-cache.glade.h:4
+msgid "Change passphrase cache settings."
+msgstr "પાસફ્રેઝ કેશ સુયોજનો બદલો."
+
+#: ../agent/seahorse-agent-cache.glade.h:5
+msgid "Clear passphrase cache"
+msgstr "પાસફ્રેઝ કેશ સાફ કરો"
+
+#: ../agent/seahorse-agent-cache.glade.h:6
+msgid "_Clear Cache"
+msgstr "કેશ સાફ કરો (_C)"
+
+#: ../agent/seahorse-agent-cache.glade.h:7
+msgid "_Show Window"
+msgstr "વિન્ડો બતાવો (_S)"
+
+#: ../agent/seahorse-agent-main.c:52
+msgid "Do not daemonize seahorse-agent"
+msgstr "seahorse-agent ડિમનાઈઝ કરો નહિં"
+
+#: ../agent/seahorse-agent-main.c:56
+msgid "Print variables in for a C type shell"
+msgstr "C પ્રકાશ શેલ માટે ચલો છાપો"
+
+#: ../agent/seahorse-agent-main.c:60
+msgid "Display environment variables (the default)"
+msgstr "પર્યાવરણીય ચલો દર્શાવો (મૂળભૂત)"
+
+#: ../agent/seahorse-agent-main.c:63
+msgid "Execute other arguments on the command line"
+msgstr "આદેશ વાક્ય પર અન્ય દલીલો ચલાવો"
+
+#: ../agent/seahorse-agent-main.c:67
+msgid "Allow GPG agent request from any display"
+msgstr "GPG એજન્ટ અરજીને કોઈપણ ડિસ્પ્લેમાંથી પરવાનગી આપો"
+
+#: ../agent/seahorse-agent-main.c:70
+msgid "command..."
+msgstr "આદેશ..."
+
+#: ../agent/seahorse-agent-main.c:108
+msgid "couldn't fork process"
+msgstr "પ્રક્રિયા પેદા કરી શક્યા નહિં"
+
+#: ../agent/seahorse-agent-main.c:114
+msgid "couldn't create new process group"
+msgstr "નવું પ્રક્રિયા જૂથ બનાવી શક્યા નહિં"
+
+#: ../agent/seahorse-agent-main.c:240
+msgid "Encryption Key Agent (Seahorse)"
+msgstr "એનક્રિપ્શન કી એજન્ટ (Seahorse)"
+
+#: ../agent/seahorse-agent-main.c:246
+msgid "no command specified to execute"
+msgstr "કોઈ આદેશ ચલાવવા માટે સ્પષ્ટ થયેલ નથી"
+
+#: ../agent/seahorse-agent-prompt.c:216
+msgid "Authorize Passphrase Access"
+msgstr "પાસફ્રેઝ વપરાશ સત્તાધિકારીત કરો"
+
+#: ../agent/seahorse-agent-prompt.c:252
+msgid "The passphrase is cached in memory."
+msgstr "પાસફ્રેઝ મેમરીમાં કેશ થયેલ છે."
+
+#: ../agent/seahorse-agent-prompt.c:257
+msgid "Always ask me before using a cached passphrase"
+msgstr "કેશ થયેલ પાસફ્રેઝ વાપરવા પહેલાં હંમેશા મને પૂછો"
+
+#: ../agent/seahorse-agent-prompt.c:274
+msgid "_Authorize"
+msgstr "સત્તાધિકારીત કરો (_A)"
+
+#. Make the uid column
+#: ../agent/seahorse-agent-status.c:145
+msgid "Key Name"
+msgstr "કી નામ"
+
+#: ../data/seahorse.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"દૂરસ્થ PGP કીઓ માટે શોધવા માટે સર્વર URI ની યાદી. પછીની આવૃત્તિઓમાં ડિસ્પ્લે નામ ઉમેરી "
+"શકાશે, જગ્યા અને પછી નામ ઉમેરીને."
+
+#: ../data/seahorse.schemas.in.h:2
+msgid ""
+"After performing an decrypt or verify operation from the applet, display the "
+"resulting text in a window."
+msgstr "એપ્લેટમાંથી ડિક્રિપ્ટ અથવા ખાતરી પ્રક્રિયા કર્યા પછી, વિન્ડોમાં પરિણામી લખાણ દર્શાવો."
+
+#: ../data/seahorse.schemas.in.h:3
+msgid ""
+"After performing an encrypt or signing operation from the applet, display "
+"the resulting text in a window."
+msgstr ""
+"એપ્લેટમાંથી એનક્રિપ્ટ અથવા સહી કરવાની પ્રક્રિયા કર્યા પછી, વિન્ડોમાં પરિણામી લખાણ "
+"દર્શાવો."
+
+#: ../data/seahorse.schemas.in.h:4
+msgid "Display cache reminder in the notification area"
+msgstr "સૂચન વિસ્તારમાં કેશ યાદ અપાવનાર દર્શાવો"
+
+#: ../data/seahorse.schemas.in.h:5
+msgid "Display clipboard after decrypting"
+msgstr "ડિક્રિપ્ટ કર્યા પછી ક્લિપબોર્ડ દર્શાવો"
+
+#: ../data/seahorse.schemas.in.h:6
+msgid "Display clipboard after encrypting"
+msgstr "એનક્રિપ્ટ કર્યા પછી ક્લિપબોર્ડ દર્શાવો"
+
+#: ../data/seahorse.schemas.in.h:7
+msgid "Expire passwords in the cache"
+msgstr "કેશમાં પાસવર્ડો નિવૃત્ત કરો"
+
+#: ../data/seahorse.schemas.in.h:8
+msgid "ID of the default key"
+msgstr "મૂળભૂત કીની ID"
+
+#: ../data/seahorse.schemas.in.h:9
+msgid ""
+"If set to 'gnome' uses gnome-keyring to cache passwords. When set to "
+"'internal' uses internal cache."
+msgstr ""
+"પાસવર્ડો કેશ કરવા માટે 'gnome' એ gnome-keyring વાપરે એવું સુયોજિત થયેલ હોય. જ્યારે "
+"'internal' સુયોજિત થયેલ આંતરિક કેશ વાપરે છે."
+
+#: ../data/seahorse.schemas.in.h:10
+msgid ""
+"If set to true, then files encrypted with seahorse will be ASCII armor "
+"encoded."
+msgstr ""
+"જો ખરું સુયોજિત થયેલ હોય, તો પછી seahorse સાથે એનક્રિપ્ટ થયેલ ફાઈલો ASCII armor "
+"એનકોડ થયેલ હશે."
+
+#: ../data/seahorse.schemas.in.h:11
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr "જો ખરું સુયોજિત થાય, તો પછી મૂળભૂત કી હંમેશા એનક્રિપ્શન મેળવનારાઓ યોદીમાં ઉમેરવામાં આવશે."
+
+#: ../data/seahorse.schemas.in.h:12
+msgid "Last key used to sign a message."
+msgstr "સંદેશો સહી કરવા માટે વપરાયેલ છેલ્લી કી."
+
+#: ../data/seahorse.schemas.in.h:13
+msgid "PGP Key servers"
+msgstr "PGP કી સર્વરો"
+
+#: ../data/seahorse.schemas.in.h:14
+msgid "Prompt before using GPG passwords in cache"
+msgstr "કેશમાં GPG પાસવર્ડો વાપરવા પહેલાં પૂછો"
+
+#: ../data/seahorse.schemas.in.h:15
+msgid ""
+"Reflect the contents of the clipboard (whether encrypted, signed, etc...) in "
+"the panel applet icon."
+msgstr ""
+"પેનલ એપ્લેટ ચિહ્નમાં ક્લિપબોર્ડના સમાવિષ્ટો (એનક્રિપ્ટ થયેલ, સહી થયેલ, વગેરે...) પરાવર્તિત "
+"કરો."
+
+#: ../data/seahorse.schemas.in.h:16
+msgid ""
+"Set to 'true' to enable display of the cache reminder in the notification "
+"area of your panel."
+msgstr ""
+"તમારી પેનલના સૂચન વિસ્તારમાં કેશ યાદ અપાવનારનું દૃશ્ય સક્રિય કરવા માટે 'true' માં સુયોજિત "
+"કરો."
+
+#: ../data/seahorse.schemas.in.h:17
+msgid ""
+"Set to 'true' to have seahorse-agent prompt before giving out passwords it "
+"has cached."
+msgstr "seahorse-agent પ્રોમ્પ્ટ મેળવવા માટે 'true' સુયોજિત કરો તે પાસવર્ડો કેશ કરે તે પહેલાં."
+
+#: ../data/seahorse.schemas.in.h:18
+msgid "Show clipboard state in panel"
+msgstr "પેનલમાં ક્લિપબોર્ડ પરિસ્થિતિ બતાવો"
+
+#: ../data/seahorse.schemas.in.h:19
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"મેળવનારાઓ વિન્ડો ક્રમમાં ગોઠવવા માટે સ્તંભ સ્પષ્ટ કરો. સ્તંભો છે: 'name' અને 'id'. ઊતરતા "
+"ક્રમમાં ગોઠવવા માટે સ્તંભ નામની આગળ '-' મૂકો."
+
+#: ../data/seahorse.schemas.in.h:20
+msgid "The ID of the last secret key used to sign a message."
+msgstr "સંદેશો સહી કરવા માટે વપરાયેલ છેલ્લી ખાનગી કીનું ID."
+
+#: ../data/seahorse.schemas.in.h:21
+msgid "The column to sort the recipients by"
+msgstr "મેળવનારાઓને ક્રમમાં ગોઠવવા માટેનો સ્તંભ"
+
+#: ../data/seahorse.schemas.in.h:22
+msgid "The time (in minutes) to cache GPG passwords"
+msgstr "GPG પાસવર્ડો કેશ કરવા માટેનો સમય (મિનિટોમાં)"
+
+#: ../data/seahorse.schemas.in.h:23
+msgid ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"seahorse-agent."
+msgstr ""
+"આ સમયનો જથ્થો છે, મિનિટોમાં સ્પષ્ટ થયેલ છે, GPG પાસવર્ડોને seahorse-agent માં કેશ કરવા "
+"માટે."
+
+#: ../data/seahorse.schemas.in.h:24
+msgid ""
+"This option enables the GPG password cache in the seahorse-agent program. "
+"The 'use-agent' setting in gpg.conf affects this setting."
+msgstr ""
+"આ વિકલ્પ GPG પાસવર્ડ કેશને seahorse-agent કાર્યક્રમમાં કેશ કરવા માટે સક્રિય કરે છે. gpg."
+"conf માં 'use-agent' સુયોજન આ સુયોજનને અસર કરે છે."
+
+#: ../data/seahorse.schemas.in.h:25
+msgid "This specifies the default key to use for certain operations, mainly signing."
+msgstr "આ ચોક્કસ પ્રક્રિયાઓ માટે મૂળભૂત કી વાપરવા માટે સ્પષ્ટ કરે છે, ખાસ કરીને સહી કરવાનું."
+
+#: ../data/seahorse.schemas.in.h:26
+msgid ""
+"When set, seahorse-agent expires GPG passwords in its cache after a period "
+"of time."
+msgstr ""
+"જ્યારે સુયોજિત હોય, ત્યારે seahorse-agent એ GPG પાસવર્ડોને તેની કેશમાં અમુક સમયના ગાળા "
+"પછી કેશ કરે છે."
+
+#: ../data/seahorse.schemas.in.h:27
+msgid "Where to store cached passwords."
+msgstr "કેશ થયેલ પાસવર્ડોને ક્યાં સંગ્રહવા."
+
+#: ../data/seahorse.schemas.in.h:28
+msgid "Whether the GPG password cache is enabled"
+msgstr "શું GPG પાસવર્ડ કેશ સક્રિય કરેલ છે"
+
+#: ../data/seahorse.schemas.in.h:29
+msgid "Whether to always encrypt to default key"
+msgstr "શું મૂળભૂત કી હંમેશા એનક્રિપ્ટ કરવી"
+
+#: ../data/seahorse.schemas.in.h:30
+msgid "Whether to use ASCII Armor"
+msgstr "શું ASCII Armor વાપરવું"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:1
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<b>તમે ઘણી બધી ફાઈલો અથવા ફોલ્ડરો પસંદ કરેલ છે</b>"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:2
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr "ફાઈલો દૂરસ્થ રીતે સ્થિત થયેલ હોવાના કારણે, દરેક ફાઈલ અલગ રીતે એનક્રિપ્ટ થશે."
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:3
+msgid "Encrypt Multiple Files"
+msgstr "ઘણી બધી ફાઈલો એનક્રિપ્ટ કરો"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:4
+msgid "Encrypt each file separately"
+msgstr "દરેક ફાઈલ અલગ રીતે એનક્રિપ્ટ કરો"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:5
+msgid "Encrypt packed together in a package"
+msgstr "પેક થયેલને એક સાથે પેકેજમાં એનક્રિપ્ટ કરો"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:6
+msgid "Package Name:"
+msgstr "પેકેજ નામ:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:7
+msgid "Packaging:"
+msgstr "પેકેજીંગ:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:8
+msgid "encrypted-package"
+msgstr "એનક્રિપ્ટ થયેલ-પેકેજ"
+
+#: ../libseahorse/seahorse-notification.c:573
+#: ../libseahorse/seahorse-notification.c:598
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "કી આયાત થઈ"
+msgstr[1] "કીઓ આયાત થઈ"
+
+#: ../libseahorse/seahorse-notification.c:577
+#: ../libseahorse/seahorse-notification.c:597
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "આયાત થયેલ %i કી"
+msgstr[1] "આયાત થયેલ %i કીઓ"
+
+#: ../libseahorse/seahorse-notification.c:579
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "કી આના માટે આયાત થઈ"
+msgstr[1] "કીઓ આના માટે આયાત થઈ"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:614
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "<i><key id='%s'/> દ્વારા સહી થયેલ %s આગળ <b>નિવૃત્ત</b></i> થાય છે."
+
+#: ../libseahorse/seahorse-notification.c:615
+msgid "Invalid Signature"
+msgstr "અયોગ્ય સહી"
+
+#: ../libseahorse/seahorse-notification.c:621
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "%s પર <i><key id='%s'/></i> દ્વારા સહી થયેલ <b>નિવૃત્ત</b> થાય છે."
+
+#: ../libseahorse/seahorse-notification.c:622
+msgid "Expired Signature"
+msgstr "નિવૃત્ત સહી"
+
+#: ../libseahorse/seahorse-notification.c:628
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "<i><key id='%s'/> દ્વારા સહી થયેલ %s પર <b>પુનઃસક્રિય</b></i> થાય છે."
+
+#: ../libseahorse/seahorse-notification.c:629
+msgid "Revoked Signature"
+msgstr "પુનઃસક્રિય થયેલ સહી"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:635
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "%s પર <i><key id='%s'/></i> દ્વારા સહી થયેલ."
+
+#: ../libseahorse/seahorse-notification.c:636
+msgid "Good Signature"
+msgstr "સારી સહી"
+
+#: ../libseahorse/seahorse-notification.c:641
+msgid "Signing key not in keyring."
+msgstr "કી સહી કરવાનું કીરીંગમાં નથી."
+
+#: ../libseahorse/seahorse-notification.c:642
+msgid "Unknown Signature"
+msgstr "અજ્ઞાત સહી"
+
+#: ../libseahorse/seahorse-notification.c:646
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "ખરાબ અથવા ખોટી સહી. સહી થયેલ માહિતી સુધારાયેલ હતી નહિં."
+
+#: ../libseahorse/seahorse-notification.c:647
+msgid "Bad Signature"
+msgstr "ખરાબ સહી"
+
+#: ../libseahorse/seahorse-notification.c:655
+msgid "Couldn't verify signature."
+msgstr "સહીની ખાતરી કરી શક્યા નહિં."
+
+#: ../libseahorse/seahorse-notify.glade.h:1
+msgid "Notification Messages"
+msgstr "સૂચન સંદેશાઓ"
+
+#: ../libseahorse/seahorse-passphrase.c:174
+msgid "Passphrase"
+msgstr "પાસફ્રેઝ"
+
+#: ../libseahorse/seahorse-passphrase.c:177
+msgid "Password:"
+msgstr "પાસવર્ડ:"
+
+#: ../libseahorse/seahorse-passphrase.c:241
+msgid "Confirm:"
+msgstr "ખાતરી:"
+
+#: ../libseahorse/seahorse-passphrase.c:324
+#, c-format
+msgid "Wrong passphrase."
+msgstr "ખોટો પાસફ્રેઝ."
+
+#: ../libseahorse/seahorse-passphrase.c:328
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "'%s' માટે નવો પાસફ્રેઝ દાખલ કરો"
+
+#: ../libseahorse/seahorse-passphrase.c:330
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "'%s' માટે પાસફ્રેઝ દાખલ કરો"
+
+#: ../libseahorse/seahorse-passphrase.c:333
+msgid "Enter new passphrase"
+msgstr "નવો પાસફ્રેઝ દાખલ કરો"
+
+#: ../libseahorse/seahorse-passphrase.c:335
+msgid "Enter passphrase"
+msgstr "પાસફ્રેઝ દાખલ કરો"
+
+#: ../libseahorse/seahorse-prefs.c:100
+msgid "None. Prompt for a key."
+msgstr "કંઈ નહિં. કી માટે પૂછો."
+
+#: ../libseahorse/seahorse-prefs.glade.h:1
+msgid "<b>Default Key</b>"
+msgstr "<b>મૂળભૂત કી</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:2
+msgid "<b>Remember PGP Passphrases</b>"
+msgstr "<b>PGP પાસફ્રેઝ યાદ રાખો</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:3
+msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+msgstr "<i>આધારભૂત PGP પાસફ્રેઝ કેશીંગ એજન્ટ ચાલતો નથી.</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:4
+msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+msgstr "<i>આ કી સંદેશાઓ સહી કરવા માટે વપરાય છે જ્યારે અન્ય કોઈ કી પસંદ થયેલ નહિં હોય</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:5
+msgid "As_k me before using a cached passphrase"
+msgstr "મને કેશ થયેલ મહાવરાઓ વાપરવા પહેલાં મને પૂછો (_k)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:6
+msgid "Encryption"
+msgstr "એનક્રિપ્શન"
+
+#: ../libseahorse/seahorse-prefs.glade.h:7
+msgid "PGP Passphrases"
+msgstr "PGP પાસફ્રેઝો"
+
+#: ../libseahorse/seahorse-prefs.glade.h:8
+msgid "Password and Encryption Settings"
+msgstr "પાસવર્ડ અને એનક્રિપ્શન સુયોજનો"
+
+#: ../libseahorse/seahorse-prefs.glade.h:9
+msgid "Show _icon in status area when passphrases are in memory"
+msgstr "જ્યારે પાસફ્રેઝ મેમરીમાં હોય ત્યારે પરિસ્થિતિદર્શક વિસ્તારમાં ચિહ્ન બતાવો (_i)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:10
+msgid "When _encrypting, always include myself as a recipient"
+msgstr "જ્યારે એનક્રિપ્ટ કરી રહ્યા હોય, ત્યારે મને હંમેશા મેળવનાર તરીકે સમાવો (_e)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:11
+msgid "_Always remember passphrases whenever logged in"
+msgstr "જ્યારેપણ પ્રવેશ કરો ત્યારે હંમેશા પાસફ્રેઝ યાદ રાખો (_A)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:12
+msgid "_Default key:"
+msgstr "મૂળભૂત કી (_D):"
+
+#: ../libseahorse/seahorse-prefs.glade.h:13
+msgid "_Never remember passphrases"
+msgstr "ક્યારેય પાસફ્રેઝ યાદ રાખશો નહિં (_N)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:14
+msgid "_Remember passphrases for"
+msgstr "આના માટે પાસફ્રેઝ યાદ રાખો (_R)"
+
+#: ../libseahorse/seahorse-prefs.glade.h:15
+msgid "minutes"
+msgstr "મિનિટો"
+
+#: ../libseahorse/seahorse-progress.glade.h:1
+msgid "Progress Title"
+msgstr "પ્રગતિ શીર્ષક"
+
+#: ../libseahorse/seahorse-util.c:168
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "ડિક્રિપ્શન નિષ્ફળ. તમારી પાસે કદાચ ડિક્રીપ્શન કી નહિં હોય."
+
+#: ../libseahorse/seahorse-util.c:218
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../libseahorse/seahorse-util.c:637
+msgid "Couldn't run file-roller"
+msgstr "file-roller ચલાવી શક્યા નહિં"
+
+#: ../libseahorse/seahorse-util.c:642
+#: ../plugins/nautilus/seahorse-tool-files.c:872
+msgid "Couldn't package files"
+msgstr "ફાઈલો પેકેજ કરી શક્યા નહિં"
+
+#: ../libseahorse/seahorse-util.c:643
+msgid "The file-roller process did not complete successfully"
+msgstr "file-roller પ્રક્રિયા સંપૂર્ણપણે સફળ થઈ નહિં"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libseahorse/seahorse-util.c:703
+msgid "All key files"
+msgstr "બધી કી ફાઈલો"
+
+#: ../libseahorse/seahorse-util.c:710 ../libseahorse/seahorse-util.c:750
+msgid "All files"
+msgstr "બધી ફાઈલો"
+
+#: ../libseahorse/seahorse-util.c:743
+msgid "Archive files"
+msgstr "પેટી ફાઈલો"
+
+#: ../libseahorse/seahorse-util.c:772
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>આ જ નામ સાથેની ફાઈલ પહેલાથી જ હાજર છે.</b>\n"
+"\n"
+"શું તમે તેને નવી ફાઈલ સાથે બદલવા માંગો છો?"
+
+#: ../libseahorse/seahorse-util.c:775
+msgid "_Replace"
+msgstr "બદલો (_R)"
+
+#: ../libseahorse/seahorse-widget.c:326
+#, c-format
+msgid "Could not display help: %s"
+msgstr "મદદ દર્શાવી શક્યા નહિં: %s"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:1
+msgid "Clipboard Text Encryption"
+msgstr "ક્લિપબોર્ડ લખાણ એનક્રિપ્શન"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:2
+msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+msgstr "ક્લિપબોર્ડ એનક્રિપ્ટ કરો, ડિક્રિપ્ટ કરો અથવા સહી કરો (PGP પ્રકાર એનક્રિપ્શન વાપરે છે)."
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:3
+msgid "Seahorse Applet Factory"
+msgstr "Seahorse એપ્લેટ ફેક્ટરી"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:1
+msgid "_About"
+msgstr "વિશે (_A)"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:2
+msgid "_Help"
+msgstr "મદદ (_H)"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:3
+msgid "_Preferences"
+msgstr "પસંદગીઓ (_P)"
+
+#: ../plugins/applet/seahorse-applet.c:276
+#: ../plugins/applet/seahorse-applet.c:711
+#, c-format
+msgid "Could not display URL: %s"
+msgstr "URL દર્શાવી શક્યા નહિં: %s"
+
+#: ../plugins/applet/seahorse-applet.c:312
+msgid "seahorse-applet"
+msgstr "seahorse-applet"
+
+#: ../plugins/applet/seahorse-applet.c:314
+#: ../plugins/applet/seahorse-applet.c:867
+msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+msgstr "ક્લિપબોર્ડ એનક્રિપ્ટ/ડિક્રિપ્ટ/સહી કરો/ખાતરી કરો/આયાત કરો માટે PGP/GPG વાપરો."
+
+#: ../plugins/applet/seahorse-applet.c:319
+msgid "translator-credits"
+msgstr "અંકિત પટેલ <ankit644@yahoo.com>"
+
+#: ../plugins/applet/seahorse-applet.c:322
+msgid "Seahorse Project Homepage"
+msgstr "Seahorse પ્રોજેક્ટ ઘરપાનું"
+
+#. Get the recipient list
+#: ../plugins/applet/seahorse-applet.c:381
+#: ../plugins/epiphany/seahorse-extension.c:257
+#: ../plugins/gedit/seahorse-gedit.c:335
+msgid "Choose Recipient Keys"
+msgstr "મેળવનારા કીઓ પસંદ કરો"
+
+#: ../plugins/applet/seahorse-applet.c:400
+msgid "Encrypted Text"
+msgstr "એનક્રિપ્ટ થયેલ લખાણ"
+
+#: ../plugins/applet/seahorse-applet.c:402
+msgid "Encryption Failed"
+msgstr "એનક્રિપ્શન નિષ્ફળ"
+
+#: ../plugins/applet/seahorse-applet.c:403
+msgid "The clipboard could not be encrypted."
+msgstr "ક્લિપબોર્ડ એનક્રિપ્ટ કરી શક્યા નહિં."
+
+#: ../plugins/applet/seahorse-applet.c:440
+#: ../plugins/epiphany/seahorse-extension.c:307
+#: ../plugins/gedit/seahorse-gedit.c:627
+msgid "Choose Key to Sign with"
+msgstr "સાથે સહી કરવા માટે કી પસંદ કરો"
+
+#: ../plugins/applet/seahorse-applet.c:460
+msgid "Signed Text"
+msgstr "સહી કરેલ લખાણ"
+
+#: ../plugins/applet/seahorse-applet.c:462
+msgid "Signing Failed"
+msgstr "સહી કરવામાં નિષ્ફળ"
+
+#: ../plugins/applet/seahorse-applet.c:463
+msgid "The clipboard could not be Signed."
+msgstr "ક્લિપબોર્ડને સહી કરી શક્યા નહિં."
+
+#: ../plugins/applet/seahorse-applet.c:506
+#: ../plugins/epiphany/seahorse-extension.c:351
+#: ../plugins/nautilus/seahorse-tool.c:443
+msgid "Import Failed"
+msgstr "આયાત નિષ્ફળ"
+
+#: ../plugins/applet/seahorse-applet.c:507
+#: ../plugins/epiphany/seahorse-extension.c:352
+#: ../plugins/nautilus/seahorse-tool.c:444
+msgid "Keys were found but not imported."
+msgstr "કીઓ મળી પરંતુ આયાત થઈ નહિં."
+
+#: ../plugins/applet/seahorse-applet.c:543
+#: ../plugins/epiphany/seahorse-extension.c:390
+msgid "Decrypting Failed"
+msgstr "ડિક્રિપ્ટ કરવામાં નિષ્ફળ"
+
+#: ../plugins/applet/seahorse-applet.c:544
+#: ../plugins/epiphany/seahorse-extension.c:391
+msgid "Text may be malformed."
+msgstr "લખાણ મલીન હોઈ શકે."
+
+#: ../plugins/applet/seahorse-applet.c:600
+msgid "No PGP key or message was found on clipboard"
+msgstr "કોઈ PGP કી કે સંદેશો ક્લિપબોર્ડ પર મળ્યો ન હતો"
+
+#: ../plugins/applet/seahorse-applet.c:601
+msgid "No PGP data found."
+msgstr "કોઈ PGP માહિતી મળી નહિં."
+
+#. TRANSLATORS: This means 'The text that was decrypted'
+#: ../plugins/applet/seahorse-applet.c:638
+msgid "Decrypted Text"
+msgstr "ડિક્રિપ્ટ થયેલ લખાણ"
+
+#: ../plugins/applet/seahorse-applet.c:779
+msgid "_Encrypt Clipboard"
+msgstr "ક્લિપબોર્ડ એનક્રિપ્ટ કરો (_E)"
+
+#: ../plugins/applet/seahorse-applet.c:786
+msgid "_Sign Clipboard"
+msgstr "ક્લિપબોર્ડને સહી કરો (_S)"
+
+#: ../plugins/applet/seahorse-applet.c:793
+msgid "_Decrypt/Verify Clipboard"
+msgstr "ક્લિપબોર્ડ ડિક્રિપ્ટ કરો/ખાતરી કરો (_D)"
+
+#: ../plugins/applet/seahorse-applet.c:799
+msgid "_Import Keys from Clipboard"
+msgstr "ક્લિપબોર્ડમાંથી કીઓ આયાત કરો (_I)"
+
+#: ../plugins/applet/seahorse-applet.c:864
+#: ../plugins/applet/seahorse-applet.c:866
+msgid "Encryption Applet"
+msgstr "એનક્રિપ્શન એપ્લેટ"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:1
+msgid "<b>Display clipboard contents after:</b>"
+msgstr "<b>પછી ક્લિપબોર્ડ સમાવિષ્ટો દર્શાવો:</b>"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:2
+msgid "Clipboard Encryption Preferences"
+msgstr "ક્લિપબોર્ડ એનક્રિપ્શન પસંદગીઓ"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:3
+msgid "_Decrypting the clipboard"
+msgstr "ક્લિપબોર્ડ ડિક્રીપ્ટ કરી રહ્યા છીએ (_D)"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:4
+msgid "_Encrypting or signing the clipboard"
+msgstr "ક્લિપબોર્ડ એનક્રિપ્ટ કરી રહ્યા છીએ કે સહી કરી રહ્યા છીએ (_E)"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:5
+msgid "_Show clipboard state in panel"
+msgstr "ક્લિપબોર્ડ સ્થિતિ પેનલમાં બતાવો (_S)"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:6
+msgid "_Verifying the clipboard"
+msgstr "ક્લિપબોર્ડની ખાતરી કરી રહ્યા છીએ (_V)"
+
+#: ../plugins/epiphany/seahorse-extension.c:640
+msgid "_Encrypt"
+msgstr "એનક્રિપ્ટ (_E)"
+
+#: ../plugins/epiphany/seahorse-extension.c:647
+msgid "_Sign"
+msgstr "સહી (_S)"
+
+#: ../plugins/epiphany/seahorse-extension.c:654
+msgid "_Decrypt/Verify"
+msgstr "ડિક્રિપ્ટ/ખાતરી (_D)"
+
+#: ../plugins/epiphany/seahorse-extension.c:661
+msgid "_Import Key"
+msgstr "કી આયાત કરો (_I)"
+
+#: ../plugins/gedit/seahorse-gedit.c:265
+msgid "Couldn't connect to seahorse-daemon"
+msgstr "seahorse-daemon સાથે જોડાઈ શક્યા નહિં"
+
+#: ../plugins/gedit/seahorse-gedit.c:357
+msgid "Encrypted text"
+msgstr "એનક્રિપ્ટ થયેલ લખાણ"
+
+#: ../plugins/gedit/seahorse-gedit.c:360
+msgid "Couldn't encrypt text"
+msgstr "લખાણ એનક્રિપ્ટ કરી શક્યા નહિં"
+
+#: ../plugins/gedit/seahorse-gedit.c:390
+msgid "Couldn't import keys"
+msgstr "કીઓ આયાત કરી શક્યા નહિં"
+
+#: ../plugins/gedit/seahorse-gedit.c:399
+msgid "Keys found but not imported"
+msgstr "કીઓ મળી પરંતુ આયાત થઈ નહિં"
+
+#: ../plugins/gedit/seahorse-gedit.c:438
+msgid "Couldn't decrypt text"
+msgstr "લખાણ ડિક્રિપ્ટ કરી શક્યા નહિં"
+
+#: ../plugins/gedit/seahorse-gedit.c:475
+msgid "Couldn't verify text"
+msgstr "લખાણની ખાતરી કરી શક્યા નહિં"
+
+#: ../plugins/gedit/seahorse-gedit.c:523
+msgid "No encrypted or signed text is selected."
+msgstr "કોઈ એનક્રિપ્ટ થયેલ કે સહી થયેલ લખાણ પસંદિત નથી."
+
+#: ../plugins/gedit/seahorse-gedit.c:553
+msgid "Decrypted text"
+msgstr "ડિક્રિપ્ટ થયેલ લખાણ"
+
+#: ../plugins/gedit/seahorse-gedit.c:560
+msgid "Verified text"
+msgstr "ખાતરી થયેલ લખાણ"
+
+#: ../plugins/gedit/seahorse-gedit.c:595
+#: ../plugins/nautilus/seahorse-tool.c:469
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] "આયાત થયેલ %d કી"
+msgstr[1] "આયાત થયેલ %d કીઓ"
+
+#: ../plugins/gedit/seahorse-gedit.c:649
+msgid "Signed text"
+msgstr "સહી થયેલ લખાણ"
+
+#: ../plugins/gedit/seahorse-gedit.c:652
+msgid "Couldn't sign text"
+msgstr "લખાણ સહી કરી શક્યા નહિં"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:133
+msgid "_Encrypt..."
+msgstr "એનક્રિપ્ટ (_E)..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:134
+msgid "Encrypt the selected text"
+msgstr "પસંદિત લખાણ એનક્રિપ્ટ કરો"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:135
+msgid "Decr_ypt/Verify"
+msgstr "ડિક્રિપ્ટ/ખાતરી (_y)"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:136
+msgid "Decrypt and/or Verify text"
+msgstr "લખાણ ડિક્રિપ્ટ કરો અને/અથવા ખાતરી કરો"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:137
+msgid "Sig_n..."
+msgstr "સહી (_n)..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:138
+msgid "Sign the selected text"
+msgstr "પસંદિત લખાણને સહી કરો"
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:1
+msgid "Enable the seahorse encryption plugin for gedit."
+msgstr "seahorse એનક્રિપ્શન પ્લગઈનને gedit માટે સક્રિય કરો."
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:2
+msgid "Enable the seahorse gedit plugin"
+msgstr "seahorse gedit પ્લગઈન સક્રિય કરો"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:1
+msgid "Text Encryption"
+msgstr "લખાણ એનક્રિપ્શન"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:2
+msgid "This plugin performs encryption operations on text."
+msgstr "આ પ્લગઈન લખાણ પર એનક્રિપ્શન પ્રક્રિયાઓ કરે છે."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:158
+msgid "Encrypt..."
+msgstr "એનક્રિપ્ટ..."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:159
+msgid "Encrypt (and optionally sign) the selected file"
+msgid_plural "Encrypt the selected files"
+msgstr[0] "પસંદિત ફાઈલ એનક્રિપ્ટ કરો (અને વૈકલ્પિક રીતે સહી કરો)"
+msgstr[1] "પસંદિત ફાઈલો એનક્રિપ્ટ કરો"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:165
+msgid "Sign"
+msgstr "સહી"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:166
+msgid "Sign the selected file"
+msgid_plural "Sign the selected files"
+msgstr[0] "પસંદિત ફાઈલ સહી કરો"
+msgstr[1] "પસંદિત ફાઈલો સહી કરો"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:39
+msgid "For internal use"
+msgstr "આંતરિક વપરાશ માટે"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:63
+msgid "Encryption Preferences"
+msgstr "એનક્રિપ્શન પસંદગીઓ"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:1
+msgid "Configure key servers and other encryption settings"
+msgstr "મુખ્ય સર્વરો અને અન્ય એનક્રિપ્શન સુયોજનો રૂપરેખાંકિત કરો"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:2
+msgid "Encryption and Keyrings"
+msgstr "એનક્રિપ્શન અને કીરીંગો"
+
+#: ../plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in.h:1
+msgid "Decrypt File"
+msgstr "ફાઈલ ડિક્રિપ્ટ કરો"
+
+#: ../plugins/nautilus/seahorse-pgp-keys.desktop.in.in.h:1
+msgid "Import Key"
+msgstr "કી આયાત કરો"
+
+#: ../plugins/nautilus/seahorse-pgp-signature.desktop.in.in.h:1
+msgid "Verify Signature"
+msgstr "સહીની ખાતરી કરો"
+
+#: ../plugins/nautilus/seahorse-tool.c:61
+msgid "Import keys from the file"
+msgstr "ફાઈલમાંથી કીઓ આયાત કરો"
+
+#: ../plugins/nautilus/seahorse-tool.c:63
+msgid "Encrypt file"
+msgstr "ફાઈલ એનક્રિપ્ટ કરો"
+
+#: ../plugins/nautilus/seahorse-tool.c:65
+msgid "Sign file with default key"
+msgstr "ફાઈલને મૂળભૂત કી સાથે સહી કરો"
+
+#: ../plugins/nautilus/seahorse-tool.c:67
+msgid "Encrypt and sign file with default key"
+msgstr "ફાઈલને મૂળભૂત કી સાથે એનક્રિપ્ટ અને સહી કરો"
+
+#: ../plugins/nautilus/seahorse-tool.c:69
+msgid "Decrypt encrypted file"
+msgstr "એનક્રિપ્ટ થયેલ ફાઈલ ડિક્રિપ્ટ કરો"
+
+#: ../plugins/nautilus/seahorse-tool.c:71
+msgid "Verify signature file"
+msgstr "સહી ફાઈલની ખાતરી કરો"
+
+#: ../plugins/nautilus/seahorse-tool.c:73
+msgid "Read list of URIs on standard in"
+msgstr "URIs ની યાદી પ્રમાણભૂત ઈનપુટ પર વાંચો"
+
+#: ../plugins/nautilus/seahorse-tool.c:75
+msgid "file..."
+msgstr "ફાઈલ..."
+
+#: ../plugins/nautilus/seahorse-tool.c:169
+msgid "Choose Recipients"
+msgstr "મેળવનારાઓ પસંદ કરો"
+
+#: ../plugins/nautilus/seahorse-tool.c:231
+#: ../plugins/nautilus/seahorse-tool.c:321
+msgid "Couldn't load keys"
+msgstr "કીઓ લાવી શક્યા નહિં"
+
+#: ../plugins/nautilus/seahorse-tool.c:249
+#, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr "'%s' માટે એનક્રિપ્ટ થયેલ ફાઈલ નામ પસંદ કરો"
+
+#: ../plugins/nautilus/seahorse-tool.c:305
+msgid "Choose Signer"
+msgstr "સહી કરનાર પસંદ કરો"
+
+#: ../plugins/nautilus/seahorse-tool.c:340
+#, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr "'%s' માટે સહી ફાઈલ નામ પસંદ કરો"
+
+#: ../plugins/nautilus/seahorse-tool.c:380
+msgid "Import is complete"
+msgstr "આયાત સમાપ્ત છે"
+
+#: ../plugins/nautilus/seahorse-tool.c:413
+msgid "Importing keys ..."
+msgstr "કીઓની આયાત કરી રહ્યા છીએ ..."
+
+#: ../plugins/nautilus/seahorse-tool.c:467
+#, c-format
+msgid "Imported key"
+msgstr "આયાત થયેલ કી"
+
+#. File to decrypt to
+#: ../plugins/nautilus/seahorse-tool.c:491
+#, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr "'%s' માટે ડિક્રિપ્ટ થયેલ ફાઈલ નામ પસંદ કરો"
+
+#: ../plugins/nautilus/seahorse-tool.c:547
+#, c-format
+msgid "Choose Original File for '%s'"
+msgstr "'%s' માટે મૂળ ફાઈલ પસંદ કરો"
+
+#.
+#. * TODO: What should happen with multiple files at this point.
+#. * The last thing we want to do is cascade a big pile of error
+#. * dialogs at the user.
+#.
+#: ../plugins/nautilus/seahorse-tool.c:619
+#, c-format
+msgid "No valid signatures found"
+msgstr "કોઈ માન્ય સહીઓ મળી નહિં"
+
+#: ../plugins/nautilus/seahorse-tool.c:668
+msgid "File Encryption Tool"
+msgstr "ફાઈલ એનક્રિપ્શન સાધન"
+
+#: ../plugins/nautilus/seahorse-tool.c:687
+msgid "Encrypting"
+msgstr "એનક્રિપ્ટ કરી રહ્યા છીએ"
+
+#: ../plugins/nautilus/seahorse-tool.c:688
+#, c-format
+msgid "Couldn't encrypt file: %s"
+msgstr "ફાઈલ એનક્રિપ્ટ કરી શક્યા નહિં: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:696
+msgid "Signing"
+msgstr "સહી કરવાનું"
+
+#: ../plugins/nautilus/seahorse-tool.c:697
+#, c-format
+msgid "Couldn't sign file: %s"
+msgstr "ફાઈલ સહી કરી શક્યા નહિં: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:702
+msgid "Importing"
+msgstr "આયાત કરવાનું"
+
+#: ../plugins/nautilus/seahorse-tool.c:703
+#, c-format
+msgid "Couldn't import keys from file: %s"
+msgstr "ફાઈલમાંથી કીઓ આયાત કરી શક્યા નહિં: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:709
+msgid "Decrypting"
+msgstr "ડિક્રિપ્ટ કરવાનું"
+
+#: ../plugins/nautilus/seahorse-tool.c:710
+#, c-format
+msgid "Couldn't decrypt file: %s"
+msgstr "ફાઈલ ડિક્રિપ્ટ કરી શક્યા નહિં: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:715
+msgid "Verifying"
+msgstr "ખાતરી કરવાનું"
+
+#: ../plugins/nautilus/seahorse-tool.c:716
+#, c-format
+msgid "Couldn't verify file: %s"
+msgstr "ફાઈલની ખાતરી કરી શક્યા નહિં: %s"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:120
+msgid "Ace (.ace)"
+msgstr "Ace (.ace)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:121
+msgid "Ar (.ar)"
+msgstr "Ar (.ar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:122
+msgid "Arj (.arj)"
+msgstr "Arj (.arj)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:129
+msgid "Ear (.ear)"
+msgstr "Ear (.ear)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:130
+msgid "Self-extracting zip (.exe)"
+msgstr "સ્વયં-અર્ક કાઢતી zip (.exe)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:132
+msgid "Jar (.jar)"
+msgstr "Jar (.jar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:133
+msgid "Lha (.lzh)"
+msgstr "Lha (.lzh)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:135
+msgid "Rar (.rar)"
+msgstr "Rar (.rar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:137
+msgid "Tar uncompressed (.tar)"
+msgstr "Tar અસંકુચિત (tar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:138
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "bzip વડે સંકુચિત Tar (.tar.bz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:139
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "bzip2 વડે સંકુચિત Tar (tar.bz2)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:140
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "gzip વડે સંકુચિત Tar (.tar.gz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:141
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "lzop વડે સંકુચિત Tar (.tar.lzo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:142
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "compress વડે સંકુચિત Tar (.tar.Z)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:144
+msgid "War (.war)"
+msgstr "War (.war)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:145
+msgid "Zip (.zip)"
+msgstr "Zip (.zip)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:146
+msgid "Zoo (.zoo)"
+msgstr "Zoo (.zoo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:147
+msgid "7-Zip (.7z)"
+msgstr "7-Zip (.7z)"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:327
+#, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] "તમે %d ફાઈલ પસંદ કરેલ છે "
+msgstr[1] "તમે %d ફાઈલો પસંદ કરેલ છે "
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:332
+#, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] "અને %d ફોલ્ડર"
+msgstr[1] "અને %d ફોલ્ડરો"
+
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: ../plugins/nautilus/seahorse-tool-files.c:337
+#, c-format
+msgid "<b>%s%s</b>"
+msgstr "<b>%s%s</b>"
+
+#. should never be called for just one file
+#: ../plugins/nautilus/seahorse-tool-files.c:346
+#, c-format
+msgid "You have selected %d files"
+msgstr "તમે %d ફાઈલો પસંદ કરેલ છે"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:351
+#, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] "તમે %d ફોલ્ડર પસંદ કરેલ છે"
+msgstr[1] "તમે %d ફોલ્ડરો પસંદ કરેલ છે"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:853
+msgid "Preparing..."
+msgstr "તૈયાર કરી રહ્યા છીએ..."
+
+#: ../plugins/nautilus/seahorse-tool-files.c:862
+#: ../plugins/nautilus/seahorse-tool-files.c:885
+msgid "Couldn't list files"
+msgstr "ફાઈલોની યાદી આપી શક્યા નહિં"
+

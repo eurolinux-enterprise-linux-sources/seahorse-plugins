@@ -1,0 +1,1140 @@
+# Thai translation of seahorse.
+# Copyright (C) 2007-2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the seahorse package.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2007-2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: seahorse\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-16 15:48+0700\n"
+"PO-Revision-Date: 2008-08-16 15:49+0700\n"
+"Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../agent/seahorse-agent-actions.c:120
+msgid "Passphrase:"
+msgstr "วลีรหัสผ่าน:"
+
+#: ../agent/seahorse-agent-actions.c:121
+msgid "Please enter a passphrase to use."
+msgstr "กรุณาป้อนวลีรหัสผ่านที่จะใช้"
+
+#: ../agent/seahorse-agent-cache.c:66
+msgid "Unparseable Key ID"
+msgstr "หมายเลขกุญแจอยู่ในรูปแบบที่แจงไม่ได้"
+
+#: ../agent/seahorse-agent-cache.c:67
+msgid "Unknown/Invalid Key"
+msgstr "กุญแจไม่รู้จัก/ผิดพลาด"
+
+#: ../agent/seahorse-agent-cache.c:533
+#, c-format
+msgid "PGP Key: %s"
+msgstr "กุญแจ PGP: %s"
+
+#: ../agent/seahorse-agent-cache.glade.h:1
+msgid ""
+"<b>Warning</b>: Your system is not configured to cache passphrases in secure "
+"memory."
+msgstr "<b>คำเตือน</b>: ระบบของคุณไม่ได้ตั้งค่าไว้ให้เก็บแคชวลีรหัสผ่านไว้ในหน่วยความจำที่นิรภัย"
+
+#: ../agent/seahorse-agent-cache.glade.h:2
+msgid "Cache _Preferences"
+msgstr "ปรับแ_ต่งแคช"
+
+#: ../agent/seahorse-agent-cache.glade.h:3
+msgid "Cached Encryption Keys"
+msgstr "กุญแจเข้ารหัสลับที่เก็บไว้ในแคช"
+
+#: ../agent/seahorse-agent-cache.glade.h:4
+msgid "Change passphrase cache settings."
+msgstr "เปลี่ยนแปลงค่าตั้งของแคชวลีรหัสผ่าน"
+
+#: ../agent/seahorse-agent-cache.glade.h:5
+msgid "Clear passphrase cache"
+msgstr "ล้างแคชวลีรหัสผ่าน"
+
+#: ../agent/seahorse-agent-cache.glade.h:6
+msgid "_Clear Cache"
+msgstr "_ล้างแคช"
+
+#: ../agent/seahorse-agent-cache.glade.h:7
+msgid "_Show Window"
+msgstr "แ_สดงหน้าต่าง"
+
+#: ../agent/seahorse-agent-main.c:52
+msgid "Do not daemonize seahorse-agent"
+msgstr "ไม่ต้องแปรสภาพ seahorse-agent เป็นดีมอน"
+
+#: ../agent/seahorse-agent-main.c:56
+msgid "Print variables in for a C type shell"
+msgstr "พิมพ์การกำหนดตัวแปรสำหรับเชลล์แบบ C"
+
+#: ../agent/seahorse-agent-main.c:60
+msgid "Display environment variables (the default)"
+msgstr "แสดงตัวแปรสภาพแวดล้อม (ค่าปริยาย)"
+
+#: ../agent/seahorse-agent-main.c:63
+msgid "Execute other arguments on the command line"
+msgstr "เรียกทำงานอาร์กิวเมนต์ที่เหลือในบรรทัดคำสั่ง"
+
+#: ../agent/seahorse-agent-main.c:67
+msgid "Allow GPG agent request from any display"
+msgstr "ยอมให้ส่งคำร้องเอเจนต์ GPG จากดิสเพลย์ใดก็ได้"
+
+#: ../agent/seahorse-agent-main.c:70
+msgid "command..."
+msgstr "คำสั่ง..."
+
+#: ../agent/seahorse-agent-main.c:108
+msgid "couldn't fork process"
+msgstr "ไม่สามารถ fork โพรเซสได้"
+
+#: ../agent/seahorse-agent-main.c:114
+msgid "couldn't create new process group"
+msgstr "ไม่สามารถสร้างกลุ่มโพรเซสใหม่ได้"
+
+#: ../agent/seahorse-agent-main.c:240
+msgid "Encryption Key Agent (Seahorse)"
+msgstr "เอเจนต์กุญแจเข้ารหัสลับ (Seahorse)"
+
+#: ../agent/seahorse-agent-main.c:246
+msgid "no command specified to execute"
+msgstr "ไม่ได้ระบุคำสั่งที่จะเรียกทำงาน"
+
+#: ../agent/seahorse-agent-prompt.c:216
+msgid "Authorize Passphrase Access"
+msgstr "อนุญาตเข้าใช้วลีรหัสผ่าน"
+
+#: ../agent/seahorse-agent-prompt.c:252
+msgid "The passphrase is cached in memory."
+msgstr "วลีรหัสผ่านถูกแคชไว้ในหน่วยความจำ"
+
+#: ../agent/seahorse-agent-prompt.c:257
+msgid "Always ask me before using a cached passphrase"
+msgstr "ถามเสมอก่อนใช้วลีรหัสผ่านที่แคชไว้"
+
+#: ../agent/seahorse-agent-prompt.c:274
+msgid "_Authorize"
+msgstr "_อนุญาต"
+
+#. Make the uid column
+#: ../agent/seahorse-agent-status.c:145
+msgid "Key Name"
+msgstr "ชื่อกุญแจ"
+
+#: ../data/seahorse-plugins.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"รายการ URI ของเซิร์ฟเวอร์กุญแจที่จะค้นหากุญแจ PGP ในเครือข่าย ในรุ่นหลังๆ "
+"จะสามารถป้อนชื่อที่ใช้แสดงได้ด้วย โดยแทรกช่องว่างต่อท้าย แล้วตามด้วยชื่อ"
+
+#: ../data/seahorse-plugins.schemas.in.h:2
+msgid ""
+"After performing an decrypt or verify operation from the applet, display the "
+"resulting text in a window."
+msgstr ""
+"หลังจากที่ดำเนินการถอดรหัสลับหรือตรวจสอบยืนยันจากตัวแอพเพล็ตเสร็จแล้ว "
+"ให้แสดงข้อความผลลัพธ์ในหน้าต่าง"
+
+#: ../data/seahorse-plugins.schemas.in.h:3
+msgid ""
+"After performing an encrypt or signing operation from the applet, display "
+"the resulting text in a window."
+msgstr ""
+"หลังจากที่ดำเนินการเข้ารหัสลับหรือเซ็นกำกับจากตัวแอพเพล็ตเสร็จแล้ว "
+"ให้แสดงข้อความผลลัพธ์ในหน้าต่าง"
+
+#: ../data/seahorse-plugins.schemas.in.h:4
+msgid "Display cache reminder in the notification area"
+msgstr "เตือนเนื้อหาแคชในพื้นที่แจ้งเตือน"
+
+#: ../data/seahorse-plugins.schemas.in.h:5
+msgid "Display clipboard after decrypting"
+msgstr "แสดงคลิปบอร์ดหลังการถอดรหัสลับ"
+
+#: ../data/seahorse-plugins.schemas.in.h:6
+msgid "Display clipboard after encrypting"
+msgstr "แสดงคลิปบอร์ดหลังการเข้ารหัสลับ"
+
+#: ../data/seahorse-plugins.schemas.in.h:7
+msgid "Expire passwords in the cache"
+msgstr "เลิกใช้รหัสผ่านในแคชตามกำหนดเวลา"
+
+#: ../data/seahorse-plugins.schemas.in.h:8
+msgid "ID of the default key"
+msgstr "หมายเลขของกุญแจปริยาย"
+
+#: ../data/seahorse-plugins.schemas.in.h:9
+msgid ""
+"If set to 'gnome' uses gnome-keyring to cache passwords. When set to "
+"'internal' uses internal cache."
+msgstr ""
+"ถ้ากำหนดเป็น 'gnome' ก็จะใช้ gnome-keyring เก็บแคชรหัสผ่าน ถ้ากำหนดเป็น 'internal' "
+"ก็จะใช้แคชภายใน"
+
+#: ../data/seahorse-plugins.schemas.in.h:10
+msgid ""
+"If set to true, then files encrypted with seahorse will be ASCII armor "
+"encoded."
+msgstr ""
+"ถ้ากำหนดเป็นค่าจริง แฟ้มต่างๆ ที่เข้ารหัสลับด้วย seahorse จะอยู่ในรูปที่หุ้มด้วย ASCII (ASCII "
+"armor)"
+
+#: ../data/seahorse-plugins.schemas.in.h:11
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr "ถ้ากำหนดเป็นค่าจริง จะเพิ่มกุญแจปริยายเข้าในรายชื่อผู้รับในการเข้ารหัสลับเสมอ"
+
+#: ../data/seahorse-plugins.schemas.in.h:12
+msgid "Last key used to sign a message."
+msgstr "กุญแจล่าสุดที่ใช้เซ็นกำกับข้อความ"
+
+#: ../data/seahorse-plugins.schemas.in.h:13
+msgid "PGP Key servers"
+msgstr "เซิร์ฟเวอร์กุญแจ PGP"
+
+#: ../data/seahorse-plugins.schemas.in.h:14
+msgid "Prompt before using GPG passwords in cache"
+msgstr "ถามก่อนใช้รหัสผ่าน GPG ในแคช"
+
+#: ../data/seahorse-plugins.schemas.in.h:15
+msgid ""
+"Reflect the contents of the clipboard (whether encrypted, signed, etc...) in "
+"the panel applet icon."
+msgstr ""
+"แสดงสถานะเนื้อหาของคลิปบอร์ด (ว่าเข้ารหัสลับแล้ว, เซ็นแล้ว ฯลฯ) ในไอคอนของแอพเพล็ตบนพาเนล"
+
+#: ../data/seahorse-plugins.schemas.in.h:16
+msgid ""
+"Set to 'true' to enable display of the cache reminder in the notification "
+"area of your panel."
+msgstr "กำหนดเป็นค่าจริง เพื่อเปิดใช้การเตือนเนื้อหาแคชในพื้นที่แจ้งเตือนของพาเนลของคุณ"
+
+#: ../data/seahorse-plugins.schemas.in.h:17
+msgid ""
+"Set to 'true' to have seahorse-agent prompt before giving out passwords it "
+"has cached."
+msgstr "กำหนดเป็นค่าจริง ถ้าต้องการให้ seahorse-agent ถามก่อนที่จะให้ใช้รหัสผ่านที่แคชไว้"
+
+#: ../data/seahorse-plugins.schemas.in.h:18
+msgid "Show clipboard state in panel"
+msgstr "แสดงสถานะคลิปบอร์ดในพาเนล"
+
+#: ../data/seahorse-plugins.schemas.in.h:19
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"ระบุคอลัมน์ที่จะใช้เรียงลำดับรายการในหน้าต่างผู้รับ คอลัมน์ที่มีคือ: 'name' และ 'id' "
+"คุณสามารถเติมเครื่องหมาย '-' หน้าชื่อคอลัมน์ เพื่อให้เรียงลำดับจากหลังมาหน้าได้"
+
+#: ../data/seahorse-plugins.schemas.in.h:20
+msgid "The ID of the last secret key used to sign a message."
+msgstr "หมายเลขของกุญแจลับล่าสุดที่ใช้เซ็นกำกับข้อความ"
+
+#: ../data/seahorse-plugins.schemas.in.h:21
+msgid "The column to sort the recipients by"
+msgstr "คอลัมน์ที่จะใช้เรียงลำดับผู้รับ"
+
+#: ../data/seahorse-plugins.schemas.in.h:22
+msgid "The time (in minutes) to cache GPG passwords"
+msgstr "ระยะเวลา (เป็นนาที) ที่จะแคชรหัสผ่าน GPG"
+
+#: ../data/seahorse-plugins.schemas.in.h:23
+msgid ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"seahorse-agent."
+msgstr "ระยะเวลาเป็นนาทีที่จะแคชรหัสผ่าน GPG ไว้ใน seahorse-agent"
+
+#: ../data/seahorse-plugins.schemas.in.h:24
+msgid ""
+"This option enables the GPG password cache in the seahorse-agent program. "
+"The 'use-agent' setting in gpg.conf affects this setting."
+msgstr ""
+"ตัวเลือกนี้เปิดใช้แคชรหัสผ่าน GPG ในโปรแกรม seahorse-agent ค่าตั้ง 'use-agent' ใน gpg."
+"conf จะมีผลต่อค่านี้"
+
+#: ../data/seahorse-plugins.schemas.in.h:25
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr "ระบุกุญแจปริยายที่จะใช้สำหรับการดำเนินการบางอย่าง โดยเฉพาะการเซ็นกำกับ"
+
+#: ../data/seahorse-plugins.schemas.in.h:26
+msgid ""
+"When set, seahorse-agent expires GPG passwords in its cache after a period "
+"of time."
+msgstr "เมื่อกำหนดใช้ข้อนี้ seahorse-agent จะเลิกใช้รหัสผ่าน GPG ในแคชหลังจากครบกำหนดเวลา"
+
+#: ../data/seahorse-plugins.schemas.in.h:27
+msgid "Where to store cached passwords."
+msgstr "แหล่งเก็บแคชรหัสผ่าน"
+
+#: ../data/seahorse-plugins.schemas.in.h:28
+msgid "Whether the GPG password cache is enabled"
+msgstr "จะเปิดใช้แคชรหัสผ่าน GPG หรือไม่"
+
+#: ../data/seahorse-plugins.schemas.in.h:29
+msgid "Whether to always encrypt to default key"
+msgstr "จะเข้ารหัสลับถึงกุญแจปริยายหรือไม่"
+
+#: ../data/seahorse-plugins.schemas.in.h:30
+msgid "Whether to use ASCII Armor"
+msgstr "จะใช้การหุ้มด้วย ASCII หรือไม่"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:1
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<b>คุณได้เลือกแฟ้มหรือโฟลเดอร์หลายรายการ</b>"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:2
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr "เนื่องจากแฟ้มต่างๆ ถูกเก็บไว้ในเครือข่าย แต่ละแฟ้มจะถูกเข้ารหัสลับแยกกัน"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:3
+msgid "Encrypt Multiple Files"
+msgstr "เข้ารหัสลับแฟ้มหลายแฟ้ม"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:4
+msgid "Encrypt each file separately"
+msgstr "เข้ารหัสลับแต่ละแฟ้มแยกกัน"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:5
+msgid "Encrypt packed together in a package"
+msgstr "เข้ารหัสลับโดยอัดรวมกันในแพกเกจ"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:6
+msgid "Package Name:"
+msgstr "ชื่อแพกเกจ:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:7
+msgid "Packaging:"
+msgstr "การทำแพกเกจ:"
+
+#: ../libseahorse/seahorse-multi-encrypt.glade.h:8
+msgid "encrypted-package"
+msgstr "encrypted-package"
+
+#: ../libseahorse/seahorse-notification.c:573
+#: ../libseahorse/seahorse-notification.c:598
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "นำเข้ากุญแจแล้ว"
+
+#: ../libseahorse/seahorse-notification.c:577
+#: ../libseahorse/seahorse-notification.c:597
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "นำเข้ากุญแจ %i ดอกแล้ว"
+
+#: ../libseahorse/seahorse-notification.c:579
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "นำเข้ากุญแจสำหรับ"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:614
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "เซ็นโดย <i><key id='%s'/> <b>หมดอายุแล้ว</b></i> เมื่อ %s"
+
+#: ../libseahorse/seahorse-notification.c:615
+msgid "Invalid Signature"
+msgstr "ลายเซ็นใช้ไม่ได้"
+
+#: ../libseahorse/seahorse-notification.c:621
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "เซ็นโดย <i><key id='%s'/></i> เมื่อ %s <b>หมดอายุแล้ว</b>"
+
+#: ../libseahorse/seahorse-notification.c:622
+msgid "Expired Signature"
+msgstr "ลายเซ็นหมดอายุแล้ว"
+
+#: ../libseahorse/seahorse-notification.c:628
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "เซ็นโดย <i><key id='%s'/> <b>ถูกเพิกถอน</b></i> เมื่อ %s"
+
+#: ../libseahorse/seahorse-notification.c:629
+msgid "Revoked Signature"
+msgstr "ลายเซ็นถูกเพิกถอนแล้ว"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:635
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "เซ็นโดย <i><key id='%s'/></i> เมื่อ %s"
+
+#: ../libseahorse/seahorse-notification.c:636
+msgid "Good Signature"
+msgstr "ลายเซ็นใช้การได้"
+
+#: ../libseahorse/seahorse-notification.c:641
+msgid "Signing key not in keyring."
+msgstr "กุญแจที่เซ็นไม่ได้อยู่ในพวงกุญแจ"
+
+#: ../libseahorse/seahorse-notification.c:642
+msgid "Unknown Signature"
+msgstr "ลายเซ็นไม่รู้จัก"
+
+#: ../libseahorse/seahorse-notification.c:646
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "ลายเซ็นเสียหรือถูกปลอมแปลง ข้อมูลที่เซ็นไว้มีการเปลี่ยนแปลง"
+
+#: ../libseahorse/seahorse-notification.c:647
+msgid "Bad Signature"
+msgstr "ลายเซ็นเสีย"
+
+#: ../libseahorse/seahorse-notification.c:655
+msgid "Couldn't verify signature."
+msgstr "ไม่สามารถตรวจสอบยืนยันลายเซ็น"
+
+#: ../libseahorse/seahorse-notify.glade.h:1
+msgid "Notification Messages"
+msgstr "ข้อความแจ้ง"
+
+#: ../libseahorse/seahorse-passphrase.c:174
+msgid "Passphrase"
+msgstr "วลีรหัสผ่าน"
+
+#: ../libseahorse/seahorse-passphrase.c:177
+msgid "Password:"
+msgstr "รหัสผ่าน:"
+
+#: ../libseahorse/seahorse-passphrase.c:241
+msgid "Confirm:"
+msgstr "ยืนยัน:"
+
+#: ../libseahorse/seahorse-passphrase.c:324
+#, c-format
+msgid "Wrong passphrase."
+msgstr "วลีรหัสผ่านไม่ถูกต้อง"
+
+#: ../libseahorse/seahorse-passphrase.c:328
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "กรุณาตั้งวลีรหัสผ่านใหม่สำหรับ '%s'"
+
+#: ../libseahorse/seahorse-passphrase.c:330
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "กรุณาป้อนวลีรหัสผ่านสำหรับ '%s'"
+
+#: ../libseahorse/seahorse-passphrase.c:333
+msgid "Enter new passphrase"
+msgstr "กรุณาตั้งวลีรหัสผ่านใหม่"
+
+#: ../libseahorse/seahorse-passphrase.c:335
+msgid "Enter passphrase"
+msgstr "กรุณาป้อนวลีรหัสผ่าน"
+
+#: ../libseahorse/seahorse-prefs.c:100
+msgid "None. Prompt for a key."
+msgstr "ไม่มี ให้ถามหากุญแจเอา"
+
+#: ../libseahorse/seahorse-prefs.glade.h:1
+msgid "<b>Default Key</b>"
+msgstr "<b>กุญแจปริยาย</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:2
+msgid "<b>Remember PGP Passphrases</b>"
+msgstr "<b>จำวลีรหัสผ่าน PGP</b>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:3
+msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+msgstr "<i>ไม่มีเอเจนต์สำหรับแคชวลีรหัสผ่าน PGP ที่รองรับทำงานอยู่</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:4
+msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+msgstr "<i>กุญแจนี้จะถูกใช้ในการเซ็นกำกับข้อความเมื่อไม่มีการเลือกกุญแจอื่น</i>"
+
+#: ../libseahorse/seahorse-prefs.glade.h:5
+msgid "As_k me before using a cached passphrase"
+msgstr "_ถามก่อนที่จะใช้วลีรหัสผ่านที่แคชไว้"
+
+#: ../libseahorse/seahorse-prefs.glade.h:6
+msgid "Encryption"
+msgstr "การเข้ารหัสลับ"
+
+#: ../libseahorse/seahorse-prefs.glade.h:7
+msgid "PGP Passphrases"
+msgstr "วลีรหัสผ่าน PGP"
+
+#: ../libseahorse/seahorse-prefs.glade.h:8
+msgid "Password and Encryption Settings"
+msgstr "ค่าตั้งรหัสผ่านและการเข้ารหัสลับ"
+
+#: ../libseahorse/seahorse-prefs.glade.h:9
+msgid "Show _icon in status area when passphrases are in memory"
+msgstr "แสดงไ_อคอนในพื้นที่สถานะเมื่อมีวลีรหัสผ่านอยู่ในหน่วยความจำ"
+
+#: ../libseahorse/seahorse-prefs.glade.h:10
+msgid "When _encrypting, always include myself as a recipient"
+msgstr "เมื่อเ_ข้ารหัสลับ นับข้าพเจ้าเป็นผู้รับด้วย"
+
+#: ../libseahorse/seahorse-prefs.glade.h:11
+msgid "_Always remember passphrases whenever logged in"
+msgstr "จำวลีรหัสผ่านเ_สมอเมื่อเข้าระบบ"
+
+#: ../libseahorse/seahorse-prefs.glade.h:12
+msgid "_Default key:"
+msgstr "กุญแจ_ปริยาย:"
+
+#: ../libseahorse/seahorse-prefs.glade.h:13
+msgid "_Never remember passphrases"
+msgstr "ไ_ม่จำวลีรหัสผ่าน"
+
+#: ../libseahorse/seahorse-prefs.glade.h:14
+msgid "_Remember passphrases for"
+msgstr "_จำวลีรหัสผ่านเป็นเวลา"
+
+#: ../libseahorse/seahorse-prefs.glade.h:15
+msgid "minutes"
+msgstr "นาที"
+
+#: ../libseahorse/seahorse-progress.glade.h:1
+msgid "Progress Title"
+msgstr "ชื่อเรื่องของความคืบหน้า"
+
+#: ../libseahorse/seahorse-util.c:168
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "ถอดรหัสลับไม่สำเร็จ คุณอาจไม่มีกุญแจสำหรับถอดรหัสลับ"
+
+#: ../libseahorse/seahorse-util.c:218
+msgid "%Y-%m-%d"
+msgstr "%d/%m/%Ey"
+
+#: ../libseahorse/seahorse-util.c:637
+msgid "Couldn't run file-roller"
+msgstr "ไม่สามารถเรียก file-roller"
+
+#: ../libseahorse/seahorse-util.c:642
+#: ../plugins/nautilus/seahorse-tool-files.c:872
+msgid "Couldn't package files"
+msgstr "ไม่สามารถจัดเก็บแฟ้ม"
+
+#: ../libseahorse/seahorse-util.c:643
+msgid "The file-roller process did not complete successfully"
+msgstr "โพรเซส file-roller ทำงานไม่สำเร็จสมบูรณ์"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libseahorse/seahorse-util.c:703
+msgid "All key files"
+msgstr "แฟ้มกุญแจทั้งหมด"
+
+#: ../libseahorse/seahorse-util.c:710 ../libseahorse/seahorse-util.c:750
+msgid "All files"
+msgstr "แฟ้มทั้งหมด"
+
+#: ../libseahorse/seahorse-util.c:743
+msgid "Archive files"
+msgstr "แฟ้มจัดเก็บ"
+
+#: ../libseahorse/seahorse-util.c:772
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>มีแฟ้มชื่อนี้อยู่ก่อนแล้ว</b>\n"
+"\n"
+"คุณต้องการเขียนทับด้วยแฟ้มใหม่หรือไม่?"
+
+#: ../libseahorse/seahorse-util.c:775
+msgid "_Replace"
+msgstr "เขียน_ทับ"
+
+#: ../libseahorse/seahorse-widget.c:322
+#, c-format
+msgid "Could not display help: %s"
+msgstr "ไม่สามารถแสดงวิธีใช้: %s"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:1
+msgid "Clipboard Text Encryption"
+msgstr "การเข้ารหัสลับข้อความในคลิปบอร์ด"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:2
+msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+msgstr ""
+"เข้ารหัสลับ, ถอดรหัสลับ, หรือเซ็นกำกับข้อความในคลิปบอร์ด (โดยใช้การเข้ารหัสลับแบบ PGP)"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.server.in.in.h:3
+msgid "Seahorse Applet Factory"
+msgstr "โรงงานแอพเพล็ต Seahorse"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:1
+msgid "_About"
+msgstr "เ_กี่ยวกับ"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:2
+msgid "_Help"
+msgstr "_วิธีใช้"
+
+#: ../plugins/applet/GNOME_SeahorseApplet.xml.h:3
+msgid "_Preferences"
+msgstr "_ปรับแต่ง"
+
+#: ../plugins/applet/seahorse-applet.c:276
+#: ../plugins/applet/seahorse-applet.c:711
+#, c-format
+msgid "Could not display URL: %s"
+msgstr "ไม่สามารถแสดง URL: %s"
+
+#: ../plugins/applet/seahorse-applet.c:312
+msgid "seahorse-applet"
+msgstr "seahorse-applet"
+
+#: ../plugins/applet/seahorse-applet.c:314
+#: ../plugins/applet/seahorse-applet.c:867
+msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+msgstr ""
+"ใช้ PGP/GPG ในการ เข้ารหัสลับ/ถอดรหัสลับ/เซ็นกำกับ/ตรวจสอบยืนยัน/นำเข้า ข้อความในคลิปบอร์ด"
+
+#: ../plugins/applet/seahorse-applet.c:319
+msgid "translator-credits"
+msgstr "เทพพิทักษ์ การุญบุญญานันท์ <thep@linux.thai.net>"
+
+#: ../plugins/applet/seahorse-applet.c:322
+msgid "Seahorse Project Homepage"
+msgstr "โฮมเพจโครงการ Seahorse"
+
+#. Get the recipient list
+#: ../plugins/applet/seahorse-applet.c:381
+#: ../plugins/epiphany/seahorse-extension.c:257
+#: ../plugins/gedit/seahorse-gedit.c:335
+msgid "Choose Recipient Keys"
+msgstr "เลือกกุญแจผู้รับ"
+
+#: ../plugins/applet/seahorse-applet.c:400
+msgid "Encrypted Text"
+msgstr "ข้อความเข้ารหัสลับ"
+
+#: ../plugins/applet/seahorse-applet.c:402
+msgid "Encryption Failed"
+msgstr "เข้ารหัสลับไม่สำเร็จ"
+
+#: ../plugins/applet/seahorse-applet.c:403
+msgid "The clipboard could not be encrypted."
+msgstr "ไม่สามารถเข้ารหัสลับข้อความในคลิปบอร์ดได้"
+
+#: ../plugins/applet/seahorse-applet.c:440
+#: ../plugins/epiphany/seahorse-extension.c:307
+#: ../plugins/gedit/seahorse-gedit.c:627
+msgid "Choose Key to Sign with"
+msgstr "เลือกกุญแจที่จะใช้เซ็น"
+
+#: ../plugins/applet/seahorse-applet.c:460
+msgid "Signed Text"
+msgstr "ข้อความเซ็นกำกับ"
+
+#: ../plugins/applet/seahorse-applet.c:462
+msgid "Signing Failed"
+msgstr "เซ็นกำกับไม่สำเร็จ"
+
+#: ../plugins/applet/seahorse-applet.c:463
+msgid "The clipboard could not be Signed."
+msgstr "ไม่สามารถเซ็นกำกับข้อความในคลิปบอร์ดได้"
+
+#: ../plugins/applet/seahorse-applet.c:506
+#: ../plugins/epiphany/seahorse-extension.c:351
+#: ../plugins/nautilus/seahorse-tool.c:443
+msgid "Import Failed"
+msgstr "นำเข้าไม่สำเร็จ"
+
+#: ../plugins/applet/seahorse-applet.c:507
+#: ../plugins/epiphany/seahorse-extension.c:352
+#: ../plugins/nautilus/seahorse-tool.c:444
+msgid "Keys were found but not imported."
+msgstr "พบกุญแจแต่นำเข้าไม่สำเร็จ"
+
+#: ../plugins/applet/seahorse-applet.c:543
+#: ../plugins/epiphany/seahorse-extension.c:390
+msgid "Decrypting Failed"
+msgstr "ถอดรหัสลับไม่สำเร็จ"
+
+#: ../plugins/applet/seahorse-applet.c:544
+#: ../plugins/epiphany/seahorse-extension.c:391
+msgid "Text may be malformed."
+msgstr "ข้อความอาจมีรูปแบบไม่ถูกต้อง"
+
+#: ../plugins/applet/seahorse-applet.c:600
+msgid "No PGP key or message was found on clipboard"
+msgstr "ไม่พบกุญแจหรือข้อความ PGP ในคลิปบอร์ด"
+
+#: ../plugins/applet/seahorse-applet.c:601
+msgid "No PGP data found."
+msgstr "ไม่พบข้อมูล PGP"
+
+#. TRANSLATORS: This means 'The text that was decrypted'
+#: ../plugins/applet/seahorse-applet.c:638
+msgid "Decrypted Text"
+msgstr "ข้อความถอดรหัสลับแล้ว"
+
+#: ../plugins/applet/seahorse-applet.c:779
+msgid "_Encrypt Clipboard"
+msgstr "เ_ข้ารหัสลับคลิปบอร์ด"
+
+#: ../plugins/applet/seahorse-applet.c:786
+msgid "_Sign Clipboard"
+msgstr "เ_ซ็นกำกับคลิปบอร์ด"
+
+#: ../plugins/applet/seahorse-applet.c:793
+msgid "_Decrypt/Verify Clipboard"
+msgstr "_ถอดรหัสลับ/ตรวจสอบยืนยันคลิปบอร์ด"
+
+#: ../plugins/applet/seahorse-applet.c:799
+msgid "_Import Keys from Clipboard"
+msgstr "_นำเข้ากุญแจจากคลิปบอร์ด"
+
+#: ../plugins/applet/seahorse-applet.c:864
+#: ../plugins/applet/seahorse-applet.c:866
+msgid "Encryption Applet"
+msgstr "แอพเพล็ตเข้ารหัสลับ"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:1
+msgid "<b>Display clipboard contents after:</b>"
+msgstr "<b>แสดงเนื้อหาคลิปบอร์ดหลังจาก:</b>"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:2
+msgid "Clipboard Encryption Preferences"
+msgstr "ปรับแต่งการเข้ารหัสลับคลิปบอร์ด"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:3
+msgid "_Decrypting the clipboard"
+msgstr "_ถอดรหัสลับคลิปบอร์ด"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:4
+msgid "_Encrypting or signing the clipboard"
+msgstr "เ_ข้ารหัสลับหรือเซ็นกำกับคลิปบอร์ด"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:5
+msgid "_Show clipboard state in panel"
+msgstr "แ_สดงสถานะคลิปบอร์ดในพาเนล"
+
+#: ../plugins/applet/seahorse-applet-preferences.glade.h:6
+msgid "_Verifying the clipboard"
+msgstr "_ตรวจสอบยืนยันคลิปบอร์ด"
+
+#: ../plugins/epiphany/seahorse-extension.c:640
+msgid "_Encrypt"
+msgstr "เ_ข้ารหัสลับ"
+
+#: ../plugins/epiphany/seahorse-extension.c:647
+msgid "_Sign"
+msgstr "เ_ซ็นกำกับ"
+
+#: ../plugins/epiphany/seahorse-extension.c:654
+msgid "_Decrypt/Verify"
+msgstr "_ถอดรหัสลับ/ตรวจสอบยืนยัน"
+
+#: ../plugins/epiphany/seahorse-extension.c:661
+msgid "_Import Key"
+msgstr "_นำเข้ากุญแจ"
+
+#: ../plugins/gedit/seahorse-gedit.c:265
+msgid "Couldn't connect to seahorse-daemon"
+msgstr "ไม่สามารถติดต่อไปยัง seahorse-daemon"
+
+#: ../plugins/gedit/seahorse-gedit.c:357
+msgid "Encrypted text"
+msgstr "ข้อความเข้ารหัสลับ"
+
+#: ../plugins/gedit/seahorse-gedit.c:360
+msgid "Couldn't encrypt text"
+msgstr "ไม่สามารถเข้ารหัสลับข้อความ"
+
+#: ../plugins/gedit/seahorse-gedit.c:390
+msgid "Couldn't import keys"
+msgstr "ไม่สามารถนำเข้ากุญแจ"
+
+#: ../plugins/gedit/seahorse-gedit.c:399
+msgid "Keys found but not imported"
+msgstr "พบกุญแจแต่ไม่ได้นำเข้า"
+
+#: ../plugins/gedit/seahorse-gedit.c:438
+msgid "Couldn't decrypt text"
+msgstr "ไม่สามารถถอดรหัสลับข้อความ"
+
+#: ../plugins/gedit/seahorse-gedit.c:475
+msgid "Couldn't verify text"
+msgstr "ไม่สามารถตรวจสอบยืนยันข้อความ"
+
+#: ../plugins/gedit/seahorse-gedit.c:523
+msgid "No encrypted or signed text is selected."
+msgstr "ไม่ได้เลือกข้อความที่เข้ารหัสลับหรือเซ็นกำกับไว้"
+
+#: ../plugins/gedit/seahorse-gedit.c:553
+msgid "Decrypted text"
+msgstr "ข้อความถอดรหัสลับแล้ว"
+
+#: ../plugins/gedit/seahorse-gedit.c:560
+msgid "Verified text"
+msgstr "ข้อความตรวจสอบยืนยันแล้ว"
+
+#: ../plugins/gedit/seahorse-gedit.c:595
+#: ../plugins/nautilus/seahorse-tool.c:469
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] "นำเข้ากุญแจแล้ว %d ดอก"
+
+#: ../plugins/gedit/seahorse-gedit.c:649
+msgid "Signed text"
+msgstr "ข้อความเซ็นกำกับ"
+
+#: ../plugins/gedit/seahorse-gedit.c:652
+msgid "Couldn't sign text"
+msgstr "ไม่สามารถเซ็นกำกับข้อความ"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:133
+msgid "_Encrypt..."
+msgstr "เ_ข้ารหัสลับ..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:134
+msgid "Encrypt the selected text"
+msgstr "เข้ารหัสลับข้อความที่เลือก"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:135
+msgid "Decr_ypt/Verify"
+msgstr "_ถอดรหัสลับ/ตรวจสอบยืนยัน"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:136
+msgid "Decrypt and/or Verify text"
+msgstr "ถอดรหัสลับ และ/หรือ ตรวจสอบยืนยันข้อความ"
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:137
+msgid "Sig_n..."
+msgstr "เซ็_นกำกับ..."
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:138
+msgid "Sign the selected text"
+msgstr "เซ็นกำกับข้อความที่เลือก"
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:1
+msgid "Enable the seahorse encryption plugin for gedit."
+msgstr "เปิดใช้ปลั๊กอินเข้ารหัสลับ seahorse สำหรับ gedit"
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:2
+msgid "Enable the seahorse gedit plugin"
+msgstr "เปิดใช้ปลั๊กอิน seahorse สำหรับ gedit"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:1
+msgid "Text Encryption"
+msgstr "เข้ารหัสลับข้อความ"
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:2
+msgid "This plugin performs encryption operations on text."
+msgstr "ดำเนินการเข้ารหัสลับกับข้อความ"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:158
+msgid "Encrypt..."
+msgstr "เข้ารหัสลับ..."
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:159
+msgid "Encrypt (and optionally sign) the selected file"
+msgid_plural "Encrypt the selected files"
+msgstr[0] "เข้ารหัสลับ (และอาจเซ็นกำกับ) แฟ้มที่เลือก"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:165
+msgid "Sign"
+msgstr "เซ็นกำกับ"
+
+#: ../plugins/nautilus-ext/seahorse-nautilus.c:166
+msgid "Sign the selected file"
+msgid_plural "Sign the selected files"
+msgstr[0] "เซ็นกำกับแฟ้มที่เลือก"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:39
+msgid "For internal use"
+msgstr "สำหรับใช้เป็นการภายใน"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:63
+msgid "Encryption Preferences"
+msgstr "ปรับแต่งการเข้ารหัสลับ"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:1
+msgid "Configure key servers and other encryption settings"
+msgstr "ตั้งค่าเซิร์ฟเวอร์กุญแจและค่าตั้งอื่นๆ เกี่ยวกับการเข้ารหัสลับ"
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:2
+msgid "Encryption and Keyrings"
+msgstr "การเข้ารหัสลับและพวงกุญแจ"
+
+#: ../plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in.h:1
+msgid "Decrypt File"
+msgstr "ถอดรหัสลับแฟ้ม"
+
+#: ../plugins/nautilus/seahorse-pgp-keys.desktop.in.in.h:1
+msgid "Import Key"
+msgstr "นำเข้ากุญแจ"
+
+#: ../plugins/nautilus/seahorse-pgp-signature.desktop.in.in.h:1
+msgid "Verify Signature"
+msgstr "ตรวจสอบยืนยันลายเซ็น"
+
+#: ../plugins/nautilus/seahorse-tool.c:61
+msgid "Import keys from the file"
+msgstr "นำเข้ากุญแจจากแฟ้ม"
+
+#: ../plugins/nautilus/seahorse-tool.c:63
+msgid "Encrypt file"
+msgstr "เข้ารหัสลับแฟ้ม"
+
+#: ../plugins/nautilus/seahorse-tool.c:65
+msgid "Sign file with default key"
+msgstr "เซ็นกำกับแฟ้มด้วยกุญแจปริยาย"
+
+#: ../plugins/nautilus/seahorse-tool.c:67
+msgid "Encrypt and sign file with default key"
+msgstr "เข้ารหัสลับและเซ็นกำกับแฟ้มด้วยกุญแจปริยาย"
+
+#: ../plugins/nautilus/seahorse-tool.c:69
+msgid "Decrypt encrypted file"
+msgstr "ถอดรหัสลับแฟ้ม"
+
+#: ../plugins/nautilus/seahorse-tool.c:71
+msgid "Verify signature file"
+msgstr "ตรวจสอบยืนยันแฟ้มลายเซ็น"
+
+#: ../plugins/nautilus/seahorse-tool.c:73
+msgid "Read list of URIs on standard in"
+msgstr "อ่านรายการ URI จากอินพุตมาตรฐาน"
+
+#: ../plugins/nautilus/seahorse-tool.c:75
+msgid "file..."
+msgstr "แฟ้ม..."
+
+#: ../plugins/nautilus/seahorse-tool.c:169
+msgid "Choose Recipients"
+msgstr "เลือกผู้รับ"
+
+#: ../plugins/nautilus/seahorse-tool.c:231
+#: ../plugins/nautilus/seahorse-tool.c:321
+msgid "Couldn't load keys"
+msgstr "ไม่สามารถโหลดกุญแจ"
+
+#: ../plugins/nautilus/seahorse-tool.c:249
+#, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr "ตั้งชื่อแฟ้มเข้ารหัสลับสำหรับ '%s'"
+
+#: ../plugins/nautilus/seahorse-tool.c:305
+msgid "Choose Signer"
+msgstr "เลือกผู้เซ็น"
+
+#: ../plugins/nautilus/seahorse-tool.c:340
+#, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr "ตั้งชื่อแฟ้มลายเซ็นสำหรับ '%s'"
+
+#: ../plugins/nautilus/seahorse-tool.c:380
+msgid "Import is complete"
+msgstr "การนำเข้าเสร็จสมบูรณ์"
+
+#: ../plugins/nautilus/seahorse-tool.c:413
+msgid "Importing keys ..."
+msgstr "กำลังนำเข้ากุญแจ..."
+
+#: ../plugins/nautilus/seahorse-tool.c:467
+#, c-format
+msgid "Imported key"
+msgstr "กุญแจนำเข้า"
+
+#. File to decrypt to
+#: ../plugins/nautilus/seahorse-tool.c:491
+#, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr "ตั้งชื่อแฟ้มถอดรหัสลับสำหรับ '%s'"
+
+#: ../plugins/nautilus/seahorse-tool.c:547
+#, c-format
+msgid "Choose Original File for '%s'"
+msgstr "ตั้งชื่อแฟ้มสำหรับข้อมูลเริ่มแรกสำหรับ '%s'"
+
+#.
+#. * TODO: What should happen with multiple files at this point.
+#. * The last thing we want to do is cascade a big pile of error
+#. * dialogs at the user.
+#.
+#: ../plugins/nautilus/seahorse-tool.c:619
+#, c-format
+msgid "No valid signatures found"
+msgstr "ไม่พบลายเซ็นที่ใช้การได้"
+
+#: ../plugins/nautilus/seahorse-tool.c:668
+msgid "File Encryption Tool"
+msgstr "เครื่องมือเข้ารหัสลับแฟ้ม"
+
+#: ../plugins/nautilus/seahorse-tool.c:687
+msgid "Encrypting"
+msgstr "กำลังเข้ารหัสลับ"
+
+#: ../plugins/nautilus/seahorse-tool.c:688
+#, c-format
+msgid "Couldn't encrypt file: %s"
+msgstr "ไม่สามารถเข้ารหัสลับแฟ้ม: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:696
+msgid "Signing"
+msgstr "กำลังเซ็นกำกับ"
+
+#: ../plugins/nautilus/seahorse-tool.c:697
+#, c-format
+msgid "Couldn't sign file: %s"
+msgstr "ไม่สามารถเซ็นกำกับแฟ้ม: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:702
+msgid "Importing"
+msgstr "กำลังนำเข้า"
+
+#: ../plugins/nautilus/seahorse-tool.c:703
+#, c-format
+msgid "Couldn't import keys from file: %s"
+msgstr "ไม่สามารถนำเข้ากุญแจจากแฟ้ม: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:709
+msgid "Decrypting"
+msgstr "กำลังถอดรหัสลับ"
+
+#: ../plugins/nautilus/seahorse-tool.c:710
+#, c-format
+msgid "Couldn't decrypt file: %s"
+msgstr "ไม่สามารถถอดรหัสลับแฟ้ม: %s"
+
+#: ../plugins/nautilus/seahorse-tool.c:715
+msgid "Verifying"
+msgstr "กำลังตรวจสอบยืนยัน"
+
+#: ../plugins/nautilus/seahorse-tool.c:716
+#, c-format
+msgid "Couldn't verify file: %s"
+msgstr "ไม่สามารถตรวจสอบยืนยันแฟ้ม: %s"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:120
+msgid "Ace (.ace)"
+msgstr "Ace (.ace)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:121
+msgid "Ar (.ar)"
+msgstr "Ar (.ar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:122
+msgid "Arj (.arj)"
+msgstr "Arj (.arj)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:129
+msgid "Ear (.ear)"
+msgstr "Ear (.ear)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:130
+msgid "Self-extracting zip (.exe)"
+msgstr "Zip ที่แตกตัวเอง (.exe)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:132
+msgid "Jar (.jar)"
+msgstr "Jar (.jar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:133
+msgid "Lha (.lzh)"
+msgstr "Lha (.lzh)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:135
+msgid "Rar (.rar)"
+msgstr "Rar (.rar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:137
+msgid "Tar uncompressed (.tar)"
+msgstr "Tar ที่ไม่บีบอัด (.tar)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:138
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "Tar ที่บีบอัดด้วย bzip (.tar.bz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:139
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "Tar ที่บีบอัดด้วย bzip2 (.tar.bz2)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:140
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "Tar ที่บีบอัดด้วย gzip (.tar.gz)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:141
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "Tar ที่บีบอัดด้วย lzop (.tar.lzo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:142
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "Tar ที่บีบอัดด้วย compress (.tar.Z)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:144
+msgid "War (.war)"
+msgstr "War (.war)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:145
+msgid "Zip (.zip)"
+msgstr "Zip (.zip)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:146
+msgid "Zoo (.zoo)"
+msgstr "Zoo (.zoo)"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:147
+msgid "7-Zip (.7z)"
+msgstr "7-Zip (.7z)"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:327
+#, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] "คุณได้เลือกแฟ้ม %d แฟ้ม "
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/nautilus/seahorse-tool-files.c:332
+#, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] "และโฟลเดอร์ %d โฟลเดอร์"
+
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: ../plugins/nautilus/seahorse-tool-files.c:337
+#, c-format
+msgid "<b>%s%s</b>"
+msgstr "<b>%s%s</b>"
+
+#. should never be called for just one file
+#: ../plugins/nautilus/seahorse-tool-files.c:346
+#, c-format
+msgid "You have selected %d files"
+msgstr "คุณได้เลือกแฟ้ม %d แฟ้ม"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:351
+#, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] "คุณได้เลือกโฟลเดอร์ %d โฟลเดอร์"
+
+#: ../plugins/nautilus/seahorse-tool-files.c:853
+msgid "Preparing..."
+msgstr "กำลังเตรียมการ..."
+
+#: ../plugins/nautilus/seahorse-tool-files.c:862
+#: ../plugins/nautilus/seahorse-tool-files.c:885
+msgid "Couldn't list files"
+msgstr "ไม่สามารถไล่เรียงรายการแฟ้ม"
